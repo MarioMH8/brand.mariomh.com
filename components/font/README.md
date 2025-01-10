@@ -57,7 +57,7 @@ const className = cn(
 **Usando React**
 
 ```tsx
-import Font from '@mariomh/font/class-name';
+import Font from '@mariomh/font/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {
