@@ -6,35 +6,35 @@
   Class Variance Authority
 </p>
 
-## Table of Contents
+## Indice
 
 <!-- TOC -->
-* [Table of Contents](#table-of-contents)
-* [Installation](#installation)
-* [How to use](#how-to-use)
-    * [Using Tailwind CSS](#using-tailwind-css)
+* [Indice](#indice)
+* [Instalación](#instalación)
+* [Como usarlo](#como-usarlo)
+    * [Usando Tailwind CSS](#usando-tailwind-css)
 
-## Installation
+## Instalación
 
 ```bash
 npm install --save @mariomh/cva
 ```
 
-**Using bun**
+**Usando bun**
 
 ```bash
 bun add @mariomh/cva
 ```
 
-## How to use
+## Como usarlo
 
-Check the [documentation](https://beta.cva.style/).
+Puedes ver la documentación completa en el siguiente [enlace](https://beta.cva.style/).
 
-### Using Tailwind CSS
+### Usando Tailwind CSS
 
-1. Check the version. Available for WebStorm 2023.1 and later
-2. Open the settings. Go to `Languages and Frameworks` | `Style Sheets` | `Tailwind CSS`
-3. Add the following to your tailwind configuration:
+1. Revise la versión. Disponible para WebStorm 2023.1 y posteriores.
+2. Abra la configuración. Vaya a `Languages and Frameworks` | `Style Sheets` | `Tailwind CSS`.
+3. Añade la siguiente configuración:
 ```json
 {
   "experimental": {
@@ -44,8 +44,8 @@ Check the [documentation](https://beta.cva.style/).
     ]
   }
 }
-```
 
+```
 > [!NOTE]
-> Internally `@mariomh/cva` uses [tailwind-merge](https://github.com/dcastil/tailwind-merge) to merge Tailwind CSS
-> classes without style conflicts.
+> Internamente `@mariomh/cva` utiliza [tailwind-merge](https://github.com/dcastil/tailwind-merge) para mergear las clases 
+> de Tailwind CSS sin conflictos de estilos.

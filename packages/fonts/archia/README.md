@@ -3,31 +3,31 @@
 </h1>
 
 <p align="center">
-  Archia font family for Archia.
+  Fuente Archia
 </p>
 
-## Table of Contents
+## Indice
 
 <!-- TOC -->
-* [Table of Contents](#table-of-contents)
-* [Installation](#installation)
-* [How to use](#how-to-use)
+* [Indice](#indice)
+* [Instalación](#instalación)
+* [Como usarlo](#como-usarlo)
 
-## Installation
+## Instalación
 
 ```bash
 npm install --save @mariomh/archia
 ```
 
-**Using bun**
+**Usando bun**
 
 ```bash
 bun add @mariomh/archia
 ```
 
-## How to use
+## Como usarlo
 
-You can import the font in your root file.
+Importa la fuente en tu proyecto:
 
 ```tsx
 import '@mariomh/archia'; // Same as importing 400.css

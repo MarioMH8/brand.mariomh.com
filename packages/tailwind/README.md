@@ -3,31 +3,31 @@
 </h1>
 
 <p align="center">
-  Tailwind CSS plugin for MarioMH design system.
+  Plugin de Tailwind CSS para el sistema de diseño de MarioMH
 </p>
 
-## Table of Contents
+## Indice
 
 <!-- TOC -->
-* [Table of Contents](#table-of-contents)
-* [Installation](#installation)
-* [How to use](#how-to-use)
+* [Indice](#indice)
+* [Instalación](#instalación)
+* [Como usarlo](#como-usarlo)
 
-## Installation
+## Instalación
 
 ```bash
 npm install --save @mariomh/tailwind
 ```
 
-**Using bun**
+**Usando bun**
 
 ```bash
 bun add @mariomh/tailwind
 ```
 
-## How to use
+## Como usarlo
 
-Create a `index.css` file in your project and import the plugin.
+Crear un archivo `index.css` en tu proyecto e importar el plugin.
 
 ```css
 @import "tailwindcss";
