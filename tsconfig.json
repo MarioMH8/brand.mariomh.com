@@ -22,6 +22,7 @@
 			"@mariomh/paragraph/react": ["./components/paragraph/src/react.tsx"],
 			"@mariomh/round/react": ["./components/round/src/react.tsx"],
 			"@mariomh/round/variants": ["./components/round/src/variants.ts"],
+			"@mariomh/select/react": ["./components/select/src/react.tsx"],
 			"@mariomh/shadow/react": ["./components/shadow/src/react.tsx"],
 			"@mariomh/span/react": ["./components/span/src/react.tsx"]
 		},
