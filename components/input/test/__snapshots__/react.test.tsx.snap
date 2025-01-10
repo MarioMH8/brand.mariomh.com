@@ -1,0 +1,177 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mariomh/input/react should default render 1`] = `"INPUT"`;
+
+exports[`@mariomh/input/react should default render 2`] = `{}`;
+
+exports[`@mariomh/input/react should default render 3`] = `""`;
+
+exports[`@mariomh/input/react should default render 4`] = `
+[
+  "text-base",
+  "font-secondary",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+  "rounded-lg",
+  "focus-visible:outline-none",
+  "focus-visible:ring-2",
+  "focus-visible:ring-offset-2",
+  "ring-offset-primary-background",
+  "dark:ring-offset-primary-dark-background",
+  "focus-visible:ring-primary-border",
+  "flex",
+  "w-full",
+  "border",
+  "file:border-0",
+  "file:bg-transparent",
+  "file:text-sm",
+  "file:font-medium",
+  "disabled:cursor-not-allowed",
+  "disabled:opacity-50",
+  "px-4",
+  "py-3",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground",
+  "border-primary-foreground",
+  "dark:border-primary-dark",
+  "disabled:border-primary-foreground/50",
+  "disabled:dark:border-primary-dark-foreground/50",
+  "placeholder:font-light",
+  "placeholder:text-primary-foreground/75",
+  "dark:placeholder:text-primary-dark-foreground/75",
+]
+`;
+
+exports[`@mariomh/input/react should asChild works as expected render 1`] = `"P"`;
+
+exports[`@mariomh/input/react should asChild works as expected render 2`] = `{}`;
+
+exports[`@mariomh/input/react should asChild works as expected render 3`] = `"Test Message"`;
+
+exports[`@mariomh/input/react should asChild works as expected render 4`] = `
+[
+  "text-base",
+  "font-secondary",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+  "rounded-lg",
+  "focus-visible:outline-none",
+  "focus-visible:ring-2",
+  "focus-visible:ring-offset-2",
+  "ring-offset-primary-background",
+  "dark:ring-offset-primary-dark-background",
+  "focus-visible:ring-primary-border",
+  "flex",
+  "w-full",
+  "border",
+  "file:border-0",
+  "file:bg-transparent",
+  "file:text-sm",
+  "file:font-medium",
+  "disabled:cursor-not-allowed",
+  "disabled:opacity-50",
+  "px-4",
+  "py-3",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground",
+  "border-primary-foreground",
+  "dark:border-primary-dark",
+  "disabled:border-primary-foreground/50",
+  "disabled:dark:border-primary-dark-foreground/50",
+  "placeholder:font-light",
+  "placeholder:text-primary-foreground/75",
+  "dark:placeholder:text-primary-dark-foreground/75",
+]
+`;
+
+exports[`@mariomh/input/react should override class 1`] = `"INPUT"`;
+
+exports[`@mariomh/input/react should override class 2`] = `{}`;
+
+exports[`@mariomh/input/react should override class 3`] = `""`;
+
+exports[`@mariomh/input/react should override class 4`] = `
+[
+  "font-secondary",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+  "rounded-lg",
+  "focus-visible:outline-none",
+  "focus-visible:ring-2",
+  "focus-visible:ring-offset-2",
+  "ring-offset-primary-background",
+  "dark:ring-offset-primary-dark-background",
+  "focus-visible:ring-primary-border",
+  "flex",
+  "w-full",
+  "border",
+  "file:border-0",
+  "file:bg-transparent",
+  "file:text-sm",
+  "file:font-medium",
+  "disabled:cursor-not-allowed",
+  "disabled:opacity-50",
+  "px-4",
+  "py-3",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground",
+  "border-primary-foreground",
+  "dark:border-primary-dark",
+  "disabled:border-primary-foreground/50",
+  "disabled:dark:border-primary-dark-foreground/50",
+  "placeholder:font-light",
+  "placeholder:text-primary-foreground/75",
+  "dark:placeholder:text-primary-dark-foreground/75",
+  "text-2xl",
+]
+`;
+
+exports[`@mariomh/input/react should exclude variants props 1`] = `"INPUT"`;
+
+exports[`@mariomh/input/react should exclude variants props 2`] = `{}`;
+
+exports[`@mariomh/input/react should exclude variants props 3`] = `""`;
+
+exports[`@mariomh/input/react should exclude variants props 4`] = `
+[
+  "text-lg",
+  "font-secondary",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+  "rounded-xl",
+  "focus-visible:outline-none",
+  "focus-visible:ring-2",
+  "focus-visible:ring-offset-2",
+  "ring-offset-primary-background",
+  "dark:ring-offset-primary-dark-background",
+  "focus-visible:ring-primary-border",
+  "w-full",
+  "border",
+  "file:border-0",
+  "file:bg-transparent",
+  "file:text-sm",
+  "file:font-medium",
+  "disabled:cursor-not-allowed",
+  "disabled:opacity-50",
+  "px-5",
+  "py-4",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground",
+  "border-primary-foreground",
+  "dark:border-primary-dark",
+  "disabled:border-primary-foreground/50",
+  "disabled:dark:border-primary-dark-foreground/50",
+  "placeholder:font-light",
+  "placeholder:text-primary-foreground/75",
+  "dark:placeholder:text-primary-dark-foreground/75",
+  "block",
+]
+`;

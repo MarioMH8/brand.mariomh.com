@@ -1,0 +1,15 @@
+---
+import type { HTMLTag } from 'astro/types';
+
+import type { AstroInputProperties } from './astro';
+import ELEMENT_TYPE from './element.ts';
+import properties from './properties.ts';
+
+export type Props<Tag extends HTMLTag> = AstroInputProperties<Tag>;
+
+const { as: Tag = ELEMENT_TYPE, ...p } = properties(Astro.props);
+---
+
+<Tag {...p}>
+	<slot />
+</Tag>
