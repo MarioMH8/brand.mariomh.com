@@ -47,7 +47,7 @@
 	"scripts": {
 		"build": "tsup",
 		"lint:packages": "publint",
-		"prepublishOnly": "publint"
+		"prepublishOnly": "tsup && publint"
 	},
 	"peerDependencies": {
 		"tailwindcss": ">=4.0.0-beta.8"
