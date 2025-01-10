@@ -27,7 +27,8 @@
 	"private": true,
 	"type": "module",
 	"workspaces": [
-		"packages/*"
+		"packages/*",
+		"packages/fonts/*"
 	],
 	"scripts": {
 		"build": "bun run --filter '@mariomh/*' build",
