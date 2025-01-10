@@ -67,7 +67,7 @@
 	},
 	"peerDependencies": {
 		"@radix-ui/react-slot": "^1",
-		"react": "^18"
+		"react": "^19"
 	},
 	"peerDependenciesMeta": {
 		"@radix-ui/react-slot": {
