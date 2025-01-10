@@ -29,7 +29,6 @@
 	],
 	"scripts": {
 		"build": "bun run --filter '@mariomh/*' build",
-		"build:portfolio": "bun run --filter '@mariomh/portfolio' build",
 		"build:storybook": "bun run --filter '@mariomh/storybook' build",
 		"lint": "eslint .",
 		"lint:fix": "eslint --fix .",
