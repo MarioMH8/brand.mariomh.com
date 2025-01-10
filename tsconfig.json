@@ -6,7 +6,8 @@
 		"paths": {
 			"@mariomh/cva": ["packages/cva/src/index.ts"],
 			"@mariomh/focus/react": ["./components/focus/src/react.tsx"],
-			"@mariomh/font/react": ["./components/font/src/react.tsx"]
+			"@mariomh/font/react": ["./components/font/src/react.tsx"],
+			"@mariomh/shadow/react": ["./components/shadow/src/react.tsx"]
 		},
 		"allowImportingTsExtensions": true,
 		"plugins": [
