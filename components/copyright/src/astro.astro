@@ -1,0 +1,19 @@
+---
+import type { HTMLTag } from 'astro/types';
+
+import type { AstroCopyrightProperties } from './astro';
+import ELEMENT_TYPE from './element.ts';
+import properties from './properties.ts';
+
+export type Props<Tag extends HTMLTag> = AstroCopyrightProperties<Tag>;
+
+const { from = `${new Date().getFullYear()}`, to } = Astro.props;
+
+const { as: Tag = ELEMENT_TYPE, ...p } = properties(Astro.props);
+
+const join = [from, to].filter(Boolean).join(' - ');
+---
+
+<Tag {...p}>
+	© {join} Mario Menéndez Hidalgo
+</Tag>
