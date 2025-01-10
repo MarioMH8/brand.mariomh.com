@@ -4,7 +4,13 @@
 		"emitDecoratorMetadata": false,
 		"baseUrl": ".",
 		"paths": {
-			"@mariomh/cva": ["packages/cva/src/index.ts"]
+			"@mariomh/cva": ["packages/cva/src/index.ts"],
+			"@mariomh/*/argument-types": ["./components/*/src/argument-types"],
+			"@mariomh/*/astro": ["./components/*/src/astro.ts"],
+			"@mariomh/*/class-name": ["./components/*/src/class-name"],
+			"@mariomh/*/properties": ["./components/*/src/properties"],
+			"@mariomh/*/react": ["./components/*/src/react"],
+			"@mariomh/*/variants": ["./components/*/src/variants"]
 		},
 		"allowImportingTsExtensions": true,
 		"plugins": [
