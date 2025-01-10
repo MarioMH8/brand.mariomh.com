@@ -1,0 +1,91 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mariomh/paragraph/react should default render 1`] = `"P"`;
+
+exports[`@mariomh/paragraph/react should default render 2`] = `{}`;
+
+exports[`@mariomh/paragraph/react should default render 3`] = `"Test Message"`;
+
+exports[`@mariomh/paragraph/react should default render 4`] = `
+[
+  "text-base",
+  "font-secondary",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+  "block",
+  "mb-6",
+  "max-w-[75ch]",
+]
+`;
+
+exports[`@mariomh/paragraph/react should asChild works as expected render 1`] = `"SPAN"`;
+
+exports[`@mariomh/paragraph/react should asChild works as expected render 2`] = `{}`;
+
+exports[`@mariomh/paragraph/react should asChild works as expected render 3`] = `"Test Message"`;
+
+exports[`@mariomh/paragraph/react should asChild works as expected render 4`] = `
+[
+  "text-base",
+  "font-secondary",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+  "block",
+  "mb-6",
+  "max-w-[75ch]",
+]
+`;
+
+exports[`@mariomh/paragraph/react should override class 1`] = `"P"`;
+
+exports[`@mariomh/paragraph/react should override class 2`] = `{}`;
+
+exports[`@mariomh/paragraph/react should override class 3`] = `"Test Message"`;
+
+exports[`@mariomh/paragraph/react should override class 4`] = `
+[
+  "font-secondary",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+  "block",
+  "mb-6",
+  "max-w-[75ch]",
+  "text-2xl",
+]
+`;
+
+exports[`@mariomh/paragraph/react should exclude variants props 1`] = `"P"`;
+
+exports[`@mariomh/paragraph/react should exclude variants props 2`] = `{}`;
+
+exports[`@mariomh/paragraph/react should exclude variants props 3`] = `"Test Message"`;
+
+exports[`@mariomh/paragraph/react should exclude variants props 4`] = `
+[
+  "text-right",
+  "text-lg",
+  "font-secondary",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "select-none",
+  "font-normal",
+  "tracking-wide",
+  "mb-6",
+  "max-w-[75ch]",
+  "block",
+]
+`;
