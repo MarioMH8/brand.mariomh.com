@@ -71,6 +71,6 @@ export default function MyComponent(): ReactNode {
 
 ## Variantes
 
-| Variante | Descripción                  | Valores   |
-|----------|------------------------------|-----------|
-| `intent` | Establece el color del focus | `primary` |
+| Variante | Descripción        | Valores   |
+|----------|--------------------|-----------|
+| `intent` | Establece el color | `primary` |

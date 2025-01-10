@@ -77,6 +77,6 @@ export default function MyComponent(): ReactNode {
 
 ## Variantes
 
-| Variante | Descripción                  | Valores   |
-|----------|------------------------------|-----------|
-| `intent` | Establece el color del badge | `primary` |
+| Variante | Descripción        | Valores   |
+|----------|--------------------|-----------|
+| `intent` | Establece el color | `primary` |

@@ -76,7 +76,7 @@ export default function MyComponent(): ReactNode {
 | `align`     | Alineamiento del texto                    | `start`, `center`, `end`                                                           |
 | `dimension` | Cambia el tamaño de la fuente             | `unset`, `xs`, `sm`, `base`, `lg`, `xl`, `2xl`, `3xl`, `4xl`, `5xl`, `6xl`, `huge` |
 | `family`    | Define la fuente del texto                | `primary`, `secondary`                                                             |
-| `intent`    | Establece el color de la fuente           | `primary`, `unset`                                                                 |
+| `intent`    | Establece el color                        | `primary`, `unset`                                                                 |
 | `noSelect`  | Evita que el texto sea seleccionado       | `true`                                                                             |
 | `tracking`  | Establece la separación de los caracteres | `sm`, `base`, `lg`                                                                 |
 | `variant`   | Cambia la variante de la fuente           | `bright`, `muted`                                                                  |
