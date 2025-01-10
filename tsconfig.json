@@ -1,0 +1,59 @@
+{
+	"extends": "@hexadrop/tsconfig",
+	"compilerOptions": {
+		"emitDecoratorMetadata": false,
+		"baseUrl": ".",
+		"paths": {
+			"@mariomh/archia": ["packages/fonts/archia/index.css"],
+			"@mariomh/archia/*": ["packages/fonts/archia/*"],
+			"@mariomh/cva": ["packages/cva/src/index.ts"],
+			"@mariomh/tailwind/pallete": ["packages/tailwind/src/pallete.ts"],
+			"@mariomh/tailwind": ["packages/tailwind/index.css"],
+			"@mariomh/storybook/argument-types": ["storybook/src/argument-types"],
+			"@mariomh/storybook/blocks": ["storybook/src/blocks"],
+			"@mariomh/storybook/hooks": ["storybook/src/hooks"],
+			"@mariomh/storybook/icons": ["storybook/src/icons"],
+			"@mariomh/storybook/lib": ["storybook/src/lib"],
+			"@mariomh/storybook/pages": ["storybook/src/pages"],
+			"@mariomh/badge/react": ["./components/badge/src/react"],
+			"@mariomh/button/react": ["./components/button/src/react"],
+			"@mariomh/box/react": ["./components/box/src/react"],
+			"@mariomh/checkbox/react": ["./components/checkbox/src/react"],
+			"@mariomh/container/react": ["./components/container/src/react"],
+			"@mariomh/copyright/react": ["./components/copyright/src/react"],
+			"@mariomh/focus/react": ["./components/focus/src/react"],
+			"@mariomh/focus/variants": ["./components/focus/src/variants"],
+			"@mariomh/font/react": ["./components/font/src/react"],
+			"@mariomh/font/variants": ["./components/font/src/variants"],
+			"@mariomh/heading/react": ["./components/heading/src/react"],
+			"@mariomh/input/react": ["./components/input/src/react"],
+			"@mariomh/label/react": ["./components/label/src/react"],
+			"@mariomh/link/class-name": ["./components/link/src/class-name"],
+			"@mariomh/link/react": ["./components/link/src/react"],
+			"@mariomh/navigation-menu/astro": ["./components/navigation-menu/src/astro/index"],
+			"@mariomh/paragraph/react": ["./components/paragraph/src/react"],
+			"@mariomh/round/react": ["./components/round/src/react"],
+			"@mariomh/round/variants": ["./components/round/src/variants"],
+			"@mariomh/shadow/variants": ["./components/shadow/src/variants"],
+			"@mariomh/shadow/react": ["./components/shadow/src/react"],
+			"@mariomh/select/react": ["./components/select/src/react"],
+			"@mariomh/textarea/react": ["./components/textarea/src/react"],
+			"@mariomh/span/react": ["./components/span/src/react"],
+			"@mariomh/*/argument-types": ["./components/*/src/argument-types"],
+			"@mariomh/*/astro": ["./components/*/src/astro.ts"],
+			"@mariomh/*/class-name": ["./components/*/src/class-name"],
+			"@mariomh/*/properties": ["./components/*/src/properties"],
+			"@mariomh/*/react": ["./components/*/src/react"],
+			"@mariomh/*/variants": ["./components/*/src/variants"]
+		},
+		"allowImportingTsExtensions": true,
+		"plugins": [
+			{
+				"name": "@astrojs/ts-plugin"
+			}
+		]
+	},
+	"exclude": [
+		"components/*/dist"
+	]
+}
