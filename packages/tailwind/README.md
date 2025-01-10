@@ -9,9 +9,10 @@
 ## Indice
 
 <!-- TOC -->
-* [Indice](#indice)
-* [Instalación](#instalación)
-* [Como usarlo](#como-usarlo)
+  * [Indice](#indice)
+  * [Instalación](#instalación)
+  * [Como usarlo](#como-usarlo)
+<!-- TOC -->
 
 ## Instalación
 

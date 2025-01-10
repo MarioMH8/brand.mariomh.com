@@ -9,10 +9,11 @@
 ## Indice
 
 <!-- TOC -->
-* [Indice](#indice)
-* [Instalación](#instalación)
-* [Como usarlo](#como-usarlo)
+  * [Indice](#indice)
+  * [Instalación](#instalación)
+  * [Como usarlo](#como-usarlo)
     * [Usando Tailwind CSS](#usando-tailwind-css)
+<!-- TOC -->
 
 ## Instalación
 
