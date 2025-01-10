@@ -44,8 +44,7 @@ Puedes ver la documentación completa en el siguiente [enlace](https://beta.cva.
     ]
   }
 }
-
 ```
 > [!NOTE]
-> Internamente `@mariomh/cva` utiliza [tailwind-merge](https://github.com/dcastil/tailwind-merge) para mergear las clases 
+> Internamente `@mariomh/cva` utiliza [tailwind-merge](https://github.com/dcastil/tailwind-merge) para mergear las clases
 > de Tailwind CSS sin conflictos de estilos.
