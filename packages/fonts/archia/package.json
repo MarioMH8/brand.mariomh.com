@@ -1,0 +1,58 @@
+{
+	"name": "@mariomh/archia",
+	"version": "0.0.0",
+	"author": "MarioMH <dev@mariomh.com>",
+	"description": "MarioMH Archia font",
+	"keywords": [
+		"design",
+		"system",
+		"style",
+		"guide",
+		"react",
+		"astro",
+		"tailwind",
+		"components",
+		"ui",
+		"ux"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MarioMH8/brand.mariomh.com.git",
+		"directory": "packages/fonts/archia"
+	},
+	"homepage": "https://desing.mariomh.com",
+	"bugs": {
+		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
+	},
+	"license": "PRIVATE",
+	"type": "module",
+	"sideEffects": false,
+	"main": "./index.css",
+	"exports": {
+		".": {
+			"default": "./index.css"
+		},
+		"./100.css": {
+			"default": "./100.css"
+		},
+		"./300.css": {
+			"default": "./300.css"
+		},
+		"./400.css": {
+			"default": "./400.css"
+		},
+		"./500.css": {
+			"default": "./500.css"
+		},
+		"./600.css": {
+			"default": "./600.css"
+		},
+		"./700.css": {
+			"default": "./700.css"
+		}
+	},
+	"scripts": {
+		"lint:packages": "publint",
+		"prepublishOnly": "publint"
+	}
+}

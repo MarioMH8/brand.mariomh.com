@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Archia;
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: url('./files/archia-semibold-webfont.woff2') format('woff2'),
+    url('./files/archia-semibold-webfont.woff') format('woff');
+}
