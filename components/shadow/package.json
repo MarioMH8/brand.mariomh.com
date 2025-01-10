@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh/shadow",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH shadow",
 	"keywords": [
@@ -78,7 +78,7 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "0.0.0"
+		"@mariomh/cva": "0.0.1"
 	},
 	"devDependencies": {
 		"@radix-ui/react-slot": "1.1.1",

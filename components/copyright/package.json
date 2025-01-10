@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh/copyright",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH copyright",
 	"keywords": [
@@ -80,7 +80,7 @@
 		"prepublishOnly": "tsup && publint"
 	},
 	"peerDependencies": {
-		"@mariomh/font": "0.0.0",
+		"@mariomh/font": "0.0.1",
 		"@radix-ui/react-slot": "^1",
 		"astro": "^5",
 		"react": "^19"
@@ -100,10 +100,10 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "0.0.0"
+		"@mariomh/cva": "0.0.1"
 	},
 	"devDependencies": {
-		"@mariomh/font": "0.0.0",
+		"@mariomh/font": "0.0.1",
 		"@radix-ui/react-slot": "1.1.1",
 		"@testing-library/react": "16.1.0",
 		"astro": "5.1.5",
