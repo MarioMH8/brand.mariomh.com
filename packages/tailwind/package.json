@@ -1,0 +1,59 @@
+{
+	"name": "@mariomh/tailwind",
+	"version": "0.0.0",
+	"author": "MarioMH <dev@mariomh.com>",
+	"description": "MarioMH tailwind plugin",
+	"keywords": [
+		"design",
+		"system",
+		"style",
+		"guide",
+		"react",
+		"astro",
+		"tailwind",
+		"components",
+		"ui",
+		"ux"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MarioMH8/brand.mariomh.com.git",
+		"directory": "packages/tailwind"
+	},
+	"homepage": "https://desing.mariomh.com",
+	"bugs": {
+		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
+	},
+	"license": "PRIVATE",
+	"type": "module",
+	"sideEffects": false,
+	"main": "index.css",
+	"exports": {
+		".": {
+			"default": "./index.css"
+		},
+		"./pallete": {
+			"types": "./dist/pallete.d.ts",
+			"default": "./dist/pallete.js"
+		}
+	},
+	"typesVersions": {
+		"*": {
+			"./pallete": [
+				"./dist/pallete.d.ts"
+			]
+		}
+	},
+	"scripts": {
+		"build": "tsup",
+		"lint:packages": "publint",
+		"prepublishOnly": "publint"
+	},
+	"peerDependencies": {
+		"tailwindcss": ">=4.0.0-beta.8"
+	},
+	"devDependencies": {
+		"tailwindcss": "4.0.0-beta.8",
+		"tsup": "8.3.5"
+	}
+}

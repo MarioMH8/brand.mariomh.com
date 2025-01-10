@@ -1,0 +1,199 @@
+@theme {
+    --color-*: initial;
+
+    --color-primary-1: oklch(99.58% 0.0133 115.82);
+    --color-primary-2: oklch(98.87% 0.0381 115.04);
+    --color-primary-3: oklch(98.13% 0.0628 116.19);
+    --color-primary-4: oklch(96.79% 0.1098 117.61);
+    --color-primary-5: oklch(94.89% 0.1470 118.69);
+    --color-primary-6: oklch(93.88% 0.1629 119.08);
+    --color-primary-7: oklch(92.91% 0.1771 119.51);
+    --color-primary-8: oklch(91.29% 0.2004 120.74);
+    --color-primary-9: oklch(89.57% 0.2133 121.94);
+    --color-primary-10: oklch(68.53% 0.1649 124.46);
+    --color-primary-11: oklch(45.52% 0.1080 130.07);
+    --color-primary-12: oklch(19.89% 0.0364 178.86);
+
+    --color-primary: var(--color-primary-9);
+    --color-primary-background: var(--color-primary-1);
+    --color-primary-background-subtle: var(--color-primary-2);
+    --color-primary-background-element: var(--color-primary-4);
+    --color-primary-background-hover: var(--color-primary-3);
+    --color-primary-background-active: var(--color-primary-5);
+    --color-primary-background-solid: var(--color-primary-9);
+
+    --color-primary-foreground: var(--color-primary-12);
+    --color-primary-foreground-highlight: var(--color-primary-10);
+    --color-primary-foreground-invert: var(--color-primary-1);
+    --color-primary-foreground-muted: var(--color-primary-11);
+
+    --color-primary-border: var(--color-primary-7);
+    --color-primary-border-hover: var(--color-primary-8);
+    --color-primary-border-subtle: var(--color-primary-6);
+
+    --color-primary-dark-1: oklch(19.89% 0.0364 178.86);
+    --color-primary-dark-2: oklch(30.09% 0.0652 141.91);
+    --color-primary-dark-3: oklch(39.70% 0.0925 133.16);
+    --color-primary-dark-4: oklch(48.51% 0.1160 129.06);
+    --color-primary-dark-5: oklch(57.29% 0.1378 126.51);
+    --color-primary-dark-6: oklch(65.78% 0.1582 124.80);
+    --color-primary-dark-7: oklch(74.01% 0.1772 123.59);
+    --color-primary-dark-8: oklch(81.73% 0.1952 122.69);
+    --color-primary-dark-9: oklch(89.57% 0.2133 121.94);
+    --color-primary-dark-10: oklch(86.6% 0.1849 121.9);
+    --color-primary-dark-11: oklch(96.79% 0.1098 117.61);
+    --color-primary-dark-12: oklch(99.58% 0.0133 115.82);
+
+    --color-primary-dark: var(--color-primary-dark-9);
+    --color-primary-dark-background: var(--color-primary-dark-1);
+    --color-primary-dark-background-subtle: var(--color-primary-dark-2);
+    --color-primary-dark-background-element: var(--color-primary-dark-4);
+    --color-primary-dark-background-hover: var(--color-primary-dark-3);
+    --color-primary-dark-background-active: var(--color-primary-dark-5);
+    --color-primary-dark-background-solid: var(--color-primary-dark-9);
+
+    --color-primary-dark-foreground: var(--color-primary-dark-12);
+    --color-primary-dark-foreground-highlight: var(--color-primary-dark-10);
+    --color-primary-dark-foreground-invert: var(--color-primary-dark-1);
+    --color-primary-dark-foreground-muted: var(--color-primary-dark-11);
+
+    --color-primary-dark-border: var(--color-primary-dark-7);
+    --color-primary-dark-border-hover: var(--color-primary-dark-8);
+    --color-primary-dark-border-subtle: var(--color-primary-dark-6);
+
+    --font-primary: "Archia", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-secondary: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+    --text-xs: clamp(0.691358024691358rem, calc(0.691358024691358rem + ((0.6944444444444445 - 0.691358024691358) * ((100vw - 20rem) / (96 - 20)))), 0.6944444444444445rem);
+    --text-xs--line-height: 1.6;
+
+    --text-sm: clamp(0.7777777777777777rem, calc(0.7777777777777777rem + ((0.8333333333333334 - 0.7777777777777777) * ((100vw - 20rem) / (96 - 20)))), 0.8333333333333334rem);
+    --text-sm--line-height: 1.6;
+
+    --text-base: clamp(0.875rem, calc(0.875rem + ((1 - 0.875) * ((100vw - 20rem) / (96 - 20)))), 1rem);
+    --text-base--line-height: 1.6;
+
+    --text-lg: clamp(0.984375rem, calc(0.984375rem + ((1.2 - 0.984375) * ((100vw - 20rem) / (96 - 20)))), 1.2rem);
+    --text-lg--line-height: 1.6;
+
+    --text-xl: clamp(1.107421875rem, calc(1.107421875rem + ((1.44 - 1.107421875) * ((100vw - 20rem) / (96 - 20)))), 1.44rem);
+    --text-xl--line-height: 1.5;
+
+    --text-2xl: clamp(1.245849609375rem, calc(1.245849609375rem + ((1.7279999999999998 - 1.245849609375) * ((100vw - 20rem) / (96 - 20)))), 1.7279999999999998rem);
+    --text-2xl--line-height: 1.5;
+
+    --text-3xl: clamp(1.401580810546875rem, calc(1.401580810546875rem + ((2.0736 - 1.401580810546875) * ((100vw - 20rem) / (96 - 20)))), 2.0736rem);
+    --text-3xl--line-height: 1.5;
+
+    --text-4xl: clamp(1.5767784118652344rem, calc(1.5767784118652344rem + ((2.4883199999999994 - 1.5767784118652344) * ((100vw - 20rem) / (96 - 20)))), 2.4883199999999994rem);
+    --text-4xl--line-height: 1.5;
+
+    --text-5xl: clamp(1.7738757133483887rem, calc(1.7738757133483887rem + ((2.9859839999999993 - 1.7738757133483887) * ((100vw - 20rem) / (96 - 20)))), 2.9859839999999993rem);
+    --text-5xl--line-height: 1.4;
+
+    --text-6xl: clamp(1.9956101775169373rem, calc(1.9956101775169373rem + ((3.583180799999999 - 1.9956101775169373) * ((100vw - 20rem) / (96 - 20)))), 3.583180799999999rem);
+    --text-6xl--line-height: 1.4;
+
+    --text-7xl: clamp(2.2450614497065544rem, calc(2.2450614497065544rem + ((4.2998169599999985 - 2.2450614497065544) * ((100vw - 20rem) / (96 - 20)))), 4.2998169599999985rem);
+    --text-7xl--line-height: 1.4;
+
+    --text-8xl: clamp(2.5256941309198737rem, calc(2.5256941309198737rem + ((5.1597803519999985 - 2.5256941309198737) * ((100vw - 20rem) / (96 - 20)))), 5.1597803519999985rem);
+    --text-8xl--line-height: 1.4;
+
+    --text-9xl: clamp(2.841405897284858rem, calc(2.841405897284858rem + ((6.191736422399997 - 2.841405897284858) * ((100vw - 20rem) / (96 - 20)))), 6.191736422399997rem);
+    --text-9xl--line-height: 1.4;
+
+    --animate-slide-down-and-fade: slide-down-and-fade 300ms cubic-bezier(0.16, 0, 0.13, 1);
+    --animate-slide-left-and-fade: slide-left-and-fade 300ms cubic-bezier(0.16, 0, 0.13, 1);
+    --animate-slide-right-and-fade: slide-right-and-fade 300ms cubic-bezier(0.16, 0, 0.13, 1);
+    --animate-slide-up-and-fade: slide-up-and-fade 300ms cubic-bezier(0.16, 0, 0.13, 1);
+
+    @keyframes slide-down-and-fade {
+        from {
+            opacity: 0;
+            transform: translateY(-2px);
+        }
+        to {
+            opacity: 100;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes slide-up-and-fade {
+        from {
+            opacity: 0;
+            transform: translateY(2px);
+        }
+        to {
+            opacity: 100;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes slide-left-and-fade {
+        from {
+            opacity: 0;
+            transform: translateX(2px);
+        }
+        to {
+            opacity: 100;
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes slide-right-and-fade {
+        from {
+            opacity: 0;
+            transform: translateX(-2px);
+        }
+        to {
+            opacity: 100;
+            transform: translateX(0);
+        }
+    }
+}
+
+@layer base {
+    * {
+        scrollbar-color: initial;
+        scrollbar-width: initial;
+    }
+
+    ::selection {
+        @apply bg-primary-background-active text-primary-foreground;
+    }
+
+    html {
+        @apply scroll-smooth;
+    }
+
+    body {
+        scrollbar-gutter: stable both-edges;
+        @apply font-secondary bg-primary-background dark:bg-primary-dark-background text-primary-foreground dark:text-primary-dark-foreground;
+    }
+
+    img {
+        @apply select-none;
+
+        -webkit-user-drag: none;
+        -khtml-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        user-drag: none;
+    }
+
+    p {
+        max-width: 75ch;
+        text-wrap: pretty;
+    }
+
+    &:where(b,strong,th) {
+        @apply font-semibold;
+    }
+}
+
+@utility container {
+    padding: min(2rem, 7.5vw);
+    margin-left: auto;
+    margin-right: auto;
+}
