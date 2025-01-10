@@ -25,7 +25,6 @@
 		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
 	},
 	"license": "PRIVATE",
-	"private": true,
 	"type": "module",
 	"files": [
 		"dist"

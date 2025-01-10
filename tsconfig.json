@@ -8,6 +8,7 @@
 			"@mariomh/badge/react": ["./components/badge/src/react.tsx"],
 			"@mariomh/box/react": ["./components/box/src/react.tsx"],
 			"@mariomh/copyright/react": ["./components/copyright/src/react.tsx"],
+			"@mariomh/container/react": ["./components/container/src/react.tsx"],
 			"@mariomh/focus/react": ["./components/focus/src/react.tsx"],
 			"@mariomh/font/variants": ["./components/font/src/variants.ts"],
 			"@mariomh/font/react": ["./components/font/src/react.tsx"],

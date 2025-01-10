@@ -13,6 +13,7 @@ export default hexadrop(
 	{
 		files: ['components/**/src/**/variants.ts'],
 		rules: {
+			'import/no-named-as-default': 'off',
 			'perfectionist/sort-objects': 'off',
 		},
 	},
