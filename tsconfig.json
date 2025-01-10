@@ -24,7 +24,8 @@
 			"@mariomh/round/variants": ["./components/round/src/variants.ts"],
 			"@mariomh/select/react": ["./components/select/src/react.tsx"],
 			"@mariomh/shadow/react": ["./components/shadow/src/react.tsx"],
-			"@mariomh/span/react": ["./components/span/src/react.tsx"]
+			"@mariomh/span/react": ["./components/span/src/react.tsx"],
+			"@mariomh/textarea/react": ["./components/textarea/src/react.tsx"]
 		},
 		"allowImportingTsExtensions": true,
 		"plugins": [
