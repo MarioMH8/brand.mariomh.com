@@ -77,6 +77,8 @@ export default function MyComponent(): ReactNode {
 
 ## Variantes
 
-| Variante | Descripción        | Valores   |
-|----------|--------------------|-----------|
-| `intent` | Establece el color | `primary` |
+| Variante    | Descripción                         | Valores                                                                            |
+|-------------|-------------------------------------|------------------------------------------------------------------------------------|
+| `dimension` | Cambia el tamaño de la fuente       | `unset`, `xs`, `sm`, `base`, `lg`, `xl`, `2xl`, `3xl`, `4xl`, `5xl`, `6xl`, `huge` |
+| `intent`    | Establece el color                  | `primary`                                                                          |
+| `noSelect`  | Evita que el texto sea seleccionado | `true`                                                                             |
