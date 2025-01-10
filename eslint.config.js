@@ -21,5 +21,11 @@ export default hexadrop(
 		rules: {
 			'import/no-unresolved': 'off',
 		},
+	},
+	{
+		files: ['**/README.md/*'],
+		rules: {
+			'import/no-extraneous-dependencies': 'off',
+		},
 	}
 );
