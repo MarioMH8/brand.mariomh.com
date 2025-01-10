@@ -1,0 +1,121 @@
+{
+	"name": "@mariomh/checkbox",
+	"version": "0.0.0",
+	"author": "MarioMH <dev@mariomh.com>",
+	"description": "MarioMH checkbox",
+	"keywords": [
+		"design",
+		"system",
+		"style",
+		"guide",
+		"react",
+		"astro",
+		"tailwind",
+		"components",
+		"ui",
+		"ux"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MarioMH8/brand.mariomh.com.git",
+		"directory": "design-system/components/checkbox"
+	},
+	"homepage": "https://desing.mariomh.com",
+	"bugs": {
+		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
+	},
+	"license": "PRIVATE",
+	"type": "module",
+	"sideEffects": false,
+	"files": [
+		"dist"
+	],
+	"exports": {
+		"./class-name": {
+			"types": "./dist/class-name.d.ts",
+			"default": "./dist/class-name.js"
+		},
+		"./package.json": {
+			"default": "./package.json"
+		},
+		"./properties": {
+			"types": "./dist/properties.d.ts",
+			"default": "./dist/properties.js"
+		},
+		"./react": {
+			"types": "./dist/react.d.ts",
+			"default": "./dist/react.js"
+		},
+		"./variants": {
+			"types": "./dist/variants.d.ts",
+			"default": "./dist/variants.js"
+		}
+	},
+	"typesVersions": {
+		"*": {
+			"./class-name": [
+				"./dist/class-name.d.ts"
+			],
+			"./properties": [
+				"./dist/properties.d.ts"
+			],
+			"./react": [
+				"./dist/react.d.ts"
+			],
+			"./variants": [
+				"./dist/variants.d.ts"
+			]
+		}
+	},
+	"scripts": {
+		"build": "tsup",
+		"lint:packages": "publint",
+		"prepublishOnly": "tsup && publint"
+	},
+	"peerDependencies": {
+		"@mariomh/focus": "0.0.0",
+		"@mariomh/round": "0.0.0",
+		"@radix-ui/react-accessible-icon": "^1",
+		"@radix-ui/react-checkbox": "^1",
+		"lucide-react": "^0",
+		"react": "^18",
+		"react-dom": "^18"
+	},
+	"peerDependenciesMeta": {
+		"@mariomh/focus": {
+			"optional": true
+		},
+		"@mariomh/round": {
+			"optional": true
+		},
+		"@radix-ui/react-accessible-icon": {
+			"optional": true
+		},
+		"@radix-ui/react-checkbox": {
+			"optional": true
+		},
+		"lucide-react": {
+			"optional": true
+		},
+		"react": {
+			"optional": true
+		},
+		"react-dom": {
+			"optional": true
+		}
+	},
+	"dependencies": {
+		"@mariomh/cva": "0.0.0"
+	},
+	"devDependencies": {
+		"@mariomh/focus": "0.0.0",
+		"@mariomh/round": "0.0.0",
+		"@radix-ui/react-accessible-icon": "1.1.1",
+		"@radix-ui/react-checkbox": "1.1.3",
+		"@testing-library/react": "16.1.0",
+		"lucide-react": "0.469.0",
+		"react": "19.0.0",
+		"react-dom": "19.0.0",
+		"tsup": "8.3.5"
+	}
+}
