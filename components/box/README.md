@@ -77,6 +77,7 @@ export default function MyComponent(): ReactNode {
 
 ## Variantes
 
-| Variante | Descripción        | Valores   |
-|----------|--------------------|-----------|
-| `intent` | Establece el color | `primary` |
+| Variante | Descripción                   | Valores                |
+|----------|-------------------------------|------------------------|
+| `intent` | Establece el color            | `primary`              |
+| `round`  | Cambia el tamaño de la sombra | `sm`, `md`, `lg`, `xl` |
