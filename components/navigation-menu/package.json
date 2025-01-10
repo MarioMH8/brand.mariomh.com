@@ -87,7 +87,7 @@
 		"@mariomh/logo": "0.0.0",
 		"@radix-ui/react-slot": "^1",
 		"astro": "^5",
-		"lucide-astro": "^0.469.0",
+		"lucide-astro": "^0.469.0 || ^0.471.0",
 		"lucide-react": "^0.469.0",
 		"react": "^19"
 	},
@@ -131,7 +131,7 @@
 		"@radix-ui/react-slot": "1.1.1",
 		"@testing-library/react": "16.1.0",
 		"astro": "5.1.5",
-		"lucide-astro": "0.469.0",
+		"lucide-astro": "0.471.0",
 		"lucide-react": "0.469.0",
 		"react": "19.0.0",
 		"tsup": "8.3.5"
