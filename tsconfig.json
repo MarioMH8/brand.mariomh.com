@@ -11,6 +11,7 @@
 			"@mariomh/checkbox/react": ["./components/checkbox/src/react.tsx"],
 			"@mariomh/copyright/react": ["./components/copyright/src/react.tsx"],
 			"@mariomh/container/react": ["./components/container/src/react.tsx"],
+			"@mariomh/container/variants": ["./components/container/src/variants.ts"],
 			"@mariomh/focus/react": ["./components/focus/src/react.tsx"],
 			"@mariomh/focus/variants": ["./components/focus/src/variants.ts"],
 			"@mariomh/font/react": ["./components/font/src/react.tsx"],

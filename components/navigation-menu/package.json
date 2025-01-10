@@ -1,0 +1,139 @@
+{
+	"name": "@mariomh/navigation-menu",
+	"version": "0.0.0",
+	"author": "MarioMH <dev@mariomh.com>",
+	"description": "MarioMH navigation menu",
+	"keywords": [
+		"design",
+		"system",
+		"style",
+		"guide",
+		"react",
+		"astro",
+		"tailwind",
+		"components",
+		"ui",
+		"ux"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MarioMH8/brand.mariomh.com.git",
+		"directory": "components/navigation-menu"
+	},
+	"homepage": "https://desing.mariomh.com",
+	"bugs": {
+		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
+	},
+	"license": "PRIVATE",
+	"private": true,
+	"type": "module",
+	"sideEffects": false,
+	"files": [
+		"dist"
+	],
+	"exports": {
+		"./astro": {
+			"types": "./dist/astro/index.ts",
+			"default": "./dist/astro/index.ts"
+		},
+		"./class-name": {
+			"types": "./dist/class-name/index.d.ts",
+			"default": "./dist/class-name/index.js"
+		},
+		"./package.json": {
+			"default": "./package.json"
+		},
+		"./properties": {
+			"types": "./dist/properties/index.d.ts",
+			"default": "./dist/properties/index.js"
+		},
+		"./react": {
+			"types": "./dist/react/index.d.ts",
+			"default": "./dist/react/index.js"
+		},
+		"./variants": {
+			"types": "./dist/variants/index.d.ts",
+			"default": "./dist/variants/index.js"
+		}
+	},
+	"typesVersions": {
+		"*": {
+			"./astro": [
+				"./dist/astro/index.ts"
+			],
+			"./class-name": [
+				"./dist/class-name/index.d.ts"
+			],
+			"./properties": [
+				"./dist/properties/index.d.ts"
+			],
+			"./react": [
+				"./dist/react/index.d.ts"
+			],
+			"./variants": [
+				"./dist/variants/index.d.ts"
+			]
+		}
+	},
+	"scripts": {
+		"build": "tsup",
+		"lint:packages": "publint",
+		"prepublishOnly": "tsup && publint"
+	},
+	"peerDependencies": {
+		"@mariomh/button": "0.0.0",
+		"@mariomh/container": "0.0.0",
+		"@mariomh/font": "0.0.0",
+		"@mariomh/logo": "0.0.0",
+		"@radix-ui/react-slot": "^1",
+		"astro": "^5",
+		"lucide-astro": "^0.469.0",
+		"lucide-react": "^0.469.0",
+		"react": "^19"
+	},
+	"peerDependenciesMeta": {
+		"@mariomh/button": {
+			"optional": true
+		},
+		"@mariomh/container": {
+			"optional": true
+		},
+		"@mariomh/font": {
+			"optional": true
+		},
+		"@mariomh/logo": {
+			"optional": true
+		},
+		"@radix-ui/react-slot": {
+			"optional": true
+		},
+		"astro": {
+			"optional": true
+		},
+		"lucide-astro": {
+			"optional": true
+		},
+		"lucide-react": {
+			"optional": true
+		},
+		"react": {
+			"optional": true
+		}
+	},
+	"dependencies": {
+		"@mariomh/cva": "0.0.0"
+	},
+	"devDependencies": {
+		"@mariomh/button": "0.0.0",
+		"@mariomh/container": "0.0.0",
+		"@mariomh/font": "0.0.0",
+		"@mariomh/logo": "0.0.0",
+		"@radix-ui/react-slot": "1.1.1",
+		"@testing-library/react": "16.1.0",
+		"astro": "5.1.1",
+		"lucide-astro": "0.469.0",
+		"lucide-react": "0.469.0",
+		"react": "19.0.0",
+		"tsup": "8.3.5"
+	}
+}

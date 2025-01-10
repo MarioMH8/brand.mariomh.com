@@ -1,0 +1,14 @@
+---
+import type { HTMLTag } from 'astro/types';
+
+import { NAVIGATION_MENU_A_ELEMENT } from '../element/index.ts';
+import { propertiesNavigationMenuLink } from '../properties/index.ts';
+import type { AstroNavigationMenuLinkProperties } from './navigation-menu-link.astro';
+
+export type Props<Tag extends HTMLTag> = AstroNavigationMenuLinkProperties<Tag>;
+const { as: Tag = NAVIGATION_MENU_A_ELEMENT, ...p } = propertiesNavigationMenuLink(Astro.props);
+---
+
+<Tag {...p}>
+	<slot />
+</Tag>
