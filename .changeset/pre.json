@@ -1,0 +1,10 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@mariomh/cva": "0.0.0",
+    "@mariomh/archia": "0.0.0",
+    "@mariomh/tailwind": "0.0.0"
+  },
+  "changesets": []
+}
