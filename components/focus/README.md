@@ -36,7 +36,7 @@ import variants from '@mariomh/focus/variants';
 
 const className = variants({
   // Opciones
-  family: 'primary',
+  intent: 'primary',
 });
 ```
 
@@ -48,7 +48,7 @@ import cn from '@mariomh/focus/class-name';
 const className = cn(
   {
     // Opciones
-    family: 'primary',
+    intent: 'primary',
   },
   'uppercase'
 );
