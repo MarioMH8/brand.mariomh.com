@@ -7,7 +7,7 @@ const { compose, cva, cx } = defineConfig({
 	},
 });
 
-export { compose, cx };
+export { compose, cva, cx };
 
 export default cva;
 
