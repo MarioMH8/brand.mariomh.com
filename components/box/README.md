@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  Estilos, variantes y componentes de insignia.
+  Estilos, variantes y componentes.
 </p>
 
 ## Indice

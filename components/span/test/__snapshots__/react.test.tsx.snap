@@ -1,0 +1,79 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mariomh/span/react should default render 1`] = `"SPAN"`;
+
+exports[`@mariomh/span/react should default render 2`] = `{}`;
+
+exports[`@mariomh/span/react should default render 3`] = `"Test Message"`;
+
+exports[`@mariomh/span/react should default render 4`] = `
+[
+  "text-base",
+  "font-secondary",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+]
+`;
+
+exports[`@mariomh/span/react should asChild works as expected render 1`] = `"P"`;
+
+exports[`@mariomh/span/react should asChild works as expected render 2`] = `{}`;
+
+exports[`@mariomh/span/react should asChild works as expected render 3`] = `"Test Message"`;
+
+exports[`@mariomh/span/react should asChild works as expected render 4`] = `
+[
+  "text-base",
+  "font-secondary",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+]
+`;
+
+exports[`@mariomh/span/react should override class 1`] = `"SPAN"`;
+
+exports[`@mariomh/span/react should override class 2`] = `{}`;
+
+exports[`@mariomh/span/react should override class 3`] = `"Test Message"`;
+
+exports[`@mariomh/span/react should override class 4`] = `
+[
+  "font-secondary",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+  "text-2xl",
+]
+`;
+
+exports[`@mariomh/span/react should exclude variants props 1`] = `"SPAN"`;
+
+exports[`@mariomh/span/react should exclude variants props 2`] = `{}`;
+
+exports[`@mariomh/span/react should exclude variants props 3`] = `"Test Message"`;
+
+exports[`@mariomh/span/react should exclude variants props 4`] = `
+[
+  "text-lg",
+  "font-secondary",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "select-none",
+  "font-medium",
+  "tracking-wide",
+  "text-primary-foreground/65",
+  "dark:text-primary-dark-foreground/65",
+  "block",
+]
+`;
