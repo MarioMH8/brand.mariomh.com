@@ -1,0 +1,60 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mariomh/copyright/react should default render 1`] = `"SPAN"`;
+
+exports[`@mariomh/copyright/react should default render 2`] = `{}`;
+
+exports[`@mariomh/copyright/react should default render 3`] = `"© 2025 Mario Menéndez Hidalgo"`;
+
+exports[`@mariomh/copyright/react should default render 4`] = `
+[
+  "text-base",
+  "font-secondary",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+]
+`;
+
+exports[`@mariomh/copyright/react should override class 1`] = `"SPAN"`;
+
+exports[`@mariomh/copyright/react should override class 2`] = `{}`;
+
+exports[`@mariomh/copyright/react should override class 3`] = `"© 2025 Mario Menéndez Hidalgo"`;
+
+exports[`@mariomh/copyright/react should override class 4`] = `
+[
+  "font-secondary",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+  "text-2xl",
+]
+`;
+
+exports[`@mariomh/copyright/react should exclude variants props 1`] = `"SPAN"`;
+
+exports[`@mariomh/copyright/react should exclude variants props 2`] = `{}`;
+
+exports[`@mariomh/copyright/react should exclude variants props 3`] = `"© 2022 - 2024 Mario Menéndez Hidalgo"`;
+
+exports[`@mariomh/copyright/react should exclude variants props 4`] = `
+[
+  "text-lg",
+  "font-secondary",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "select-none",
+  "font-normal",
+  "tracking-wide",
+  "block",
+]
+`;

@@ -27,6 +27,7 @@
 	"private": true,
 	"type": "module",
 	"workspaces": [
+		"components/*",
 		"packages/*",
 		"packages/fonts/*"
 	],

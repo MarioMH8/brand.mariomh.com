@@ -1,0 +1,122 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mariomh/checkbox/react should default render 1`] = `"BUTTON"`;
+
+exports[`@mariomh/checkbox/react should default render 2`] = `{}`;
+
+exports[`@mariomh/checkbox/react should default render 3`] = `""`;
+
+exports[`@mariomh/checkbox/react should default render 4`] = `
+[
+  "focus-visible:outline-none",
+  "focus-visible:ring-2",
+  "focus-visible:ring-offset-2",
+  "ring-offset-primary-background",
+  "dark:ring-offset-primary-dark-background",
+  "focus-visible:ring-primary-border",
+  "rounded-lg",
+  "transition-colors",
+  "border",
+  "appearance-none",
+  "flex",
+  "items-center",
+  "justify-center",
+  "disabled:pointer-events-none",
+  "disabled:opacity-50",
+  "h-6",
+  "w-6",
+  "[&_svg]:w-4",
+  "[&_svg]:h-4",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground-invert",
+  "border-primary-foreground",
+  "dark:border-primary-dark",
+  "active:bg-primary-background-active",
+  "dark:active:bg-primary-dark-background-active",
+  "not-active:data-[state=checked]:bg-primary-background-solid",
+]
+`;
+
+exports[`@mariomh/checkbox/react should override class 1`] = `"BUTTON"`;
+
+exports[`@mariomh/checkbox/react should override class 2`] = `{}`;
+
+exports[`@mariomh/checkbox/react should override class 3`] = `""`;
+
+exports[`@mariomh/checkbox/react should override class 4`] = `
+[
+  "focus-visible:outline-none",
+  "focus-visible:ring-2",
+  "focus-visible:ring-offset-2",
+  "ring-offset-primary-background",
+  "dark:ring-offset-primary-dark-background",
+  "focus-visible:ring-primary-border",
+  "rounded-lg",
+  "transition-colors",
+  "border",
+  "appearance-none",
+  "flex",
+  "items-center",
+  "justify-center",
+  "disabled:pointer-events-none",
+  "disabled:opacity-50",
+  "h-6",
+  "w-6",
+  "[&_svg]:w-4",
+  "[&_svg]:h-4",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground-invert",
+  "border-primary-foreground",
+  "dark:border-primary-dark",
+  "active:bg-primary-background-active",
+  "dark:active:bg-primary-dark-background-active",
+  "not-active:data-[state=checked]:bg-primary-background-solid",
+  "text-2xl",
+]
+`;
+
+exports[`@mariomh/checkbox/react should exclude variants props 1`] = `"BUTTON"`;
+
+exports[`@mariomh/checkbox/react should exclude variants props 2`] = `{}`;
+
+exports[`@mariomh/checkbox/react should exclude variants props 3`] = `""`;
+
+exports[`@mariomh/checkbox/react should exclude variants props 4`] = `
+[
+  "focus-visible:outline-none",
+  "focus-visible:ring-2",
+  "focus-visible:ring-offset-2",
+  "ring-offset-primary-background",
+  "dark:ring-offset-primary-dark-background",
+  "focus-visible:ring-primary-border",
+  "rounded-lg",
+  "transition-colors",
+  "border",
+  "appearance-none",
+  "flex",
+  "items-center",
+  "justify-center",
+  "disabled:pointer-events-none",
+  "disabled:opacity-50",
+  "h-4",
+  "w-4",
+  "[&_svg]:w-2",
+  "[&_svg]:h-2",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground-invert",
+  "border-primary-foreground",
+  "dark:border-primary-dark",
+  "active:bg-primary-background-active",
+  "dark:active:bg-primary-dark-background-active",
+  "not-active:data-[state=checked]:bg-primary-background-solid",
+  "text-2xl",
+]
+`;
+
+exports[`@mariomh/checkbox/react should as child with other props 1`] = `"INPUT"`;
+
+exports[`@mariomh/checkbox/react should as child with other props 2`] = `{}`;
+
+exports[`@mariomh/checkbox/react should as child with other props 3`] = `""`;
+
+exports[`@mariomh/checkbox/react should as child with other props 4`] = `[]`;

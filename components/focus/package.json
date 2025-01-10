@@ -1,0 +1,89 @@
+{
+	"name": "@mariomh/focus",
+	"version": "0.0.0",
+	"author": "MarioMH <dev@mariomh.com>",
+	"description": "MarioMH focus",
+	"keywords": [
+		"design",
+		"system",
+		"style",
+		"guide",
+		"react",
+		"astro",
+		"tailwind",
+		"components",
+		"ui",
+		"ux"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MarioMH8/brand.mariomh.com.git",
+		"directory": "components/focus"
+	},
+	"homepage": "https://desing.mariomh.com",
+	"bugs": {
+		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
+	},
+	"license": "PRIVATE",
+	"type": "module",
+	"sideEffects": false,
+	"files": [
+		"dist"
+	],
+	"exports": {
+		"./class-name": {
+			"types": "./dist/class-name.d.ts",
+			"default": "./dist/class-name.js"
+		},
+		"./package.json": {
+			"default": "./package.json"
+		},
+		"./react": {
+			"types": "./dist/react.d.ts",
+			"default": "./dist/react.js"
+		},
+		"./variants": {
+			"types": "./dist/variants.d.ts",
+			"default": "./dist/variants.js"
+		}
+	},
+	"typesVersions": {
+		"*": {
+			"./class-name": [
+				"./dist/class-name.d.ts"
+			],
+			"./react": [
+				"./dist/react.d.ts"
+			],
+			"./variants": [
+				"./dist/variants.d.ts"
+			]
+		}
+	},
+	"scripts": {
+		"build": "tsup",
+		"lint:packages": "publint",
+		"prepublishOnly": "tsup && publint"
+	},
+	"peerDependencies": {
+		"@radix-ui/react-slot": "^1",
+		"react": "^18"
+	},
+	"peerDependenciesMeta": {
+		"@radix-ui/react-slot": {
+			"optional": true
+		},
+		"react": {
+			"optional": true
+		}
+	},
+	"dependencies": {
+		"@mariomh/cva": "0.0.0"
+	},
+	"devDependencies": {
+		"@radix-ui/react-slot": "1.1.1",
+		"@testing-library/react": "16.1.0",
+		"react": "19.0.0",
+		"tsup": "8.3.5"
+	}
+}

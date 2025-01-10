@@ -1,0 +1,114 @@
+{
+	"name": "@mariomh/logo",
+	"version": "0.0.0",
+	"author": "MarioMH <dev@mariomh.com>",
+	"description": "MarioMH logo",
+	"keywords": [
+		"design",
+		"system",
+		"style",
+		"guide",
+		"react",
+		"astro",
+		"tailwind",
+		"components",
+		"ui",
+		"ux"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MarioMH8/brand.mariomh.com.git",
+		"directory": "components/logo"
+	},
+	"homepage": "https://desing.mariomh.com",
+	"bugs": {
+		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
+	},
+	"license": "PRIVATE",
+	"private": true,
+	"type": "module",
+	"sideEffects": false,
+	"files": [
+		"dist"
+	],
+	"exports": {
+		"./astro": {
+			"types": "./dist/astro.ts",
+			"default": "./dist/astro.ts"
+		},
+		"./class-name": {
+			"types": "./dist/class-name.d.ts",
+			"default": "./dist/class-name.js"
+		},
+		"./package.json": {
+			"default": "./package.json"
+		},
+		"./properties": {
+			"types": "./dist/properties.d.ts",
+			"default": "./dist/properties.js"
+		},
+		"./react": {
+			"types": "./dist/react.d.ts",
+			"default": "./dist/react.js"
+		},
+		"./variants": {
+			"types": "./dist/variants.d.ts",
+			"default": "./dist/variants.js"
+		}
+	},
+	"typesVersions": {
+		"*": {
+			"./astro": [
+				"./dist/astro.ts"
+			],
+			"./class-name": [
+				"./dist/class-name.d.ts"
+			],
+			"./properties": [
+				"./dist/properties.d.ts"
+			],
+			"./react": [
+				"./dist/react.d.ts"
+			],
+			"./variants": [
+				"./dist/variants.d.ts"
+			]
+		}
+	},
+	"scripts": {
+		"build": "tsup",
+		"lint:packages": "publint",
+		"prepublishOnly": "tsup && publint"
+	},
+	"peerDependencies": {
+		"@mariomh/font": "0.0.0",
+		"@radix-ui/react-slot": "^1",
+		"astro": "^5",
+		"react": "^19"
+	},
+	"peerDependenciesMeta": {
+		"@mariomh/font": {
+			"optional": true
+		},
+		"@radix-ui/react-slot": {
+			"optional": true
+		},
+		"astro": {
+			"optional": true
+		},
+		"react": {
+			"optional": true
+		}
+	},
+	"dependencies": {
+		"@mariomh/cva": "0.0.0"
+	},
+	"devDependencies": {
+		"@mariomh/font": "0.0.0",
+		"@radix-ui/react-slot": "1.1.1",
+		"@testing-library/react": "16.1.0",
+		"astro": "5.1.1",
+		"react": "19.0.0",
+		"tsup": "8.3.5"
+	}
+}

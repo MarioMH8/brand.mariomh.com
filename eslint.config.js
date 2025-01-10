@@ -11,8 +11,9 @@ export default hexadrop(
 		},
 	},
 	{
-		files: ['components/**/src/**/variants.ts'],
+		files: ['components/**/src/**/variants.ts', 'components/**/src/**/*.variants.ts'],
 		rules: {
+			'import/no-named-as-default': 'off',
 			'perfectionist/sort-objects': 'off',
 		},
 	},
@@ -20,6 +21,19 @@ export default hexadrop(
 		files: ['components/navigation-menu/src/astro/**/*.astro'],
 		rules: {
 			'import/no-unresolved': 'off',
+		},
+	},
+	{
+		files: ['**/README.md/*'],
+		rules: {
+			'import/no-extraneous-dependencies': 'off',
+		},
+	},
+	{
+		files: ['components/navigation-menu/README.md/*'],
+		rules: {
+			'format/prettier': 'off',
+			'style/indent': 'off',
 		},
 	}
 );

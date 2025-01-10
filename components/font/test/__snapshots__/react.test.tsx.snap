@@ -1,0 +1,57 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mariomh/font/react should default render 1`] = `"SPAN"`;
+
+exports[`@mariomh/font/react should default render 2`] = `{}`;
+
+exports[`@mariomh/font/react should default render 3`] = `"Test Message"`;
+
+exports[`@mariomh/font/react should default render 4`] = `
+[
+  "text-base",
+  "font-secondary",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+]
+`;
+
+exports[`@mariomh/font/react should override class 1`] = `"SPAN"`;
+
+exports[`@mariomh/font/react should override class 2`] = `{}`;
+
+exports[`@mariomh/font/react should override class 3`] = `"Test Message"`;
+
+exports[`@mariomh/font/react should override class 4`] = `
+[
+  "font-secondary",
+  "text-primary-foreground",
+  "dark:text-primary-dark-foreground",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+  "text-2xl",
+]
+`;
+
+exports[`@mariomh/font/react should exclude variants props 1`] = `"SPAN"`;
+
+exports[`@mariomh/font/react should exclude variants props 2`] = `{}`;
+
+exports[`@mariomh/font/react should exclude variants props 3`] = `"Test Message"`;
+
+exports[`@mariomh/font/react should exclude variants props 4`] = `
+[
+  "text-right",
+  "text-lg",
+  "font-secondary",
+  "select-none",
+  "font-medium",
+  "tracking-wider",
+  "block",
+]
+`;

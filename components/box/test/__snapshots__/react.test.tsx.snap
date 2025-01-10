@@ -1,0 +1,63 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mariomh/box/react should default render 1`] = `"DIV"`;
+
+exports[`@mariomh/box/react should default render 2`] = `{}`;
+
+exports[`@mariomh/box/react should default render 3`] = `"Test Message"`;
+
+exports[`@mariomh/box/react should default render 4`] = `
+[
+  "rounded-lg",
+  "p-4",
+  "bg-primary-background-element",
+  "dark:text-primary-dark-foreground-invert",
+]
+`;
+
+exports[`@mariomh/box/react should asChild works as expected render 1`] = `"SPAN"`;
+
+exports[`@mariomh/box/react should asChild works as expected render 2`] = `{}`;
+
+exports[`@mariomh/box/react should asChild works as expected render 3`] = `"Test Message"`;
+
+exports[`@mariomh/box/react should asChild works as expected render 4`] = `
+[
+  "rounded-lg",
+  "p-4",
+  "bg-primary-background-element",
+  "dark:text-primary-dark-foreground-invert",
+]
+`;
+
+exports[`@mariomh/box/react should override class 1`] = `"DIV"`;
+
+exports[`@mariomh/box/react should override class 2`] = `{}`;
+
+exports[`@mariomh/box/react should override class 3`] = `"Test Message"`;
+
+exports[`@mariomh/box/react should override class 4`] = `
+[
+  "rounded-lg",
+  "p-4",
+  "bg-primary-background-element",
+  "dark:text-primary-dark-foreground-invert",
+  "table",
+]
+`;
+
+exports[`@mariomh/box/react should exclude variants props 1`] = `"DIV"`;
+
+exports[`@mariomh/box/react should exclude variants props 2`] = `{}`;
+
+exports[`@mariomh/box/react should exclude variants props 3`] = `"Test Message"`;
+
+exports[`@mariomh/box/react should exclude variants props 4`] = `
+[
+  "rounded-xl",
+  "p-4",
+  "bg-primary-background-element",
+  "dark:text-primary-dark-foreground-invert",
+  "table",
+]
+`;

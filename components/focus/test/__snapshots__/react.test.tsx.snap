@@ -1,0 +1,53 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mariomh/focus/react should default render 1`] = `"SPAN"`;
+
+exports[`@mariomh/focus/react should default render 2`] = `{}`;
+
+exports[`@mariomh/focus/react should default render 3`] = `"Test Message"`;
+
+exports[`@mariomh/focus/react should default render 4`] = `
+[
+  "focus-visible:outline-none",
+  "focus-visible:ring-2",
+  "focus-visible:ring-offset-2",
+  "ring-offset-primary-background",
+  "dark:ring-offset-primary-dark-background",
+  "focus-visible:ring-primary-border",
+]
+`;
+
+exports[`@mariomh/focus/react should override class 1`] = `"SPAN"`;
+
+exports[`@mariomh/focus/react should override class 2`] = `{}`;
+
+exports[`@mariomh/focus/react should override class 3`] = `"Test Message"`;
+
+exports[`@mariomh/focus/react should override class 4`] = `
+[
+  "focus-visible:outline-none",
+  "focus-visible:ring-2",
+  "focus-visible:ring-offset-2",
+  "ring-offset-primary-background",
+  "dark:ring-offset-primary-dark-background",
+  "focus-visible:ring-primary",
+]
+`;
+
+exports[`@mariomh/focus/react should exclude variants props 1`] = `"SPAN"`;
+
+exports[`@mariomh/focus/react should exclude variants props 2`] = `{}`;
+
+exports[`@mariomh/focus/react should exclude variants props 3`] = `"Test Message"`;
+
+exports[`@mariomh/focus/react should exclude variants props 4`] = `
+[
+  "focus-visible:outline-none",
+  "focus-visible:ring-2",
+  "focus-visible:ring-offset-2",
+  "ring-offset-primary-background",
+  "dark:ring-offset-primary-dark-background",
+  "focus-visible:ring-primary-border",
+  "text-2xl",
+]
+`;

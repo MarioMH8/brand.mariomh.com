@@ -1,0 +1,132 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mariomh/link/react should default render 1`] = `"A"`;
+
+exports[`@mariomh/link/react should default render 2`] = `{}`;
+
+exports[`@mariomh/link/react should default render 3`] = `"Test Message"`;
+
+exports[`@mariomh/link/react should default render 4`] = `
+[
+  "text-base",
+  "font-secondary",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+  "rounded-lg",
+  "focus-visible:outline-none",
+  "focus-visible:ring-2",
+  "focus-visible:ring-offset-2",
+  "ring-offset-primary-background",
+  "dark:ring-offset-primary-dark-background",
+  "focus-visible:ring-primary-border",
+  "inline-block",
+  "underline-offset-4",
+  "hover:cursor-pointer",
+  "hover:underline",
+  "text-primary-foreground-highlight",
+  "active:text-primary-foreground-muted",
+  "dark:text-primary-dark-foreground-highlight",
+  "dark:active:text-primary-dark-foreground-muted",
+]
+`;
+
+exports[`@mariomh/link/react should asChild works as expected render 1`] = `"SPAN"`;
+
+exports[`@mariomh/link/react should asChild works as expected render 2`] = `{}`;
+
+exports[`@mariomh/link/react should asChild works as expected render 3`] = `"Test Message"`;
+
+exports[`@mariomh/link/react should asChild works as expected render 4`] = `
+[
+  "text-base",
+  "font-secondary",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+  "rounded-lg",
+  "focus-visible:outline-none",
+  "focus-visible:ring-2",
+  "focus-visible:ring-offset-2",
+  "ring-offset-primary-background",
+  "dark:ring-offset-primary-dark-background",
+  "focus-visible:ring-primary-border",
+  "inline-block",
+  "underline-offset-4",
+  "hover:cursor-pointer",
+  "hover:underline",
+  "text-primary-foreground-highlight",
+  "active:text-primary-foreground-muted",
+  "dark:text-primary-dark-foreground-highlight",
+  "dark:active:text-primary-dark-foreground-muted",
+]
+`;
+
+exports[`@mariomh/link/react should override class 1`] = `"A"`;
+
+exports[`@mariomh/link/react should override class 2`] = `{}`;
+
+exports[`@mariomh/link/react should override class 3`] = `"Test Message"`;
+
+exports[`@mariomh/link/react should override class 4`] = `
+[
+  "font-secondary",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+  "rounded-lg",
+  "focus-visible:outline-none",
+  "focus-visible:ring-2",
+  "focus-visible:ring-offset-2",
+  "ring-offset-primary-background",
+  "dark:ring-offset-primary-dark-background",
+  "focus-visible:ring-primary-border",
+  "inline-block",
+  "underline-offset-4",
+  "hover:cursor-pointer",
+  "hover:underline",
+  "text-primary-foreground-highlight",
+  "active:text-primary-foreground-muted",
+  "dark:text-primary-dark-foreground-highlight",
+  "dark:active:text-primary-dark-foreground-muted",
+  "text-2xl",
+]
+`;
+
+exports[`@mariomh/link/react should exclude variants props 1`] = `"A"`;
+
+exports[`@mariomh/link/react should exclude variants props 2`] = `{}`;
+
+exports[`@mariomh/link/react should exclude variants props 3`] = `"Test Message"`;
+
+exports[`@mariomh/link/react should exclude variants props 4`] = `
+[
+  "text-lg",
+  "font-secondary",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "select-none",
+  "font-medium",
+  "tracking-wide",
+  "rounded-xl",
+  "focus-visible:outline-none",
+  "focus-visible:ring-2",
+  "focus-visible:ring-offset-2",
+  "ring-offset-primary-background",
+  "dark:ring-offset-primary-dark-background",
+  "focus-visible:ring-primary-border",
+  "underline-offset-4",
+  "opacity-50",
+  "hover:cursor-default",
+  "hover:no-underline",
+  "pointer-events-none",
+  "text-primary-foreground-highlight",
+  "active:text-primary-foreground-muted",
+  "dark:text-primary-dark-foreground-highlight",
+  "dark:active:text-primary-dark-foreground-muted",
+  "block",
+]
+`;
