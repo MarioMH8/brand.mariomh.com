@@ -1,0 +1,21 @@
+import { Meta, Unstyled } from '@storybook/addon-docs';
+import Heading from '@mariomh/heading/react';
+import Paragraph from '@mariomh/paragraph/react';
+import Logotipo from '@mariomh/logo/react';
+
+<Meta title='Marca/Introducción' />
+
+<Unstyled>
+	<Heading heading='h1'>Introducci&oacute;n</Heading>
+	<Paragraph wrap={false}>La identidad desarrollada para <b>Mario</b> genera una conexión con el pasado tecnológico como forma de comunicar
+		su pasión desde sus inicios y lo traslada al presente con una vuelta de tuerca a partir de una propuesta <b>enérgica,
+			distintiva y moderna</b>.<br />Un sistema amable y accesible que deja entrever su gran pasión y conocimiento
+		por la <b>programación</b>.</Paragraph>
+	<div className='w-full p-8 bg-primary my-8 rounded-2xl'>
+		<Logotipo className='m-auto' logotipo='dark' isotipo='dark' />
+	</div>
+	<Paragraph wrap={false}>La marca gráfica se compone de un <b>icono y logotipo</b>, el primero retomando la morfología de los pixeles como
+		forma de conexión con las raíces tecnológicas. Se dispone en una composición que logra identificar
+		las <b>M</b> y la <b>H</b> en el calado interior. Un icono simple y pregnante que luego se expande en toda la
+		identidad generando conexión y coherencia.</Paragraph>
+</Unstyled>

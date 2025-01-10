@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh/root",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "Sistema de diseño y guía de estilo de MarioMH",
 	"keywords": [
@@ -29,7 +29,8 @@
 	"workspaces": [
 		"components/*",
 		"packages/*",
-		"packages/fonts/*"
+		"packages/fonts/*",
+		"storybook"
 	],
 	"scripts": {
 		"build": "bun run --filter '@mariomh/*' build",
