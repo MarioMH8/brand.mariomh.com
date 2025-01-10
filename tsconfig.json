@@ -19,6 +19,7 @@
 			"@mariomh/input/react": ["./components/input/src/react.tsx"],
 			"@mariomh/label/react": ["./components/label/src/react.tsx"],
 			"@mariomh/link/react": ["./components/link/src/react.tsx"],
+			"@mariomh/logo/react": ["./components/logo/src/react.tsx"],
 			"@mariomh/paragraph/react": ["./components/paragraph/src/react.tsx"],
 			"@mariomh/round/react": ["./components/round/src/react.tsx"],
 			"@mariomh/round/variants": ["./components/round/src/variants.ts"],
