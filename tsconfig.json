@@ -7,6 +7,8 @@
 			"@mariomh/cva": ["packages/cva/src/index.ts"],
 			"@mariomh/focus/react": ["./components/focus/src/react.tsx"],
 			"@mariomh/font/react": ["./components/font/src/react.tsx"],
+			"@mariomh/round/react": ["./components/round/src/react.tsx"],
+			"@mariomh/round/variants": ["./components/round/src/variants.ts"],
 			"@mariomh/shadow/react": ["./components/shadow/src/react.tsx"]
 		},
 		"allowImportingTsExtensions": true,

@@ -1,0 +1,38 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mariomh/round/react should default render 1`] = `"SPAN"`;
+
+exports[`@mariomh/round/react should default render 2`] = `{}`;
+
+exports[`@mariomh/round/react should default render 3`] = `"Test Message"`;
+
+exports[`@mariomh/round/react should default render 4`] = `
+[
+  "rounded-lg",
+]
+`;
+
+exports[`@mariomh/round/react should override class 1`] = `"SPAN"`;
+
+exports[`@mariomh/round/react should override class 2`] = `{}`;
+
+exports[`@mariomh/round/react should override class 3`] = `"Test Message"`;
+
+exports[`@mariomh/round/react should override class 4`] = `
+[
+  "rounded-xl",
+]
+`;
+
+exports[`@mariomh/round/react should exclude variants props 1`] = `"SPAN"`;
+
+exports[`@mariomh/round/react should exclude variants props 2`] = `{}`;
+
+exports[`@mariomh/round/react should exclude variants props 3`] = `"Test Message"`;
+
+exports[`@mariomh/round/react should exclude variants props 4`] = `
+[
+  "sm:rounded-xl",
+  "text-2xl",
+]
+`;
