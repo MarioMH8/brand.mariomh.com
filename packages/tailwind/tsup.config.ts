@@ -9,7 +9,7 @@ export default defineConfig([
 		entry: ['src/pallete.ts'],
 		format: ['esm'],
 		onSuccess: async () => {
-			await copyFile('src/index.css', 'dist/index.css');
+			await copyFile('index.css', 'dist/index.css');
 		},
 		platform: 'neutral',
 		sourcemap: true,
