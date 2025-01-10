@@ -24,6 +24,9 @@
 	"license": "PRIVATE",
 	"private": true,
 	"type": "module",
+	"workspaces": [
+		"packages/*"
+	],
 	"scripts": {
 		"build": "bun run --filter '@mariomh/*' build",
 		"build:portfolio": "bun run --filter '@mariomh/portfolio' build",

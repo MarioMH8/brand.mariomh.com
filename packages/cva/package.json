@@ -1,0 +1,58 @@
+{
+	"name": "@mariomh/cva",
+	"version": "0.0.0",
+	"author": "MarioMH <dev@mariomh.com>",
+	"description": "MarioMH cva",
+	"keywords": [
+		"design",
+		"system",
+		"style",
+		"guide",
+		"tailwind",
+		"components",
+		"ui",
+		"ux"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MarioMH8/brand.mariomh.com.git",
+		"directory": "packages/cva"
+	},
+	"homepage": "https://github.com/MarioMH8/brand.mariomh.com",
+	"bugs": {
+		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
+	},
+	"license": "PRIVATE",
+	"type": "module",
+	"sideEffects": false,
+	"files": [
+		"dist"
+	],
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js"
+		}
+	},
+	"typesVersions": {
+		"*": {
+			"*": [
+				"./dist/index.d.ts"
+			]
+		}
+	},
+	"scripts": {
+		"build": "tsup",
+		"lint:packages": "publint",
+		"prepublishOnly": "tsup && publint"
+	},
+	"dependencies": {
+		"cva": "1.0.0-beta.2",
+		"tailwind-merge": "2.6.0"
+	},
+	"devDependencies": {
+		"tsup": "8.3.5"
+	}
+}
