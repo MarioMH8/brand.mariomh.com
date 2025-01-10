@@ -15,6 +15,7 @@
 			"@mariomh/focus/variants": ["./components/focus/src/variants.ts"],
 			"@mariomh/font/react": ["./components/font/src/react.tsx"],
 			"@mariomh/font/variants": ["./components/font/src/variants.ts"],
+			"@mariomh/heading/react": ["./components/heading/src/react.tsx"],
 			"@mariomh/round/react": ["./components/round/src/react.tsx"],
 			"@mariomh/round/variants": ["./components/round/src/variants.ts"],
 			"@mariomh/shadow/react": ["./components/shadow/src/react.tsx"],

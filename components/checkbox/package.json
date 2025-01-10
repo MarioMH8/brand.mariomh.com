@@ -18,7 +18,7 @@
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/MarioMH8/brand.mariomh.com.git",
-		"directory": "design-system/components/checkbox"
+		"directory": "components/checkbox"
 	},
 	"homepage": "https://desing.mariomh.com",
 	"bugs": {
