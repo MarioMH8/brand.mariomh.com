@@ -3,7 +3,7 @@ import cn from './class-name';
 import type { ReactBadgeProperties } from './react';
 import type { BadgeVariantsProperties } from './variants';
 
-export default function properties<T extends AstroBadgeProperties | ReactBadgeProperties>(
+export default function properties<T extends AstroBadgeProperties<'span'> | ReactBadgeProperties>(
 	p?: BadgeVariantsProperties & T
 ): T {
 	if (!p) {
@@ -20,7 +20,7 @@ export default function properties<T extends AstroBadgeProperties | ReactBadgePr
 		intent: _intent,
 		noSelect: _noSelect,
 		...rest
-	} = p as AstroBadgeProperties & ReactBadgeProperties;
+	} = p as AstroBadgeProperties<'span'> & ReactBadgeProperties;
 
 	return {
 		...rest,
