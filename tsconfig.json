@@ -3,6 +3,9 @@
 	"compilerOptions": {
 		"emitDecoratorMetadata": false,
 		"baseUrl": ".",
+		"paths": {
+			"@mariomh/cva": ["packages/cva/src/index.ts"]
+		},
 		"allowImportingTsExtensions": true,
 		"plugins": [
 			{
