@@ -1,9 +1,10 @@
 import type { AstroBoxProperties } from './astro';
 import cn from './class-name';
+import type ELEMENT_TYPE from './element';
 import type { ReactBoxProperties } from './react';
 import type { BoxVariantsProperties } from './variants';
 
-export default function properties<T extends AstroBoxProperties<'div'> | ReactBoxProperties>(
+export default function properties<T extends AstroBoxProperties<typeof ELEMENT_TYPE> | ReactBoxProperties>(
 	p?: BoxVariantsProperties & T
 ): T {
 	if (!p) {
@@ -19,7 +20,7 @@ export default function properties<T extends AstroBoxProperties<'div'> | ReactBo
 		intent: _intent,
 		round: _round,
 		...rest
-	} = p as AstroBoxProperties<'div'> & ReactBoxProperties;
+	} = p as AstroBoxProperties<typeof ELEMENT_TYPE> & ReactBoxProperties;
 
 	return {
 		...rest,
