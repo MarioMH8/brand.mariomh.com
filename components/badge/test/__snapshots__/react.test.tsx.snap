@@ -1,0 +1,102 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mariomh/badge/react should default render 1`] = `"SPAN"`;
+
+exports[`@mariomh/badge/react should default render 2`] = `{}`;
+
+exports[`@mariomh/badge/react should default render 3`] = `"Test Message"`;
+
+exports[`@mariomh/badge/react should default render 4`] = `
+[
+  "text-sm",
+  "font-secondary",
+  "text-primary-foreground",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+  "rounded-md",
+  "py-1",
+  "px-2",
+  "inline-block",
+  "uppercase",
+  "bg-primary-background-element",
+  "dark:text-primary-dark-foreground-invert",
+]
+`;
+
+exports[`@mariomh/badge/react should asChild works as expected render 1`] = `"P"`;
+
+exports[`@mariomh/badge/react should asChild works as expected render 2`] = `{}`;
+
+exports[`@mariomh/badge/react should asChild works as expected render 3`] = `"Test Message"`;
+
+exports[`@mariomh/badge/react should asChild works as expected render 4`] = `
+[
+  "text-sm",
+  "font-secondary",
+  "text-primary-foreground",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+  "rounded-md",
+  "py-1",
+  "px-2",
+  "inline-block",
+  "uppercase",
+  "bg-primary-background-element",
+  "dark:text-primary-dark-foreground-invert",
+]
+`;
+
+exports[`@mariomh/badge/react should override class 1`] = `"SPAN"`;
+
+exports[`@mariomh/badge/react should override class 2`] = `{}`;
+
+exports[`@mariomh/badge/react should override class 3`] = `"Test Message"`;
+
+exports[`@mariomh/badge/react should override class 4`] = `
+[
+  "font-secondary",
+  "text-primary-foreground",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "font-normal",
+  "tracking-wide",
+  "rounded-md",
+  "py-1",
+  "px-2",
+  "inline-block",
+  "uppercase",
+  "bg-primary-background-element",
+  "dark:text-primary-dark-foreground-invert",
+  "text-2xl",
+]
+`;
+
+exports[`@mariomh/badge/react should exclude variants props 1`] = `"SPAN"`;
+
+exports[`@mariomh/badge/react should exclude variants props 2`] = `{}`;
+
+exports[`@mariomh/badge/react should exclude variants props 3`] = `"Test Message"`;
+
+exports[`@mariomh/badge/react should exclude variants props 4`] = `
+[
+  "text-lg",
+  "font-secondary",
+  "text-primary-foreground",
+  "selection:bg-primary-background-active",
+  "dark:selection:text-primary-foreground",
+  "select-none",
+  "font-normal",
+  "tracking-wide",
+  "rounded-xl",
+  "py-1",
+  "px-2",
+  "uppercase",
+  "bg-primary-background-element",
+  "dark:text-primary-dark-foreground-invert",
+  "block",
+]
+`;

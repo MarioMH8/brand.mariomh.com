@@ -5,7 +5,9 @@
 		"baseUrl": ".",
 		"paths": {
 			"@mariomh/cva": ["packages/cva/src/index.ts"],
+			"@mariomh/badge/react": ["./components/badge/src/react.tsx"],
 			"@mariomh/focus/react": ["./components/focus/src/react.tsx"],
+			"@mariomh/font/variants": ["./components/font/src/variants.ts"],
 			"@mariomh/font/react": ["./components/font/src/react.tsx"],
 			"@mariomh/round/react": ["./components/round/src/react.tsx"],
 			"@mariomh/round/variants": ["./components/round/src/variants.ts"],
