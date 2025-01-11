@@ -1,5 +1,11 @@
 # @mariomh/select
 
+## 0.0.2
+
+### Patch Changes
+
+- 648362f: Fix `./element.ts` and `./properties.ts` imports in `astro` components
+
 ## 0.0.1
 
 ### Patch Changes
