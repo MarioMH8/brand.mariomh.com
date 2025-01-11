@@ -31,7 +31,7 @@ bun add @mariomh/archia
 Importa la fuente en tu proyecto:
 
 ```tsx
-import '@mariomh/archia'; // Same as importing 400.css
+import '@mariomh/archia'; // Igual que importar @mariomh/archia/400.css
 import '@mariomh/archia/100.css.css';
 import '@mariomh/archia/300.css.css';
 import '@mariomh/archia/400.css.css';
