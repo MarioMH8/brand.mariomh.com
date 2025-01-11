@@ -1,0 +1,13 @@
+{
+	"hosting": {
+		"public": "storybook/storybook-static",
+		"site": "brand-mariomh-com",
+		"rewrites": [
+			{
+				"source": "**",
+				"destination": "/index.html"
+			}
+		],
+		"predeploy": ["bun run build:storybook"]
+	}
+}
