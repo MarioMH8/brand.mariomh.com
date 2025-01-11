@@ -47,4 +47,3 @@ jobs:
                     firebaseServiceAccount: "${{ env.SERVICE_ACCOUNT_KEY }}"
                     channelId: live
                     projectId: ${{env.GCLOUD_PROJECT}}
-                    target: ${{secrets.FIREBASE_HOSTING_TARGET}}
