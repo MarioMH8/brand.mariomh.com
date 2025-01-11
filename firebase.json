@@ -1,7 +1,6 @@
 {
 	"hosting": {
 		"public": "storybook/storybook-static",
-		"site": "brand-mariomh-com",
 		"rewrites": [
 			{
 				"source": "**",
