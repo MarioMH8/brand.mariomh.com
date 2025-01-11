@@ -18,7 +18,7 @@ export default hexadrop(
 		},
 	},
 	{
-		files: ['components/navigation-menu/src/astro/**/*.astro'],
+		files: ['components/**/*.astro'],
 		rules: {
 			'import/no-unresolved': 'off',
 		},

@@ -1,9 +1,9 @@
 ---
 import type { HTMLTag } from 'astro/types';
 
-import { NAVIGATION_MENU_UL_ELEMENT } from '../element/index.ts';
-import { propertiesNavigationMenuUL } from '../properties/index.ts';
-import type { AstroNavigationMenuULProperties } from './navigation-menu-ul.astro.ts';
+import { NAVIGATION_MENU_UL_ELEMENT } from '../element';
+import { propertiesNavigationMenuUL } from '../properties';
+import type { AstroNavigationMenuULProperties } from './navigation-menu-ul.astro';
 
 export type Props<Tag extends HTMLTag> = AstroNavigationMenuULProperties<Tag>;
 const { as: Tag = NAVIGATION_MENU_UL_ELEMENT, ...p } = propertiesNavigationMenuUL(Astro.props);
