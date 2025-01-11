@@ -5,8 +5,15 @@
 	"description": "MarioMH storybook",
 	"keywords": [
 		"design",
-		"design system",
-		"ui"
+		"system",
+		"style",
+		"guide",
+		"react",
+		"astro",
+		"tailwind",
+		"components",
+		"ui",
+		"ux"
 	],
 	"repository": {
 		"type": "git",
