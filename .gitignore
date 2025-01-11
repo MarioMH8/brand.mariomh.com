@@ -20,3 +20,6 @@ node_modules/
 
 # firebase
 .firebase
+
+# gha-creds
+gha-creds*
