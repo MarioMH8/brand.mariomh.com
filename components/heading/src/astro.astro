@@ -9,7 +9,7 @@ export type Props<Tag extends HTMLTag> = AstroHeadingProperties<Tag>;
 
 const { as, heading, ...p } = properties(Astro.props);
 
-const Tag = as ?? heading ?? ELEMENT_TYPE;
+const Tag = as ?? Astro.props.heading ?? ELEMENT_TYPE;
 ---
 
 <Tag {...p}>
