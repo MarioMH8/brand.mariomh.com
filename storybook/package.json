@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh/storybook",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH storybook",
 	"keywords": [
@@ -42,7 +42,7 @@
 		"@mariomh/cva": "0.0.1",
 		"@mariomh/focus": "0.0.1",
 		"@mariomh/font": "0.0.1",
-		"@mariomh/heading": "0.0.2",
+		"@mariomh/heading": "0.0.3",
 		"@mariomh/input": "0.0.2",
 		"@mariomh/label": "0.0.2",
 		"@mariomh/link": "0.0.2",

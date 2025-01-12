@@ -1,5 +1,12 @@
 # @mariomh/storybook
 
+## 0.0.3
+
+### Patch Changes
+
+- Updated dependencies [3a657bd]
+  - @mariomh/heading@0.0.3
+
 ## 0.0.2
 
 ### Patch Changes

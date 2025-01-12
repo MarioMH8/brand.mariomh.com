@@ -1,5 +1,11 @@
 # @mariomh/heading
 
+## 0.0.3
+
+### Patch Changes
+
+- 3a657bd: Fix `Astro` heading polymorphic
+
 ## 0.0.2
 
 ### Patch Changes
