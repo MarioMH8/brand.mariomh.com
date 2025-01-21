@@ -75,7 +75,7 @@
 		"@types/color-convert": "2.0.4",
 		"storybook": "8.4.7",
 		"storybook-dark-mode": "4.0.2",
-		"vite": "6.0.9",
+		"vite": "6.0.10",
 		"vite-tsconfig-paths": "5.1.4"
 	}
 }
