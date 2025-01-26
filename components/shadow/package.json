@@ -84,6 +84,6 @@
 		"@radix-ui/react-slot": "1.1.1",
 		"@testing-library/react": "16.2.0",
 		"react": "19.0.0",
-		"tsup": "8.3.5"
+		"tsup": "8.3.6"
 	}
 }
