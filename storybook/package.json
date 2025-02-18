@@ -71,7 +71,7 @@
 		"@storybook/react": "8.4.7",
 		"@storybook/react-vite": "8.4.7",
 		"@storybook/types": "8.4.7",
-		"@tailwindcss/vite": "4.0.6",
+		"@tailwindcss/vite": "4.0.7",
 		"@types/color-convert": "2.0.4",
 		"storybook": "8.4.7",
 		"storybook-dark-mode": "4.0.2",
