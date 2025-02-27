@@ -1,5 +1,18 @@
 # @mariomh/checkbox
 
+## 0.0.3
+
+### Patch Changes
+
+- fix(deps): update dependency lucide-react to v0.476.0
+- fix(deps): update radix-ui-primitives monorepo
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @mariomh/cva@0.0.2
+  - @mariomh/focus@0.0.2
+  - @mariomh/round@0.0.2
+
 ## 0.0.2
 
 ### Patch Changes

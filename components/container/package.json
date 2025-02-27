@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh/container",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH container",
 	"keywords": [
@@ -96,7 +96,7 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "0.0.1"
+		"@mariomh/cva": "0.0.2"
 	},
 	"devDependencies": {
 		"@radix-ui/react-slot": "1.1.2",

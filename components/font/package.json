@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh/font",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH font",
 	"keywords": [
@@ -78,7 +78,7 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "0.0.1"
+		"@mariomh/cva": "0.0.2"
 	},
 	"devDependencies": {
 		"@radix-ui/react-slot": "1.1.2",

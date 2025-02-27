@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh/input",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH input",
 	"keywords": [
@@ -80,9 +80,9 @@
 		"prepublishOnly": "tsup && publint"
 	},
 	"peerDependencies": {
-		"@mariomh/focus": "0.0.1",
-		"@mariomh/font": "0.0.1",
-		"@mariomh/round": "0.0.1",
+		"@mariomh/focus": "0.0.2",
+		"@mariomh/font": "0.0.2",
+		"@mariomh/round": "0.0.2",
 		"@radix-ui/react-slot": "^1",
 		"astro": "^5",
 		"react": "^19"
@@ -108,12 +108,12 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "0.0.1"
+		"@mariomh/cva": "0.0.2"
 	},
 	"devDependencies": {
-		"@mariomh/focus": "0.0.1",
-		"@mariomh/font": "0.0.1",
-		"@mariomh/round": "0.0.1",
+		"@mariomh/focus": "0.0.2",
+		"@mariomh/font": "0.0.2",
+		"@mariomh/round": "0.0.2",
 		"@radix-ui/react-slot": "1.1.2",
 		"@testing-library/react": "16.2.0",
 		"astro": "5.4.0",

@@ -1,5 +1,16 @@
 # @mariomh/logo
 
+## 0.0.3
+
+### Patch Changes
+
+- fix(deps): update radix-ui-primitives monorepo
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @mariomh/cva@0.0.2
+  - @mariomh/font@0.0.2
+
 ## 0.0.2
 
 ### Patch Changes
