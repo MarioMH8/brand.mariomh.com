@@ -114,7 +114,7 @@
 		"@mariomh/focus": "0.0.1",
 		"@mariomh/font": "0.0.1",
 		"@mariomh/round": "0.0.1",
-		"@radix-ui/react-slot": "1.1.1",
+		"@radix-ui/react-slot": "1.1.2",
 		"@testing-library/react": "16.2.0",
 		"astro": "5.4.0",
 		"react": "19.0.0",
