@@ -67,9 +67,6 @@ jobs:
             -   name: Install dependencies
                 run: bun install
 
-            -   name: Build resume
-                run: 'bun build:resume'
-
             - name: Configure Git User
               run: |
                   git config --global user.email "github@mariomh.com"
