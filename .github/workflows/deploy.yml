@@ -82,4 +82,4 @@ jobs:
               with:
                     accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
                     apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-                    command: pages deploy dist --project-name=brand-mariomh
+                    command: pages deploy storybook/storybook-static --project-name=brand-mariomh
