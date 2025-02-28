@@ -1,5 +1,11 @@
 # @mariomh/storybook
 
+## 0.0.5
+
+### Patch Changes
+
+- Rollback `@tailwindcss/vite`, `storybook` and `vite` versions
+
 ## 0.0.4
 
 ### Patch Changes
