@@ -6,8 +6,8 @@ import Shadow from '@mariomh/shadow/react';
 import Span from '@mariomh/span/react';
 import type { Pallete } from '@mariomh/tailwind/pallete';
 import { Arrow, Content, Portal, Root, Trigger } from '@radix-ui/react-hover-card';
+import type { HSL, LCH, RGB } from 'color-convert';
 import convert from 'color-convert';
-import type { HSL, LCH, RGB } from 'color-convert/conversions';
 import { ClipboardIcon } from 'lucide-react';
 import type { ReactNode } from 'react';
 
