@@ -13,7 +13,7 @@
         "@types/react": "19.0.10",
         "eslint": "9.21.0",
         "publint": "0.3.7",
-        "typescript": "5.7.3",
+        "typescript": "5.8.2",
       },
     },
     "components/badge": {
@@ -27,7 +27,7 @@
         "@mariomh/round": "0.0.2",
         "@radix-ui/react-slot": "1.1.2",
         "@testing-library/react": "16.2.0",
-        "astro": "5.4.0",
+        "astro": "5.4.1",
         "react": "19.0.0",
         "tsup": "8.4.0",
       },
@@ -56,7 +56,7 @@
         "@mariomh/round": "0.0.2",
         "@radix-ui/react-slot": "1.1.2",
         "@testing-library/react": "16.2.0",
-        "astro": "5.4.0",
+        "astro": "5.4.1",
         "react": "19.0.0",
         "tsup": "8.4.0",
       },
@@ -85,7 +85,7 @@
         "@mariomh/round": "0.0.2",
         "@radix-ui/react-slot": "1.1.2",
         "@testing-library/react": "16.2.0",
-        "astro": "5.4.0",
+        "astro": "5.4.1",
         "react": "19.0.0",
         "tsup": "8.4.0",
       },
@@ -151,7 +151,7 @@
       "devDependencies": {
         "@radix-ui/react-slot": "1.1.2",
         "@testing-library/react": "16.2.0",
-        "astro": "5.4.0",
+        "astro": "5.4.1",
         "react": "19.0.0",
         "tsup": "8.4.0",
       },
@@ -176,7 +176,7 @@
         "@mariomh/font": "0.0.2",
         "@radix-ui/react-slot": "1.1.2",
         "@testing-library/react": "16.2.0",
-        "astro": "5.4.0",
+        "astro": "5.4.1",
         "react": "19.0.0",
         "tsup": "8.4.0",
       },
@@ -245,7 +245,7 @@
         "@mariomh/font": "0.0.2",
         "@radix-ui/react-slot": "1.1.2",
         "@testing-library/react": "16.2.0",
-        "astro": "5.4.0",
+        "astro": "5.4.1",
         "react": "19.0.0",
         "tsup": "8.4.0",
       },
@@ -274,7 +274,7 @@
         "@mariomh/round": "0.0.2",
         "@radix-ui/react-slot": "1.1.2",
         "@testing-library/react": "16.2.0",
-        "astro": "5.4.0",
+        "astro": "5.4.1",
         "react": "19.0.0",
         "tsup": "8.4.0",
       },
@@ -305,7 +305,7 @@
         "@mariomh/font": "0.0.2",
         "@radix-ui/react-slot": "1.1.2",
         "@testing-library/react": "16.2.0",
-        "astro": "5.4.0",
+        "astro": "5.4.1",
         "react": "19.0.0",
         "tsup": "8.4.0",
       },
@@ -334,7 +334,7 @@
         "@mariomh/round": "0.0.2",
         "@radix-ui/react-slot": "1.1.2",
         "@testing-library/react": "16.2.0",
-        "astro": "5.4.0",
+        "astro": "5.4.1",
         "react": "19.0.0",
         "tsup": "8.4.0",
       },
@@ -365,7 +365,7 @@
         "@mariomh/font": "0.0.2",
         "@radix-ui/react-slot": "1.1.2",
         "@testing-library/react": "16.2.0",
-        "astro": "5.4.0",
+        "astro": "5.4.1",
         "react": "19.0.0",
         "tsup": "8.4.0",
       },
@@ -395,8 +395,8 @@
         "@mariomh/logo": "0.0.3",
         "@radix-ui/react-slot": "1.1.2",
         "@testing-library/react": "16.2.0",
-        "astro": "5.4.0",
-        "lucide-astro": "0.473.0",
+        "astro": "5.4.1",
+        "lucide-astro": "0.477.0",
         "lucide-react": "0.476.0",
         "react": "19.0.0",
         "tsup": "8.4.0",
@@ -434,7 +434,7 @@
         "@mariomh/font": "0.0.2",
         "@radix-ui/react-slot": "1.1.2",
         "@testing-library/react": "16.2.0",
-        "astro": "5.4.0",
+        "astro": "5.4.1",
         "react": "19.0.0",
         "tsup": "8.4.0",
       },
@@ -484,7 +484,7 @@
         "@mariomh/round": "0.0.2",
         "@radix-ui/react-slot": "1.1.2",
         "@testing-library/react": "16.2.0",
-        "astro": "5.4.0",
+        "astro": "5.4.1",
         "react": "19.0.0",
         "tsup": "8.4.0",
       },
@@ -536,7 +536,7 @@
         "@mariomh/font": "0.0.2",
         "@radix-ui/react-slot": "1.1.2",
         "@testing-library/react": "16.2.0",
-        "astro": "5.4.0",
+        "astro": "5.4.1",
         "react": "19.0.0",
         "tsup": "8.4.0",
       },
@@ -565,7 +565,7 @@
         "@mariomh/round": "0.0.2",
         "@radix-ui/react-slot": "1.1.2",
         "@testing-library/react": "16.2.0",
-        "astro": "5.4.0",
+        "astro": "5.4.1",
         "react": "19.0.0",
         "tsup": "8.4.0",
       },
@@ -614,7 +614,7 @@
     },
     "storybook": {
       "name": "@mariomh/storybook",
-      "version": "0.0.4",
+      "version": "0.0.5",
       "dependencies": {
         "@fontsource/dm-sans": "5.1.1",
         "@mariomh/archia": "0.0.1",
@@ -1297,7 +1297,7 @@
 
     "ast-types": ["ast-types@0.16.1", "", { "dependencies": { "tslib": "^2.0.1" } }, "sha512-6t10qk83GOG8p0vKmaCr8eiilZwO171AvbROMtvvNiwrTly62t+7XkA8RdIIVbpMhCASAsxgAzdRSwh6nw/5Dg=="],
 
-    "astro": ["astro@5.4.0", "", { "dependencies": { "@astrojs/compiler": "^2.10.3", "@astrojs/internal-helpers": "0.6.0", "@astrojs/markdown-remark": "6.2.0", "@astrojs/telemetry": "3.2.0", "@oslojs/encoding": "^1.1.0", "@rollup/pluginutils": "^5.1.4", "@types/cookie": "^0.6.0", "acorn": "^8.14.0", "aria-query": "^5.3.2", "axobject-query": "^4.1.0", "boxen": "8.0.1", "ci-info": "^4.1.0", "clsx": "^2.1.1", "common-ancestor-path": "^1.0.1", "cookie": "^0.7.2", "cssesc": "^3.0.0", "debug": "^4.4.0", "deterministic-object-hash": "^2.0.2", "devalue": "^5.1.1", "diff": "^5.2.0", "dlv": "^1.1.3", "dset": "^3.1.4", "es-module-lexer": "^1.6.0", "esbuild": "^0.25.0", "estree-walker": "^3.0.3", "flattie": "^1.1.1", "github-slugger": "^2.0.0", "html-escaper": "3.0.3", "http-cache-semantics": "^4.1.1", "js-yaml": "^4.1.0", "kleur": "^4.1.5", "magic-string": "^0.30.17", "magicast": "^0.3.5", "mrmime": "^2.0.0", "neotraverse": "^0.6.18", "p-limit": "^6.2.0", "p-queue": "^8.1.0", "picomatch": "^4.0.2", "preferred-pm": "^4.1.1", "prompts": "^2.4.2", "rehype": "^13.0.2", "semver": "^7.7.1", "shiki": "^1.29.2", "tinyexec": "^0.3.2", "tinyglobby": "^0.2.12", "tsconfck": "^3.1.4", "ultrahtml": "^1.5.3", "unist-util-visit": "^5.0.0", "unstorage": "^1.14.4", "vfile": "^6.0.3", "vite": "^6.2.0", "vitefu": "^1.0.5", "which-pm": "^3.0.1", "xxhash-wasm": "^1.1.0", "yargs-parser": "^21.1.1", "yocto-spinner": "^0.2.0", "zod": "^3.24.1", "zod-to-json-schema": "^3.24.1", "zod-to-ts": "^1.2.0" }, "optionalDependencies": { "sharp": "^0.33.3" }, "bin": { "astro": "astro.js" } }, "sha512-7A//zrCtJUGfJcQAt6PDhMu4a6pogvnK54HLXnYlPnKSWQZu/tKIYWfyvocVnTuEYIPExIN3CpjNAFFLoweJVw=="],
+    "astro": ["astro@5.4.1", "", { "dependencies": { "@astrojs/compiler": "^2.10.4", "@astrojs/internal-helpers": "0.6.0", "@astrojs/markdown-remark": "6.2.0", "@astrojs/telemetry": "3.2.0", "@oslojs/encoding": "^1.1.0", "@rollup/pluginutils": "^5.1.4", "@types/cookie": "^0.6.0", "acorn": "^8.14.0", "aria-query": "^5.3.2", "axobject-query": "^4.1.0", "boxen": "8.0.1", "ci-info": "^4.1.0", "clsx": "^2.1.1", "common-ancestor-path": "^1.0.1", "cookie": "^0.7.2", "cssesc": "^3.0.0", "debug": "^4.4.0", "deterministic-object-hash": "^2.0.2", "devalue": "^5.1.1", "diff": "^5.2.0", "dlv": "^1.1.3", "dset": "^3.1.4", "es-module-lexer": "^1.6.0", "esbuild": "^0.25.0", "estree-walker": "^3.0.3", "flattie": "^1.1.1", "github-slugger": "^2.0.0", "html-escaper": "3.0.3", "http-cache-semantics": "^4.1.1", "js-yaml": "^4.1.0", "kleur": "^4.1.5", "magic-string": "^0.30.17", "magicast": "^0.3.5", "mrmime": "^2.0.0", "neotraverse": "^0.6.18", "p-limit": "^6.2.0", "p-queue": "^8.1.0", "picomatch": "^4.0.2", "preferred-pm": "^4.1.1", "prompts": "^2.4.2", "rehype": "^13.0.2", "semver": "^7.7.1", "shiki": "^1.29.2", "tinyexec": "^0.3.2", "tinyglobby": "^0.2.12", "tsconfck": "^3.1.4", "ultrahtml": "^1.5.3", "unist-util-visit": "^5.0.0", "unstorage": "^1.14.4", "vfile": "^6.0.3", "vite": "^6.2.0", "vitefu": "^1.0.5", "which-pm": "^3.0.1", "xxhash-wasm": "^1.1.0", "yargs-parser": "^21.1.1", "yocto-spinner": "^0.2.0", "zod": "^3.24.1", "zod-to-json-schema": "^3.24.1", "zod-to-ts": "^1.2.0" }, "optionalDependencies": { "sharp": "^0.33.3" }, "bin": { "astro": "astro.js" } }, "sha512-z9BiBz8pV7pZVn1evZv/9bJil3A9UZNyEjDFH3IjD87ioz95HHGLgbjRbbqF1EwSy8JOLKlMNyuQPqjrX8xqWw=="],
 
     "astro-eslint-parser": ["astro-eslint-parser@1.1.0", "", { "dependencies": { "@astrojs/compiler": "^2.0.0", "@typescript-eslint/scope-manager": "^7.0.0 || ^8.0.0", "@typescript-eslint/types": "^7.0.0 || ^8.0.0", "@typescript-eslint/typescript-estree": "^7.0.0 || ^8.0.0", "astrojs-compiler-sync": "^1.0.0", "debug": "^4.3.4", "entities": "^4.5.0", "eslint-scope": "^8.0.1", "eslint-visitor-keys": "^4.0.0", "espree": "^10.0.0", "globby": "^11.1.0", "is-glob": "^4.0.3", "semver": "^7.3.8" } }, "sha512-F6NW1RJo5pp2kPnnM97M5Ohw8zAGjv83MpxHqfAochH68n/kiXN57+hYaNUCA7XkScoVNr6yzvly3hsY34TGfQ=="],
 
@@ -1885,7 +1885,7 @@
 
     "lru-cache": ["lru-cache@10.4.3", "", {}, "sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ=="],
 
-    "lucide-astro": ["lucide-astro@0.473.0", "", { "peerDependencies": { "astro": ">=2.7.1" } }, "sha512-MM4P4rwF9Lypb49TQKa3tbuDZqwrL36wI2O5UTJIuH5H+ugSYx9FUxr6j3DqTwxDclHbwX/VBt5f9OXfAE/zRQ=="],
+    "lucide-astro": ["lucide-astro@0.477.0", "", { "peerDependencies": { "astro": ">=2.7.1" } }, "sha512-H9ViWaQi99UODF0fyAGLR3UdGdy9ZMCTR1wEw52MmeFt2R3cV/ceQi7PBSlwN78L8K/8+46qmrLahe+2uBVa9A=="],
 
     "lucide-react": ["lucide-react@0.476.0", "", { "peerDependencies": { "react": "^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0" } }, "sha512-x6cLTk8gahdUPje0hSgLN1/MgiJH+Xl90Xoxy9bkPAsMPOUiyRSKR4JCDPGVCEpyqnZXH3exFWNItcvra9WzUQ=="],
 
@@ -2399,7 +2399,7 @@
 
     "typesafe-path": ["typesafe-path@0.2.2", "", {}, "sha512-OJabfkAg1WLZSqJAJ0Z6Sdt3utnbzr/jh+NAHoyWHJe8CMSy79Gm085094M9nvTPy22KzTVn5Zq5mbapCI/hPA=="],
 
-    "typescript": ["typescript@5.7.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw=="],
+    "typescript": ["typescript@5.8.2", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ=="],
 
     "typescript-auto-import-cache": ["typescript-auto-import-cache@0.3.5", "", { "dependencies": { "semver": "^7.3.8" } }, "sha512-fAIveQKsoYj55CozUiBoj4b/7WpN0i4o74wiGY5JVUEoD0XiqDk1tJqTEjgzL2/AizKQrXxyRosSebyDzBZKjw=="],
 
