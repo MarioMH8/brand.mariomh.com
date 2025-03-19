@@ -130,7 +130,7 @@
 		"@radix-ui/react-slot": "1.1.2",
 		"@testing-library/react": "16.2.0",
 		"astro": "5.5.3",
-		"lucide-astro": "0.482.0",
+		"lucide-astro": "0.483.0",
 		"lucide-react": "0.476.0",
 		"react": "19.0.0",
 		"tsup": "8.4.0"
