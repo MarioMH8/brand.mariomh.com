@@ -132,7 +132,7 @@
 		"astro": "5.5.5",
 		"lucide-astro": "0.485.0",
 		"lucide-react": "0.476.0",
-		"react": "19.0.0",
+		"react": "19.1.0",
 		"tsup": "8.4.0"
 	}
 }
