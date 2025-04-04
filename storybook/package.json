@@ -31,7 +31,7 @@
 		"dev": "storybook dev -p 6006"
 	},
 	"dependencies": {
-		"@fontsource/dm-sans": "5.2.0",
+		"@fontsource/dm-sans": "5.2.5",
 		"@mariomh/archia": "0.0.1",
 		"@mariomh/badge": "0.0.3",
 		"@mariomh/box": "0.0.3",
