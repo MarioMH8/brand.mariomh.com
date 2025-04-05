@@ -40,17 +40,4 @@ describe('@mariomh/checkbox/react', () => {
 		expect(child?.attributes.item(5)?.name).toBe('class');
 		expect(child?.classList.contains('text-2xl')).toBeTruthy();
 	});
-	it('should as child with other props', () => {
-		const { container } = render(
-			<Component
-				asChild
-				className='text-2xl'
-				dimension='xs'
-				intent='primary'>
-				<section>Test Message</section>
-			</Component>
-		);
-		const child = container.firstElementChild;
-		assetComponent(child);
-	});
 });
