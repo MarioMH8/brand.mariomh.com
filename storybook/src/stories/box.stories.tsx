@@ -21,9 +21,9 @@ const meta = {
 		exports: ['astro', 'react'],
 		package: (package_ as unknown as { name: string }).name,
 	},
-	render: ({ children, ...arguments_ }) => (
+	render: ({ children, ...properties }) => (
 		<Comp
-			{...arguments_}
+			{...properties}
 			className='min-w-[400px] min-h-[300px]'>
 			{children}
 		</Comp>
