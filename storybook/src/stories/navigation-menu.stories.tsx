@@ -10,8 +10,8 @@ const meta = {
 		import: `import { NavigationMenu, NavigationMenuLink } from '@mariomh/navigation-menu/react';`,
 		package: (package_ satisfies unknown satisfies { name: string }).name,
 	},
-	render: arguments_ => (
-		<NavigationMenu {...arguments_}>
+	render: properties => (
+		<NavigationMenu {...properties}>
 			<NavigationMenuLink href='#'>Inicio</NavigationMenuLink>
 			<NavigationMenuLink href='#'>Servicios</NavigationMenuLink>
 			<NavigationMenuLink
