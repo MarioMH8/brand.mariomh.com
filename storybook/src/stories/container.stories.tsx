@@ -23,7 +23,7 @@ Magna ullamco velit laboris ut ea voluptate officia enim cillum fugiat et esse. 
 		exports: ['astro', 'react'],
 		package: (package_ as unknown as { name: string }).name,
 	},
-	render: arguments_ => <Comp {...arguments_} />,
+	render: properties => <Comp {...properties} />,
 	tags: ['autodocs'],
 	title: 'Objetos/Contenedor',
 } as Meta<typeof Comp>;
