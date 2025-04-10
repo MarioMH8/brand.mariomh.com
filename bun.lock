@@ -12,7 +12,7 @@
         "@types/bun": "1.2.9",
         "@types/react": "19.1.0",
         "eslint": "9.24.0",
-        "publint": "0.3.10",
+        "publint": "0.3.11",
         "typescript": "5.8.3",
       },
     },
@@ -2205,7 +2205,7 @@
 
     "property-information": ["property-information@7.0.0", "", {}, "sha512-7D/qOz/+Y4X/rzSB6jKxKUsQnphO046ei8qxG59mtM3RG3DHgTK81HrxrmoDVINJb8NKT5ZsRbwHvQ6B68Iyhg=="],
 
-    "publint": ["publint@0.3.10", "", { "dependencies": { "@publint/pack": "^0.1.2", "package-manager-detector": "^1.1.0", "picocolors": "^1.1.1", "sade": "^1.8.1" }, "bin": { "publint": "src/cli.js" } }, "sha512-xl9X9x0iyOURsAD7IPQJAQ5TgGpozs5K8KUtqzQBSxJqtKH74ReeCpjr2jw9MFOsY9q/EbXSJNkSFM2mgyu38g=="],
+    "publint": ["publint@0.3.11", "", { "dependencies": { "@publint/pack": "^0.1.2", "package-manager-detector": "^1.1.0", "picocolors": "^1.1.1", "sade": "^1.8.1" }, "bin": { "publint": "src/cli.js" } }, "sha512-snArkBXO8Sl1Nlnqr3Y3DCT9CzNw8QxzlFXZ6nRkyEPEUGPRg25lM4IjNQyIyp3vRwpsZ24EEexmKSIZdVMizA=="],
 
     "punycode": ["punycode@2.3.1", "", {}, "sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg=="],
 
