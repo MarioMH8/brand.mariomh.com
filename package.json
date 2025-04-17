@@ -44,7 +44,7 @@
 	},
 	"devDependencies": {
 		"@astrojs/check": "0.9.4",
-		"@changesets/cli": "2.29.1",
+		"@changesets/cli": "2.29.2",
 		"@happy-dom/global-registrator": "17.4.4",
 		"@hexadrop/eslint-config": "0.1.2",
 		"@hexadrop/tsconfig": "0.0.5",
