@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh/font",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH font",
 	"keywords": [
@@ -78,7 +78,7 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "0.0.2"
+		"@mariomh/cva": "0.0.3"
 	},
 	"devDependencies": {
 		"@testing-library/react": "16.3.0",

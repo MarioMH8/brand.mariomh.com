@@ -1,5 +1,22 @@
 # @mariomh/textarea
 
+## 0.0.4
+
+### Patch Changes
+
+- 3a3f083: fix(deps): update react monorepo to v19.1.0
+- 0d543cf: fix(deps): update radix-ui-primitives monorepo
+- e3b2316: Update imports from '@radix-ui/\*' to 'radix-ui' and adjust component usage
+- Updated dependencies [3a3f083]
+- Updated dependencies [3f90fbd]
+- Updated dependencies [0afb7c7]
+- Updated dependencies [0d543cf]
+- Updated dependencies [e3b2316]
+  - @mariomh/focus@0.0.3
+  - @mariomh/font@0.0.3
+  - @mariomh/round@0.0.3
+  - @mariomh/cva@0.0.3
+
 ## 0.0.3
 
 ### Patch Changes

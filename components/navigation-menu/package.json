@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh/navigation-menu",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH navigation menu",
 	"keywords": [
@@ -80,10 +80,10 @@
 		"prepublishOnly": "tsup && publint"
 	},
 	"peerDependencies": {
-		"@mariomh/button": "0.0.3",
-		"@mariomh/container": "0.0.3",
-		"@mariomh/font": "0.0.2",
-		"@mariomh/logo": "0.0.3",
+		"@mariomh/button": "0.0.4",
+		"@mariomh/container": "0.0.4",
+		"@mariomh/font": "0.0.3",
+		"@mariomh/logo": "0.0.4",
 		"astro": "^5",
 		"lucide-astro": "^0",
 		"lucide-react": "^0",
@@ -120,13 +120,13 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "0.0.2"
+		"@mariomh/cva": "0.0.3"
 	},
 	"devDependencies": {
-		"@mariomh/button": "0.0.3",
-		"@mariomh/container": "0.0.3",
-		"@mariomh/font": "0.0.2",
-		"@mariomh/logo": "0.0.3",
+		"@mariomh/button": "0.0.4",
+		"@mariomh/container": "0.0.4",
+		"@mariomh/font": "0.0.3",
+		"@mariomh/logo": "0.0.4",
 		"@testing-library/react": "16.3.0",
 		"astro": "5.7.4",
 		"lucide-astro": "0.501.0",
