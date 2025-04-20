@@ -131,7 +131,7 @@
 		"@testing-library/react": "16.3.0",
 		"astro": "5.7.4",
 		"lucide-astro": "0.501.0",
-		"lucide-react": "0.487.0",
+		"lucide-react": "0.488.0",
 		"react": "19.1.0",
 		"tsup": "8.4.0"
 	}
