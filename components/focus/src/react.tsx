@@ -1,4 +1,4 @@
-import { Slot } from '@radix-ui/react-slot';
+import { Slot } from 'radix-ui';
 import type { FC, ReactNode } from 'react';
 
 import cn from './class-name';
@@ -10,7 +10,7 @@ interface ReactFocusProperties extends FocusVariantsProperties {
 }
 
 const Focus: FC<ReactFocusProperties> = ({ children, className, ...variants }) => {
-	return <Slot className={cn(variants, className)}>{children}</Slot>;
+	return <Slot.Slot className={cn(variants, className)}>{children}</Slot.Slot>;
 };
 
 Focus.displayName = 'Focus';

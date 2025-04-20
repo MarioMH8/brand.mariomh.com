@@ -1,6 +1,6 @@
 import Button from '@mariomh/button/react';
-import { Slot } from '@radix-ui/react-slot';
 import { MenuIcon, XIcon } from 'lucide-react';
+import { Slot } from 'radix-ui';
 import type { ComponentPropsWithRef, FC } from 'react';
 import { Children, useId } from 'react';
 
@@ -19,7 +19,7 @@ interface ReactNavigationMenuProperties
 }
 
 const NavigationMenu: FC<ReactNavigationMenuProperties> = ({ asChild, children, ref, ...p }) => {
-	const Comp = asChild ? Slot : NAVIGATION_MENU_ELEMENT;
+	const Comp = asChild ? Slot.Slot : NAVIGATION_MENU_ELEMENT;
 	const id = useId();
 	const links = Children.toArray(children).map((link, index) => (
 		<NavigationMenuLI key={`${id}-${index.toFixed(0)}`}>{link}</NavigationMenuLI>

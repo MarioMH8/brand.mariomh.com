@@ -75,9 +75,8 @@
 	"peerDependencies": {
 		"@mariomh/focus": "0.0.2",
 		"@mariomh/round": "0.0.2",
-		"@radix-ui/react-accessible-icon": "^1",
-		"@radix-ui/react-checkbox": "^1",
 		"lucide-react": "^0",
+		"radix-ui": "^1",
 		"react": "^19",
 		"react-dom": "^19"
 	},
@@ -88,13 +87,10 @@
 		"@mariomh/round": {
 			"optional": true
 		},
-		"@radix-ui/react-accessible-icon": {
-			"optional": true
-		},
-		"@radix-ui/react-checkbox": {
-			"optional": true
-		},
 		"lucide-react": {
+			"optional": true
+		},
+		"radix-ui": {
 			"optional": true
 		},
 		"react": {
@@ -110,10 +106,9 @@
 	"devDependencies": {
 		"@mariomh/focus": "0.0.2",
 		"@mariomh/round": "0.0.2",
-		"@radix-ui/react-accessible-icon": "1.1.4",
-		"@radix-ui/react-checkbox": "1.2.2",
 		"@testing-library/react": "16.3.0",
 		"lucide-react": "0.501.0",
+		"radix-ui": "1.3.3",
 		"react": "19.1.0",
 		"react-dom": "19.1.0",
 		"tsup": "8.4.0"

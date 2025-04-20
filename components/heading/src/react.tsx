@@ -1,4 +1,4 @@
-import { Slot } from '@radix-ui/react-slot';
+import { Slot } from 'radix-ui';
 import type { ComponentPropsWithRef, FC } from 'react';
 
 import ELEMENT_TYPE from './element';
@@ -10,7 +10,7 @@ interface ReactHeadingProperties extends ComponentPropsWithRef<typeof ELEMENT_TY
 }
 
 const Heading: FC<ReactHeadingProperties> = ({ asChild, ref, ...p }) => {
-	const Comp = asChild ? Slot : (p.heading ?? ELEMENT_TYPE);
+	const Comp = asChild ? Slot.Slot : (p.heading ?? ELEMENT_TYPE);
 
 	return (
 		<Comp

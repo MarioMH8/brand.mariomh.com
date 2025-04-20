@@ -1,4 +1,4 @@
-import { Slot } from '@radix-ui/react-slot';
+import { Slot } from 'radix-ui';
 import type { ComponentPropsWithRef, FC } from 'react';
 
 import ELEMENT_TYPE from './element';
@@ -10,7 +10,7 @@ interface ReactParagraphProperties extends ComponentPropsWithRef<typeof ELEMENT_
 }
 
 const Paragraph: FC<ReactParagraphProperties> = ({ asChild, ref, ...p }) => {
-	const Comp = asChild ? Slot : ELEMENT_TYPE;
+	const Comp = asChild ? Slot.Slot : ELEMENT_TYPE;
 
 	return (
 		<Comp

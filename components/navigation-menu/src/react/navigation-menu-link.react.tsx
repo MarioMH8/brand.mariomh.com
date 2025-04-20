@@ -1,4 +1,4 @@
-import { Slot } from '@radix-ui/react-slot';
+import { Slot } from 'radix-ui';
 import type { ComponentPropsWithRef, FC } from 'react';
 
 import { NAVIGATION_MENU_A_ELEMENT } from '../element';
@@ -12,7 +12,7 @@ interface ReactNavigationMenuLinkProperties
 }
 
 const NavigationMenuLink: FC<ReactNavigationMenuLinkProperties> = ({ asChild, ref, ...p }) => {
-	const Comp = asChild ? Slot : NAVIGATION_MENU_A_ELEMENT;
+	const Comp = asChild ? Slot.Slot : NAVIGATION_MENU_A_ELEMENT;
 
 	return (
 		<Comp
