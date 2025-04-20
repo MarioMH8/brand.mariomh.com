@@ -104,9 +104,9 @@
 	},
 	"devDependencies": {
 		"@mariomh/round": "0.0.2",
-		"@radix-ui/react-slot": "1.1.2",
+		"@radix-ui/react-slot": "1.2.0",
 		"@testing-library/react": "16.3.0",
-		"astro": "5.6.1",
+		"astro": "5.7.4",
 		"react": "19.1.0",
 		"tsup": "8.4.0"
 	}
