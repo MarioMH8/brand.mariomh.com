@@ -127,7 +127,7 @@
 		"@mariomh/container": "0.0.3",
 		"@mariomh/font": "0.0.2",
 		"@mariomh/logo": "0.0.3",
-		"@radix-ui/react-slot": "1.1.2",
+		"@radix-ui/react-slot": "1.2.0",
 		"@testing-library/react": "16.3.0",
 		"astro": "5.7.4",
 		"lucide-astro": "0.501.0",
