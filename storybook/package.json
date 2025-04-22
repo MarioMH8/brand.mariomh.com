@@ -55,7 +55,7 @@
 		"@mariomh/span": "0.0.4",
 		"@mariomh/tailwind": "0.0.2",
 		"@mariomh/textarea": "0.0.4",
-		"@radix-ui/react-hover-card": "1.1.10",
+		"@radix-ui/react-hover-card": "1.1.11",
 		"@storybook/blocks": "8.4.7",
 		"@storybook/core": "8.4.7",
 		"color-convert": "3.0.1",
