@@ -392,7 +392,7 @@
         "@mariomh/logo": "0.0.4",
         "@testing-library/react": "16.3.0",
         "astro": "5.7.10",
-        "lucide-astro": "0.503.0",
+        "lucide-astro": "0.506.0",
         "lucide-react": "0.501.0",
         "radix-ui": "1.3.3",
         "react": "19.1.0",
@@ -2020,7 +2020,7 @@
 
     "lru-cache": ["lru-cache@10.4.3", "", {}, "sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ=="],
 
-    "lucide-astro": ["lucide-astro@0.503.0", "", { "peerDependencies": { "astro": ">=2.7.1" } }, "sha512-Jjl1kRxB0kM1KXD4LA0/HvO1AxLXmVRR4O+DDP9eyhPjPURmfuG4VIr3TEqt/6EtiO+SRlgDZnmox0jtlV89zw=="],
+    "lucide-astro": ["lucide-astro@0.506.0", "", { "peerDependencies": { "astro": ">=2.7.1" } }, "sha512-LYg3NSJ184poY4bw9xQPySpFrLTe4vesI4n40QkLswnegTcOMYS3mThF/VftRi++aA4PXIRqWV5HSJAOOaZ4ug=="],
 
     "lucide-react": ["lucide-react@0.501.0", "", { "peerDependencies": { "react": "^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0" } }, "sha512-E2KoyhW59fCb/yUbR3rbDer83fqn7a8NG91ZhIot2yWaPHjPyGzzsNKh40N//GezYShAuycf3TcQksRQznIsRw=="],
 
