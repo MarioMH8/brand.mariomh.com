@@ -50,7 +50,7 @@
 		"@hexadrop/tsconfig": "0.0.5",
 		"@types/bun": "1.2.11",
 		"@types/react": "19.1.2",
-		"eslint": "9.25.1",
+		"eslint": "9.26.0",
 		"publint": "0.3.12",
 		"typescript": "5.8.3"
 	}
