@@ -128,7 +128,7 @@
 		"@mariomh/font": "0.0.3",
 		"@mariomh/logo": "0.0.4",
 		"@testing-library/react": "16.3.0",
-		"astro": "5.7.11",
+		"astro": "5.7.12",
 		"lucide-astro": "0.508.0",
 		"lucide-react": "0.501.0",
 		"radix-ui": "1.3.3",
