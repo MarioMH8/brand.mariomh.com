@@ -5,10 +5,10 @@ import Round from '@mariomh/round/react';
 import Shadow from '@mariomh/shadow/react';
 import Span from '@mariomh/span/react';
 import type { Pallete } from '@mariomh/tailwind/pallete';
-import { Arrow, Content, Portal, Root, Trigger } from '@radix-ui/react-hover-card';
 import type { HSL, LCH, RGB } from 'color-convert';
 import convert from 'color-convert';
 import { ClipboardIcon } from 'lucide-react';
+import { HoverCard } from 'radix-ui';
 import type { ReactNode } from 'react';
 
 function lchToSting(color: LCH): string {
@@ -29,11 +29,11 @@ interface ColorItemProps {
 
 function ColorItem({ color, intent, invert }: ColorItemProps): ReactNode {
 	return (
-		<Root>
+		<HoverCard.Root>
 			<Focus intent={intent}>
 				<Shadow>
 					<Round>
-						<Trigger asChild>
+						<HoverCard.Trigger asChild>
 							<button
 								className={merge(
 									'min-w-16 w-16 h-32',
@@ -48,15 +48,15 @@ function ColorItem({ color, intent, invert }: ColorItemProps): ReactNode {
 								title='Copiar color'>
 								<ClipboardIcon className='transition-colors opacity-0' />
 							</button>
-						</Trigger>
+						</HoverCard.Trigger>
 					</Round>
 				</Shadow>
 			</Focus>
-			<Portal>
+			<HoverCard.Portal>
 				<Span
 					asChild
 					dimension='sm'>
-					<Content
+					<HoverCard.Content
 						className='data-[side=bottom]:animate-slide-up-and-fade data-[side=right]:animate-slide-left-and-fade data-[side=left]:animate-slide-right-and-fade data-[side=top]:animate-slide-down-and-fade rounded-md dark:bg-primary-dark-1 bg-primary-1 p-5 shadow-md data-[state=open]:transition-all'
 						hideWhenDetached={true}
 						sideOffset={5}>
@@ -86,11 +86,11 @@ function ColorItem({ color, intent, invert }: ColorItemProps): ReactNode {
 							</Span>
 							<code className='whitespace-nowrap'>#{convert.lch.hex(color)}</code>
 						</div>
-						<Arrow className='fill-primary-1 dark:fill-primary-dark-1' />
-					</Content>
+						<HoverCard.Arrow className='fill-primary-1 dark:fill-primary-dark-1' />
+					</HoverCard.Content>
 				</Span>
-			</Portal>
-		</Root>
+			</HoverCard.Portal>
+		</HoverCard.Root>
 	);
 }
 
