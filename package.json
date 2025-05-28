@@ -48,7 +48,7 @@
 		"@happy-dom/global-registrator": "17.5.6",
 		"@hexadrop/eslint-config": "0.1.4",
 		"@hexadrop/tsconfig": "0.0.5",
-		"@types/bun": "1.2.14",
+		"@types/bun": "1.2.15",
 		"@types/react": "19.1.6",
 		"eslint": "9.27.0",
 		"publint": "0.3.12",
