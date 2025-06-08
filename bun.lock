@@ -613,7 +613,7 @@
       "name": "@mariomh/storybook",
       "version": "0.0.6",
       "dependencies": {
-        "@fontsource/dm-sans": "5.2.5",
+        "@fontsource/dm-sans": "5.2.6",
         "@mariomh/archia": "0.0.1",
         "@mariomh/badge": "0.0.4",
         "@mariomh/box": "0.0.4",
@@ -854,7 +854,7 @@
 
     "@floating-ui/utils": ["@floating-ui/utils@0.2.9", "", {}, "sha512-MDWhGtE+eHw5JW7lq4qhc5yRLS11ERl1c7Z6Xd0a58DozHES6EnNNwUWbMiG4J9Cgj053Bhk8zvlhFYKVhULwg=="],
 
-    "@fontsource/dm-sans": ["@fontsource/dm-sans@5.2.5", "", {}, "sha512-P+RiK+bvyvBqfUZjFqhntCFvKlrH1rm42ME7wpYXwFpmpr9jWD/FP6vnp0iCbP3cYeqDyML1KcwIspiHy1rHmA=="],
+    "@fontsource/dm-sans": ["@fontsource/dm-sans@5.2.6", "", {}, "sha512-3AmJcX93hqmevsC2ixNwHj3iO3sNY/YHBqGhg0MjIyfhk6aZLNv1s2HqJ6xf8yf1rXXK3yR56rzyA3O21htKkg=="],
 
     "@happy-dom/global-registrator": ["@happy-dom/global-registrator@17.6.3", "", { "dependencies": { "happy-dom": "^17.6.3" } }, "sha512-SE8Mu6bdkgKENemVg20yMrKdYeAvVesQrLPVfNBKnhicCM3ylHV9oIDzDMxSFj3qYCrHrIWOZsItOXSafrM4Tw=="],
 
