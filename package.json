@@ -45,12 +45,12 @@
 	"devDependencies": {
 		"@astrojs/check": "0.9.4",
 		"@changesets/cli": "2.29.4",
-		"@happy-dom/global-registrator": "17.4.7",
+		"@happy-dom/global-registrator": "17.6.3",
 		"@hexadrop/eslint-config": "0.1.4",
 		"@hexadrop/tsconfig": "0.0.5",
-		"@types/bun": "1.2.13",
-		"@types/react": "19.1.4",
-		"eslint": "9.26.0",
+		"@types/bun": "1.2.15",
+		"@types/react": "19.1.7",
+		"eslint": "9.28.0",
 		"publint": "0.3.12",
 		"typescript": "5.8.3"
 	}
