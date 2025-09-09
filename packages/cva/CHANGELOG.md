@@ -1,5 +1,13 @@
 # @mariomh/cva
 
+## 0.0.4
+
+### Patch Changes
+
+- b36776a: fix(deps): update dependency tailwind-merge to v3.3.0
+- 5735e7e: fix(deps): update dependency cva to v1.0.0-beta.4
+- c2af7ef: fix(deps): update dependency tailwind-merge to v3.3.1
+
 ## 0.0.3
 
 ### Patch Changes
