@@ -58,7 +58,7 @@
 		"@storybook/blocks": "8.4.7",
 		"@storybook/core": "8.4.7",
 		"color-convert": "3.1.0",
-		"lucide-react": "0.510.0",
+		"lucide-react": "0.542.0",
 		"radix-ui": "1.4.3",
 		"react": "19.1.1",
 		"react-dom": "19.1.1"
