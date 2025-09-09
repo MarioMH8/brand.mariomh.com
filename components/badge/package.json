@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh/badge",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH badge",
 	"keywords": [
@@ -80,8 +80,8 @@
 		"prepublishOnly": "tsup && publint"
 	},
 	"peerDependencies": {
-		"@mariomh/font": "0.0.3",
-		"@mariomh/round": "0.0.3",
+		"@mariomh/font": "0.0.4",
+		"@mariomh/round": "0.0.4",
 		"astro": "^5",
 		"radix-ui": "^1",
 		"react": "^19"
@@ -104,11 +104,11 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "0.0.3"
+		"@mariomh/cva": "0.0.4"
 	},
 	"devDependencies": {
-		"@mariomh/font": "0.0.3",
-		"@mariomh/round": "0.0.3",
+		"@mariomh/font": "0.0.4",
+		"@mariomh/round": "0.0.4",
 		"@testing-library/react": "16.3.0",
 		"astro": "5.13.6",
 		"radix-ui": "1.4.3",

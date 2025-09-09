@@ -1,5 +1,30 @@
 # @mariomh/navigation-menu
 
+## 0.0.5
+
+### Patch Changes
+
+- 935dfc3: fix(deps): update dependency lucide-react to v0.503.0
+- c0a126e: fix(deps): update radix-ui-primitives monorepo
+- 71fe135: fix(deps): update dependency lucide-react to v0.510.0
+- 6ae47d1: fix(deps): update dependency radix-ui to v1.4.1
+- 36863ff: fix(deps): update dependency radix-ui to v1.4.3
+- 7992045: fix(deps): update react monorepo to v19.1.1
+- 044ab00: fix(deps): update dependency lucide-react to v0.542.0
+- ba3d7c8: fix(deps): update dependency lucide-react to v0.543.0
+- Updated dependencies [c0a126e]
+- Updated dependencies [b36776a]
+- Updated dependencies [6ae47d1]
+- Updated dependencies [5735e7e]
+- Updated dependencies [c2af7ef]
+- Updated dependencies [36863ff]
+- Updated dependencies [7992045]
+  - @mariomh/button@0.0.5
+  - @mariomh/container@0.0.5
+  - @mariomh/font@0.0.4
+  - @mariomh/logo@0.0.5
+  - @mariomh/cva@0.0.4
+
 ## 0.0.4
 
 ### Patch Changes

@@ -1,5 +1,25 @@
 # @mariomh/button
 
+## 0.0.5
+
+### Patch Changes
+
+- c0a126e: fix(deps): update radix-ui-primitives monorepo
+- 6ae47d1: fix(deps): update dependency radix-ui to v1.4.1
+- 36863ff: fix(deps): update dependency radix-ui to v1.4.3
+- 7992045: fix(deps): update react monorepo to v19.1.1
+- Updated dependencies [c0a126e]
+- Updated dependencies [b36776a]
+- Updated dependencies [6ae47d1]
+- Updated dependencies [5735e7e]
+- Updated dependencies [c2af7ef]
+- Updated dependencies [36863ff]
+- Updated dependencies [7992045]
+  - @mariomh/focus@0.0.4
+  - @mariomh/font@0.0.4
+  - @mariomh/round@0.0.4
+  - @mariomh/cva@0.0.4
+
 ## 0.0.4
 
 ### Patch Changes

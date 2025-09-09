@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh/round",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH round",
 	"keywords": [
@@ -78,7 +78,7 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "0.0.3"
+		"@mariomh/cva": "0.0.4"
 	},
 	"devDependencies": {
 		"@testing-library/react": "16.3.0",
