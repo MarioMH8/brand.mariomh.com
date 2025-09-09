@@ -1,4 +1,4 @@
-import type { InputType } from '@storybook/types';
+import type { InputType } from 'storybook/internal/csf';
 
 const logotipo: InputType = {
 	control: { required: false, type: 'select' },

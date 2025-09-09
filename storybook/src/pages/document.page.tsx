@@ -1,8 +1,8 @@
 import { SourceCode, Stories, Story, SubTitle, Title } from '@mariomh/storybook/blocks';
 import useIsDarkMode from '@mariomh/storybook/hooks';
-import { Controls } from '@storybook/blocks';
-import { convert, ThemeProvider, themes } from '@storybook/core/theming';
+import { Controls } from '@storybook/addon-docs/blocks';
 import type { JSX } from 'react';
+import { convert, ThemeProvider, themes } from 'storybook/theming';
 
 export default function DocumentPage(): JSX.Element {
 	const isDark = useIsDarkMode();

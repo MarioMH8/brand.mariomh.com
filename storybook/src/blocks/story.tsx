@@ -1,4 +1,4 @@
-import { Story as StorybookStory } from '@storybook/blocks';
+import { Story as StorybookStory } from '@storybook/addon-docs/blocks';
 import type { JSX } from 'react';
 
 export default function Story(): JSX.Element {

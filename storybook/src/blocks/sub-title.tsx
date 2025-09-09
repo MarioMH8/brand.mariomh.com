@@ -1,5 +1,5 @@
 import Heading from '@mariomh/heading/react';
-import { DocsContext } from '@storybook/blocks';
+import { DocsContext } from '@storybook/addon-docs/blocks';
 import type { JSX } from 'react';
 import { useContext } from 'react';
 

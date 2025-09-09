@@ -1,4 +1,4 @@
-import type { InputType } from '@storybook/types';
+import type { InputType } from 'storybook/internal/csf';
 
 const autoComplete: InputType = {
 	description: 'Autocompletado del campo',

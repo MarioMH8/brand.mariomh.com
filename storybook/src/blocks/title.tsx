@@ -1,6 +1,6 @@
 import Badge from '@mariomh/badge/react';
 import Heading from '@mariomh/heading/react';
-import { DocsContext, extractTitle } from '@storybook/blocks';
+import { DocsContext, extractTitle } from '@storybook/addon-docs/blocks';
 import type { JSX } from 'react';
 import { Fragment, useContext } from 'react';
 

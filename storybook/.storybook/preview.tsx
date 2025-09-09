@@ -16,7 +16,7 @@ import '@fontsource/dm-sans/900.css';
 import './preview.css';
 
 import { DocumentPage } from '@mariomh/storybook/pages';
-import type { Preview } from '@storybook/react';
+import type { Preview } from '@storybook/react-vite';
 
 import { dark, light } from './theme';
 

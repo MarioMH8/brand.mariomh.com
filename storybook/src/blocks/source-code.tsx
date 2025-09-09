@@ -1,6 +1,6 @@
 import useIsDarkMode from '@mariomh/storybook/hooks';
-import type { DocsContextProps } from '@storybook/blocks';
-import { DocsContext, Source, SourceContext, useSourceProps } from '@storybook/blocks';
+import type { DocsContextProps } from '@storybook/addon-docs/blocks';
+import { DocsContext, Source, SourceContext, useSourceProps } from '@storybook/addon-docs/blocks';
 import type { JSX } from 'react';
 import { useContext } from 'react';
 

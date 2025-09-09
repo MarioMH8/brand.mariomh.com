@@ -1,4 +1,4 @@
-import { Stories as StorybookStories, useOf } from '@storybook/blocks';
+import { Stories as StorybookStories, useOf } from '@storybook/addon-docs/blocks';
 import type { JSX } from 'react';
 
 export default function Stories(): JSX.Element | undefined {

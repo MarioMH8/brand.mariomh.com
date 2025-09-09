@@ -1,6 +1,6 @@
-import { create } from '@storybook/core/theming';
-
 // https://storybook.js.org/docs/configure/user-interface/theming
+import { create } from 'storybook/theming';
+
 const light = create({
 	/*
 	 * appBg: '#f8fbef',
