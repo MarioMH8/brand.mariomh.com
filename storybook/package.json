@@ -1,0 +1,77 @@
+{
+	"name": "@mariomh/storybook",
+	"version": "0.0.6",
+	"author": "MarioMH <dev@mariomh.com>",
+	"description": "MarioMH storybook",
+	"keywords": [
+		"design",
+		"system",
+		"style",
+		"guide",
+		"react",
+		"astro",
+		"tailwind",
+		"components",
+		"ui",
+		"ux"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MarioMH8/mariomh.com.git",
+		"directory": "storybook"
+	},
+	"homepage": "https://github.com/MarioMH8/mariomh.com",
+	"bugs": {
+		"url": "https://github.com/MarioMH8/mariomh.com/issues"
+	},
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "storybook build",
+		"dev": "storybook dev -p 6006"
+	},
+	"dependencies": {
+      "@fontsource/dm-sans": "5.2.6",
+      "@mariomh/archia": "0.0.1",
+      "@mariomh/badge": "0.0.4",
+      "@mariomh/box": "0.0.4",
+      "@mariomh/button": "0.0.4",
+      "@mariomh/checkbox": "0.0.4",
+      "@mariomh/container": "0.0.4",
+      "@mariomh/copyright": "0.0.4",
+      "@mariomh/cva": "0.0.3",
+      "@mariomh/focus": "0.0.3",
+      "@mariomh/font": "0.0.3",
+      "@mariomh/heading": "0.0.5",
+      "@mariomh/input": "0.0.4",
+      "@mariomh/label": "0.0.4",
+      "@mariomh/link": "0.0.4",
+      "@mariomh/logo": "0.0.4",
+      "@mariomh/navigation-menu": "0.0.4",
+      "@mariomh/paragraph": "0.0.4",
+      "@mariomh/round": "0.0.3",
+      "@mariomh/select": "0.0.4",
+      "@mariomh/shadow": "0.0.3",
+      "@mariomh/span": "0.0.4",
+      "@mariomh/tailwind": "0.0.2",
+      "@mariomh/textarea": "0.0.4",
+      "color-convert": "3.1.0",
+      "lucide-react": "0.543.0",
+      "radix-ui": "1.4.3",
+      "react": "19.1.1",
+      "react-dom": "19.1.1"
+	},
+	"devDependencies": {
+		"@storybook-community/storybook-dark-mode": "6.0.0",
+		"@storybook/addon-a11y": "9.1.5",
+		"@storybook/addon-docs": "9.1.5",
+		"@storybook/addon-links": "9.1.5",
+		"@storybook/react-vite": "9.1.5",
+		"@tailwindcss/vite": "4.1.13",
+		"@vitejs/plugin-react": "5.0.2",
+		"storybook": "9.1.5",
+		"tailwindcss": "4.1.13",
+		"vite": "7.1.5",
+		"vite-tsconfig-paths": "5.1.4"
+	}
+}

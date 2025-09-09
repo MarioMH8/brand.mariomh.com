@@ -1,0 +1,158 @@
+import { Meta, Unstyled } from '@storybook/addon-docs/blocks';
+
+import Heading from '@mariomh/heading/react';
+import Paragraph from '@mariomh/paragraph/react';
+import Font from '@mariomh/font/react';
+import pallete from '@mariomh/tailwind/pallete';
+
+import ColorPallete from '../../blocks/color-pallete';
+
+<Meta title="Marca/Paleta de colores" />
+
+<Unstyled>
+	<Heading heading='h1' className='mb-4'>Paleta de colores</Heading>
+	<Heading heading='h3' subtitle asChild><p>Aprende qué paso de la escala es el más apropiado para cada caso de uso.</p></Heading>
+	<Paragraph wrap={false}>Hay 12 pasos en cada escala. Cada paso fue diseñado al menos para un caso de uso específico.</Paragraph>
+
+    <ColorPallete
+        intent='primary'
+        pallete={pallete.primary}
+    />
+
+	<Paragraph wrap={false}>Esta tabla muestra una visión general del caso de uso más común para cada paso.
+		Sin embargo, hay muchas excepciones y advertencias a tener en cuenta, las cuales se tratan con más detalle a continuación.</Paragraph>
+
+
+	<table className='w-full mb-12'>
+		<thead>
+		<tr>
+			<th className='px-3 py-2 border-b text-left w-1/6'>Paso</th>
+			<th className='px-3 py-2 border-b text-left'>Caso de uso</th>
+		</tr>
+		</thead>
+		<Font dimension='sm' variant='muted'>
+			<tbody>
+			<tr>
+				<td className='px-3 py-2 border-b'>1</td>
+				<td className='px-3 py-2 border-b'>Fondo de la aplicación</td>
+			</tr>
+			<tr>
+				<td className='px-3 py-2 border-b'>2</td>
+				<td className='px-3 py-2 border-b'>Fondo sutil de la aplicación</td>
+			</tr>
+			<tr>
+				<td className='px-3 py-2 border-b'>3</td>
+				<td className='px-3 py-2 border-b'>Fondo del componente</td>
+			</tr>
+			<tr>
+				<td className='px-3 py-2 border-b'>4</td>
+				<td className='px-3 py-2 border-b'>Fondo del componente cuando se pasa el cursor sobre él</td>
+			</tr>
+			<tr>
+				<td className='px-3 py-2 border-b'>5</td>
+				<td className='px-3 py-2 border-b'>Fondo del componente cuando está activo o seleccionado</td>
+			</tr>
+			<tr>
+				<td className='px-3 py-2 border-b'>6</td>
+				<td className='px-3 py-2 border-b'>Bordes o separadores sutiles</td>
+			</tr>
+			<tr>
+				<td className='px-3 py-2 border-b'>7</td>
+				<td className='px-3 py-2 border-b'>Bordes de los componentes o anillos de enfoque</td>
+			</tr>
+			<tr>
+				<td className='px-3 py-2 border-b'>8</td>
+				<td className='px-3 py-2 border-b'>Borde de los componentes cuando se pasa el cursor sobre él</td>
+			</tr>
+			<tr>
+				<td className='px-3 py-2 border-b'>9</td>
+				<td className='px-3 py-2 border-b'>Fondos sólidos del componente</td>
+			</tr>
+			<tr>
+				<td className='px-3 py-2 border-b'>10</td>
+				<td className='px-3 py-2 border-b'>Fondos sólidos del componente cuando se pasa el cursor sobre él</td>
+			</tr>
+			<tr>
+				<td className='px-3 py-2 border-b'>11</td>
+				<td className='px-3 py-2 border-b'>Color del texto de bajo contraste</td>
+			</tr>
+			<tr>
+				<td className='px-3 py-2 border-b'>12</td>
+				<td className='px-3 py-2 border-b'>Color del texto de alto contraste</td>
+			</tr>
+			</tbody>
+		</Font>
+	</table>
+
+	<Heading heading='h2'>Pasos 1–2: Fondos</Heading>
+	<Paragraph wrap={false}>Los pasos <b>1</b> y <b>2</b> están diseñados para fondos de aplicaciones y fondos sutiles de componentes.
+		Puedes usarlos de manera intercambiable, dependiendo de la atmósfera que desees crear.</Paragraph>
+	<Paragraph wrap={false}>Aplicaciones apropiadas incluyen:</Paragraph>
+
+	<Font variant='muted'>
+		<ul className='list-disc ml-12 mb-12'>
+			<li className='mb-3'>Fondo principal de la aplicación.</li>
+			<li className='mb-3'>Fondo de de las filas de una tabla a rayas.</li>
+			<li className='mb-3'>Fondo de bloque de código.</li>
+			<li className='mb-3'>Fondo de tarjeta.</li>
+			<li className='mb-3'>Fondo de barra lateral.</li>
+			<li className='mb-3'>Fondo de un `<canvas/>`.</li>
+		</ul>
+	</Font>
+	<Paragraph wrap={false} dimension='xs' variant='muted' className='mb-12'>* Puede que desees utilizar blanco para el fondo de tu aplicación en el modo claro,
+		y el paso <b>1</b> o <b>2</b> de una escala de grises o de colores en el modo oscuro.
+		En este caso, configura un alias mutable para color de fondo y asígnale un color diferente para cada modo de color.</Paragraph>
+
+	<Heading heading='h2'>Pasos 3 al 5: Fondos de componentes</Heading>
+	<Paragraph wrap={false}>Los pasos <b>3</b>, <b>4</b> y <b>5</b> están diseñados para fondos de componentes.</Paragraph>
+	<Paragraph wrap={false}>Aplicaciones apropiadas incluyen:</Paragraph>
+	<Font variant='muted'>
+		<ul className='list-disc ml-12 mb-12'>
+			<li className='mb-3'>El paso <b>3</b> es para estados normales.</li>
+			<li className='mb-3'>El paso <b>4</b> es para estados al pasar el cursor sobre ellos.</li>
+			<li className='mb-3'>El paso <b>5</b> es para estados presionados o seleccionados.</li>
+		</ul>
+	</Font>
+	<Paragraph wrap={false} className='mb-6'>Si tu componente tiene un fondo transparente en su estado predeterminado, puedes usar el paso <b>3</b> para su estado al pasar el cursor sobre él.</Paragraph>
+	<Paragraph wrap={false} dimension='xs' variant='muted' className='mb-12'>* Los pasos <b>11</b> y <b>12</b>, que están diseñados para texto, garantizan un ratio de contraste de <b>4.5:1</b> sobre un fondo del paso <b>3</b> de la misma escala.</Paragraph>
+
+	<Heading heading='h2'>Pasos 6 al 8: Bordes</Heading>
+	<Paragraph wrap={false}>Los pasos <b>6</b>, <b>7</b> y <b>8</b> están diseñados para los bordes.</Paragraph>
+	<Font variant='muted'>
+		<ul className='list-disc ml-12 mb-12'>
+			<li className='mb-3'>El paso <b>6</b> está diseñado para bordes sutiles en componentes que no son interactivos.<br /> Por ejemplo, barras laterales, encabezados, tarjetas, alertas y separadores.</li>
+			<li className='mb-3'>El paso <b>7</b> está diseñado para bordes sutiles en componentes interactivos.</li>
+			<li className='mb-3'>El paso <b>8</b> está diseñado para bordes más marcados en componentes interactivos y anillos de enfoque.</li>
+		</ul>
+	</Font>
+
+	<Heading heading='h2'>Pasos 9 y 10: Fondos sólidos</Heading>
+	<Paragraph wrap={false}>El paso <b>9</b> tiene el croma más alto de todos los pasos en la escala.
+		En otras palabras, es el paso más puro, el paso mezclado con la menor cantidad de blanco o negro.
+		Debido a que el <b>9</b> es el paso más puro, tiene una amplia gama de aplicaciones:</Paragraph>
+	<Font variant='muted'>
+		<ul className='list-disc ml-12 mb-12'>
+			<li className='mb-3'>Fondos de sitios web/aplicaciones.</li>
+			<li className='mb-3'>Fondos de secciones de sitios web.</li>
+			<li className='mb-3'>Fondos de encabezados.</li>
+			<li className='mb-3'>Fondos de componentes.</li>
+			<li className='mb-3'>Gráficos/Logotipos.</li>
+			<li className='mb-3'>Superposiciones.</li>
+			<li className='mb-3'>Sombras de colores.</li>
+			<li className='mb-3'>Bordes de acento.</li>
+
+		</ul>
+	</Font>
+	<Paragraph wrap={false} className='mb-12'>El paso <b>10</b> está diseñado para estados al pasar el cursor sobre componentes, donde el paso <b>9</b> es el fondo del estado normal del componente.</Paragraph>
+
+
+	<Heading heading='h2'>Pasos 11 y 12: Textos</Heading>
+	<Paragraph wrap={false}>Los pasos <b>11</b> y <b>12</b> están diseñados para textos.
+		Debido a que el <b>9</b> es el paso más puro, tiene una amplia gama de aplicaciones:</Paragraph>
+	<Font variant='muted'>
+		<ul className='list-disc ml-12 mb-12'>
+			<li className='mb-3'>El paso <b>11</b> está diseñado para texto de bajo contraste.</li>
+			<li className='mb-3'>El paso <b>12</b> está diseñado para texto de alto contraste.</li>
+		</ul>
+	</Font>
+</Unstyled>

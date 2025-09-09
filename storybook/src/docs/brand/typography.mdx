@@ -1,0 +1,29 @@
+import { Meta, Unstyled } from '@storybook/addon-docs/blocks';
+import Heading from '@mariomh/heading/react';
+import Paragraph from '@mariomh/paragraph/react';
+
+<Meta title='Marca/Tipografía' />
+
+<Unstyled>
+	<Heading heading='h1' className='mb-4'>Tipografía</Heading>
+    <Heading heading='h3' subtitle asChild><p>Se define un par tipográfico para resolver cualquier tipo de pieza gráfica.</p></Heading>
+
+	<Heading heading='h2'>Principal</Heading>
+	<Paragraph wrap={false}>De cuerpo geométrico y tinte técnico, Archia se determina como elemento para acompañar todo el sistema visual.
+		Una fuente de formas puras que conecta a la perfección con la marca, se adapta al sistema y permite la
+		jerarquización de información gracias a su gran variedad de pesos.</Paragraph>
+	<Paragraph wrap={false}>Para títulos, subtítulos y comunicación textual en general se aplicará siempre la tipografía Archia, aplicando
+		las variables necesarias para jerarquizar y categorizar correctamente la información.</Paragraph>
+	<Paragraph wrap={false} noSelect dimension='huge' className='text-primary'>Aa</Paragraph>
+	<Paragraph wrap={false} noSelect dimension='lg' className='font-primary font-medium'>Archia</Paragraph>
+	<Paragraph wrap={false} noSelect dimension='lg' className='font-primary font-light'>abcdefghijklmnopqrstuvwxyz<br />ABCDEFGHIJLKMNOPQRSTUVWXYZ<br />0123456789
+		@#”$%&/()=?!{}*</Paragraph>
+
+	<Heading heading='h2'>Secundaria</Heading>
+	<Paragraph wrap={false}>Se define DM Sans como segunda tipografía para textos largos o bien para algunas excepciones donde la
+		información comunicada es breve y acompaña algún título o se aplica en algún tamaño reducido.</Paragraph>
+	<Paragraph wrap={false} noSelect dimension='huge' className='text-primary font-secondary'>Bb</Paragraph>
+	<Paragraph wrap={false} noSelect dimension='lg' className='font-medium'>DM Sans</Paragraph>
+	<Paragraph wrap={false} noSelect dimension='lg' className='font-light'>abcdefghijklmnopqrstuvwxyz<br />ABCDEFGHIJLKMNOPQRSTUVWXYZ<br />0123456789
+        @#”$%&/()=?!{}*</Paragraph>
+</Unstyled>

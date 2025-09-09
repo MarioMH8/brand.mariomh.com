@@ -29,7 +29,8 @@
 	"workspaces": [
 		"components/*",
 		"packages/*",
-		"packages/fonts/*"
+		"packages/fonts/*",
+		"storybook"
 	],
 	"scripts": {
 		"build": "bun run --filter '@mariomh/*' build",
