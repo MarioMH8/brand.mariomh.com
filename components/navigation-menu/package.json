@@ -131,7 +131,7 @@
 		"astro": "5.13.6",
 		"lucide-astro": "0.542.0",
 		"lucide-react": "0.510.0",
-		"radix-ui": "1.4.1",
+		"radix-ui": "1.4.3",
 		"react": "19.1.1",
 		"tsup": "8.5.0"
 	}
