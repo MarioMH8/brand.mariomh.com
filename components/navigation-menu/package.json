@@ -129,7 +129,7 @@
 		"@mariomh/logo": "0.0.4",
 		"@testing-library/react": "16.3.0",
 		"astro": "5.13.6",
-		"lucide-astro": "0.542.0",
+		"lucide-astro": "0.543.0",
 		"lucide-react": "0.543.0",
 		"radix-ui": "1.4.3",
 		"react": "19.1.1",
