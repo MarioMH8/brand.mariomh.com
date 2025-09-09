@@ -16,7 +16,7 @@ jobs:
             id-token: 'write'
         strategy:
             matrix:
-                command: [ lint, test, typecheck ]
+                command: [ '--bun lint:ci', test, typecheck ]
         steps:
             -   name: Checkout
                 uses: actions/checkout@v5
@@ -28,6 +28,13 @@ jobs:
 
             -   name: Install dependencies
                 run: bun install
+
+            -   name: ESLint cache
+                uses: actions/cache@v3
+                if: matrix.command == '--bun lint:ci'
+                with:
+                    path: .eslintcache
+                    key: ${{ runner.os }}-node
 
             -   name: ${{ matrix.command }}
                 run: bun ${{ matrix.command }}
