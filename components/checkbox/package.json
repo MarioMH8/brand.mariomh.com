@@ -107,10 +107,10 @@
 		"@mariomh/focus": "0.0.3",
 		"@mariomh/round": "0.0.3",
 		"@testing-library/react": "16.3.0",
-		"lucide-react": "0.510.0",
-		"radix-ui": "1.4.1",
-		"react": "19.1.0",
-		"react-dom": "19.1.0",
+		"lucide-react": "0.542.0",
+		"radix-ui": "1.4.3",
+		"react": "19.1.1",
+		"react-dom": "19.1.1",
 		"tsup": "8.5.0"
 	}
 }
