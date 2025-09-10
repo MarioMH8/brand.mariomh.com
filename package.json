@@ -47,7 +47,7 @@
 		"@astrojs/check": "0.9.4",
 		"@changesets/cli": "2.29.7",
 		"@happy-dom/global-registrator": "18.0.1",
-		"@hexadrop/eslint-config": "0.1.6",
+		"@hexadrop/eslint-config": "0.1.9",
 		"@hexadrop/tsconfig": "0.0.5",
 		"@types/bun": "1.2.21",
 		"@types/react": "19.1.12",
