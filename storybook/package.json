@@ -62,7 +62,7 @@
 		"react-dom": "19.1.1"
 	},
 	"devDependencies": {
-		"@storybook-community/storybook-dark-mode": "6.0.0",
+		"@storybook-community/storybook-dark-mode": "6.0.2",
 		"@storybook/addon-a11y": "9.1.8",
 		"@storybook/addon-docs": "9.1.8",
 		"@storybook/addon-links": "9.1.8",
