@@ -53,6 +53,6 @@
 		"@types/react": "19.1.16",
 		"eslint": "9.36.0",
 		"publint": "0.3.13",
-		"typescript": "5.9.2"
+		"typescript": "5.9.3"
 	}
 }
