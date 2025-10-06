@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh/focus",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH focus",
 	"keywords": [
@@ -78,7 +78,7 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "0.0.6"
+		"@mariomh/cva": "0.0.7"
 	},
 	"devDependencies": {
 		"@testing-library/react": "16.3.0",

@@ -1,5 +1,13 @@
 # @mariomh/round
 
+## 0.0.8
+
+### Patch Changes
+
+- c508831: Fix version references
+- Updated dependencies [c508831]
+  - @mariomh/cva@0.0.7
+
 ## 0.0.7
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @mariomh/cva
 
+## 0.0.7
+
+### Patch Changes
+
+- c508831: Fix version references
+
 ## 0.0.6
 
 ### Patch Changes

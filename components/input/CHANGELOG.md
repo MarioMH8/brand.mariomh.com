@@ -1,5 +1,16 @@
 # @mariomh/input
 
+## 0.0.9
+
+### Patch Changes
+
+- c508831: Fix version references
+- Updated dependencies [c508831]
+  - @mariomh/focus@0.0.8
+  - @mariomh/round@0.0.8
+  - @mariomh/font@0.0.8
+  - @mariomh/cva@0.0.7
+
 ## 0.0.8
 
 ### Patch Changes

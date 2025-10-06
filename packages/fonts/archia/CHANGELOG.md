@@ -1,5 +1,11 @@
 # @mariomh/archia
 
+## 0.0.4
+
+### Patch Changes
+
+- c508831: Fix version references
+
 ## 0.0.3
 
 ### Patch Changes
