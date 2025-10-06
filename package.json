@@ -52,7 +52,7 @@
 		"@types/bun": "1.2.23",
 		"@types/react": "19.1.16",
 		"eslint": "9.37.0",
-		"publint": "0.3.13",
+		"publint": "0.3.14",
 		"typescript": "5.9.3"
 	}
 }
