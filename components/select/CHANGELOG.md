@@ -1,5 +1,16 @@
 # @mariomh/select
 
+## 0.0.7
+
+### Patch Changes
+
+- 80eacf8: Update @mariomh packages to use workspace references
+- Updated dependencies [80eacf8]
+  - @mariomh/focus@0.0.6
+  - @mariomh/font@0.0.6
+  - @mariomh/round@0.0.6
+  - @mariomh/cva@0.0.5
+
 ## 0.0.6
 
 ### Patch Changes

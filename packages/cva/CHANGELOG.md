@@ -1,5 +1,11 @@
 # @mariomh/cva
 
+## 0.0.5
+
+### Patch Changes
+
+- 80eacf8: Update @mariomh packages to use workspace references
+
 ## 0.0.4
 
 ### Patch Changes

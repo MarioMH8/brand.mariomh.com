@@ -1,5 +1,13 @@
 # @mariomh/font
 
+## 0.0.6
+
+### Patch Changes
+
+- 80eacf8: Update @mariomh packages to use workspace references
+- Updated dependencies [80eacf8]
+  - @mariomh/cva@0.0.5
+
 ## 0.0.5
 
 ### Patch Changes

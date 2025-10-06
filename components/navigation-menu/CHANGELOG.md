@@ -1,5 +1,17 @@
 # @mariomh/navigation-menu
 
+## 0.0.7
+
+### Patch Changes
+
+- 80eacf8: Update @mariomh packages to use workspace references
+- Updated dependencies [80eacf8]
+  - @mariomh/button@0.0.7
+  - @mariomh/container@0.0.7
+  - @mariomh/font@0.0.6
+  - @mariomh/logo@0.0.7
+  - @mariomh/cva@0.0.5
+
 ## 0.0.6
 
 ### Patch Changes

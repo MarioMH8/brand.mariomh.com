@@ -1,5 +1,36 @@
 # @mariomh/storybook
 
+## 0.0.9
+
+### Patch Changes
+
+- 9482002: fix(deps): update dependency @fontsource/dm-sans to v5.2.8
+- 80eacf8: Update @mariomh packages to use workspace references
+- Updated dependencies [80eacf8]
+  - @mariomh/badge@0.0.7
+  - @mariomh/box@0.0.7
+  - @mariomh/button@0.0.7
+  - @mariomh/checkbox@0.0.7
+  - @mariomh/container@0.0.7
+  - @mariomh/copyright@0.0.7
+  - @mariomh/focus@0.0.6
+  - @mariomh/font@0.0.6
+  - @mariomh/heading@0.0.8
+  - @mariomh/input@0.0.7
+  - @mariomh/label@0.0.7
+  - @mariomh/link@0.0.7
+  - @mariomh/logo@0.0.7
+  - @mariomh/navigation-menu@0.0.7
+  - @mariomh/paragraph@0.0.7
+  - @mariomh/round@0.0.6
+  - @mariomh/select@0.0.7
+  - @mariomh/shadow@0.0.6
+  - @mariomh/span@0.0.7
+  - @mariomh/textarea@0.0.7
+  - @mariomh/cva@0.0.5
+  - @mariomh/archia@0.0.2
+  - @mariomh/tailwind@0.0.3
+
 ## 0.0.8
 
 ### Patch Changes
