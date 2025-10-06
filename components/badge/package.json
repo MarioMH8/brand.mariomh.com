@@ -80,8 +80,8 @@
 		"prepublishOnly": "tsup && publint"
 	},
 	"peerDependencies": {
-		"@mariomh/font": "0.0.5",
-		"@mariomh/round": "0.0.5",
+		"@mariomh/font": "workspace:*",
+		"@mariomh/round": "workspace:*",
 		"astro": "^5",
 		"radix-ui": "^1",
 		"react": "^19"
@@ -107,8 +107,8 @@
 		"@mariomh/cva": "0.0.4"
 	},
 	"devDependencies": {
-		"@mariomh/font": "0.0.5",
-		"@mariomh/round": "0.0.5",
+		"@mariomh/font": "workspace:*",
+		"@mariomh/round": "workspace:*",
 		"@testing-library/react": "16.3.0",
 		"astro": "5.14.1",
 		"radix-ui": "1.4.3",

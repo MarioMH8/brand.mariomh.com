@@ -73,8 +73,8 @@
 		"prepublishOnly": "tsup && publint"
 	},
 	"peerDependencies": {
-		"@mariomh/focus": "0.0.5",
-		"@mariomh/round": "0.0.5",
+		"@mariomh/focus": "workspace:*",
+		"@mariomh/round": "workspace:*",
 		"lucide-react": "^0",
 		"radix-ui": "^1",
 		"react": "^19",
@@ -104,8 +104,8 @@
 		"@mariomh/cva": "0.0.4"
 	},
 	"devDependencies": {
-		"@mariomh/focus": "0.0.5",
-		"@mariomh/round": "0.0.5",
+		"@mariomh/focus": "workspace:*",
+		"@mariomh/round": "workspace:*",
 		"@testing-library/react": "16.3.0",
 		"lucide-react": "0.544.0",
 		"radix-ui": "1.4.3",
