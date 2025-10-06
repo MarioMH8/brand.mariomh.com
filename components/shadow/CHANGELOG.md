@@ -1,5 +1,11 @@
 # @mariomh/shadow
 
+## 0.0.5
+
+### Patch Changes
+
+- 18e859d: fix(deps): update react monorepo to v19.2.0
+
 ## 0.0.4
 
 ### Patch Changes

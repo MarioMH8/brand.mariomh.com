@@ -1,5 +1,36 @@
 # @mariomh/storybook
 
+## 0.0.8
+
+### Patch Changes
+
+- 2cd0dc8: fix(deps): update dependency lucide-react to v0.544.0
+- cef9e39: fix(deps): update dependency color-convert to v3.1.2
+- 2c91ba3: fix(deps): update dependency @fontsource/dm-sans to v5.2.7
+- 18e859d: fix(deps): update react monorepo to v19.2.0
+- Updated dependencies [2cd0dc8]
+- Updated dependencies [18e859d]
+  - @mariomh/checkbox@0.0.6
+  - @mariomh/navigation-menu@0.0.6
+  - @mariomh/badge@0.0.6
+  - @mariomh/box@0.0.6
+  - @mariomh/button@0.0.6
+  - @mariomh/container@0.0.6
+  - @mariomh/copyright@0.0.6
+  - @mariomh/focus@0.0.5
+  - @mariomh/font@0.0.5
+  - @mariomh/heading@0.0.7
+  - @mariomh/input@0.0.6
+  - @mariomh/label@0.0.6
+  - @mariomh/link@0.0.6
+  - @mariomh/logo@0.0.6
+  - @mariomh/paragraph@0.0.6
+  - @mariomh/round@0.0.5
+  - @mariomh/select@0.0.6
+  - @mariomh/shadow@0.0.5
+  - @mariomh/span@0.0.6
+  - @mariomh/textarea@0.0.6
+
 ## 0.0.7
 
 ### Patch Changes
