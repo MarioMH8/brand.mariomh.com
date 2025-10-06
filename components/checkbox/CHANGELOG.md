@@ -1,5 +1,15 @@
 # @mariomh/checkbox
 
+## 0.0.8
+
+### Patch Changes
+
+- cc0a1ed: Fix version references
+- Updated dependencies [cc0a1ed]
+  - @mariomh/focus@0.0.7
+  - @mariomh/round@0.0.7
+  - @mariomh/cva@0.0.6
+
 ## 0.0.7
 
 ### Patch Changes

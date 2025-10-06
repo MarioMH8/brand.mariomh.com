@@ -1,5 +1,11 @@
 # @mariomh/tailwind
 
+## 0.0.4
+
+### Patch Changes
+
+- cc0a1ed: Fix version references
+
 ## 0.0.3
 
 ### Patch Changes

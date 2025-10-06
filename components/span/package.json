@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh/span",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH span",
 	"keywords": [
@@ -79,7 +79,7 @@
 		"prepublishOnly": "tsup && publint"
 	},
 	"peerDependencies": {
-		"@mariomh/font": "workspace:0.0.6",
+		"@mariomh/font": "workspace:0.0.7",
 		"astro": "^5",
 		"radix-ui": "^1",
 		"react": "^19"
@@ -99,10 +99,10 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "workspace:0.0.5"
+		"@mariomh/cva": "workspace:0.0.6"
 	},
 	"devDependencies": {
-		"@mariomh/font": "workspace:0.0.6",
+		"@mariomh/font": "workspace:0.0.7",
 		"@testing-library/react": "16.3.0",
 		"astro": "5.14.1",
 		"radix-ui": "1.4.3",
