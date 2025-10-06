@@ -35,8 +35,6 @@
 	"scripts": {
 		"build": "bun run --filter '@mariomh/*' build",
 		"build:storybook": "bun run --filter '@mariomh/storybook' build",
-		"ci:version": "changeset version && bun update",
-		"ci:publish": "for dir in packages/*; do (cd \"$dir\" && bun publish || true); done && changeset tag",
 		"lint": "eslint .",
 		"lint:ci": "eslint --cache --cache-strategy content .",
 		"lint:fix": "eslint --cache --fix .",

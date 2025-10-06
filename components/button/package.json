@@ -80,9 +80,9 @@
 		"prepublishOnly": "tsup && publint"
 	},
 	"peerDependencies": {
-		"@mariomh/focus": "workspace:*",
-		"@mariomh/font": "workspace:*",
-		"@mariomh/round": "workspace:*",
+		"@mariomh/focus": "workspace:0.0.6",
+		"@mariomh/font": "workspace:0.0.6",
+		"@mariomh/round": "workspace:0.0.6",
 		"astro": "^5",
 		"radix-ui": "^1",
 		"react": "^19"
@@ -108,12 +108,12 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "workspace:*"
+		"@mariomh/cva": "workspace:0.0.5"
 	},
 	"devDependencies": {
-		"@mariomh/focus": "workspace:*",
-		"@mariomh/font": "workspace:*",
-		"@mariomh/round": "workspace:*",
+		"@mariomh/focus": "workspace:0.0.6",
+		"@mariomh/font": "workspace:0.0.6",
+		"@mariomh/round": "workspace:0.0.6",
 		"@testing-library/react": "16.3.0",
 		"astro": "5.14.1",
 		"radix-ui": "1.4.3",
