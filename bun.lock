@@ -613,7 +613,7 @@
       "name": "@mariomh/storybook",
       "version": "0.0.7",
       "dependencies": {
-        "@fontsource/dm-sans": "5.2.6",
+        "@fontsource/dm-sans": "5.2.7",
         "@mariomh/archia": "0.0.1",
         "@mariomh/badge": "0.0.5",
         "@mariomh/box": "0.0.5",
@@ -861,7 +861,7 @@
 
     "@floating-ui/utils": ["@floating-ui/utils@0.2.10", "", {}, "sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ=="],
 
-    "@fontsource/dm-sans": ["@fontsource/dm-sans@5.2.6", "", {}, "sha512-3AmJcX93hqmevsC2ixNwHj3iO3sNY/YHBqGhg0MjIyfhk6aZLNv1s2HqJ6xf8yf1rXXK3yR56rzyA3O21htKkg=="],
+    "@fontsource/dm-sans": ["@fontsource/dm-sans@5.2.7", "", {}, "sha512-Sqkl2t9Z99NivygpGUO9i5bcAQ0WMUcO2c8yq19Q4Dxsz9xfHH36Hk4Rohx3VViaEHqFHZTp0KdmtwBVFz/Pig=="],
 
     "@happy-dom/global-registrator": ["@happy-dom/global-registrator@19.0.2", "", { "dependencies": { "@types/node": "^20.0.0", "happy-dom": "^19.0.2" } }, "sha512-t/2uiTTVFjRg0Z6zWL7E3/htv3LVmc1JJXINGeW6UDI8B2L+oDUmzwSh56F/m5iC+6ldqdNR7Crz2xZyjTE28g=="],
 
