@@ -1,5 +1,14 @@
 # @mariomh/badge
 
+## 0.0.6
+
+### Patch Changes
+
+- 18e859d: fix(deps): update react monorepo to v19.2.0
+- Updated dependencies [18e859d]
+  - @mariomh/font@0.0.5
+  - @mariomh/round@0.0.5
+
 ## 0.0.5
 
 ### Patch Changes

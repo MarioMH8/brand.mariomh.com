@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh/checkbox",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH checkbox",
 	"keywords": [
@@ -73,8 +73,8 @@
 		"prepublishOnly": "tsup && publint"
 	},
 	"peerDependencies": {
-		"@mariomh/focus": "0.0.4",
-		"@mariomh/round": "0.0.4",
+		"@mariomh/focus": "0.0.5",
+		"@mariomh/round": "0.0.5",
 		"lucide-react": "^0",
 		"radix-ui": "^1",
 		"react": "^19",
@@ -104,8 +104,8 @@
 		"@mariomh/cva": "0.0.4"
 	},
 	"devDependencies": {
-		"@mariomh/focus": "0.0.4",
-		"@mariomh/round": "0.0.4",
+		"@mariomh/focus": "0.0.5",
+		"@mariomh/round": "0.0.5",
 		"@testing-library/react": "16.3.0",
 		"lucide-react": "0.544.0",
 		"radix-ui": "1.4.3",

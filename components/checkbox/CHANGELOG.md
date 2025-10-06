@@ -1,5 +1,15 @@
 # @mariomh/checkbox
 
+## 0.0.6
+
+### Patch Changes
+
+- 2cd0dc8: fix(deps): update dependency lucide-react to v0.544.0
+- 18e859d: fix(deps): update react monorepo to v19.2.0
+- Updated dependencies [18e859d]
+  - @mariomh/focus@0.0.5
+  - @mariomh/round@0.0.5
+
 ## 0.0.5
 
 ### Patch Changes

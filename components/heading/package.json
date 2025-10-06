@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh/heading",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH heading",
 	"keywords": [
@@ -80,7 +80,7 @@
 		"prepublishOnly": "tsup && publint"
 	},
 	"peerDependencies": {
-		"@mariomh/font": "0.0.4",
+		"@mariomh/font": "0.0.5",
 		"astro": "^5",
 		"radix-ui": "^1",
 		"react": "^19"
@@ -103,7 +103,7 @@
 		"@mariomh/cva": "0.0.4"
 	},
 	"devDependencies": {
-		"@mariomh/font": "0.0.4",
+		"@mariomh/font": "0.0.5",
 		"@testing-library/react": "16.3.0",
 		"astro": "5.14.1",
 		"radix-ui": "1.4.3",
