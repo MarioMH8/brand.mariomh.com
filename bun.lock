@@ -20,7 +20,7 @@
       "name": "@mariomh/badge",
       "version": "0.0.6",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@mariomh/font": "workspace:*",
@@ -50,7 +50,7 @@
       "name": "@mariomh/box",
       "version": "0.0.6",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@mariomh/round": "workspace:*",
@@ -77,7 +77,7 @@
       "name": "@mariomh/button",
       "version": "0.0.6",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@mariomh/focus": "workspace:*",
@@ -110,7 +110,7 @@
       "name": "@mariomh/checkbox",
       "version": "0.0.6",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@mariomh/focus": "workspace:*",
@@ -143,7 +143,7 @@
       "name": "@mariomh/container",
       "version": "0.0.6",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@testing-library/react": "16.3.0",
@@ -167,7 +167,7 @@
       "name": "@mariomh/copyright",
       "version": "0.0.6",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@mariomh/font": "workspace:*",
@@ -194,7 +194,7 @@
       "name": "@mariomh/focus",
       "version": "0.0.5",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@testing-library/react": "16.3.0",
@@ -215,7 +215,7 @@
       "name": "@mariomh/font",
       "version": "0.0.5",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@testing-library/react": "16.3.0",
@@ -236,7 +236,7 @@
       "name": "@mariomh/heading",
       "version": "0.0.7",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@mariomh/font": "workspace:*",
@@ -263,7 +263,7 @@
       "name": "@mariomh/input",
       "version": "0.0.6",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@mariomh/focus": "workspace:*",
@@ -296,7 +296,7 @@
       "name": "@mariomh/label",
       "version": "0.0.6",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@mariomh/font": "workspace:*",
@@ -323,7 +323,7 @@
       "name": "@mariomh/link",
       "version": "0.0.6",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@mariomh/focus": "workspace:*",
@@ -356,7 +356,7 @@
       "name": "@mariomh/logo",
       "version": "0.0.6",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@mariomh/font": "workspace:*",
@@ -383,7 +383,7 @@
       "name": "@mariomh/navigation-menu",
       "version": "0.0.6",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@mariomh/button": "workspace:*",
@@ -425,7 +425,7 @@
       "name": "@mariomh/paragraph",
       "version": "0.0.6",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@mariomh/font": "workspace:*",
@@ -452,7 +452,7 @@
       "name": "@mariomh/round",
       "version": "0.0.5",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@testing-library/react": "16.3.0",
@@ -473,7 +473,7 @@
       "name": "@mariomh/select",
       "version": "0.0.6",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@mariomh/focus": "workspace:*",
@@ -527,7 +527,7 @@
       "name": "@mariomh/span",
       "version": "0.0.6",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@mariomh/font": "workspace:*",
@@ -554,7 +554,7 @@
       "name": "@mariomh/textarea",
       "version": "0.0.6",
       "dependencies": {
-        "@mariomh/cva": "0.0.4",
+        "@mariomh/cva": "workspace:*",
       },
       "devDependencies": {
         "@mariomh/focus": "workspace:*",
