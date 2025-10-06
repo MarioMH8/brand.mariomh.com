@@ -58,8 +58,8 @@
 		"color-convert": "3.1.2",
 		"lucide-react": "0.544.0",
 		"radix-ui": "1.4.3",
-		"react": "19.1.1",
-		"react-dom": "19.1.1"
+		"react": "19.2.0",
+		"react-dom": "19.2.0"
 	},
 	"devDependencies": {
 		"@storybook-community/storybook-dark-mode": "6.0.7",
