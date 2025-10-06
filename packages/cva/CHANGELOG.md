@@ -1,5 +1,11 @@
 # @mariomh/cva
 
+## 0.0.6
+
+### Patch Changes
+
+- cc0a1ed: Fix version references
+
 ## 0.0.5
 
 ### Patch Changes

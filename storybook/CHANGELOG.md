@@ -1,5 +1,35 @@
 # @mariomh/storybook
 
+## 0.0.10
+
+### Patch Changes
+
+- cc0a1ed: Fix version references
+- Updated dependencies [cc0a1ed]
+  - @mariomh/badge@0.0.8
+  - @mariomh/box@0.0.8
+  - @mariomh/button@0.0.8
+  - @mariomh/checkbox@0.0.8
+  - @mariomh/container@0.0.8
+  - @mariomh/copyright@0.0.8
+  - @mariomh/focus@0.0.7
+  - @mariomh/font@0.0.7
+  - @mariomh/heading@0.0.9
+  - @mariomh/input@0.0.8
+  - @mariomh/label@0.0.8
+  - @mariomh/link@0.0.8
+  - @mariomh/logo@0.0.8
+  - @mariomh/navigation-menu@0.0.8
+  - @mariomh/paragraph@0.0.8
+  - @mariomh/round@0.0.7
+  - @mariomh/select@0.0.8
+  - @mariomh/shadow@0.0.7
+  - @mariomh/span@0.0.8
+  - @mariomh/textarea@0.0.8
+  - @mariomh/cva@0.0.6
+  - @mariomh/archia@0.0.3
+  - @mariomh/tailwind@0.0.4
+
 ## 0.0.9
 
 ### Patch Changes
