@@ -55,7 +55,7 @@
 		"@mariomh/span": "0.0.5",
 		"@mariomh/tailwind": "0.0.2",
 		"@mariomh/textarea": "0.0.5",
-		"color-convert": "3.1.0",
+		"color-convert": "3.1.2",
 		"lucide-react": "0.544.0",
 		"radix-ui": "1.4.3",
 		"react": "19.1.1",
