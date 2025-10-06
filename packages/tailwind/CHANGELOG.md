@@ -1,5 +1,11 @@
 # @mariomh/tailwind
 
+## 0.0.3
+
+### Patch Changes
+
+- 80eacf8: Update @mariomh packages to use workspace references
+
 ## 0.0.2
 
 ### Patch Changes
