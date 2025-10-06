@@ -100,7 +100,7 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "0.0.4"
+		"@mariomh/cva": "workspace:*"
 	},
 	"devDependencies": {
 		"@mariomh/font": "workspace:*",

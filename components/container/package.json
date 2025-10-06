@@ -96,7 +96,7 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "0.0.4"
+		"@mariomh/cva": "workspace:*"
 	},
 	"devDependencies": {
 		"@testing-library/react": "16.3.0",
