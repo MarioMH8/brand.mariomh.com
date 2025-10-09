@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh/storybook",
-	"version": "0.0.11",
+	"version": "0.0.12",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH storybook",
 	"keywords": [
@@ -36,7 +36,7 @@
 		"@mariomh/badge": "0.0.9",
 		"@mariomh/box": "0.0.9",
 		"@mariomh/button": "0.0.9",
-		"@mariomh/checkbox": "0.0.9",
+		"@mariomh/checkbox": "0.0.10",
 		"@mariomh/container": "0.0.9",
 		"@mariomh/copyright": "0.0.9",
 		"@mariomh/cva": "0.0.7",
@@ -47,7 +47,7 @@
 		"@mariomh/label": "0.0.9",
 		"@mariomh/link": "0.0.9",
 		"@mariomh/logo": "0.0.9",
-		"@mariomh/navigation-menu": "0.0.9",
+		"@mariomh/navigation-menu": "0.0.10",
 		"@mariomh/paragraph": "0.0.9",
 		"@mariomh/round": "0.0.8",
 		"@mariomh/select": "0.0.9",

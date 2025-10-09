@@ -1,5 +1,11 @@
 # @mariomh/checkbox
 
+## 0.0.10
+
+### Patch Changes
+
+- aa733bd: fix(deps): update dependency lucide-react to v0.545.0
+
 ## 0.0.9
 
 ### Patch Changes
