@@ -116,7 +116,7 @@
         "@mariomh/focus": "0.0.8",
         "@mariomh/round": "0.0.8",
         "@testing-library/react": "16.3.0",
-        "lucide-react": "0.545.0",
+        "lucide-react": "0.546.0",
         "radix-ui": "1.4.3",
         "react": "19.2.0",
         "react-dom": "19.2.0",
@@ -393,7 +393,7 @@
         "@testing-library/react": "16.3.0",
         "astro": "5.14.4",
         "lucide-astro": "0.545.0",
-        "lucide-react": "0.545.0",
+        "lucide-react": "0.546.0",
         "radix-ui": "1.4.3",
         "react": "19.2.0",
         "tsup": "8.5.0",
@@ -618,7 +618,7 @@
         "@mariomh/badge": "0.0.9",
         "@mariomh/box": "0.0.9",
         "@mariomh/button": "0.0.9",
-        "@mariomh/checkbox": "0.0.9",
+        "@mariomh/checkbox": "0.0.10",
         "@mariomh/container": "0.0.9",
         "@mariomh/copyright": "0.0.9",
         "@mariomh/cva": "0.0.7",
@@ -629,7 +629,7 @@
         "@mariomh/label": "0.0.9",
         "@mariomh/link": "0.0.9",
         "@mariomh/logo": "0.0.9",
-        "@mariomh/navigation-menu": "0.0.9",
+        "@mariomh/navigation-menu": "0.0.10",
         "@mariomh/paragraph": "0.0.9",
         "@mariomh/round": "0.0.8",
         "@mariomh/select": "0.0.9",
@@ -638,7 +638,7 @@
         "@mariomh/tailwind": "0.0.5",
         "@mariomh/textarea": "0.0.9",
         "color-convert": "3.1.2",
-        "lucide-react": "0.545.0",
+        "lucide-react": "0.546.0",
         "radix-ui": "1.4.3",
         "react": "19.2.0",
         "react-dom": "19.2.0",
@@ -2053,7 +2053,7 @@
 
     "lucide-astro": ["lucide-astro@0.545.0", "", { "peerDependencies": { "astro": ">=2.7.1" } }, "sha512-KBSQTlW4e+tT6DvWEWcqxWa2WubWdqhLG7/WQgnAawQ29ZAEUfTqo2At9IW9xlrG1k8qrVwzeGQfeumiMsgI6Q=="],
 
-    "lucide-react": ["lucide-react@0.545.0", "", { "peerDependencies": { "react": "^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0" } }, "sha512-7r1/yUuflQDSt4f1bpn5ZAocyIxcTyVyBBChSVtBKn5M+392cPmI5YJMWOJKk/HUWGm5wg83chlAZtCcGbEZtw=="],
+    "lucide-react": ["lucide-react@0.546.0", "", { "peerDependencies": { "react": "^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0" } }, "sha512-Z94u6fKT43lKeYHiVyvyR8fT7pwCzDu7RyMPpTvh054+xahSgj4HFQ+NmflvzdXsoAjYGdCguGaFKYuvq0ThCQ=="],
 
     "lz-string": ["lz-string@1.5.0", "", { "bin": { "lz-string": "bin/bin.js" } }, "sha512-h5bgJWpxJNswbU7qCrV0tIKQCaS3blPDrqKWx+QxzuzL1zGUzij9XCWLrSLsJPu5t+eWA/ycetzYAO5IOMcWAQ=="],
 
