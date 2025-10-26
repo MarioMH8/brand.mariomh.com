@@ -381,7 +381,7 @@
     },
     "components/navigation-menu": {
       "name": "@mariomh/navigation-menu",
-      "version": "0.0.10",
+      "version": "0.0.11",
       "dependencies": {
         "@mariomh/cva": "0.0.7",
       },
@@ -611,14 +611,14 @@
     },
     "storybook": {
       "name": "@mariomh/storybook",
-      "version": "0.0.12",
+      "version": "0.0.13",
       "dependencies": {
         "@fontsource/dm-sans": "5.2.8",
         "@mariomh/archia": "0.0.4",
         "@mariomh/badge": "0.0.9",
         "@mariomh/box": "0.0.9",
         "@mariomh/button": "0.0.9",
-        "@mariomh/checkbox": "0.0.9",
+        "@mariomh/checkbox": "0.0.10",
         "@mariomh/container": "0.0.9",
         "@mariomh/copyright": "0.0.9",
         "@mariomh/cva": "0.0.7",
@@ -629,7 +629,7 @@
         "@mariomh/label": "0.0.9",
         "@mariomh/link": "0.0.9",
         "@mariomh/logo": "0.0.9",
-        "@mariomh/navigation-menu": "0.0.9",
+        "@mariomh/navigation-menu": "0.0.11",
         "@mariomh/paragraph": "0.0.9",
         "@mariomh/round": "0.0.8",
         "@mariomh/select": "0.0.9",
@@ -653,7 +653,7 @@
         "@vitejs/plugin-react": "5.0.4",
         "storybook": "9.1.10",
         "tailwindcss": "4.1.14",
-        "vite": "7.1.9",
+        "vite": "7.1.12",
         "vite-tsconfig-paths": "5.1.4",
       },
     },
@@ -2643,7 +2643,7 @@
 
     "vfile-message": ["vfile-message@4.0.3", "", { "dependencies": { "@types/unist": "^3.0.0", "unist-util-stringify-position": "^4.0.0" } }, "sha512-QTHzsGd1EhbZs4AsQ20JX1rC3cOlt/IWJruk893DfLRr57lcnOeMaWG4K0JrRta4mIJZKth2Au3mM3u03/JWKw=="],
 
-    "vite": ["vite@7.1.9", "", { "dependencies": { "esbuild": "^0.25.0", "fdir": "^6.5.0", "picomatch": "^4.0.3", "postcss": "^8.5.6", "rollup": "^4.43.0", "tinyglobby": "^0.2.15" }, "optionalDependencies": { "fsevents": "~2.3.3" }, "peerDependencies": { "@types/node": "^20.19.0 || >=22.12.0", "jiti": ">=1.21.0", "less": "^4.0.0", "lightningcss": "^1.21.0", "sass": "^1.70.0", "sass-embedded": "^1.70.0", "stylus": ">=0.54.8", "sugarss": "^5.0.0", "terser": "^5.16.0", "tsx": "^4.8.1", "yaml": "^2.4.2" }, "optionalPeers": ["@types/node", "jiti", "less", "lightningcss", "sass", "sass-embedded", "stylus", "sugarss", "terser", "tsx", "yaml"], "bin": { "vite": "bin/vite.js" } }, "sha512-4nVGliEpxmhCL8DslSAUdxlB6+SMrhB0a1v5ijlh1xB1nEPuy1mxaHxysVucLHuWryAxLWg6a5ei+U4TLn/rFg=="],
+    "vite": ["vite@7.1.12", "", { "dependencies": { "esbuild": "^0.25.0", "fdir": "^6.5.0", "picomatch": "^4.0.3", "postcss": "^8.5.6", "rollup": "^4.43.0", "tinyglobby": "^0.2.15" }, "optionalDependencies": { "fsevents": "~2.3.3" }, "peerDependencies": { "@types/node": "^20.19.0 || >=22.12.0", "jiti": ">=1.21.0", "less": "^4.0.0", "lightningcss": "^1.21.0", "sass": "^1.70.0", "sass-embedded": "^1.70.0", "stylus": ">=0.54.8", "sugarss": "^5.0.0", "terser": "^5.16.0", "tsx": "^4.8.1", "yaml": "^2.4.2" }, "optionalPeers": ["@types/node", "jiti", "less", "lightningcss", "sass", "sass-embedded", "stylus", "sugarss", "terser", "tsx", "yaml"], "bin": { "vite": "bin/vite.js" } }, "sha512-ZWyE8YXEXqJrrSLvYgrRP7p62OziLW7xI5HYGWFzOvupfAlrLvURSzv/FyGyy0eidogEM3ujU+kUG1zuHgb6Ug=="],
 
     "vite-tsconfig-paths": ["vite-tsconfig-paths@5.1.4", "", { "dependencies": { "debug": "^4.1.1", "globrex": "^0.1.2", "tsconfck": "^3.0.3" }, "peerDependencies": { "vite": "*" }, "optionalPeers": ["vite"] }, "sha512-cYj0LRuLV2c2sMqhqhGpaO3LretdtMn/BVX4cPLanIZuwwrkVl+lK84E/miEXkCHWXuq65rhNN4rXsBcOB3S4w=="],
 
