@@ -5,7 +5,7 @@ import { NAVIGATION_MENU_LI_ELEMENT } from '../element';
 import { propertiesNavigationMenuLI } from '../properties';
 import type { AstroNavigationMenuLIProperties } from './navigation-menu-li.astro';
 
-export type Props<Tag extends HTMLTag> = AstroNavigationMenuLIProperties<Tag>;
+export type Props<Tag extends HTMLTag = typeof NAVIGATION_MENU_LI_ELEMENT> = AstroNavigationMenuLIProperties<Tag>;
 const { as: Tag = NAVIGATION_MENU_LI_ELEMENT, ...p } = propertiesNavigationMenuLI(Astro.props);
 ---
 

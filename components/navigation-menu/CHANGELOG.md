@@ -1,5 +1,11 @@
 # @mariomh/navigation-menu
 
+## 0.0.11
+
+### Patch Changes
+
+- Set default type for Props in navigation menu components
+
 ## 0.0.10
 
 ### Patch Changes

@@ -1,5 +1,12 @@
 # @mariomh/storybook
 
+## 0.0.13
+
+### Patch Changes
+
+- Updated dependencies
+  - @mariomh/navigation-menu@0.0.11
+
 ## 0.0.12
 
 ### Patch Changes
