@@ -1,5 +1,11 @@
 # @mariomh/button
 
+## 0.0.10
+
+### Patch Changes
+
+- 79d5cd3: Set default type for Props in Astro components
+
 ## 0.0.9
 
 ### Patch Changes

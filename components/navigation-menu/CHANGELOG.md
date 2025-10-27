@@ -1,5 +1,14 @@
 # @mariomh/navigation-menu
 
+## 0.0.12
+
+### Patch Changes
+
+- Updated dependencies [79d5cd3]
+  - @mariomh/container@0.0.10
+  - @mariomh/button@0.0.10
+  - @mariomh/logo@0.0.10
+
 ## 0.0.11
 
 ### Patch Changes
