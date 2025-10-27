@@ -5,7 +5,7 @@ import type { AstroCopyrightProperties } from './astro';
 import ELEMENT_TYPE from './element';
 import properties from './properties';
 
-export type  Props<Tag extends HTMLTag = typeof ELEMENT_TYPE> = AstroCopyrightProperties<Tag>;
+export type Props<Tag extends HTMLTag = typeof ELEMENT_TYPE> = AstroCopyrightProperties<Tag>;
 
 const { from = `${new Date().getFullYear()}`, to } = Astro.props;
 
