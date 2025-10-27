@@ -5,7 +5,7 @@ import type { AstroSpanProperties } from './astro';
 import ELEMENT_TYPE from './element';
 import properties from './properties';
 
-type Props<Tag extends HTMLTag> = AstroSpanProperties<Tag>;
+type  Props<Tag extends HTMLTag = typeof ELEMENT_TYPE> = AstroSpanProperties<Tag>;
 
 const { as: Tag = ELEMENT_TYPE, ...p } = properties(Astro.props);
 ---

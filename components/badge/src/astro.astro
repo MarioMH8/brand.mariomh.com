@@ -5,7 +5,7 @@ import type { AstroBadgeProperties } from './astro';
 import ELEMENT_TYPE from './element';
 import properties from './properties';
 
-type Props<Tag extends HTMLTag> = AstroBadgeProperties<Tag>;
+type Props<Tag extends HTMLTag = typeof ELEMENT_TYPE> = AstroBadgeProperties<Tag>;
 
 const { as: Tag = ELEMENT_TYPE, ...p } = properties(Astro.props);
 ---

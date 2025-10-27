@@ -5,7 +5,7 @@ import type { AstroLabelProperties } from './astro';
 import ELEMENT_TYPE from './element';
 import properties from './properties';
 
-export type Props<Tag extends HTMLTag> = AstroLabelProperties<Tag>;
+export type  Props<Tag extends HTMLTag = typeof ELEMENT_TYPE> = AstroLabelProperties<Tag>;
 
 const { as: Tag = ELEMENT_TYPE, ...p } = properties(Astro.props);
 ---
