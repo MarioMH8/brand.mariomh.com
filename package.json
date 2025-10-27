@@ -44,15 +44,15 @@
 		"typecheck:astro": "astro check"
 	},
 	"devDependencies": {
-		"@astrojs/check": "0.9.4",
+		"@astrojs/check": "0.9.5",
 		"@changesets/cli": "2.29.7",
-		"@happy-dom/global-registrator": "19.0.2",
-		"@hexadrop/eslint-config": "0.1.10",
+		"@happy-dom/global-registrator": "20.0.8",
+		"@hexadrop/eslint-config": "0.1.11",
 		"@hexadrop/tsconfig": "0.0.5",
-		"@types/bun": "1.2.23",
+		"@types/bun": "1.3.1",
 		"@types/react": "19.2.2",
-		"eslint": "9.37.0",
-		"publint": "0.3.14",
+		"eslint": "9.38.0",
+		"publint": "0.3.15",
 		"typescript": "5.9.3"
 	}
 }
