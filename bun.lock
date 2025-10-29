@@ -6,7 +6,7 @@
       "devDependencies": {
         "@astrojs/check": "0.9.5",
         "@changesets/cli": "2.29.7",
-        "@happy-dom/global-registrator": "20.0.8",
+        "@happy-dom/global-registrator": "20.0.10",
         "@hexadrop/eslint-config": "0.1.11",
         "@hexadrop/tsconfig": "0.0.5",
         "@types/bun": "1.3.1",
@@ -863,7 +863,7 @@
 
     "@fontsource/dm-sans": ["@fontsource/dm-sans@5.2.8", "", {}, "sha512-tlovG42m9ESG28WiHpLq3F5umAlm64rv0RkqTbYowRn70e9OlRr5a3yTJhrhrY+k5lftR/OFJjPzOLQzk8EfCA=="],
 
-    "@happy-dom/global-registrator": ["@happy-dom/global-registrator@20.0.8", "", { "dependencies": { "@types/node": "^20.0.0", "happy-dom": "^20.0.8" } }, "sha512-6XJ7BGO3tz3yLZcrQF1JIQAEZ6u3mJ2EYfLSZDuZPC5EVdGtz5O2R/RlWgLYATc2tbkPnuxb9qHWHdT4TlzeOw=="],
+    "@happy-dom/global-registrator": ["@happy-dom/global-registrator@20.0.10", "", { "dependencies": { "@types/node": "^20.0.0", "happy-dom": "^20.0.10" } }, "sha512-GU0UBt9lJKhZlY/U0Bivj9ZVepDIQoAUupAAl/90THG4/urkzXNglkVYETsnt2pGBDgQ+4vBjMAbLu6XzcKcQA=="],
 
     "@hexadrop/eslint-config": ["@hexadrop/eslint-config@0.1.11", "", { "dependencies": { "@eslint/markdown": "7.5.0", "@stylistic/eslint-plugin": "5.5.0", "@typescript-eslint/eslint-plugin": "8.46.2", "@typescript-eslint/parser": "8.46.2", "astro-eslint-parser": "1.2.2", "eslint-config-flat-gitignore": "2.1.0", "eslint-flat-config-utils": "2.1.4", "eslint-import-resolver-typescript": "4.4.4", "eslint-merge-processors": "2.0.0", "eslint-parser-plain": "0.1.1", "eslint-plugin-astro": "1.3.1", "eslint-plugin-format": "1.0.2", "eslint-plugin-import-x": "4.16.1", "eslint-plugin-jsonc": "2.21.0", "eslint-plugin-n": "17.23.1", "eslint-plugin-perfectionist": "4.15.1", "eslint-plugin-react": "7.37.5", "eslint-plugin-react-hooks": "7.0.1", "eslint-plugin-react-refresh": "0.4.24", "eslint-plugin-simple-import-sort": "12.1.1", "eslint-plugin-unicorn": "62.0.0", "eslint-plugin-unused-imports": "4.3.0", "globals": "16.4.0", "jsonc-eslint-parser": "2.4.1", "local-pkg": "1.1.2", "prettier": "3.6.2", "prettier-plugin-astro": "0.14.1", "tslib": "2.8.1" }, "peerDependencies": { "eslint": "^9.17.0" } }, "sha512-D0rMPEmZXX1U9euTimhdQEGQovpYKTxSeyAZ8p350EdAlqhBGvIUhrheZOuRhLxSSxVbz62CRwEOgoL/KX51Ew=="],
 
@@ -1833,7 +1833,7 @@
 
     "h3": ["h3@1.15.4", "", { "dependencies": { "cookie-es": "^1.2.2", "crossws": "^0.3.5", "defu": "^6.1.4", "destr": "^2.0.5", "iron-webcrypto": "^1.2.1", "node-mock-http": "^1.0.2", "radix3": "^1.1.2", "ufo": "^1.6.1", "uncrypto": "^0.1.3" } }, "sha512-z5cFQWDffyOe4vQ9xIqNfCZdV4p//vy6fBnr8Q1AWnVZ0teurKMG66rLj++TKwKPUP3u7iMUvrvKaEUiQw2QWQ=="],
 
-    "happy-dom": ["happy-dom@20.0.8", "", { "dependencies": { "@types/node": "^20.0.0", "@types/whatwg-mimetype": "^3.0.2", "whatwg-mimetype": "^3.0.0" } }, "sha512-TlYaNQNtzsZ97rNMBAm8U+e2cUQXNithgfCizkDgc11lgmN4j9CKMhO3FPGKWQYPwwkFcPpoXYF/CqEPLgzfOg=="],
+    "happy-dom": ["happy-dom@20.0.10", "", { "dependencies": { "@types/node": "^20.0.0", "@types/whatwg-mimetype": "^3.0.2", "whatwg-mimetype": "^3.0.0" } }, "sha512-6umCCHcjQrhP5oXhrHQQvLB0bwb1UzHAHdsXy+FjtKoYjUhmNZsQL8NivwM1vDvNEChJabVrUYxUnp/ZdYmy2g=="],
 
     "has-bigints": ["has-bigints@1.1.0", "", {}, "sha512-R3pbpkcIqv2Pm3dUwgjclDRVmWpTJW2DcMzcIhEXEx1oh/CEMObMm3KLmRJOdvhM7o4uQBnwr8pzRK2sJWIqfg=="],
 
