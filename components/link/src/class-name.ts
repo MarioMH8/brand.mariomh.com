@@ -44,7 +44,7 @@ export default function cn(
 	return merge(
 		fontVariants({
 			dimension: properties.dimension,
-			family: 'secondary',
+			family: properties.family,
 			noSelect: properties.noSelect,
 			weight: properties.weight,
 		}),

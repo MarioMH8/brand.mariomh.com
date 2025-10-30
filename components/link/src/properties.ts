@@ -19,6 +19,7 @@ export default function properties<T extends AstroLinkProperties<typeof ELEMENT_
 		className: cls2,
 		dimension: _dimension,
 		disabled: _disabled,
+		family: _family,
 		intent: _intent,
 		noSelect: _noSelect,
 		weight: _weight,
