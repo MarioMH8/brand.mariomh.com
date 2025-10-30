@@ -5,6 +5,7 @@ import {
 	children,
 	dimensionFont,
 	disabled,
+	family,
 	icon,
 	noSelect,
 	variantButton,
@@ -20,8 +21,9 @@ const meta = {
 	argTypes: {
 		asChild,
 		children,
-		dimension: dimensionFont,
+		dimension: { ...dimensionFont, options: dimensionFont.options.filter(option => option !== 'huge') },
 		disabled,
+		family,
 		icon,
 		noSelect,
 		variant: variantButton,
