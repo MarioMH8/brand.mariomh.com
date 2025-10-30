@@ -18,6 +18,7 @@ export default function properties<T extends AstroButtonProperties<typeof ELEMEN
 		class: cls1,
 		className: cls2,
 		dimension: _dimension,
+		family: _family,
 		icon: _icon,
 		intent: _intent,
 		noSelect: _noSelect,
