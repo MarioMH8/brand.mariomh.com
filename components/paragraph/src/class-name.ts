@@ -9,7 +9,7 @@ export default function cn(properties?: ParagraphVariantsProperties, ...classLis
 		font({
 			align: properties?.align,
 			dimension: properties?.dimension,
-			family: 'secondary',
+			family: properties?.family,
 			noSelect: properties?.noSelect,
 			variant: properties?.variant,
 			weight: properties?.weight,

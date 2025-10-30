@@ -16,7 +16,7 @@ const variants = cva({
 });
 
 export type ParagraphVariantsProperties = Partial<
-	Pick<FontVariantsProperties, 'align' | 'dimension' | 'noSelect' | 'variant' | 'weight'>
+	Pick<FontVariantsProperties, 'align' | 'dimension' | 'family' | 'noSelect' | 'variant' | 'weight'>
 > &
 	VariantProperties<typeof variants>;
 
