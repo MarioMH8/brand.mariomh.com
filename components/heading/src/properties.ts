@@ -18,6 +18,8 @@ export default function properties<T extends AstroHeadingProperties<typeof ELEME
 		asChild: _asChild,
 		class: cls1,
 		className: cls2,
+		dimension: _dimension,
+		family: _family,
 		heading: _heading,
 		huge: _huge,
 		noSelect: _noSelect,

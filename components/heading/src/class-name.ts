@@ -65,8 +65,8 @@ export default function cn(properties?: HeadingVariantsProperties, ...classLists
 	return merge(
 		fontVariants({
 			align: properties?.align,
-			dimension: huge ? 'huge' : dimension,
-			family: properties?.subtitle === true ? 'secondary' : 'primary',
+			dimension: huge ? 'huge' : (properties?.dimension ?? dimension),
+			family: properties?.family ?? (properties?.subtitle === true ? 'secondary' : 'primary'),
 			noSelect: properties?.noSelect,
 			tracking: properties?.subtitle === true ? 'lg' : 'sm',
 			variant: properties?.subtitle === true ? 'muted' : undefined,
