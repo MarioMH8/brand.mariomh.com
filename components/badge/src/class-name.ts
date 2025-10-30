@@ -37,12 +37,14 @@ function getRoundDimension(dimension: BadgeVariantsProperties['dimension']): Rou
 }
 export default function cn(properties?: BadgeVariantsProperties, ...classLists: Parameters<typeof merge>): string {
 	const dimension = properties?.dimension ?? 'sm';
+	const family = properties?.family ?? 'secondary';
 
 	return merge(
 		fontVariants({
 			dimension,
-			family: 'secondary',
+			family,
 			noSelect: properties?.noSelect,
+			weight: properties?.weight,
 		}),
 		roundVariants({ dimension: getRoundDimension(dimension) }),
 		variants(properties),

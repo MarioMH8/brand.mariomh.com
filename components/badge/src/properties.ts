@@ -18,8 +18,10 @@ export default function properties<T extends AstroBadgeProperties<typeof ELEMENT
 		class: cls1,
 		className: cls2,
 		dimension: _dimension,
+		family: _family,
 		intent: _intent,
 		noSelect: _noSelect,
+		weight: _weight,
 		...rest
 	} = p as AstroBadgeProperties<typeof ELEMENT_TYPE> & ReactBadgeProperties;
 

@@ -15,7 +15,9 @@ const variants = cva({
 	},
 });
 
-export type BadgeVariantsProperties = Partial<Pick<FontVariantsProperties, 'dimension' | 'noSelect'>> &
+export type BadgeVariantsProperties = Partial<
+	Pick<FontVariantsProperties, 'dimension' | 'family' | 'noSelect' | 'weight'>
+> &
 	VariantProperties<typeof variants>;
 
 export default variants;
