@@ -1,4 +1,4 @@
-// Bun Snapshot v1, https://goo.gl/fbAQLP
+// Bun Snapshot v1, https://bun.sh/docs/test/snapshots
 
 exports[`@mariomh/checkbox/react should default render 1`] = `"BUTTON"`;
 
@@ -112,11 +112,3 @@ exports[`@mariomh/checkbox/react should exclude variants props 4`] = `
   "text-2xl",
 ]
 `;
-
-exports[`@mariomh/checkbox/react should as child with other props 1`] = `"INPUT"`;
-
-exports[`@mariomh/checkbox/react should as child with other props 2`] = `{}`;
-
-exports[`@mariomh/checkbox/react should as child with other props 3`] = `""`;
-
-exports[`@mariomh/checkbox/react should as child with other props 4`] = `[]`;

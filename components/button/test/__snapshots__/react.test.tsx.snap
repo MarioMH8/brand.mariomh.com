@@ -1,4 +1,4 @@
-// Bun Snapshot v1, https://goo.gl/fbAQLP
+// Bun Snapshot v1, https://bun.sh/docs/test/snapshots
 
 exports[`@mariomh/button/react should default render 1`] = `"BUTTON"`;
 
@@ -35,8 +35,8 @@ exports[`@mariomh/button/react should default render 4`] = `
   "dark:active:bg-primary-dark-background-active",
   "text-primary-foreground",
   "dark:text-primary-dark",
-  "px-8",
-  "py-4",
+  "px-10",
+  "py-3.5",
 ]
 `;
 
@@ -75,8 +75,8 @@ exports[`@mariomh/button/react should asChild works as expected render 4`] = `
   "dark:active:bg-primary-dark-background-active",
   "text-primary-foreground",
   "dark:text-primary-dark",
-  "px-8",
-  "py-4",
+  "px-10",
+  "py-3.5",
 ]
 `;
 
@@ -114,8 +114,8 @@ exports[`@mariomh/button/react should override class 4`] = `
   "dark:active:bg-primary-dark-background-active",
   "text-primary-foreground",
   "dark:text-primary-dark",
-  "px-8",
-  "py-4",
+  "px-10",
+  "py-3.5",
   "text-2xl",
 ]
 `;

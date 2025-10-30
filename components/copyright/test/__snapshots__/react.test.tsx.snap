@@ -1,4 +1,4 @@
-// Bun Snapshot v1, https://goo.gl/fbAQLP
+// Bun Snapshot v1, https://bun.sh/docs/test/snapshots
 
 exports[`@mariomh/copyright/react should default render 1`] = `"SPAN"`;
 
@@ -14,7 +14,7 @@ exports[`@mariomh/copyright/react should default render 4`] = `
   "dark:text-primary-dark-foreground",
   "selection:bg-primary-background-active",
   "dark:selection:text-primary-foreground",
-  "font-normal",
+  "font-light",
   "tracking-wide",
 ]
 `;
@@ -32,7 +32,7 @@ exports[`@mariomh/copyright/react should override class 4`] = `
   "dark:text-primary-dark-foreground",
   "selection:bg-primary-background-active",
   "dark:selection:text-primary-foreground",
-  "font-normal",
+  "font-light",
   "tracking-wide",
   "text-2xl",
 ]
@@ -53,7 +53,7 @@ exports[`@mariomh/copyright/react should exclude variants props 4`] = `
   "selection:bg-primary-background-active",
   "dark:selection:text-primary-foreground",
   "select-none",
-  "font-normal",
+  "font-light",
   "tracking-wide",
   "block",
 ]
