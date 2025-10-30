@@ -5,9 +5,11 @@ import {
 	autoComplete,
 	dimensionFont,
 	disabled,
+	family,
 	id,
 	placeholder,
 	type,
+	weight,
 } from '@mariomh/storybook/argument-types';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
@@ -26,9 +28,11 @@ const meta = {
 		autoComplete,
 		dimension: dimensionFont,
 		disabled,
+		family,
 		id,
 		placeholder,
 		type,
+		weight,
 	},
 	component: Component,
 	parameters: {

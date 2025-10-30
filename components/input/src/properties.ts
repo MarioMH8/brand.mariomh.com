@@ -18,7 +18,9 @@ export default function properties<T extends AstroInputProperties<typeof ELEMENT
 		class: cls1,
 		className: cls2,
 		dimension: _dimension,
+		family: _family,
 		intent: _intent,
+		weight: _weight,
 		...rest
 	} = p as AstroInputProperties<typeof ELEMENT_TYPE> & ReactInputProperties;
 

@@ -1,5 +1,6 @@
 import type { VariantProperties } from '@mariomh/cva';
 import cva from '@mariomh/cva';
+import type { FontVariantsProperties } from '@mariomh/font/variants';
 
 const variants = cva({
 	base: [
@@ -108,6 +109,7 @@ const variants = cva({
 	},
 });
 
-export type InputVariantsProperties = VariantProperties<typeof variants>;
+export type InputVariantsProperties = Partial<Pick<FontVariantsProperties, 'family' | 'weight'>> &
+	VariantProperties<typeof variants>;
 
 export default variants;
