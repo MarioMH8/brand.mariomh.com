@@ -1,5 +1,11 @@
 # @mariomh/label
 
+## 0.0.11
+
+### Patch Changes
+
+- a66a719: Include family property
+
 ## 0.0.10
 
 ### Patch Changes

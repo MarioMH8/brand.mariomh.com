@@ -1,5 +1,11 @@
 # @mariomh/span
 
+## 0.0.11
+
+### Patch Changes
+
+- ebc62d9: Include family property
+
 ## 0.0.10
 
 ### Patch Changes

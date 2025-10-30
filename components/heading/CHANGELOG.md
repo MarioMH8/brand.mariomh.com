@@ -1,5 +1,11 @@
 # @mariomh/heading
 
+## 0.0.12
+
+### Patch Changes
+
+- b054a8b: Include dimension and family
+
 ## 0.0.11
 
 ### Patch Changes

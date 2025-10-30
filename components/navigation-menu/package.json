@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh/navigation-menu",
-	"version": "0.0.12",
+	"version": "0.0.13",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH navigation menu",
 	"keywords": [
@@ -80,7 +80,7 @@
 		"prepublishOnly": "tsup && publint"
 	},
 	"peerDependencies": {
-		"@mariomh/button": "0.0.10",
+		"@mariomh/button": "0.0.11",
 		"@mariomh/container": "0.0.10",
 		"@mariomh/font": "0.0.8",
 		"@mariomh/logo": "0.0.10",
@@ -123,7 +123,7 @@
 		"@mariomh/cva": "0.0.7"
 	},
 	"devDependencies": {
-		"@mariomh/button": "0.0.10",
+		"@mariomh/button": "0.0.11",
 		"@mariomh/container": "0.0.10",
 		"@mariomh/font": "0.0.8",
 		"@mariomh/logo": "0.0.10",

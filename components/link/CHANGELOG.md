@@ -1,5 +1,11 @@
 # @mariomh/link
 
+## 0.0.11
+
+### Patch Changes
+
+- 73ad46f: Include family property
+
 ## 0.0.10
 
 ### Patch Changes

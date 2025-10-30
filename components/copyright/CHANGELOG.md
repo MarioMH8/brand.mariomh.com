@@ -1,5 +1,11 @@
 # @mariomh/copyright
 
+## 0.0.11
+
+### Patch Changes
+
+- 0cb9303: Add family and weight properties\
+
 ## 0.0.10
 
 ### Patch Changes

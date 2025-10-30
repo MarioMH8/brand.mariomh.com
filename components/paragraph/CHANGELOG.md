@@ -1,5 +1,11 @@
 # @mariomh/paragraph
 
+## 0.0.11
+
+### Patch Changes
+
+- 229c1d8: Include family property
+
 ## 0.0.10
 
 ### Patch Changes

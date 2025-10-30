@@ -1,5 +1,11 @@
 # @mariomh/button
 
+## 0.0.11
+
+### Patch Changes
+
+- e0357e6: Update button variants to support dynamic family and improved padding
+
 ## 0.0.10
 
 ### Patch Changes

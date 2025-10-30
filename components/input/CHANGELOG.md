@@ -1,5 +1,11 @@
 # @mariomh/input
 
+## 0.0.11
+
+### Patch Changes
+
+- 3a80f88: Include family and weight properties
+
 ## 0.0.10
 
 ### Patch Changes

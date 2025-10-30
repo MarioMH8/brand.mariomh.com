@@ -1,5 +1,11 @@
 # @mariomh/badge
 
+## 0.0.11
+
+### Patch Changes
+
+- 8c7e460: Add family and weight properties
+
 ## 0.0.10
 
 ### Patch Changes

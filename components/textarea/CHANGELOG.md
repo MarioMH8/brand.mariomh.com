@@ -1,5 +1,11 @@
 # @mariomh/textarea
 
+## 0.0.11
+
+### Patch Changes
+
+- 0198fa2: Include family and weight properties
+
 ## 0.0.10
 
 ### Patch Changes

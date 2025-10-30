@@ -1,5 +1,11 @@
 # @mariomh/select
 
+## 0.0.11
+
+### Patch Changes
+
+- d5384a4: Include family and weight properties
+
 ## 0.0.10
 
 ### Patch Changes

@@ -1,5 +1,45 @@
 # @mariomh/storybook
 
+## 0.0.15
+
+### Patch Changes
+
+- ebc62d9: Include family property
+- 520e641: Add family and weight properties to Badge
+- e530b8e: Filter out 'huge' option from dimension property in checkbox
+- 0198fa2: Include family and weight properties
+- b054a8b: Include dimension and family
+- 8261f62: Add family property to button stories
+- d5384a4: Include family and weight properties
+- 0cb9303: Add family and weight properties\
+- a66a719: Include family property
+- 73ad46f: Include family property
+- 3a80f88: Include family and weight properties
+- 229c1d8: Include family property
+- Updated dependencies [ebc62d9]
+- Updated dependencies [0198fa2]
+- Updated dependencies [b054a8b]
+- Updated dependencies [e0357e6]
+- Updated dependencies [d5384a4]
+- Updated dependencies [0cb9303]
+- Updated dependencies [a66a719]
+- Updated dependencies [73ad46f]
+- Updated dependencies [3a80f88]
+- Updated dependencies [8c7e460]
+- Updated dependencies [229c1d8]
+  - @mariomh/span@0.0.11
+  - @mariomh/textarea@0.0.11
+  - @mariomh/heading@0.0.12
+  - @mariomh/button@0.0.11
+  - @mariomh/select@0.0.11
+  - @mariomh/copyright@0.0.11
+  - @mariomh/label@0.0.11
+  - @mariomh/link@0.0.11
+  - @mariomh/input@0.0.11
+  - @mariomh/badge@0.0.11
+  - @mariomh/paragraph@0.0.11
+  - @mariomh/navigation-menu@0.0.13
+
 ## 0.0.14
 
 ### Patch Changes
