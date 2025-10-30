@@ -1,5 +1,6 @@
 import type { VariantProperties } from '@mariomh/cva';
 import cva from '@mariomh/cva';
+import type { FontVariantsProperties } from '@mariomh/font/variants';
 
 const variants = cva({
 	base: 'flex w-full border disabled:cursor-not-allowed disabled:opacity-50',
@@ -31,6 +32,7 @@ const variants = cva({
 	},
 });
 
-export type SelectVariantsProperties = VariantProperties<typeof variants>;
+export type SelectVariantsProperties = Partial<Pick<FontVariantsProperties, 'family' | 'weight'>> &
+	VariantProperties<typeof variants>;
 
 export default variants;

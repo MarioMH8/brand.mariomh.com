@@ -18,7 +18,9 @@ export default function properties<T extends AstroSelectProperties<typeof ELEMEN
 		class: cls1,
 		className: cls2,
 		dimension: _dimension,
+		family: _family,
 		intent: _intent,
+		weight: _weight,
 		...rest
 	} = p as AstroSelectProperties<typeof ELEMENT_TYPE> & ReactSelectProperties;
 

@@ -1,6 +1,6 @@
 import package_ from '@mariomh/select/package.json';
 import Component from '@mariomh/select/react';
-import { asChild, dimensionFont, disabled, id } from '@mariomh/storybook/argument-types';
+import { asChild, dimensionFont, disabled, family, id, weight } from '@mariomh/storybook/argument-types';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 /**
@@ -13,9 +13,11 @@ const meta = {
 	},
 	argTypes: {
 		asChild,
-		dimension: dimensionFont,
+		dimension: { ...dimensionFont, options: dimensionFont.options.filter(option => option !== 'huge') },
 		disabled,
+		family,
 		id,
+		weight,
 	},
 	component: Component,
 	parameters: {
