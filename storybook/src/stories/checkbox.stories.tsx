@@ -15,7 +15,7 @@ const meta = {
 	},
 	argTypes: {
 		asChild,
-		dimension: dimensionFont,
+		dimension: { ...dimensionFont, options: dimensionFont.options.filter(option => option !== 'huge') },
 		disabled,
 		id,
 		title,
