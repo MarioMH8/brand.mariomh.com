@@ -8,7 +8,7 @@ export default function cn(properties?: LabelVariantsProperties, ...classLists: 
 	return merge(
 		font({
 			dimension: properties?.dimension,
-			family: 'secondary',
+			family: properties?.family ?? 'secondary',
 			noSelect: properties?.noSelect,
 			weight: properties?.weight,
 		}),

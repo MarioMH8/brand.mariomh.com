@@ -1,6 +1,6 @@
 import package_ from '@mariomh/label/package.json';
 import component from '@mariomh/label/react';
-import { asChild, children, dimensionFont, noSelect, weight } from '@mariomh/storybook/argument-types';
+import { asChild, children, dimensionFont, family, noSelect, weight } from '@mariomh/storybook/argument-types';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {
@@ -11,6 +11,7 @@ const meta = {
 		asChild,
 		children,
 		dimension: dimensionFont,
+		family,
 		noSelect,
 		weight,
 	},

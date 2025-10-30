@@ -18,6 +18,7 @@ export default function properties<T extends AstroLabelProperties<typeof ELEMENT
 		class: cls1,
 		className: cls2,
 		dimension: _dimension,
+		family: _family,
 		noSelect: _noSelect,
 		weight: _weight,
 		...rest
