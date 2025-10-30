@@ -4,6 +4,7 @@ export { default as autoComplete } from './autocomplete.argument-types';
 export { default as children } from './children.argument-types';
 export * from './dimension.argument-types';
 export { default as disabled } from './disabled.argument-types';
+export { default as family } from './family.argument-types';
 export { default as from } from './from.argument-types';
 export { default as heading } from './heading.argument-types';
 export { default as href } from './href.argument-types';

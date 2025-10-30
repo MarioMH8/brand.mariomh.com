@@ -1,6 +1,6 @@
 import package_ from '@mariomh/badge/package.json';
 import component from '@mariomh/badge/react';
-import { asChild, children, dimensionFont, noSelect } from '@mariomh/storybook/argument-types';
+import { asChild, children, dimensionFont, family, noSelect, weight } from '@mariomh/storybook/argument-types';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {
@@ -11,7 +11,9 @@ const meta = {
 		asChild,
 		children,
 		dimension: dimensionFont,
+		family: { ...family, table: { ...family.table, defaultValue: { summary: 'secondary' } } },
 		noSelect,
+		weight,
 	},
 	component,
 	parameters: {
