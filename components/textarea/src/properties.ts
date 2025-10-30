@@ -18,7 +18,9 @@ export default function properties<T extends AstroTextareaProperties<typeof ELEM
 		class: cls1,
 		className: cls2,
 		dimension: _dimension,
+		family: _family,
 		intent: _intent,
+		weight: _weight,
 		...rest
 	} = p as AstroTextareaProperties<typeof ELEMENT_TYPE> & ReactTextareaProperties;
 

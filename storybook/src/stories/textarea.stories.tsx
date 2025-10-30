@@ -1,4 +1,13 @@
-import { asChild, autoComplete, dimensionFont, disabled, id, placeholder } from '@mariomh/storybook/argument-types';
+import {
+	asChild,
+	autoComplete,
+	dimensionFont,
+	disabled,
+	family,
+	id,
+	placeholder,
+	weight,
+} from '@mariomh/storybook/argument-types';
 import package_ from '@mariomh/textarea/package.json';
 import Component from '@mariomh/textarea/react';
 import type { Meta, StoryObj } from '@storybook/react-vite';
@@ -17,8 +26,10 @@ const meta = {
 		autoComplete,
 		dimension: dimensionFont,
 		disabled,
+		family,
 		id,
 		placeholder,
+		weight,
 	},
 	component: Component,
 	parameters: {
