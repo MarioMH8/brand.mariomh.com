@@ -18,6 +18,7 @@ export default function properties<T extends AstroSpanProperties<typeof ELEMENT_
 		class: cls1,
 		className: cls2,
 		dimension: _dimension,
+		family: _family,
 		noSelect: _noSelect,
 		variant: _variant,
 		weight: _weight,

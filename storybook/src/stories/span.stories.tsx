@@ -1,6 +1,14 @@
 import package_ from '@mariomh/span/package.json';
 import component from '@mariomh/span/react';
-import { asChild, children, dimensionFont, noSelect, variantFont, weight } from '@mariomh/storybook/argument-types';
+import {
+	asChild,
+	children,
+	dimensionFont,
+	family,
+	noSelect,
+	variantFont,
+	weight,
+} from '@mariomh/storybook/argument-types';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {
@@ -11,6 +19,7 @@ const meta = {
 		asChild,
 		children,
 		dimension: dimensionFont,
+		family,
 		noSelect,
 		variant: variantFont,
 		weight,

@@ -5,7 +5,7 @@ import type { FontVariantsProperties } from '@mariomh/font/variants';
 const variants = cva({});
 
 export type SpanVariantsProperties = Partial<
-	Pick<FontVariantsProperties, 'dimension' | 'noSelect' | 'variant' | 'weight'>
+	Pick<FontVariantsProperties, 'dimension' | 'family' | 'noSelect' | 'variant' | 'weight'>
 > &
 	VariantProperties<typeof variants>;
 
