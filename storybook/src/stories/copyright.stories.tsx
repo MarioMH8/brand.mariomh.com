@@ -1,12 +1,13 @@
 import package_ from '@mariomh/copyright/package.json';
 import component from '@mariomh/copyright/react';
-import { asChild, dimensionFont, from, noSelect, to, weight } from '@mariomh/storybook/argument-types';
+import { asChild, dimensionFont, family, from, noSelect, to, weight } from '@mariomh/storybook/argument-types';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {
 	argTypes: {
 		asChild,
 		dimension: dimensionFont,
+		family,
 		from,
 		noSelect,
 		to,

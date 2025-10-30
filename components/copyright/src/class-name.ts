@@ -8,8 +8,9 @@ export default function cn(properties?: CopyrightVariantsProperties, ...classLis
 	return merge(
 		font({
 			dimension: properties?.dimension,
-			family: 'secondary',
+			family: properties?.family ?? 'secondary',
 			noSelect: properties?.noSelect,
+			weight: properties?.weight ?? 'light',
 		}),
 		variants({}),
 		...classLists

@@ -18,9 +18,11 @@ export default function properties<T extends AstroCopyrightProperties<typeof ELE
 		class: cls1,
 		className: cls2,
 		dimension: _dimension,
+		family: _family,
 		from: _from,
 		noSelect: _noSelect,
 		to: _to,
+		weight: _weight,
 		...rest
 	} = p as AstroCopyrightProperties<typeof ELEMENT_TYPE> & ReactCopyrightProperties;
 
