@@ -37,10 +37,14 @@ function getRoundDimension(dimension: ButtonVariantsProperties['dimension']): Ro
 }
 
 export default function cn(properties: ButtonVariantsProperties = {}, ...classLists: Parameters<typeof merge>): string {
+	if (!properties.icon) {
+		delete properties.icon;
+	}
+
 	return merge(
 		fontVariants({
 			dimension: properties.dimension,
-			family: 'secondary',
+			family: properties.family ?? 'secondary',
 			noSelect: properties.noSelect,
 			weight: properties.weight,
 		}),
