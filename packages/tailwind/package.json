@@ -54,6 +54,6 @@
 	},
 	"devDependencies": {
 		"tailwindcss": "4.1.17",
-		"tsup": "8.5.0"
+		"tsup": "8.5.1"
 	}
 }
