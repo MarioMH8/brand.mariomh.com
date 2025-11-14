@@ -105,7 +105,7 @@
 	"devDependencies": {
 		"@mariomh/round": "0.0.8",
 		"@testing-library/react": "16.3.0",
-		"astro": "5.15.6",
+		"astro": "5.15.7",
 		"radix-ui": "1.4.3",
 		"react": "19.2.0",
 		"tsup": "8.5.1"
