@@ -44,7 +44,7 @@
 		"typecheck:astro": "astro check"
 	},
 	"devDependencies": {
-		"@astrojs/check": "0.9.5",
+		"@astrojs/check": "0.9.6",
 		"@changesets/cli": "2.29.7",
 		"@happy-dom/global-registrator": "20.0.10",
 		"@hexadrop/eslint-config": "0.1.11",
