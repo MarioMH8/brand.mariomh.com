@@ -1,5 +1,17 @@
 # @mariomh/navigation-menu
 
+## 0.0.14
+
+### Patch Changes
+
+- c6716ca: fix(deps): update dependency lucide-react to v0.552.0
+- Updated dependencies [eed42df]
+  - @mariomh/cva@0.0.8
+  - @mariomh/button@0.0.12
+  - @mariomh/container@0.0.11
+  - @mariomh/font@0.0.9
+  - @mariomh/logo@0.0.11
+
 ## 0.0.13
 
 ### Patch Changes

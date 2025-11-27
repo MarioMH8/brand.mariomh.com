@@ -1,5 +1,11 @@
 # @mariomh/cva
 
+## 0.0.8
+
+### Patch Changes
+
+- eed42df: fix(deps): update dependency tailwind-merge to v3.4.0
+
 ## 0.0.7
 
 ### Patch Changes

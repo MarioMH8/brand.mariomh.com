@@ -1,5 +1,12 @@
 # @mariomh/font
 
+## 0.0.9
+
+### Patch Changes
+
+- Updated dependencies [eed42df]
+  - @mariomh/cva@0.0.8
+
 ## 0.0.8
 
 ### Patch Changes
