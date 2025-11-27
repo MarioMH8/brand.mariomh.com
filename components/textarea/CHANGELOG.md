@@ -1,5 +1,15 @@
 # @mariomh/textarea
 
+## 0.0.12
+
+### Patch Changes
+
+- Updated dependencies [eed42df]
+  - @mariomh/cva@0.0.8
+  - @mariomh/focus@0.0.9
+  - @mariomh/font@0.0.9
+  - @mariomh/round@0.0.9
+
 ## 0.0.11
 
 ### Patch Changes

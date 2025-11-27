@@ -1,5 +1,35 @@
 # @mariomh/storybook
 
+## 0.0.16
+
+### Patch Changes
+
+- c6716ca: fix(deps): update dependency lucide-react to v0.552.0
+- b82b2fd: fix(deps): update dependency color-convert to v3.1.3
+- Updated dependencies [c6716ca]
+- Updated dependencies [eed42df]
+  - @mariomh/checkbox@0.0.11
+  - @mariomh/navigation-menu@0.0.14
+  - @mariomh/cva@0.0.8
+  - @mariomh/badge@0.0.12
+  - @mariomh/box@0.0.11
+  - @mariomh/button@0.0.12
+  - @mariomh/container@0.0.11
+  - @mariomh/copyright@0.0.12
+  - @mariomh/focus@0.0.9
+  - @mariomh/font@0.0.9
+  - @mariomh/heading@0.0.13
+  - @mariomh/input@0.0.12
+  - @mariomh/label@0.0.12
+  - @mariomh/link@0.0.12
+  - @mariomh/logo@0.0.11
+  - @mariomh/paragraph@0.0.12
+  - @mariomh/round@0.0.9
+  - @mariomh/select@0.0.12
+  - @mariomh/shadow@0.0.9
+  - @mariomh/span@0.0.12
+  - @mariomh/textarea@0.0.12
+
 ## 0.0.15
 
 ### Patch Changes

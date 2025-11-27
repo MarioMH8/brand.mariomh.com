@@ -1,5 +1,13 @@
 # @mariomh/box
 
+## 0.0.11
+
+### Patch Changes
+
+- Updated dependencies [eed42df]
+  - @mariomh/cva@0.0.8
+  - @mariomh/round@0.0.9
+
 ## 0.0.10
 
 ### Patch Changes

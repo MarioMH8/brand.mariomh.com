@@ -1,5 +1,12 @@
 # @mariomh/container
 
+## 0.0.11
+
+### Patch Changes
+
+- Updated dependencies [eed42df]
+  - @mariomh/cva@0.0.8
+
 ## 0.0.10
 
 ### Patch Changes

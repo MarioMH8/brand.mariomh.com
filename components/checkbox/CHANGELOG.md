@@ -1,5 +1,15 @@
 # @mariomh/checkbox
 
+## 0.0.11
+
+### Patch Changes
+
+- c6716ca: fix(deps): update dependency lucide-react to v0.552.0
+- Updated dependencies [eed42df]
+  - @mariomh/cva@0.0.8
+  - @mariomh/focus@0.0.9
+  - @mariomh/round@0.0.9
+
 ## 0.0.10
 
 ### Patch Changes
