@@ -155,8 +155,9 @@
 
 @layer base {
     * {
-        scrollbar-color: initial;
-        scrollbar-width: initial;
+        scrollbar-color: var(--color-primary) transparent;
+        scrollbar-gutter: stable both-edges;
+        scrollbar-width: thin;
     }
 
     ::selection {
@@ -168,7 +169,6 @@
     }
 
     body {
-        scrollbar-gutter: stable both-edges;
         @apply font-secondary bg-primary-background dark:bg-primary-dark-background text-primary-foreground dark:text-primary-dark-foreground;
     }
 
