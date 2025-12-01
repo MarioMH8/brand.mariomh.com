@@ -71,7 +71,7 @@
 		"@vitejs/plugin-react": "5.1.1",
 		"storybook": "10.1.2",
 		"tailwindcss": "4.1.17",
-		"vite": "7.2.4",
+		"vite": "7.2.6",
 		"vite-tsconfig-paths": "5.1.4"
 	}
 }
