@@ -1,5 +1,13 @@
 # @mariomh/box
 
+## 0.0.12
+
+### Patch Changes
+
+- 5b98a0c: fix(deps): update react monorepo to v19.2.1
+- Updated dependencies [5b98a0c]
+  - @mariomh/round@0.0.10
+
 ## 0.0.11
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @mariomh/round
 
+## 0.0.10
+
+### Patch Changes
+
+- 5b98a0c: fix(deps): update react monorepo to v19.2.1
+
 ## 0.0.9
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @mariomh/container
 
+## 0.0.12
+
+### Patch Changes
+
+- 5b98a0c: fix(deps): update react monorepo to v19.2.1
+
 ## 0.0.11
 
 ### Patch Changes

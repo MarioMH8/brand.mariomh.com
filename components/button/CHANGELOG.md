@@ -1,5 +1,15 @@
 # @mariomh/button
 
+## 0.0.13
+
+### Patch Changes
+
+- 5b98a0c: fix(deps): update react monorepo to v19.2.1
+- Updated dependencies [5b98a0c]
+  - @mariomh/focus@0.0.10
+  - @mariomh/font@0.0.10
+  - @mariomh/round@0.0.10
+
 ## 0.0.12
 
 ### Patch Changes

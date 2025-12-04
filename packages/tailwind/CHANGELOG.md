@@ -1,5 +1,12 @@
 # @mariomh/tailwind
 
+## 0.0.7
+
+### Patch Changes
+
+- 1257c23: Adjust scrollbar-gutter for improved layout consistency
+- 932f3e8: Use `tailwindcss-flow-type` plugin
+
 ## 0.0.6
 
 ### Patch Changes

@@ -1,5 +1,35 @@
 # @mariomh/storybook
 
+## 0.0.19
+
+### Patch Changes
+
+- 5b98a0c: fix(deps): update react monorepo to v19.2.1
+- Updated dependencies [5b98a0c]
+- Updated dependencies [1257c23]
+- Updated dependencies [932f3e8]
+  - @mariomh/badge@0.0.13
+  - @mariomh/box@0.0.12
+  - @mariomh/button@0.0.13
+  - @mariomh/checkbox@0.0.13
+  - @mariomh/container@0.0.12
+  - @mariomh/copyright@0.0.13
+  - @mariomh/focus@0.0.10
+  - @mariomh/font@0.0.10
+  - @mariomh/heading@0.0.14
+  - @mariomh/input@0.0.13
+  - @mariomh/label@0.0.13
+  - @mariomh/link@0.0.13
+  - @mariomh/logo@0.0.12
+  - @mariomh/navigation-menu@0.0.16
+  - @mariomh/paragraph@0.0.13
+  - @mariomh/round@0.0.10
+  - @mariomh/select@0.0.13
+  - @mariomh/shadow@0.0.10
+  - @mariomh/span@0.0.13
+  - @mariomh/textarea@0.0.13
+  - @mariomh/tailwind@0.0.7
+
 ## 0.0.18
 
 ### Patch Changes
