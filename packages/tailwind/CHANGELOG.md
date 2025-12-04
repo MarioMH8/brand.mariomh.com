@@ -1,5 +1,11 @@
 # @mariomh/tailwind
 
+## 0.0.7
+
+### Patch Changes
+
+- 1257c23: Adjust scrollbar-gutter for improved layout consistency
+
 ## 0.0.6
 
 ### Patch Changes

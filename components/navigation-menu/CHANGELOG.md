@@ -1,5 +1,16 @@
 # @mariomh/navigation-menu
 
+## 0.0.16
+
+### Patch Changes
+
+- 5b98a0c: fix(deps): update react monorepo to v19.2.1
+- Updated dependencies [5b98a0c]
+  - @mariomh/button@0.0.13
+  - @mariomh/container@0.0.12
+  - @mariomh/font@0.0.10
+  - @mariomh/logo@0.0.12
+
 ## 0.0.15
 
 ### Patch Changes
