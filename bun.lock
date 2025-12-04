@@ -602,6 +602,9 @@
     "packages/tailwind": {
       "name": "@mariomh/tailwind",
       "version": "0.0.6",
+      "dependencies": {
+        "tailwindcss-flow-type": "0.0.2",
+      },
       "devDependencies": {
         "tailwindcss": "4.1.17",
         "tsup": "8.5.1",
@@ -2535,6 +2538,8 @@
     "tailwind-merge": ["tailwind-merge@3.4.0", "", {}, "sha512-uSaO4gnW+b3Y2aWoWfFpX62vn2sR3skfhbjsEnaBI81WD1wBLlHZe5sWf0AqjksNdYTbGBEd0UasQMT3SNV15g=="],
 
     "tailwindcss": ["tailwindcss@4.1.17", "", {}, "sha512-j9Ee2YjuQqYT9bbRTfTZht9W/ytp5H+jJpZKiYdP/bpnXARAuELt9ofP0lPnmHjbga7SNQIxdTAXCmtKVYjN+Q=="],
+
+    "tailwindcss-flow-type": ["tailwindcss-flow-type@0.0.2", "", { "peerDependencies": { "tailwindcss": "^4.0.0" } }, "sha512-pVnOpgxceQpdN/kdvNA2bMKTu02S/crx02HvUDBcMvIFphR3Q5IVorc/MgoJ8Kr4r7t4xdzgJ497uCJTqUudCA=="],
 
     "tapable": ["tapable@2.3.0", "", {}, "sha512-g9ljZiwki/LfxmQADO3dEY1CbpmXT5Hm2fJ+QaGKwSXUylMybePR7/67YW7jOrrvjEgL1Fmz5kzyAjWVWLlucg=="],
 

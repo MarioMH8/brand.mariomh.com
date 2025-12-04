@@ -7,6 +7,7 @@
 - 5b98a0c: fix(deps): update react monorepo to v19.2.1
 - Updated dependencies [5b98a0c]
 - Updated dependencies [1257c23]
+- Updated dependencies [932f3e8]
   - @mariomh/badge@0.0.13
   - @mariomh/box@0.0.12
   - @mariomh/button@0.0.13

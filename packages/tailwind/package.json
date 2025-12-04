@@ -49,6 +49,9 @@
 		"lint:packages": "publint",
 		"prepublishOnly": "tsup && publint"
 	},
+	"dependencies": {
+		"tailwindcss-flow-type": "0.0.2"
+	},
 	"peerDependencies": {
 		"tailwindcss": ">=4.1.16"
 	},
