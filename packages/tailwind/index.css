@@ -4,6 +4,8 @@
     override: true
 }
 
+@variant dark (&:where(.dark, .dark *));
+
 @theme {
     --color-*: initial;
 
@@ -138,16 +140,6 @@
     }
 
     .dark {
-        ::-webkit-scrollbar-track {
-            @apply bg-primary-dark-background;
-        }
-
-        ::-webkit-scrollbar-thumb {
-            @apply border-primary-dark-background;
-        }
-    }
-
-    @media (prefers-color-scheme: dark) {
         ::-webkit-scrollbar-track {
             @apply bg-primary-dark-background;
         }
