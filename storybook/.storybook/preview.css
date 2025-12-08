@@ -1,8 +1,6 @@
 @import "tailwindcss" source("../../");
 @import "@mariomh/tailwind";
 
-@variant dark (&:where(.dark, .dark *));
-
 #storybook-docs > .sbdocs-wrapper {
     background-color: transparent;
 }
