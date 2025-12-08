@@ -121,10 +121,38 @@
 }
 
 @layer base {
-    * {
-        scrollbar-color: var(--color-primary) transparent;
-        scrollbar-gutter: auto;
-        scrollbar-width: thin;
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        @apply bg-primary-background dark:bg-primary-dark-background;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        @apply bg-primary border-2 rounded-md border-primary-background dark:border-primary-dark-background;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        @apply bg-primary-dark-border-hover;
+    }
+
+    .dark {
+        ::-webkit-scrollbar-track {
+            @apply bg-primary-dark-background;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            @apply border-primary-dark-background;
+        }
+    }
+
+    @supports not selector(::-webkit-scrollbar) {
+        * {
+            scrollbar-color: var(--color-primary) transparent;
+            scrollbar-gutter: auto;
+            scrollbar-width: thin;
+        }
     }
 
     ::selection {
