@@ -126,11 +126,11 @@
     }
 
     ::-webkit-scrollbar-track {
-        @apply bg-primary-background dark:bg-primary-dark-background;
+        @apply bg-primary-background;
     }
 
     ::-webkit-scrollbar-thumb {
-        @apply bg-primary border-2 rounded-md border-primary-background dark:border-primary-dark-background;
+        @apply bg-primary rounded-md border-2 border-primary-background;
     }
 
     ::-webkit-scrollbar-thumb:hover {
@@ -138,6 +138,16 @@
     }
 
     .dark {
+        ::-webkit-scrollbar-track {
+            @apply bg-primary-dark-background;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            @apply border-primary-dark-background;
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
         ::-webkit-scrollbar-track {
             @apply bg-primary-dark-background;
         }
