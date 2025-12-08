@@ -1,5 +1,14 @@
 # @mariomh/storybook
 
+## 0.0.22
+
+### Patch Changes
+
+- 9882fee: fix(deps): update dependency lucide-react to v0.556.0
+- Updated dependencies [9882fee]
+  - @mariomh/checkbox@0.0.14
+  - @mariomh/navigation-menu@0.0.17
+
 ## 0.0.21
 
 ### Patch Changes

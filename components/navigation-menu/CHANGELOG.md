@@ -1,5 +1,11 @@
 # @mariomh/navigation-menu
 
+## 0.0.17
+
+### Patch Changes
+
+- 9882fee: fix(deps): update dependency lucide-react to v0.556.0
+
 ## 0.0.16
 
 ### Patch Changes
