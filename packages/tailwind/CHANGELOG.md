@@ -1,5 +1,11 @@
 # @mariomh/tailwind
 
+## 0.0.11
+
+### Patch Changes
+
+- ff818e0: Add dark variant for scrollbar styles
+
 ## 0.0.10
 
 ### Patch Changes

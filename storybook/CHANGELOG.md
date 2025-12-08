@@ -1,5 +1,12 @@
 # @mariomh/storybook
 
+## 0.0.23
+
+### Patch Changes
+
+- Updated dependencies [ff818e0]
+  - @mariomh/tailwind@0.0.11
+
 ## 0.0.22
 
 ### Patch Changes
