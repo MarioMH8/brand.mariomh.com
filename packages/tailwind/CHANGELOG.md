@@ -1,5 +1,11 @@
 # @mariomh/tailwind
 
+## 0.0.10
+
+### Patch Changes
+
+- 2345e8f: Enhance scrollbar styles
+
 ## 0.0.9
 
 ### Patch Changes
