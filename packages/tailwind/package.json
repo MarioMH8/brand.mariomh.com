@@ -56,7 +56,7 @@
 		"tailwindcss-flow-type": "0.0.2"
 	},
 	"devDependencies": {
-		"tailwindcss": "4.1.17",
+		"tailwindcss": "4.1.18",
 		"tsup": "8.5.1"
 	}
 }
