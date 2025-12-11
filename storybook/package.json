@@ -63,13 +63,13 @@
 	},
 	"devDependencies": {
 		"@storybook-community/storybook-dark-mode": "7.0.3",
-		"@storybook/addon-a11y": "10.1.6",
-		"@storybook/addon-docs": "10.1.6",
-		"@storybook/addon-links": "10.1.6",
-		"@storybook/react-vite": "10.1.6",
+		"@storybook/addon-a11y": "10.1.7",
+		"@storybook/addon-docs": "10.1.7",
+		"@storybook/addon-links": "10.1.7",
+		"@storybook/react-vite": "10.1.7",
 		"@tailwindcss/vite": "4.1.17",
 		"@vitejs/plugin-react": "5.1.2",
-		"storybook": "10.1.6",
+		"storybook": "10.1.7",
 		"tailwindcss": "4.1.17",
 		"vite": "7.2.7",
 		"vite-tsconfig-paths": "5.1.4"
