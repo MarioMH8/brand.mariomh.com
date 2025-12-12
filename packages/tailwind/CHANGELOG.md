@@ -1,5 +1,11 @@
 # @mariomh/tailwind
 
+## 0.0.12
+
+### Patch Changes
+
+- 12d7bab: Add height to scrollbar styles
+
 ## 0.0.11
 
 ### Patch Changes

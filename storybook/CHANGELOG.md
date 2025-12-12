@@ -1,5 +1,18 @@
 # @mariomh/storybook
 
+## 0.0.24
+
+### Patch Changes
+
+- 8d5d4a9: fix(deps): update dependency lucide-react to v0.557.0
+- 8c38f31: fix(deps): update dependency lucide-react to v0.559.0
+- Updated dependencies [8d5d4a9]
+- Updated dependencies [8c38f31]
+- Updated dependencies [12d7bab]
+  - @mariomh/checkbox@0.0.15
+  - @mariomh/navigation-menu@0.0.18
+  - @mariomh/tailwind@0.0.12
+
 ## 0.0.23
 
 ### Patch Changes
