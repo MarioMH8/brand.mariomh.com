@@ -103,7 +103,7 @@
 	},
 	"devDependencies": {
 		"@mariomh/font": "0.0.10",
-		"@testing-library/react": "16.3.0",
+		"@testing-library/react": "16.3.1",
 		"astro": "5.16.5",
 		"radix-ui": "1.4.3",
 		"react": "19.2.1",
