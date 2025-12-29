@@ -106,7 +106,7 @@
 		"@testing-library/react": "16.3.1",
 		"astro": "5.16.6",
 		"radix-ui": "1.4.3",
-		"react": "19.2.1",
+		"react": "19.2.2",
 		"tsup": "8.5.1"
 	}
 }
