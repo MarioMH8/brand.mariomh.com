@@ -1,5 +1,12 @@
 # @mariomh/navigation-menu
 
+## 0.0.18
+
+### Patch Changes
+
+- 8d5d4a9: fix(deps): update dependency lucide-react to v0.557.0
+- 8c38f31: fix(deps): update dependency lucide-react to v0.559.0
+
 ## 0.0.17
 
 ### Patch Changes
