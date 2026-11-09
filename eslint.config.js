@@ -2,6 +2,7 @@ import hexadrop from '@hexadrop/eslint-config';
 
 export default hexadrop(
 	{
+		ignores: ['storybook/storybook-static/**'],
 		typescript: ['./tsconfig.json', './storybook/tsconfig.json'],
 	},
 	{
