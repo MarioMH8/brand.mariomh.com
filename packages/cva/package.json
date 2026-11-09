@@ -1,5 +1,5 @@
 {
-	"name": "@mariomh/cva",
+	"name": "@mariomh8/cva",
 	"version": "0.0.8",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH cva",
@@ -25,6 +25,9 @@
 		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
 	},
 	"license": "PRIVATE",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
 	"type": "module",
 	"sideEffects": false,
 	"files": [

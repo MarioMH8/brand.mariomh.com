@@ -1,5 +1,5 @@
-import package_ from '@mariomh/heading/package.json';
-import component from '@mariomh/heading/react';
+import package_ from '@mariomh8/heading/package.json';
+import component from '@mariomh8/heading/react';
 import {
 	align,
 	asChild,
@@ -10,7 +10,7 @@ import {
 	huge,
 	noSelect,
 	weight,
-} from '@mariomh/storybook/argument-types';
+} from '@mariomh8/storybook/argument-types';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 import subtitle from '../argument-types/subtitle.argument-types.ts';

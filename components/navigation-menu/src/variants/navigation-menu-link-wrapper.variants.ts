@@ -1,5 +1,5 @@
-import type { VariantProperties } from '@mariomh/cva';
-import cva from '@mariomh/cva';
+import type { VariantProperties } from '@mariomh8/cva';
+import cva from '@mariomh8/cva';
 
 const variants = cva({
 	base: 'w-full mb-4 flex lg:hidden justify-between items-center',

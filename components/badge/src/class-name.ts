@@ -1,7 +1,7 @@
-import { merge } from '@mariomh/cva';
-import fontVariants from '@mariomh/font/variants';
-import type { RoundVariantsProperties } from '@mariomh/round/variants';
-import roundVariants from '@mariomh/round/variants';
+import { merge } from '@mariomh8/cva';
+import fontVariants from '@mariomh8/font/variants';
+import type { RoundVariantsProperties } from '@mariomh8/round/variants';
+import roundVariants from '@mariomh8/round/variants';
 
 import type { BadgeVariantsProperties } from './variants';
 import variants from './variants';

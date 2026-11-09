@@ -1,5 +1,5 @@
-import package_ from '@mariomh/input/package.json';
-import Component from '@mariomh/input/react';
+import package_ from '@mariomh8/input/package.json';
+import Component from '@mariomh8/input/react';
 import {
 	asChild,
 	autoComplete,
@@ -10,7 +10,7 @@ import {
 	placeholder,
 	type,
 	weight,
-} from '@mariomh/storybook/argument-types';
+} from '@mariomh8/storybook/argument-types';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 /**

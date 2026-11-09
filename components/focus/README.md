@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/focus
+  @mariomh8/focus
 </h1>
 
 <p align="center">
@@ -18,13 +18,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/focus
+npm install --save @mariomh8/focus
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/focus
+bun add @mariomh8/focus
 ```
 
 ## Como usarlo
@@ -32,7 +32,7 @@ bun add @mariomh/focus
 Puedes acceder a los variants de las fuentes
 
 ```ts
-import variants from '@mariomh/focus/variants';
+import variants from '@mariomh8/focus/variants';
 
 const className = variants({
   // Opciones
@@ -43,7 +43,7 @@ const className = variants({
 **Usando `class-name`**
 
 ```ts
-import cn from '@mariomh/focus/class-name';
+import cn from '@mariomh8/focus/class-name';
 
 const className = cn(
   {
@@ -57,7 +57,7 @@ const className = cn(
 **Usando React**
 
 ```tsx
-import Focus from '@mariomh/focus/react';
+import Focus from '@mariomh8/focus/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {

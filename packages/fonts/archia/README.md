@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/archia
+  @mariomh8/archia
 </h1>
 
 <p align="center">
@@ -17,13 +17,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/archia
+npm install --save @mariomh8/archia
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/archia
+bun add @mariomh8/archia
 ```
 
 ## Como usarlo
@@ -31,11 +31,11 @@ bun add @mariomh/archia
 Importa la fuente en tu proyecto:
 
 ```tsx
-import '@mariomh/archia'; // Igual que importar @mariomh/archia/400.css
-import '@mariomh/archia/100.css.css';
-import '@mariomh/archia/300.css.css';
-import '@mariomh/archia/400.css.css';
-import '@mariomh/archia/500.css.css';
-import '@mariomh/archia/600.css.css';
-import '@mariomh/archia/700.css.css';
+import '@mariomh8/archia'; // Igual que importar @mariomh8/archia/400.css
+import '@mariomh8/archia/100.css.css';
+import '@mariomh8/archia/300.css.css';
+import '@mariomh8/archia/400.css.css';
+import '@mariomh8/archia/500.css.css';
+import '@mariomh8/archia/600.css.css';
+import '@mariomh8/archia/700.css.css';
 ```

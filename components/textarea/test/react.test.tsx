@@ -1,4 +1,4 @@
-import Component from '@mariomh/textarea/react';
+import Component from '@mariomh8/textarea/react';
 import { render } from '@testing-library/react';
 import { describe, expect, it } from 'bun:test';
 
@@ -13,7 +13,7 @@ function assetComponent(element: Element | null): void {
 	expect([...element.classList]).toMatchSnapshot();
 }
 
-describe('@mariomh/textarea/react', () => {
+describe('@mariomh8/textarea/react', () => {
 	it('should default render', () => {
 		const { container } = render(<Component />);
 		const child = container.firstElementChild;

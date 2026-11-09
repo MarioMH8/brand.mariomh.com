@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/label
+  @mariomh8/label
 </h1>
 
 <p align="center">
@@ -18,13 +18,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/label
+npm install --save @mariomh8/label
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/label
+bun add @mariomh8/label
 ```
 
 ## Como usarlo
@@ -32,7 +32,7 @@ bun add @mariomh/label
 Puedes acceder a los variants de las fuentes
 
 ```ts
-import variants from '@mariomh/label/variants';
+import variants from '@mariomh8/label/variants';
 
 const className = variants({
   // Opciones
@@ -43,7 +43,7 @@ const className = variants({
 **Usando `class-name`**
 
 ```ts
-import cn from '@mariomh/label/class-name';
+import cn from '@mariomh8/label/class-name';
 
 const className = cn(
   {
@@ -58,7 +58,7 @@ const className = cn(
 
 ```astro
 ---
-import Label from '@mariomh/label/astro';
+import Label from '@mariomh8/label/astro';
 ---
 
 <Label weight='medium'> cupidatat </Label>
@@ -67,7 +67,7 @@ import Label from '@mariomh/label/astro';
 **Usando React**
 
 ```tsx
-import Label from '@mariomh/label/react';
+import Label from '@mariomh8/label/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {

@@ -1,5 +1,5 @@
-import { merge } from '@mariomh/cva';
-import font from '@mariomh/font/variants';
+import { merge } from '@mariomh8/cva';
+import font from '@mariomh8/font/variants';
 
 import type { ParagraphVariantsProperties } from './variants';
 import variants from './variants';

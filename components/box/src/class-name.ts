@@ -1,5 +1,5 @@
-import { merge } from '@mariomh/cva';
-import roundVariants from '@mariomh/round/variants';
+import { merge } from '@mariomh8/cva';
+import roundVariants from '@mariomh8/round/variants';
 
 import type { BoxVariantsProperties } from './variants';
 import variants from './variants';

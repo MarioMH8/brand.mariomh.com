@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/paragraph
+  @mariomh8/paragraph
 </h1>
 
 <p align="center">
@@ -18,13 +18,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/paragraph
+npm install --save @mariomh8/paragraph
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/paragraph
+bun add @mariomh8/paragraph
 ```
 
 ## Como usarlo
@@ -32,7 +32,7 @@ bun add @mariomh/paragraph
 Puedes acceder a los variants de las fuentes
 
 ```ts
-import variants from '@mariomh/paragraph/variants';
+import variants from '@mariomh8/paragraph/variants';
 
 const className = variants({
   // Opciones
@@ -43,7 +43,7 @@ const className = variants({
 **Usando `class-name`**
 
 ```ts
-import cn from '@mariomh/paragraph/class-name';
+import cn from '@mariomh8/paragraph/class-name';
 
 const className = cn(
   {
@@ -58,7 +58,7 @@ const className = cn(
 
 ```astro
 ---
-import Paragraph from '@mariomh/paragraph/astro';
+import Paragraph from '@mariomh8/paragraph/astro';
 ---
 
 <Paragraph dimension='sm'> cupidatat </Paragraph>
@@ -67,7 +67,7 @@ import Paragraph from '@mariomh/paragraph/astro';
 **Usando React**
 
 ```tsx
-import Paragraph from '@mariomh/paragraph/react';
+import Paragraph from '@mariomh8/paragraph/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {

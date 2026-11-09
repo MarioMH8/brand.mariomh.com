@@ -1,5 +1,5 @@
 {
-	"name": "@mariomh/container",
+	"name": "@mariomh8/container",
 	"version": "0.0.12",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH container",
@@ -25,6 +25,9 @@
 		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
 	},
 	"license": "PRIVATE",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
 	"type": "module",
 	"sideEffects": false,
 	"files": [
@@ -96,7 +99,7 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "0.0.8"
+		"@mariomh8/cva": "0.0.8"
 	},
 	"devDependencies": {
 		"@testing-library/react": "16.3.3",

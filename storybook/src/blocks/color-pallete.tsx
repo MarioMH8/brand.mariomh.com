@@ -1,10 +1,10 @@
-import { merge } from '@mariomh/cva';
-import Focus from '@mariomh/focus/react';
-import type { FocusVariantsProperties } from '@mariomh/focus/variants';
-import Round from '@mariomh/round/react';
-import Shadow from '@mariomh/shadow/react';
-import Span from '@mariomh/span/react';
-import type { Pallete } from '@mariomh/tailwind/pallete';
+import { merge } from '@mariomh8/cva';
+import Focus from '@mariomh8/focus/react';
+import type { FocusVariantsProperties } from '@mariomh8/focus/variants';
+import Round from '@mariomh8/round/react';
+import Shadow from '@mariomh8/shadow/react';
+import Span from '@mariomh8/span/react';
+import type { Pallete } from '@mariomh8/tailwind/pallete';
 import type { HSL, LCH, RGB } from 'color-convert';
 import convert from 'color-convert';
 import { ClipboardIcon } from 'lucide-react';

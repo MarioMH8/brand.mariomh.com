@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/navigation-menu
+  @mariomh8/navigation-menu
 </h1>
 
 <p align="center">
@@ -17,13 +17,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/navigation-menu
+npm install --save @mariomh8/navigation-menu
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/navigation-menu
+bun add @mariomh8/navigation-menu
 ```
 
 ## Como usarlo
@@ -32,7 +32,7 @@ bun add @mariomh/navigation-menu
 
 ```astro
 ---
-import { NavigationMenu, NavigationMenuLI, NavigationMenuLink } from '@mariomh/navigation-menu/astro';
+import { NavigationMenu, NavigationMenuLI, NavigationMenuLink } from '@mariomh8/navigation-menu/astro';
 ---
 
 <NavigationMenu>
@@ -63,7 +63,7 @@ import { NavigationMenu, NavigationMenuLI, NavigationMenuLink } from '@mariomh/n
 **Usando React**
 
 ```tsx
-import { NavigationMenu, NavigationMenuLink } from '@mariomh/navigation-menu/astro';
+import { NavigationMenu, NavigationMenuLink } from '@mariomh8/navigation-menu/astro';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {

@@ -1,6 +1,6 @@
-import { merge } from '@mariomh/cva';
-import type { FontVariantsProperties } from '@mariomh/font/variants';
-import fontVariants from '@mariomh/font/variants';
+import { merge } from '@mariomh8/cva';
+import type { FontVariantsProperties } from '@mariomh8/font/variants';
+import fontVariants from '@mariomh8/font/variants';
 
 import type { AstroHeadingProperties } from './astro';
 import type ELEMENT_TYPE from './element';

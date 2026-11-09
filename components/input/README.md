@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/input
+  @mariomh8/input
 </h1>
 
 <p align="center">
@@ -18,13 +18,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/input
+npm install --save @mariomh8/input
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/input
+bun add @mariomh8/input
 ```
 
 ## Como usarlo
@@ -32,7 +32,7 @@ bun add @mariomh/input
 Puedes acceder a los variants de las fuentes
 
 ```ts
-import variants from '@mariomh/input/variants';
+import variants from '@mariomh8/input/variants';
 
 const className = variants({
   // Opciones
@@ -43,7 +43,7 @@ const className = variants({
 **Usando `class-name`**
 
 ```ts
-import cn from '@mariomh/input/class-name';
+import cn from '@mariomh8/input/class-name';
 
 const className = cn(
   {
@@ -58,7 +58,7 @@ const className = cn(
 
 ```astro
 ---
-import Input from '@mariomh/input/astro';
+import Input from '@mariomh8/input/astro';
 ---
 
 <Input intent='primary' />
@@ -67,7 +67,7 @@ import Input from '@mariomh/input/astro';
 **Usando React**
 
 ```tsx
-import Input from '@mariomh/input/react';
+import Input from '@mariomh8/input/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {
