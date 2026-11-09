@@ -45,7 +45,7 @@
 		"lint:packages": "publint"
 	},
 	"dependencies": {
-		"cva": "1.0.0-beta.4",
+		"cva": "1.0.0-beta.12",
 		"tailwind-merge": "3.7.0"
 	},
 	"devDependencies": {

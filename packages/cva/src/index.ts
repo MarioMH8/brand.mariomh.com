@@ -1,13 +1,9 @@
-import { defineConfig } from 'cva';
+import { defineConfig } from 'cva/config';
 import { twMerge as merge } from 'tailwind-merge';
 
-const { compose, cva, cx } = defineConfig({
-	hooks: {
-		onComplete: className => merge(className),
-	},
-});
+const { cva, cx } = defineConfig({ cx: merge });
 
-export { compose, cva, cx };
+export { cva, cx };
 
 export default cva;
 
