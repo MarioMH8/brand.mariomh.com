@@ -35,6 +35,7 @@ Comandos principales, ejecutados desde la raíz del repositorio:
 | Tarea | Comando |
 | --- | --- |
 | Construir todos los workspaces | `bun run build` |
+| Construir solo los paquetes (sin Storybook) | `bun run build:packages` |
 | Construir solo Storybook | `bun run build:storybook` |
 | Ejecutar Storybook en desarrollo | `bun run --filter '@mariomh8/storybook' dev` |
 | Ejecutar los tests | `bun run test` |
@@ -46,6 +47,8 @@ Comandos principales, ejecutados desde la raíz del repositorio:
 | Añadir un changeset | `bun changeset add` |
 
 Storybook se sirve en el puerto `6006` y su build se escribe en `storybook/storybook-static`, que está ignorado por Git.
+
+`bun run typecheck:astro` construye antes los paquetes sin Storybook (`bun run build:packages`) y después ejecuta `astro check`, para que funcione en un checkout limpio donde `dist` todavía no existe.
 
 ### Autenticación en GitHub Packages
 

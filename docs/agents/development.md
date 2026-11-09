@@ -8,6 +8,7 @@ Use the smallest command that validates the changed behavior. Run every command 
 | --- | --- |
 | Install dependencies | `bun install` |
 | Build every workspace | `bun run build` |
+| Build packages only (no Storybook) | `bun run build:packages` |
 | Build one package | `bun run --filter @mariomh8/button build` |
 | Build Storybook only | `bun run build:storybook` |
 | Run Storybook in development | `bun run --filter @mariomh8/storybook dev` |
@@ -21,7 +22,7 @@ Use the smallest command that validates the changed behavior. Run every command 
 | Build and validate packages | `bun run check:packages` |
 | Add a changeset | `bun changeset add` |
 
-`bun run build` runs `build` in every `@mariomh8/*` workspace, which includes the Storybook package. `bun run build:storybook` builds only Storybook. `bun run check:packages` runs the full build and then `publint` on every package through `lint:packages`.
+`bun run build` runs `build` in every `@mariomh8/*` workspace, which includes the Storybook package. `bun run build:packages` builds the component packages and the shared `@mariomh8/cva` and `@mariomh8/tailwind` packages, skipping Storybook. `bun run build:storybook` builds only Storybook. `bun run check:packages` runs the full build and then `publint` on every package through `lint:packages`.
 
 ## Tests
 
@@ -58,7 +59,7 @@ GitHub Actions authenticates with `GITHUB_TOKEN` and the `packages: write` permi
 
 ## Type-checking
 
-`bun run typecheck` runs `tsc --noEmit` over the root project. `bun run typecheck:astro` runs `astro check` over every `.astro` file in the component packages; it type-checks the Astro outputs and the `Astro.props` contract of each component. Both commands run in CI and should pass before opening a pull request.
+`bun run typecheck` runs `tsc --noEmit` over the root project. `bun run typecheck:astro` first builds the component and shared packages without Storybook (`bun run build:packages`) and then runs `astro check` over every `.astro` file. The build is required because package subpath imports such as `@mariomh8/button/class-name` resolve to `dist`, which a clean checkout does not have. It type-checks the Astro outputs and the `Astro.props` contract of each component. Both commands run in CI and should pass before opening a pull request.
 
 ## Continuous integration
 

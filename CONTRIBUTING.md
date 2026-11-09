@@ -74,6 +74,7 @@ Run these from the repository root:
 | --- | --- |
 | Install dependencies | `bun install` |
 | Build every workspace | `bun run build` |
+| Build packages only (no Storybook) | `bun run build:packages` |
 | Build Storybook only | `bun run build:storybook` |
 | Run Storybook in development | `bun run --filter @mariomh8/storybook dev` |
 | Run all tests | `bun run test` |
@@ -88,7 +89,7 @@ Run these from the repository root:
 
 Tests use Bun's built-in runner with happy-dom, configured in `bunfig.toml` and `bun.preload.ts`. Test files live under `components/*/test/`.
 
-`bun run typecheck:astro` runs `astro check` over the `.astro` files in the component packages. It runs in CI alongside `bun run typecheck`, so both must pass before opening a pull request.
+`bun run typecheck:astro` builds the component and shared packages without Storybook (`bun run build:packages`) and then runs `astro check` over the `.astro` files. The build is needed because package subpath imports resolve to `dist`, which a clean checkout does not have. It runs in CI alongside `bun run typecheck`, so both must pass before opening a pull request.
 
 ## Storybook
 
