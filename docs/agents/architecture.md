@@ -6,7 +6,7 @@
 
 | Surface | Location | Responsibility |
 | --- | --- | --- |
-| Components | `components/*` | Twenty publishable `@mariomh8/<component>` packages. Each ships React and, where relevant, Astro entry points plus `class-name`, `properties` and `variants` exports built by tsup. |
+| Components | `components/*` | Twenty publishable `@mariomh8/<component>` packages. Each ships React and, where relevant, Astro entry points plus `class-name`, `properties` and `variants` exports built by tsdown. |
 | Shared packages | `packages/cva`, `packages/tailwind` | `@mariomh8/cva` wraps `cva` and `tailwind-merge`; `@mariomh8/tailwind` ships the Tailwind theme CSS and the palette export. |
 | Fonts | `packages/fonts/archia` | `@mariomh8/archia` ships the Archia CSS entry points and font files. |
 | Storybook | `storybook/` | Private `@mariomh8/storybook` workspace: documentation site, stories, blocks, hooks and pages. |
@@ -30,9 +30,9 @@ Publishable packages pin their internal runtime dependencies to the published ve
 
 ## Build output
 
-The root `build` script runs `build` in every `@mariomh8/*` workspace. Component and shared packages use tsup 9 with ESM output, declaration files, source maps, `platform: 'neutral'`, splitting and `clean: true`. Component packages and `@mariomh8/cva` publish only `dist/` through their `files` field.
+The root `build` script runs `build` in every `@mariomh8/*` workspace. Component and shared packages use tsdown 0.23.4 with ESM-only output (`.mjs` modules and `.d.mts` declarations), source maps, `platform: 'neutral'` and `clean: true`. Component packages and `@mariomh8/cva` publish only `dist/` through their `files` field.
 
-The Astro entry points live in source as `.astro` files. tsup marks `/\.astro$/` as external and the package build copies `src/astro.astro` and `src/astro.ts` into `dist/` after the bundle finishes. This is why the Astro files are not compiled by tsup.
+The Astro entry points live in source as `.astro` files. tsdown marks `/\.astro$/` as external through `deps.neverBundle` and the package build copies `src/astro.astro` and `src/astro.ts` into `dist/` with the `copy` option. `navigation-menu` copies its `src/astro` directory to `dist/astro/` so the `./astro` subpath keeps resolving to `dist/astro/index.ts`. This is why the Astro files are not compiled by tsdown.
 
 `@mariomh8/tailwind` copies `index.css` into `dist/` and publishes both `dist/` and `index.css`. `@mariomh8/archia` has no build step: it publishes its CSS entry points and font files directly. Storybook builds to `storybook/storybook-static`, which is ignored by Git.
 

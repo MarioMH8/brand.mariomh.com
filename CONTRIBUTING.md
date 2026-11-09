@@ -146,7 +146,7 @@ New versions are published only to GitHub Packages. Google Artifact Registry is 
 
 - [Agent guide](AGENTS.md) and [docs/agents/](docs/agents/).
 - [Architecture](docs/agents/architecture.md): surfaces, build output, registry and deploy.
-- [Conventions](docs/agents/conventions.md): Bun, TypeScript, lint, tsup and registry rules.
+- [Conventions](docs/agents/conventions.md): Bun, TypeScript, lint, tsdown and registry rules.
 - [Development](docs/agents/development.md): commands, tests, Storybook and authentication.
 - [Release process](docs/agents/release-process.md): beta, stable, deploy, sync and hotfixes.
 - [Pull requests](docs/agents/pull-requests.md) and [branches and commits](docs/agents/branches-and-commits.md).
