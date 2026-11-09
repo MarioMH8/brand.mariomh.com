@@ -2,13 +2,12 @@
 	"extends": "@hexadrop/tsconfig",
 	"compilerOptions": {
 		"emitDecoratorMetadata": false,
-		"baseUrl": ".",
 		"paths": {
-			"@mariomh8/storybook/argument-types": ["storybook/src/argument-types"],
-			"@mariomh8/storybook/blocks": ["storybook/src/blocks"],
-			"@mariomh8/storybook/hooks": ["storybook/src/hooks"],
-			"@mariomh8/storybook/pages": ["storybook/src/pages"],
-			"@mariomh8/cva": ["packages/cva/src/index.ts"],
+			"@mariomh8/storybook/argument-types": ["./storybook/src/argument-types"],
+			"@mariomh8/storybook/blocks": ["./storybook/src/blocks"],
+			"@mariomh8/storybook/hooks": ["./storybook/src/hooks"],
+			"@mariomh8/storybook/pages": ["./storybook/src/pages"],
+			"@mariomh8/cva": ["./packages/cva/src/index.ts"],
 			"@mariomh8/badge/react": ["./components/badge/src/react.tsx"],
 			"@mariomh8/box/react": ["./components/box/src/react.tsx"],
 			"@mariomh8/button/react": ["./components/button/src/react.tsx"],
@@ -32,9 +31,10 @@
 			"@mariomh8/select/react": ["./components/select/src/react.tsx"],
 			"@mariomh8/shadow/react": ["./components/shadow/src/react.tsx"],
 			"@mariomh8/span/react": ["./components/span/src/react.tsx"],
-			"@mariomh8/tailwind/pallete": ["packages/tailwind/src/pallete.ts"],
+			"@mariomh8/tailwind/pallete": ["./packages/tailwind/src/pallete.ts"],
 			"@mariomh8/textarea/react": ["./components/textarea/src/react.tsx"]
 		},
+		"types": ["bun"],
 		"allowImportingTsExtensions": true,
 		"plugins": [
 			{
@@ -43,6 +43,7 @@
 		]
 	},
 	"exclude": [
-		"components/*/dist"
+		"components/*/dist",
+		"storybook/storybook-static"
 	]
 }

@@ -7,7 +7,7 @@ import properties from './properties';
 
 export type Props<Tag extends HTMLTag = typeof ELEMENT_TYPE> = AstroCopyrightProperties<Tag>;
 
-const { from = `${new Date().getFullYear()}`, to } = Astro.props;
+const { from = String(new Date().getFullYear()), to } = Astro.props;
 
 const { as: Tag = ELEMENT_TYPE, ...p } = properties(Astro.props);
 
