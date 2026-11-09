@@ -33,7 +33,7 @@
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -62,7 +62,7 @@
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -91,7 +91,7 @@
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -123,8 +123,8 @@
         "@testing-library/react": "16.3.3",
         "lucide-react": "0.560.0",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
-        "react-dom": "19.2.3",
+        "react": "19.3.1",
+        "react-dom": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -154,7 +154,7 @@
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -179,7 +179,7 @@
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -204,7 +204,7 @@
       "devDependencies": {
         "@testing-library/react": "16.3.3",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -225,7 +225,7 @@
       "devDependencies": {
         "@testing-library/react": "16.3.3",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -248,7 +248,7 @@
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -277,7 +277,7 @@
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -308,7 +308,7 @@
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -337,7 +337,7 @@
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -368,7 +368,7 @@
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -400,7 +400,7 @@
         "lucide-astro": "0.556.0",
         "lucide-react": "0.560.0",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -437,7 +437,7 @@
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -462,7 +462,7 @@
       "devDependencies": {
         "@testing-library/react": "16.3.3",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -487,7 +487,7 @@
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -516,7 +516,7 @@
       "devDependencies": {
         "@testing-library/react": "16.3.3",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -539,7 +539,7 @@
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -568,7 +568,7 @@
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
+        "react": "19.3.1",
         "tsup": "9.0.0",
       },
       "peerDependencies": {
@@ -648,8 +648,8 @@
         "color-convert": "3.1.3",
         "lucide-react": "0.560.0",
         "radix-ui": "1.4.3",
-        "react": "19.2.3",
-        "react-dom": "19.2.3",
+        "react": "19.3.1",
+        "react-dom": "19.3.1",
       },
       "devDependencies": {
         "@storybook-community/storybook-dark-mode": "7.1.4",
@@ -2485,13 +2485,13 @@
 
     "radix3": ["radix3@1.1.2", "", {}, "sha512-b484I/7b8rDEdSDKckSSBA8knMpcdsXudlE/LNL639wFoHKwLbEkQFZHWEYwDC0wa0FKUcCY+GAF73Z7wxNVFA=="],
 
-    "react": ["react@19.2.3", "", {}, "sha512-Ku/hhYbVjOQnXDZFv2+RibmLFGwFdeeKHFcOTlrt7xplBnya5OGn/hIRDsqDiSUcfORsDC7MPxwork8jBwsIWA=="],
+    "react": ["react@19.3.1", "", {}, "sha512-QNhWdt7nrgVWWQG58QuGsAR3jv3Hbe4mb4vz7w2csnHavciZJgda1CPNaldF6eVxv90ud3jUXpKlHL69gO38yw=="],
 
     "react-docgen": ["react-docgen@8.0.2", "", { "dependencies": { "@babel/core": "^7.28.0", "@babel/traverse": "^7.28.0", "@babel/types": "^7.28.2", "@types/babel__core": "^7.20.5", "@types/babel__traverse": "^7.20.7", "@types/doctrine": "^0.0.9", "@types/resolve": "^1.20.2", "doctrine": "^3.0.0", "resolve": "^1.22.1", "strip-indent": "^4.0.0" } }, "sha512-+NRMYs2DyTP4/tqWz371Oo50JqmWltR1h2gcdgUMAWZJIAvrd0/SqlCfx7tpzpl/s36rzw6qH2MjoNrxtRNYhA=="],
 
     "react-docgen-typescript": ["react-docgen-typescript@2.4.0", "", { "peerDependencies": { "typescript": ">= 4.3.x" } }, "sha512-ZtAp5XTO5HRzQctjPU0ybY0RRCQO19X/8fxn3w7y2VVTUbGHDKULPTL4ky3vB05euSgG5NpALhEhDPvQ56wvXg=="],
 
-    "react-dom": ["react-dom@19.2.3", "", { "dependencies": { "scheduler": "^0.27.0" }, "peerDependencies": { "react": "^19.2.3" } }, "sha512-yELu4WmLPw5Mr/lmeEpox5rw3RETacE++JgHqQzd2dg+YbJuat3jH4ingc+WPZhxaoFzdv9y33G+F7Nl5O0GBg=="],
+    "react-dom": ["react-dom@19.3.1", "", { "dependencies": { "scheduler": "^0.28.0" }, "peerDependencies": { "react": "^19.3.1" } }, "sha512-Y0bARz53lhEC1NMCASs0/j+faB/zqt3R8hpvg1e8+61ZVJ4UL0UdC4cBbXfZMcIuhrfgeILTLe+ZeBCavQPtKQ=="],
 
     "react-is": ["react-is@17.0.2", "", {}, "sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w=="],
 
@@ -2577,7 +2577,7 @@
 
     "sax": ["sax@1.4.3", "", {}, "sha512-yqYn1JhPczigF94DMS+shiDMjDowYO6y9+wB/4WgO0Y19jWYk0lQ4tuG5KI7kj4FTp1wxPj5IFfcrz/s1c3jjQ=="],
 
-    "scheduler": ["scheduler@0.27.0", "", {}, "sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q=="],
+    "scheduler": ["scheduler@0.28.0", "", {}, "sha512-juorfCmIkIw8tT+p5BXSm6PJjQF/ycEYmKyzURCIt/RaZIhL+PulbQ9Yu2z1HdOJDdqDTlxA1+xKBmHXJsczAw=="],
 
     "semver": ["semver@7.8.6", "", { "bin": { "semver": "bin/semver.js" } }, "sha512-9lpSSU4Mly3mrtruwLs1eLK6+gzbzqeBFwRNjIjE+9LuDpWdYctrQlQ3ej1Ilgi7gknpsTRnPoLP8DpCHqHIJw=="],
 
