@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh8/container",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH container",
 	"keywords": [
@@ -79,7 +79,7 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh8/cva": "0.1.1"
+		"@mariomh8/cva": "0.2.0"
 	},
 	"devDependencies": {
 		"@testing-library/react": "16.3.3",

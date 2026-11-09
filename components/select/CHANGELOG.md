@@ -1,5 +1,16 @@
 # @mariomh/select
 
+## 0.3.0
+
+### Minor Changes
+
+- efdeaf1: Adopt tsdown and ESM-only `.mjs` / `.d.mts` output. Subpath exports now use the tsdown filenames.
+
+### Patch Changes
+
+- Updated dependencies [efdeaf1]
+  - @mariomh8/cva@0.2.0
+
 ## 0.2.0
 
 ### Minor Changes
