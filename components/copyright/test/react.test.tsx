@@ -1,6 +1,6 @@
 import Component from '@mariomh/copyright/react';
 import { render } from '@testing-library/react';
-import { describe, expect, it } from 'bun:test';
+import { afterAll, beforeAll, describe, expect, it, setSystemTime } from 'bun:test';
 
 function assetComponent(element: Element | null): void {
 	expect(element).toBeDefined();
@@ -14,6 +14,14 @@ function assetComponent(element: Element | null): void {
 }
 
 describe('@mariomh/copyright/react', () => {
+	beforeAll(() => {
+		setSystemTime(new Date('2025-06-01T00:00:00Z'));
+	});
+
+	afterAll(() => {
+		setSystemTime();
+	});
+
 	it('should default render', () => {
 		const { container } = render(<Component>Test Message</Component>);
 		const child = container.firstElementChild;
