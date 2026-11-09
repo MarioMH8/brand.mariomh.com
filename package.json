@@ -35,6 +35,7 @@
 	"scripts": {
 		"build": "bun run --filter '@mariomh/*' build",
 		"build:storybook": "bun run --filter '@mariomh/storybook' build",
+		"check:packages": "bun run build && bun run lint:packages",
 		"commitlint": "commitlint --edit",
 		"lint": "eslint .",
 		"lint:ci": "eslint --cache --cache-strategy content .",
