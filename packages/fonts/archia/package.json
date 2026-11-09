@@ -60,6 +60,6 @@
 	},
 	"scripts": {
 		"lint:packages": "publint",
-		"prepublishOnly": "publint"
+		"prepublishOnly": "bun run lint:packages"
 	}
 }

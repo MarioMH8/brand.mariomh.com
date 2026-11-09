@@ -51,7 +51,7 @@
 	"scripts": {
 		"build": "tsup",
 		"lint:packages": "publint",
-		"prepublishOnly": "tsup && publint"
+		"prepublishOnly": "bun run lint:packages"
 	},
 	"dependencies": {
 		"cva": "1.0.0-beta.4",

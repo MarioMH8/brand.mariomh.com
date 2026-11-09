@@ -14,7 +14,7 @@ permissions:
 jobs:
   check:
     name: Check
-    uses: hexadrop/github-workflows/.github/workflows/check.yml@v1.8.0
+    uses: hexadrop/github-workflows/.github/workflows/check.yml@v1.9.0
     with:
       commands: '["lint:ci","typecheck","test","check:packages"]'
       cache-commands: '["lint:ci"]'
@@ -25,7 +25,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    uses: hexadrop/github-workflows/.github/workflows/release-prepare.yml@v1.8.0
+    uses: hexadrop/github-workflows/.github/workflows/release-prepare.yml@v1.9.0
     with:
       base-branch: main
       use-app-token: true
