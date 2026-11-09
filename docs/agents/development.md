@@ -59,7 +59,7 @@ GitHub Actions authenticates with `GITHUB_TOKEN` and the `packages: write` permi
 
 ## Type-checking
 
-`bun run typecheck` runs `tsc --noEmit` over the root project. `bun run typecheck:astro` first builds the component and shared packages without Storybook (`bun run build:packages`) and then runs `astro check` over every `.astro` file. The build is required because package subpath imports such as `@mariomh8/button/class-name` resolve to `dist`, which a clean checkout does not have. It type-checks the Astro outputs and the `Astro.props` contract of each component. Both commands run in CI and should pass before opening a pull request.
+`bun run typecheck` runs `tsc --noEmit` over the root project. `bun run typecheck:astro` runs `astro check` over every `.astro` file without building first: the root `tsconfig.json` paths resolve the subpath imports used by the Astro components (`@mariomh8/button/class-name`, `@mariomh8/logo/astro`) to source. If a component starts importing another package subpath from an `.astro` file, add a matching path alias instead of building. It type-checks the Astro outputs and the `Astro.props` contract of each component. Both commands run in CI and should pass before opening a pull request.
 
 ## Continuous integration
 

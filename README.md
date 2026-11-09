@@ -48,7 +48,7 @@ Comandos principales, ejecutados desde la raíz del repositorio:
 
 Storybook se sirve en el puerto `6006` y su build se escribe en `storybook/storybook-static`, que está ignorado por Git.
 
-`bun run typecheck:astro` construye antes los paquetes sin Storybook (`bun run build:packages`) y después ejecuta `astro check`, para que funcione en un checkout limpio donde `dist` todavía no existe.
+`bun run typecheck:astro` ejecuta `astro check` directamente, sin construir antes: los `paths` del `tsconfig.json` raíz resuelven a fuente los subpaths que usan los componentes de Astro, así que funciona en un checkout limpio donde `dist` todavía no existe.
 
 ### Autenticación en GitHub Packages
 

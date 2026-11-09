@@ -23,6 +23,6 @@ jobs:
     with:
       registry: github
       registry-scope: '@mariomh8'
-      build-command: bun run build
+      build-command: bun run build:packages
       snapshot: ${{ github.ref == 'refs/heads/develop' }}
       concurrency-group: release-${{ github.ref_name }}
