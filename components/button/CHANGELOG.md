@@ -1,5 +1,16 @@
 # @mariomh/button
 
+## 0.1.0
+
+### Minor Changes
+
+- 69a2ccb: Move the packages from the `@mariomh` scope to the `@mariomh8` scope and publish them to GitHub Packages. The package names change from `@mariomh` to `@mariomh8`.
+
+### Patch Changes
+
+- Updated dependencies [69a2ccb]
+  - @mariomh8/cva@0.1.0
+
 ## 0.0.13
 
 ### Patch Changes
