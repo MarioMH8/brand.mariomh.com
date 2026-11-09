@@ -18,36 +18,16 @@ jobs:
   check:
     name: Check
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
-    runs-on: ubuntu-latest
     permissions:
-      contents: 'read'
-      id-token: 'write'
-    strategy:
-      matrix:
-        command: [ 'lint:ci', test, typecheck, 'typecheck:astro' ]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v7
-        with:
-          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
-
-      - name: Setup bun
-        uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: latest
-
-      - name: Install dependencies
-        run: bun install
-
-      - name: ESLint cache
-        uses: actions/cache@v6
-        if: matrix.command == 'lint:ci'
-        with:
-          path: .eslintcache
-          key: ${{ runner.os }}-node
-
-      - name: ${{ matrix.command }}
-        run: bun ${{ matrix.command }}
+      contents: read
+      packages: read
+    uses: hexadrop/github-workflows/.github/workflows/check.yml@v1.13.0
+    with:
+      commands: '["lint:ci","test","typecheck","typecheck:astro"]'
+      cache-commands: '["lint:ci"]'
+      ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      registry: github
+      registry-scope: '@mariomh8'
 
   release:
     name: Deploy
@@ -58,6 +38,7 @@ jobs:
       contents: 'write'
       id-token: 'write'
       issues: 'write'
+      packages: 'read'
       pull-requests: 'write'
     steps:
       - name: Checkout
@@ -69,6 +50,19 @@ jobs:
         uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
+
+      - name: Setup npm registry
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@mariomh8'
+
+      - name: Export GitHub Packages token
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: echo "NODE_AUTH_TOKEN=${GH_TOKEN}" >> "$GITHUB_ENV"
 
       - name: Install dependencies
         run: bun install
@@ -86,4 +80,4 @@ jobs:
         with:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          command: pages deploy storybook/storybook-static --project-name=brand-mariomh
+          command: pages deploy storybook/storybook-static --project-name=brand-mariomh --branch main
