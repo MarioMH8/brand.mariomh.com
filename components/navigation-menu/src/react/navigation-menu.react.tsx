@@ -13,8 +13,7 @@ import NavigationMenuLogo from './navigation-menu-logo.react';
 import NavigationMenuUL from './navigation-menu-ul.react';
 
 interface ReactNavigationMenuProperties
-	extends ComponentPropsWithRef<typeof NAVIGATION_MENU_ELEMENT>,
-		NavigationMenuVariantsProperties {
+	extends ComponentPropsWithRef<typeof NAVIGATION_MENU_ELEMENT>, NavigationMenuVariantsProperties {
 	asChild?: boolean;
 }
 

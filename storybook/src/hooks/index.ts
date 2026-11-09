@@ -5,13 +5,15 @@ function onClassChange(node: HTMLElement, callback: (o: string) => void) {
 
 	const mutationObserver = new MutationObserver(mutationList => {
 		for (const item of mutationList) {
-			if (item.attributeName === 'class') {
-				const classString = node.classList.toString();
-				if (classString !== lastClassString) {
-					callback(classString);
-					lastClassString = classString;
-					break;
-				}
+			if (item.attributeName !== 'class') {
+				continue;
+			}
+
+			const classString = node.classList.toString();
+			if (classString !== lastClassString) {
+				callback(classString);
+				lastClassString = classString;
+				break;
 			}
 		}
 	});
@@ -21,7 +23,7 @@ function onClassChange(node: HTMLElement, callback: (o: string) => void) {
 	return mutationObserver;
 }
 const body = document.querySelector('body');
-const mediaWatcher = globalThis.matchMedia('(prefers-color-scheme: dark)');
+const mediaWatcher = matchMedia('(prefers-color-scheme: dark)');
 
 export default function useIsDarkMode(): boolean {
 	const [isSystemDark, setIsSystemDark] = useState(mediaWatcher.matches);

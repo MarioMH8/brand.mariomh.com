@@ -6,8 +6,7 @@ import properties from './properties';
 import type { CheckboxVariantsProperties } from './variants';
 
 interface ReactCheckboxProperties
-	extends CheckboxVariantsProperties,
-		ComponentPropsWithRef<typeof RadixCheckbox.Checkbox> {
+	extends CheckboxVariantsProperties, ComponentPropsWithRef<typeof RadixCheckbox.Checkbox> {
 	iconLabel?: string;
 }
 

@@ -6,8 +6,7 @@ import { propertiesNavigationMenuLI } from '../properties';
 import type { NavigationMenuLIVariantsProperties } from '../variants';
 
 interface ReactNavigationMenuLIProperties
-	extends ComponentPropsWithRef<typeof NAVIGATION_MENU_LI_ELEMENT>,
-		NavigationMenuLIVariantsProperties {
+	extends ComponentPropsWithRef<typeof NAVIGATION_MENU_LI_ELEMENT>, NavigationMenuLIVariantsProperties {
 	asChild?: boolean;
 }
 
