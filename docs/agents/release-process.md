@@ -23,7 +23,7 @@ Documentation, CI and other changes without a changeset do not publish a beta.
 
 ## Release pull request
 
-`release-prepare.yml` runs after every push to `develop`. It first runs the shared check workflow, then creates or updates the draft pull request `changeset-release/main` targeting `main` through the shared `release-prepare.yml` workflow at `v1.10.0`. The workflow uses the GitHub App token (`use-app-token: true`) so its checks run without manual approval.
+`release-prepare.yml` runs after every push to `develop`. It first runs the shared check workflow, then creates or updates the draft pull request `changeset-release/main` targeting `main` through the shared `release-prepare.yml` workflow at `v1.11.0`. The workflow uses the GitHub App token (`use-app-token: true`) so its checks run without manual approval.
 
 The release pull request carries the calculated versions, changelog entries and consumed changesets. Review the pending changes and the beta snapshot, then mark the pull request ready.
 
@@ -31,7 +31,7 @@ The release pull request carries the calculated versions, changelog entries and 
 
 Merge `changeset-release/main` into `main` with a **merge commit**. Do not squash it: the merge commit keeps `main` and `develop` ancestry aligned.
 
-The merge triggers `release.yml` on `main`. The shared release workflow at `v1.10.0` receives:
+The merge triggers `release.yml` on `main`. The shared release workflow at `v1.11.0` receives:
 
 - `registry: github`
 - `registry-scope: '@mariomh8'`
@@ -48,11 +48,11 @@ It builds the packages once (`bun run build:packages`, without Storybook) and pu
 - On manual `workflow_dispatch`.
 - On tags matching `@mariomh8/storybook@*`.
 
-The release-triggered run checks out the release SHA, so the deployed site matches the release that just finished. The check job calls the shared `check.yml` workflow at `v1.10.0` with `ref` set to that SHA; it runs `lint:ci`, `test`, `typecheck` and `typecheck:astro` before the job builds with `bun run build` and publishes `storybook/storybook-static`.
+The release-triggered run checks out the release SHA, so the deployed site matches the release that just finished. The check job calls the shared `check.yml` workflow at `v1.11.0` with `ref` set to that SHA; it runs `lint:ci`, `test`, `typecheck` and `typecheck:astro` before the job builds with `bun run build` and publishes `storybook/storybook-static`.
 
 ## Sync back to develop
 
-After a pull request merges into `main`, `sync-to-develop.yml` opens or updates the pull request `internal/sync-from-main-to-develop` targeting `develop`, using the shared `sync-to-develop.yml` workflow at `v1.10.0`. Merge it with a **merge commit** so the release commit and the generated changelog stay in `develop` ancestry. The pull request uses the `internal:sync` label and must not include changeset files.
+After a pull request merges into `main`, `sync-to-develop.yml` opens or updates the pull request `internal/sync-from-main-to-develop` targeting `develop`, using the shared `sync-to-develop.yml` workflow at `v1.11.0`. Merge it with a **merge commit** so the release commit and the generated changelog stay in `develop` ancestry. The pull request uses the `internal:sync` label and must not include changeset files.
 
 ## Hotfixes
 
