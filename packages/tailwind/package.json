@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh8/tailwind",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH tailwind plugin",
 	"keywords": [
@@ -34,25 +34,17 @@
 		"dist",
 		"index.css"
 	],
-	"main": "index.css",
 	"exports": {
 		".": {
 			"default": "./index.css"
 		},
 		"./pallete": {
-			"types": "./dist/pallete.d.ts",
-			"default": "./dist/pallete.js"
-		}
-	},
-	"typesVersions": {
-		"*": {
-			"./pallete": [
-				"./dist/pallete.d.ts"
-			]
+			"types": "./dist/pallete.d.mts",
+			"default": "./dist/pallete.mjs"
 		}
 	},
 	"scripts": {
-		"build": "tsup",
+		"build": "tsdown",
 		"lint:packages": "publint"
 	},
 	"peerDependencies": {
@@ -63,6 +55,6 @@
 	},
 	"devDependencies": {
 		"tailwindcss": "4.3.5",
-		"tsup": "9.0.0"
+		"tsdown": "0.23.4"
 	}
 }

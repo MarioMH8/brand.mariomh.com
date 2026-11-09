@@ -17,7 +17,7 @@ Component work lives in `components/<name>`; shared packages live in `packages/`
 ## Task guides
 
 - [Architecture](docs/agents/architecture.md) — surfaces, build output, registry and deploy.
-- [Conventions](docs/agents/conventions.md) — Bun, TypeScript, lint, tsup, comments and registry rules.
+- [Conventions](docs/agents/conventions.md) — Bun, TypeScript, lint, tsdown, comments and registry rules.
 - [Development](docs/agents/development.md) — commands, tests, Storybook and registry authentication.
 - [Release process](docs/agents/release-process.md) — daily development, beta snapshots, stable releases, deploy and sync.
 - [Pull requests](docs/agents/pull-requests.md) — issue-first policy, labels, changesets and merge methods.

@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh8/cva",
-	"version": "0.1.1",
+	"version": "0.2.0",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH cva",
 	"keywords": [
@@ -33,23 +33,14 @@
 	"files": [
 		"dist"
 	],
-	"module": "./dist/index.js",
-	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
-			"types": "./dist/index.d.ts",
-			"default": "./dist/index.js"
-		}
-	},
-	"typesVersions": {
-		"*": {
-			"*": [
-				"./dist/index.d.ts"
-			]
+			"types": "./dist/index.d.mts",
+			"default": "./dist/index.mjs"
 		}
 	},
 	"scripts": {
-		"build": "tsup",
+		"build": "tsdown",
 		"lint:packages": "publint"
 	},
 	"dependencies": {
@@ -57,6 +48,6 @@
 		"tailwind-merge": "3.7.0"
 	},
 	"devDependencies": {
-		"tsup": "9.0.0"
+		"tsdown": "0.23.4"
 	}
 }

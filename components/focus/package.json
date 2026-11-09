@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh8/focus",
-	"version": "0.1.1",
+	"version": "0.2.0",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH focus",
 	"keywords": [
@@ -35,36 +35,23 @@
 	],
 	"exports": {
 		"./class-name": {
-			"types": "./dist/class-name.d.ts",
-			"default": "./dist/class-name.js"
+			"types": "./dist/class-name.d.mts",
+			"default": "./dist/class-name.mjs"
 		},
 		"./package.json": {
 			"default": "./package.json"
 		},
 		"./react": {
-			"types": "./dist/react.d.ts",
-			"default": "./dist/react.js"
+			"types": "./dist/react.d.mts",
+			"default": "./dist/react.mjs"
 		},
 		"./variants": {
-			"types": "./dist/variants.d.ts",
-			"default": "./dist/variants.js"
-		}
-	},
-	"typesVersions": {
-		"*": {
-			"./class-name": [
-				"./dist/class-name.d.ts"
-			],
-			"./react": [
-				"./dist/react.d.ts"
-			],
-			"./variants": [
-				"./dist/variants.d.ts"
-			]
+			"types": "./dist/variants.d.mts",
+			"default": "./dist/variants.mjs"
 		}
 	},
 	"scripts": {
-		"build": "tsup",
+		"build": "tsdown",
 		"lint:packages": "publint"
 	},
 	"peerDependencies": {
@@ -80,12 +67,12 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh8/cva": "0.1.1"
+		"@mariomh8/cva": "0.2.0"
 	},
 	"devDependencies": {
 		"@testing-library/react": "16.3.3",
 		"radix-ui": "1.8.1",
 		"react": "19.3.1",
-		"tsup": "9.0.0"
+		"tsdown": "0.23.4"
 	}
 }
