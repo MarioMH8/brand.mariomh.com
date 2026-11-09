@@ -53,8 +53,7 @@
 	},
 	"scripts": {
 		"build": "tsup",
-		"lint:packages": "publint",
-		"prepublishOnly": "bun run lint:packages"
+		"lint:packages": "publint"
 	},
 	"peerDependencies": {
 		"tailwindcss": ">=4.1.16"
