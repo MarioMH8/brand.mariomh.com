@@ -55,7 +55,7 @@ It does not contain a token, and it must stay that way. To install published `@m
 
 Export `NPM_TOKEN` with the token value in your shell. A classic token is required; fine-grained tokens are not used for this registry. Authentication is also required when a package is public, because GitHub Packages always asks for a registry token.
 
-GitHub Actions authenticates with `GITHUB_TOKEN` and the `packages: write` permission for publication. Renovate authenticates with `RENOVATE_PACKAGES_TOKEN`, declared in `renovate.json`; that secret is not an Actions secret.
+GitHub Actions authenticates with `GITHUB_TOKEN`: `check.yml` and `release-prepare.yml` request `packages: read` and export it as `NODE_AUTH_TOKEN`, while `release.yml` uses `packages: write` for publication. Renovate authenticates with `RENOVATE_PACKAGES_TOKEN`, declared in `renovate.json`; that secret is not an Actions secret.
 
 ## Type-checking
 
@@ -63,6 +63,6 @@ GitHub Actions authenticates with `GITHUB_TOKEN` and the `packages: write` permi
 
 ## Continuous integration
 
-`.github/workflows/ci.yml` calls the shared `hexadrop/github-workflows` `check.yml` workflow at `v1.10.0` on pushes and pull requests to `main` and `develop`. It runs `lint:ci`, `typecheck`, `typecheck:astro`, `test` and `check:packages`, with the ESLint cache restored for `lint:ci`. The Storybook deploy workflow calls the same `check.yml` with `ref` pinned to the release SHA and runs `lint:ci`, `test`, `typecheck` and `typecheck:astro` before deploying.
+`.github/workflows/ci.yml` calls the shared `hexadrop/github-workflows` `check.yml` workflow at `v1.11.0` on pushes and pull requests to `main` and `develop`. It passes `registry: github` and `registry-scope: '@mariomh8'`, so the workflow configures GitHub Packages and authenticates `bun install` with `GITHUB_TOKEN`. It runs `lint:ci`, `typecheck`, `typecheck:astro`, `test` and `check:packages`, with the ESLint cache restored for `lint:ci`. The Storybook deploy workflow calls the same `check.yml` with `ref` pinned to the release SHA and runs `lint:ci`, `test`, `typecheck` and `typecheck:astro` before deploying.
 
 Because the repository is private on GitHub Free, the checks run but GitHub cannot enforce them through rulesets or branch protection. Maintainers must wait for green checks manually.

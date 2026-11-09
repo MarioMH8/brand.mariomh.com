@@ -34,7 +34,7 @@ Authentication uses different tokens per surface:
 
 A classic token is required for local installs. Authentication is required even when a package is public, because GitHub Packages always asks for a registry token. The Renovate token is declared in `renovate.json` through a `hostRules` entry; it is not an Actions secret.
 
-The shared `hexadrop/github-workflows` workflows are pinned at `v1.10.0`. The `v1.8.0` and `v1.9.0` shared workflows carry the registry configuration used here, so the registry choice does not require a fork.
+The shared `hexadrop/github-workflows` workflows are pinned at `v1.11.0`. From `v1.11.0`, `check.yml` and `release-prepare.yml` accept `registry` and `registry-scope` and authenticate with `github.token`, so the registry choice does not require a fork.
 
 ## Consequences
 

@@ -15,7 +15,12 @@ jobs:
   check:
     name: Check
     if: github.event_name != 'pull_request' || github.event.action != 'edited' || github.event.changes.base != null
-    uses: hexadrop/github-workflows/.github/workflows/check.yml@v1.10.0
+    permissions:
+      contents: read
+      packages: read
+    uses: hexadrop/github-workflows/.github/workflows/check.yml@v1.11.0
     with:
       commands: '["lint:ci","typecheck","typecheck:astro","test","check:packages"]'
       cache-commands: '["lint:ci"]'
+      registry: github
+      registry-scope: '@mariomh8'
