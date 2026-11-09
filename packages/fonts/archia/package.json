@@ -27,6 +27,10 @@
 	"license": "PRIVATE",
 	"type": "module",
 	"sideEffects": false,
+	"files": [
+		"*.css",
+		"files"
+	],
 	"main": "./index.css",
 	"exports": {
 		".": {
