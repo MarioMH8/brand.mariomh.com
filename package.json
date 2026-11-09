@@ -59,7 +59,7 @@
 		"eslint": "9.39.5",
 		"husky": "9.1.7",
 		"lint-staged": "17.6.0",
-		"publint": "0.3.16",
+		"publint": "0.3.25",
 		"typescript": "5.9.3"
 	}
 }
