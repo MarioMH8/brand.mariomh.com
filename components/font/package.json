@@ -65,8 +65,7 @@
 	},
 	"scripts": {
 		"build": "tsup",
-		"lint:packages": "publint",
-		"prepublishOnly": "bun run lint:packages"
+		"lint:packages": "publint"
 	},
 	"peerDependencies": {
 		"radix-ui": "^1",

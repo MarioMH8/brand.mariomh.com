@@ -79,8 +79,7 @@
 	},
 	"scripts": {
 		"build": "tsup",
-		"lint:packages": "publint",
-		"prepublishOnly": "bun run lint:packages"
+		"lint:packages": "publint"
 	},
 	"peerDependencies": {
 		"@mariomh8/focus": ">=0.0.0 <1.0.0",
