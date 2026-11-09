@@ -56,7 +56,7 @@
 		"@mariomh8/tailwind": "workspace:*",
 		"@mariomh8/textarea": "workspace:*",
 		"color-convert": "3.1.3",
-		"lucide-react": "0.560.0",
+		"lucide-react": "1.70.0",
 		"radix-ui": "1.8.1",
 		"react": "19.3.1",
 		"react-dom": "19.3.1"
