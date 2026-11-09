@@ -11,7 +11,7 @@ import NavigationMenuLogo from './navigation-menu-logo.astro';
 import NavigationMenuUL from './navigation-menu-ul-c.astro';
 
 export type Props<Tag extends HTMLTag = typeof NAVIGATION_MENU_ELEMENT> = AstroNavigationMenuProperties<Tag>;
-const { as: Tag = NAVIGATION_MENU_ELEMENT, ...p } = propertiesNavigationMenu(Astro.props);
+const { as: Tag = NAVIGATION_MENU_ELEMENT, ...p } = propertiesNavigationMenu(Astro.props as Props);
 
 const labelClass = classNameButton({ icon: true }, 'flex lg:hidden border-none');
 const labelMobileClass = classNameButton({ icon: true }, 'border-none');

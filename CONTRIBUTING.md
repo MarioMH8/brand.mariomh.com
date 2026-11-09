@@ -79,6 +79,7 @@ Run these from the repository root:
 | Run all tests | `bun run test` |
 | Run one test file | `bun test components/button/test/react.test.tsx` |
 | Type-check | `bun run typecheck` |
+| Astro type-check | `bun run typecheck:astro` |
 | Lint without writing | `bun run lint:ci` |
 | Lint and fix | `bun run lint:fix` |
 | Validate package manifests and exports | `bun run lint:packages` |
@@ -87,7 +88,7 @@ Run these from the repository root:
 
 Tests use Bun's built-in runner with happy-dom, configured in `bunfig.toml` and `bun.preload.ts`. Test files live under `components/*/test/`.
 
-`bun run typecheck:astro` is available but is not part of CI: it currently reports 19 pre-existing `Astro.props` errors, which are planned to be addressed with Astro 7. Do not use it as a routine validation command.
+`bun run typecheck:astro` runs `astro check` over the `.astro` files in the component packages. It runs in CI alongside `bun run typecheck`, so both must pass before opening a pull request.
 
 ## Storybook
 

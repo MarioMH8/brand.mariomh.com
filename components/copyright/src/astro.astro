@@ -9,7 +9,7 @@ export type Props<Tag extends HTMLTag = typeof ELEMENT_TYPE> = AstroCopyrightPro
 
 const { from = String(new Date().getFullYear()), to } = Astro.props;
 
-const { as: Tag = ELEMENT_TYPE, ...p } = properties(Astro.props);
+const { as: Tag = ELEMENT_TYPE, ...p } = properties(Astro.props as Props);
 
 const join = [from, to].filter(Boolean).join(' - ');
 ---

@@ -8,6 +8,7 @@ See the [repository README](README.md) for the product and [Architecture](docs/a
 - **Build:** `bun run build`
 - **Test:** `bun run test`
 - **Type-check:** `bun run typecheck`
+- **Astro type-check:** `bun run typecheck:astro`
 - **Lint:** `bun run lint:fix`
 - **Package validation:** `bun run check:packages`
 
