@@ -23,13 +23,13 @@
     },
     "components/badge": {
       "name": "@mariomh8/badge",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
-        "@mariomh8/font": "0.1.0",
-        "@mariomh8/round": "0.1.0",
+        "@mariomh8/font": "0.1.1",
+        "@mariomh8/round": "0.1.1",
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.8.1",
@@ -53,12 +53,12 @@
     },
     "components/box": {
       "name": "@mariomh8/box",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
-        "@mariomh8/round": "0.1.0",
+        "@mariomh8/round": "0.1.1",
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.8.1",
@@ -80,14 +80,14 @@
     },
     "components/button": {
       "name": "@mariomh8/button",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
-        "@mariomh8/focus": "0.1.0",
-        "@mariomh8/font": "0.1.0",
-        "@mariomh8/round": "0.1.0",
+        "@mariomh8/focus": "0.1.1",
+        "@mariomh8/font": "0.1.1",
+        "@mariomh8/round": "0.1.1",
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.8.1",
@@ -113,13 +113,13 @@
     },
     "components/checkbox": {
       "name": "@mariomh8/checkbox",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
-        "@mariomh8/focus": "0.1.0",
-        "@mariomh8/round": "0.1.0",
+        "@mariomh8/focus": "0.1.1",
+        "@mariomh8/round": "0.1.1",
         "@testing-library/react": "16.3.3",
         "lucide-react": "1.70.0",
         "radix-ui": "1.8.1",
@@ -146,9 +146,9 @@
     },
     "components/container": {
       "name": "@mariomh8/container",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
         "@testing-library/react": "16.3.3",
@@ -170,12 +170,12 @@
     },
     "components/copyright": {
       "name": "@mariomh8/copyright",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
-        "@mariomh8/font": "0.1.0",
+        "@mariomh8/font": "0.1.1",
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.8.1",
@@ -197,9 +197,9 @@
     },
     "components/focus": {
       "name": "@mariomh8/focus",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
         "@testing-library/react": "16.3.3",
@@ -218,9 +218,9 @@
     },
     "components/font": {
       "name": "@mariomh8/font",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
         "@testing-library/react": "16.3.3",
@@ -239,12 +239,12 @@
     },
     "components/heading": {
       "name": "@mariomh8/heading",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
-        "@mariomh8/font": "0.1.0",
+        "@mariomh8/font": "0.1.1",
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.8.1",
@@ -266,14 +266,14 @@
     },
     "components/input": {
       "name": "@mariomh8/input",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
-        "@mariomh8/focus": "0.1.0",
-        "@mariomh8/font": "0.1.0",
-        "@mariomh8/round": "0.1.0",
+        "@mariomh8/focus": "0.1.1",
+        "@mariomh8/font": "0.1.1",
+        "@mariomh8/round": "0.1.1",
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.8.1",
@@ -299,12 +299,12 @@
     },
     "components/label": {
       "name": "@mariomh8/label",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
-        "@mariomh8/font": "0.1.0",
+        "@mariomh8/font": "0.1.1",
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.8.1",
@@ -326,14 +326,14 @@
     },
     "components/link": {
       "name": "@mariomh8/link",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
-        "@mariomh8/focus": "0.1.0",
-        "@mariomh8/font": "0.1.0",
-        "@mariomh8/round": "0.1.0",
+        "@mariomh8/focus": "0.1.1",
+        "@mariomh8/font": "0.1.1",
+        "@mariomh8/round": "0.1.1",
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.8.1",
@@ -359,12 +359,12 @@
     },
     "components/logo": {
       "name": "@mariomh8/logo",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
-        "@mariomh8/font": "0.1.0",
+        "@mariomh8/font": "0.1.1",
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.8.1",
@@ -386,15 +386,15 @@
     },
     "components/navigation-menu": {
       "name": "@mariomh8/navigation-menu",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
-        "@mariomh8/button": "0.1.0",
-        "@mariomh8/container": "0.1.0",
-        "@mariomh8/font": "0.1.0",
-        "@mariomh8/logo": "0.1.0",
+        "@mariomh8/button": "0.1.1",
+        "@mariomh8/container": "0.1.1",
+        "@mariomh8/font": "0.1.1",
+        "@mariomh8/logo": "0.1.1",
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "lucide-astro": "0.556.0",
@@ -428,12 +428,12 @@
     },
     "components/paragraph": {
       "name": "@mariomh8/paragraph",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
-        "@mariomh8/font": "0.1.0",
+        "@mariomh8/font": "0.1.1",
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.8.1",
@@ -455,9 +455,9 @@
     },
     "components/round": {
       "name": "@mariomh8/round",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
         "@testing-library/react": "16.3.3",
@@ -476,14 +476,14 @@
     },
     "components/select": {
       "name": "@mariomh8/select",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
-        "@mariomh8/focus": "0.1.0",
-        "@mariomh8/font": "0.1.0",
-        "@mariomh8/round": "0.1.0",
+        "@mariomh8/focus": "0.1.1",
+        "@mariomh8/font": "0.1.1",
+        "@mariomh8/round": "0.1.1",
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.8.1",
@@ -509,9 +509,9 @@
     },
     "components/shadow": {
       "name": "@mariomh8/shadow",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
         "@testing-library/react": "16.3.3",
@@ -530,12 +530,12 @@
     },
     "components/span": {
       "name": "@mariomh8/span",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
-        "@mariomh8/font": "0.1.0",
+        "@mariomh8/font": "0.1.1",
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.8.1",
@@ -557,14 +557,14 @@
     },
     "components/textarea": {
       "name": "@mariomh8/textarea",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
-        "@mariomh8/cva": "0.1.0",
+        "@mariomh8/cva": "0.1.1",
       },
       "devDependencies": {
-        "@mariomh8/focus": "0.1.0",
-        "@mariomh8/font": "0.1.0",
-        "@mariomh8/round": "0.1.0",
+        "@mariomh8/focus": "0.1.1",
+        "@mariomh8/font": "0.1.1",
+        "@mariomh8/round": "0.1.1",
         "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.8.1",
@@ -590,7 +590,7 @@
     },
     "packages/cva": {
       "name": "@mariomh8/cva",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
         "cva": "1.0.0-beta.4",
         "tailwind-merge": "3.7.0",
@@ -605,7 +605,7 @@
     },
     "packages/tailwind": {
       "name": "@mariomh8/tailwind",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "dependencies": {
         "tailwindcss-flow-type": "1.0.0",
       },
@@ -619,7 +619,7 @@
     },
     "storybook": {
       "name": "@mariomh8/storybook",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": {
         "@fontsource/dm-sans": "5.2.8",
         "@mariomh8/archia": "workspace:*",

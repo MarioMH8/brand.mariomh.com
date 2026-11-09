@@ -1,5 +1,33 @@
 # @mariomh/storybook
 
+## 0.1.1
+
+### Patch Changes
+
+- Updated dependencies [19df912]
+  - @mariomh8/checkbox@0.2.0
+  - @mariomh8/navigation-menu@0.2.0
+  - @mariomh8/tailwind@0.2.0
+  - @mariomh8/cva@0.1.1
+  - @mariomh8/badge@0.1.1
+  - @mariomh8/box@0.1.1
+  - @mariomh8/button@0.1.1
+  - @mariomh8/container@0.1.1
+  - @mariomh8/copyright@0.1.1
+  - @mariomh8/focus@0.1.1
+  - @mariomh8/font@0.1.1
+  - @mariomh8/heading@0.1.1
+  - @mariomh8/input@0.1.1
+  - @mariomh8/label@0.1.1
+  - @mariomh8/link@0.1.1
+  - @mariomh8/logo@0.1.1
+  - @mariomh8/paragraph@0.1.1
+  - @mariomh8/round@0.1.1
+  - @mariomh8/select@0.1.1
+  - @mariomh8/shadow@0.1.1
+  - @mariomh8/span@0.1.1
+  - @mariomh8/textarea@0.1.1
+
 ## 0.1.0
 
 ### Minor Changes

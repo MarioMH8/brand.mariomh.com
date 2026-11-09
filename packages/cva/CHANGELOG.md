@@ -1,5 +1,11 @@
 # @mariomh/cva
 
+## 0.1.1
+
+### Patch Changes
+
+- 19df912: Update Lucide React to v1 for the icon-based components, refresh the Tailwind utilities and adopt the new peer range.
+
 ## 0.1.0
 
 ### Minor Changes
