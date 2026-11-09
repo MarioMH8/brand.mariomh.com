@@ -1,5 +1,11 @@
 # @mariomh/navigation-menu
 
+## 0.3.0
+
+### Minor Changes
+
+- 70fbf2e: Support Astro 7 and declare an `astro: ^7` peer.
+
 ## 0.2.0
 
 ### Minor Changes
