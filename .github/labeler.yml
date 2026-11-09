@@ -1,0 +1,15 @@
+scope:components:
+  - changed-files:
+      - any-glob-to-any-file: "components/**"
+scope:packages:
+  - changed-files:
+      - any-glob-to-any-file: "packages/**"
+scope:storybook:
+  - changed-files:
+      - any-glob-to-any-file: "storybook/**"
+scope:docs:
+  - changed-files:
+      - any-glob-to-any-file: ["*.md", "docs/**", ".docs/**"]
+scope:ci:
+  - changed-files:
+      - any-glob-to-any-file: [".github/**", "package.json", "bun.lock", "*.config.*", "tsconfig.json"]
