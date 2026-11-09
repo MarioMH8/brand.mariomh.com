@@ -1,5 +1,11 @@
 # @mariomh/tailwind
 
+## 0.3.0
+
+### Minor Changes
+
+- efdeaf1: Adopt tsdown and ESM-only `.mjs` / `.d.mts` output. Subpath exports now use the tsdown filenames.
+
 ## 0.2.0
 
 ### Minor Changes
