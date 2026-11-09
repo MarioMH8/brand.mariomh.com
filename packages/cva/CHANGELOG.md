@@ -1,5 +1,11 @@
 # @mariomh/cva
 
+## 0.3.0
+
+### Minor Changes
+
+- 96378d2: Update `cva` to v1.0.0-beta.12. `defineConfig` now comes from `cva/config` and configures class merging through `cx` instead of the removed `onComplete` hook. The unused `compose` export has been removed.
+
 ## 0.2.0
 
 ### Minor Changes
