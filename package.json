@@ -52,7 +52,7 @@
 		"@commitlint/cli": "21.2.4",
 		"@commitlint/config-conventional": "21.2.4",
 		"@happy-dom/global-registrator": "20.14.6",
-		"@hexadrop/eslint-config": "0.1.15",
+		"@hexadrop/eslint-config": "0.1.19",
 		"@hexadrop/tsconfig": "0.0.5",
 		"@types/bun": "1.4.4",
 		"@types/react": "19.2.7",
