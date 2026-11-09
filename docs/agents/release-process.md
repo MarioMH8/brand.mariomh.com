@@ -38,7 +38,7 @@ The merge triggers `release.yml` on `main`. The shared release workflow at `v1.9
 - `build-command: bun run build`
 - `snapshot: false` on `main`
 
-It builds once and publishes the stable packages to GitHub Packages. It creates one tag and GitHub release per package, named `@mariomh8/<package>@X.Y.Z`. Publication remains exclusive to `main`.
+It builds once and publishes the stable packages to GitHub Packages. Each publishable package gets a tag and GitHub release named `@mariomh8/<package>@X.Y.Z`. The private `@mariomh8/storybook` is tagged but not published; the successful `Release` run triggers the Storybook deploy through `workflow_run`. Publication remains exclusive to `main`.
 
 ## Storybook deploy
 
