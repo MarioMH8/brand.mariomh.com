@@ -30,7 +30,7 @@ Use `bun run lint:fix` while working and `bun run lint:ci` to validate without w
 
 ## Building
 
-Use tsup 9 for publishable TypeScript packages. The configuration is per package: ESM format, declarations, source maps, neutral platform, splitting and a clean output directory. Keep the Astro files external and copy them into `dist/` from the tsup `onSuccess` hook.
+Use tsdown 0.23.4 for publishable TypeScript packages. The configuration is per package: ESM-only `.mjs` output, `.d.mts` declarations, source maps, neutral platform and a clean output directory. Subpath exports point at the generated `.mjs` and `.d.mts` filenames, keep `./astro` on the copied `.ts` entry, and do not use `typesVersions`. Keep the Astro files external with `deps.neverBundle` and copy them into `dist/` from the tsdown `copy` option.
 
 Do not add a `prepublishOnly` build. The release workflow builds all packages once with its `build-command`, and the same output is published.
 
