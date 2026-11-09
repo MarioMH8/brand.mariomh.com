@@ -8,7 +8,7 @@ import properties from './properties';
 
 export type Props<Tag extends HTMLTag = typeof ELEMENT_TYPE> = AstroLogoProperties<Tag>;
 
-const { as: Tag = ELEMENT_TYPE, ...logo } = properties(Astro.props);
+const { as: Tag = ELEMENT_TYPE, ...logo } = properties(Astro.props as Props);
 const isotipo = isotipoCn(Astro.props);
 const isotipoPath = isotipoPathCn(Astro.props);
 const logotipo = logoCn(Astro.props);

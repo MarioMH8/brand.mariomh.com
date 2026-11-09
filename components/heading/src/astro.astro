@@ -7,7 +7,7 @@ import properties from './properties';
 
 export type Props<Tag extends HTMLTag = typeof ELEMENT_TYPE> = AstroHeadingProperties<Tag>;
 
-const { as, heading, ...p } = properties(Astro.props);
+const { as, ...p } = properties(Astro.props as Props);
 
 const Tag = as ?? Astro.props.heading ?? ELEMENT_TYPE;
 ---

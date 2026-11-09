@@ -40,6 +40,7 @@ Add exactly one `type:*` label. Scope labels are applied automatically by `.gith
 
 - `bun run lint:ci`
 - `bun run typecheck`
+- `bun run typecheck:astro`
 - `bun run test`
 - `bun run check:packages`
 
@@ -62,6 +63,7 @@ The repository template asks for:
 
 - [ ] `bun run lint:ci`
 - [ ] `bun run typecheck`
+- [ ] `bun run typecheck:astro`
 - [ ] `bun run test`
 - [ ] `bun run check:packages`
 - [ ] A changeset, or an exempt pull request

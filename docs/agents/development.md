@@ -8,20 +8,21 @@ Use the smallest command that validates the changed behavior. Run every command 
 | --- | --- |
 | Install dependencies | `bun install` |
 | Build every workspace | `bun run build` |
+| Build packages only (no Storybook) | `bun run build:packages` |
 | Build one package | `bun run --filter @mariomh8/button build` |
 | Build Storybook only | `bun run build:storybook` |
 | Run Storybook in development | `bun run --filter @mariomh8/storybook dev` |
 | Run all tests | `bun run test` |
 | Run one test file | `bun test components/button/test/react.test.tsx` |
 | Type-check | `bun run typecheck` |
+| Astro type-check | `bun run typecheck:astro` |
 | Lint without writing | `bun run lint:ci` |
 | Lint and fix | `bun run lint:fix` |
 | Validate package manifests and exports | `bun run lint:packages` |
 | Build and validate packages | `bun run check:packages` |
 | Add a changeset | `bun changeset add` |
-| Astro type-check (not in CI) | `bun run typecheck:astro` |
 
-`bun run build` runs `build` in every `@mariomh8/*` workspace, which includes the Storybook package. `bun run build:storybook` builds only Storybook. `bun run check:packages` runs the full build and then `publint` on every package through `lint:packages`.
+`bun run build` runs `build` in every `@mariomh8/*` workspace, which includes the Storybook package. `bun run build:packages` builds the component packages and the shared `@mariomh8/cva` and `@mariomh8/tailwind` packages, skipping Storybook. `bun run build:storybook` builds only Storybook. `bun run check:packages` runs the full build and then `publint` on every package through `lint:packages`.
 
 ## Tests
 
@@ -58,10 +59,10 @@ GitHub Actions authenticates with `GITHUB_TOKEN` and the `packages: write` permi
 
 ## Type-checking
 
-`bun run typecheck` runs `tsc --noEmit` over the root project. `bun run typecheck:astro` runs `astro check`, which currently reports 19 pre-existing `Astro.props` errors. It is not part of CI and should not be used as a routine validation command; the errors are planned to be addressed with Astro 7. Do not report a change as validated by `typecheck:astro`.
+`bun run typecheck` runs `tsc --noEmit` over the root project. `bun run typecheck:astro` first builds the component and shared packages without Storybook (`bun run build:packages`) and then runs `astro check` over every `.astro` file. The build is required because package subpath imports such as `@mariomh8/button/class-name` resolve to `dist`, which a clean checkout does not have. It type-checks the Astro outputs and the `Astro.props` contract of each component. Both commands run in CI and should pass before opening a pull request.
 
 ## Continuous integration
 
-`.github/workflows/ci.yml` calls the shared `hexadrop/github-workflows` `check.yml` workflow at `v1.9.0` on pushes and pull requests to `main` and `develop`. It runs `lint:ci`, `typecheck`, `test` and `check:packages`, with the ESLint cache restored for `lint:ci`. The Storybook deploy workflow also runs `lint:ci`, `test` and `typecheck` before deploying.
+`.github/workflows/ci.yml` calls the shared `hexadrop/github-workflows` `check.yml` workflow at `v1.9.0` on pushes and pull requests to `main` and `develop`. It runs `lint:ci`, `typecheck`, `typecheck:astro`, `test` and `check:packages`, with the ESLint cache restored for `lint:ci`. The Storybook deploy workflow also runs `lint:ci`, `test`, `typecheck` and `typecheck:astro` before deploying.
 
 Because the repository is private on GitHub Free, the checks run but GitHub cannot enforce them through rulesets or branch protection. Maintainers must wait for green checks manually.

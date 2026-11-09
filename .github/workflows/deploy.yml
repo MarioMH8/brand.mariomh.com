@@ -24,10 +24,10 @@ jobs:
       id-token: 'write'
     strategy:
       matrix:
-        command: [ 'lint:ci', test, typecheck ]
+        command: [ 'lint:ci', test, typecheck, 'typecheck:astro' ]
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           ref: ${{ github.event.workflow_run.head_sha || github.sha }}
 
@@ -40,7 +40,7 @@ jobs:
         run: bun install
 
       - name: ESLint cache
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         if: matrix.command == 'lint:ci'
         with:
           path: .eslintcache
@@ -61,7 +61,7 @@ jobs:
       pull-requests: 'write'
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           ref: ${{ github.event.workflow_run.head_sha || github.sha }}
 
@@ -82,7 +82,7 @@ jobs:
           git config --global user.name "$GITHUB_ACTOR"
 
       - name: Deploy
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}

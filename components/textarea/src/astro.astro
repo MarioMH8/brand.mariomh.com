@@ -7,7 +7,7 @@ import properties from './properties';
 
 export type Props<Tag extends HTMLTag = typeof ELEMENT_TYPE> = AstroTextareaProperties<Tag>;
 
-const { as: Tag = ELEMENT_TYPE, ...p } = properties(Astro.props);
+const { as: Tag = ELEMENT_TYPE, ...p } = properties(Astro.props as Props);
 ---
 
 <Tag {...p}>

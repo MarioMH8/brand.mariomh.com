@@ -34,6 +34,7 @@
 	],
 	"scripts": {
 		"build": "bun run --filter '@mariomh8/*' build",
+		"build:packages": "bun run --filter '@mariomh8/*' --filter '!@mariomh8/storybook' build",
 		"build:storybook": "bun run --filter '@mariomh8/storybook' build",
 		"check:packages": "bun run build && bun run lint:packages",
 		"commitlint": "commitlint --edit",
@@ -44,7 +45,7 @@
 		"prepare": "husky",
 		"test": "bun test",
 		"typecheck": "tsc --noEmit",
-		"typecheck:astro": "astro check"
+		"typecheck:astro": "bun run build:packages && astro check"
 	},
 	"devDependencies": {
 		"@astrojs/check": "0.9.12",

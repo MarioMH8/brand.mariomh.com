@@ -16,7 +16,7 @@ jobs:
     name: Check
     uses: hexadrop/github-workflows/.github/workflows/check.yml@v1.9.0
     with:
-      commands: '["lint:ci","typecheck","test","check:packages"]'
+      commands: '["lint:ci","typecheck","typecheck:astro","test","check:packages"]'
       cache-commands: '["lint:ci"]'
 
   prepare:

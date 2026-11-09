@@ -48,7 +48,7 @@ It builds once and publishes the stable packages to GitHub Packages. Each publis
 - On manual `workflow_dispatch`.
 - On tags matching `@mariomh8/storybook@*`.
 
-The release-triggered run checks out the release SHA, so the deployed site matches the release that just finished. The workflow runs `lint:ci`, `test` and `typecheck`, then `bun run build` and publishes `storybook/storybook-static`.
+The release-triggered run checks out the release SHA, so the deployed site matches the release that just finished. The workflow runs `lint:ci`, `test`, `typecheck` and `typecheck:astro`, then `bun run build` and publishes `storybook/storybook-static`.
 
 ## Sync back to develop
 
