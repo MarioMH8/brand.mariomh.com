@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh8/checkbox",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH checkbox",
 	"keywords": [
@@ -103,11 +103,11 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh8/cva": "0.1.0"
+		"@mariomh8/cva": "0.1.1"
 	},
 	"devDependencies": {
-		"@mariomh8/focus": "0.1.0",
-		"@mariomh8/round": "0.1.0",
+		"@mariomh8/focus": "0.1.1",
+		"@mariomh8/round": "0.1.1",
 		"@testing-library/react": "16.3.3",
 		"lucide-react": "1.70.0",
 		"radix-ui": "1.8.1",
