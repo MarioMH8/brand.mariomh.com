@@ -1,4 +1,4 @@
-import { merge } from '@mariomh/cva';
+import { merge } from '@mariomh8/cva';
 
 import type { RoundVariantsProperties } from './variants';
 import variants from './variants';

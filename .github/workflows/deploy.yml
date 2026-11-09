@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     tags:
-      - '@mariomh/storybook@*'
+      - '@mariomh8/storybook@*'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -59,17 +59,6 @@ jobs:
         uses: oven-sh/setup-bun@v2
         with:
           bun-version: latest
-
-      - name: Authorize Google Cloud SDK
-        id: auth
-        uses: google-github-actions/auth@v3
-        with:
-          create_credentials_file: true
-          project_id: ${{ secrets.GOOGLE_PROJECT_ID }}
-          workload_identity_provider: ${{ secrets.GOOGLE_PROJECT_WORKLOAD_IDENTITY_POOL_PROVIDER}}
-
-      - name: Update .npmrc
-        run: bunx google-artifactregistry-auth --credential-config .npmrc
 
       - name: Install dependencies
         run: bun install

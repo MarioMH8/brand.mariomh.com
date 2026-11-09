@@ -1,6 +1,6 @@
-import type { VariantProperties } from '@mariomh/cva';
-import cva from '@mariomh/cva';
-import type { FontVariantsProperties } from '@mariomh/font/variants';
+import type { VariantProperties } from '@mariomh8/cva';
+import cva from '@mariomh8/cva';
+import type { FontVariantsProperties } from '@mariomh8/font/variants';
 
 const variants = cva({});
 

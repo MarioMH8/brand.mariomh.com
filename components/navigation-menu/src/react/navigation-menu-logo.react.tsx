@@ -1,4 +1,4 @@
-import Logo from '@mariomh/logo/react';
+import Logo from '@mariomh8/logo/react';
 import type { FC } from 'react';
 
 const NavigationMenuLogo: FC = () => (

@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/checkbox
+  @mariomh8/checkbox
 </h1>
 
 <p align="center">
@@ -18,13 +18,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/checkbox
+npm install --save @mariomh8/checkbox
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/checkbox
+bun add @mariomh8/checkbox
 ```
 
 ## Como usarlo
@@ -32,7 +32,7 @@ bun add @mariomh/checkbox
 Puedes acceder a los variants de las fuentes
 
 ```ts
-import variants from '@mariomh/checkbox/variants';
+import variants from '@mariomh8/checkbox/variants';
 
 const className = variants({
   // Opciones
@@ -43,7 +43,7 @@ const className = variants({
 **Usando `class-name`**
 
 ```ts
-import cn from '@mariomh/checkbox/class-name';
+import cn from '@mariomh8/checkbox/class-name';
 
 const className = cn(
   {
@@ -57,7 +57,7 @@ const className = cn(
 **Usando React**
 
 ```tsx
-import Checkbox from '@mariomh/checkbox/react';
+import Checkbox from '@mariomh8/checkbox/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {

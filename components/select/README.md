@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/select
+  @mariomh8/select
 </h1>
 
 <p align="center">
@@ -18,13 +18,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/select
+npm install --save @mariomh8/select
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/select
+bun add @mariomh8/select
 ```
 
 ## Como usarlo
@@ -32,7 +32,7 @@ bun add @mariomh/select
 Puedes acceder a los variants de las fuentes
 
 ```ts
-import variants from '@mariomh/select/variants';
+import variants from '@mariomh8/select/variants';
 
 const className = variants({
   // Opciones
@@ -43,7 +43,7 @@ const className = variants({
 **Usando `class-name`**
 
 ```ts
-import cn from '@mariomh/select/class-name';
+import cn from '@mariomh8/select/class-name';
 
 const className = cn(
   {
@@ -58,7 +58,7 @@ const className = cn(
 
 ```astro
 ---
-import Select from '@mariomh/select/astro';
+import Select from '@mariomh8/select/astro';
 ---
 
 <Select dimension='sm'> cupidatat </Select>
@@ -67,7 +67,7 @@ import Select from '@mariomh/select/astro';
 **Usando React**
 
 ```tsx
-import Select from '@mariomh/select/react';
+import Select from '@mariomh8/select/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {

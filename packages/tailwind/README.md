@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/tailwind
+  @mariomh8/tailwind
 </h1>
 
 <p align="center">
@@ -17,13 +17,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/tailwind
+npm install --save @mariomh8/tailwind
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/tailwind
+bun add @mariomh8/tailwind
 ```
 
 ## Como usarlo
@@ -32,5 +32,5 @@ Crear un archivo `index.css` en tu proyecto e importar el plugin.
 
 ```css
 @import "tailwindcss";
-@import "@mariomh/tailwind";
+@import "@mariomh8/tailwind";
 ```

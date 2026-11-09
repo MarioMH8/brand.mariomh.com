@@ -1,49 +1,49 @@
 // Bun Snapshot v1, https://bun.sh/docs/test/snapshots
 
-exports[`@mariomh/container/react should default render 1`] = `"DIV"`;
+exports[`@mariomh8/container/react should default render 1`] = `"DIV"`;
 
-exports[`@mariomh/container/react should default render 2`] = `{}`;
+exports[`@mariomh8/container/react should default render 2`] = `{}`;
 
-exports[`@mariomh/container/react should default render 3`] = `"Test Message"`;
+exports[`@mariomh8/container/react should default render 3`] = `"Test Message"`;
 
-exports[`@mariomh/container/react should default render 4`] = `
+exports[`@mariomh8/container/react should default render 4`] = `
 [
   "container",
 ]
 `;
 
-exports[`@mariomh/container/react should asChild works as expected render 1`] = `"SPAN"`;
+exports[`@mariomh8/container/react should asChild works as expected render 1`] = `"SPAN"`;
 
-exports[`@mariomh/container/react should asChild works as expected render 2`] = `{}`;
+exports[`@mariomh8/container/react should asChild works as expected render 2`] = `{}`;
 
-exports[`@mariomh/container/react should asChild works as expected render 3`] = `"Test Message"`;
+exports[`@mariomh8/container/react should asChild works as expected render 3`] = `"Test Message"`;
 
-exports[`@mariomh/container/react should asChild works as expected render 4`] = `
+exports[`@mariomh8/container/react should asChild works as expected render 4`] = `
 [
   "container",
 ]
 `;
 
-exports[`@mariomh/container/react should override class 1`] = `"DIV"`;
+exports[`@mariomh8/container/react should override class 1`] = `"DIV"`;
 
-exports[`@mariomh/container/react should override class 2`] = `{}`;
+exports[`@mariomh8/container/react should override class 2`] = `{}`;
 
-exports[`@mariomh/container/react should override class 3`] = `"Test Message"`;
+exports[`@mariomh8/container/react should override class 3`] = `"Test Message"`;
 
-exports[`@mariomh/container/react should override class 4`] = `
+exports[`@mariomh8/container/react should override class 4`] = `
 [
   "container",
   "table",
 ]
 `;
 
-exports[`@mariomh/container/react should exclude variants props 1`] = `"DIV"`;
+exports[`@mariomh8/container/react should exclude variants props 1`] = `"DIV"`;
 
-exports[`@mariomh/container/react should exclude variants props 2`] = `{}`;
+exports[`@mariomh8/container/react should exclude variants props 2`] = `{}`;
 
-exports[`@mariomh/container/react should exclude variants props 3`] = `"Test Message"`;
+exports[`@mariomh8/container/react should exclude variants props 3`] = `"Test Message"`;
 
-exports[`@mariomh/container/react should exclude variants props 4`] = `
+exports[`@mariomh8/container/react should exclude variants props 4`] = `
 [
   "container",
   "table",

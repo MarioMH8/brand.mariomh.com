@@ -1,5 +1,5 @@
-import package_ from '@mariomh/navigation-menu/package.json';
-import { NavigationMenu, NavigationMenuLink } from '@mariomh/navigation-menu/react';
+import package_ from '@mariomh8/navigation-menu/package.json';
+import { NavigationMenu, NavigationMenuLink } from '@mariomh8/navigation-menu/react';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {
@@ -7,7 +7,7 @@ const meta = {
 	parameters: {
 		category: 'Átomo',
 		exports: ['astro', 'react'],
-		import: `import { NavigationMenu, NavigationMenuLink } from '@mariomh/navigation-menu/react';`,
+		import: `import { NavigationMenu, NavigationMenuLink } from '@mariomh8/navigation-menu/react';`,
 		package: (package_ satisfies unknown satisfies { name: string }).name,
 	},
 	render: properties => (

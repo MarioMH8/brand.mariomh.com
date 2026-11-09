@@ -7,9 +7,9 @@ import {
 	id,
 	placeholder,
 	weight,
-} from '@mariomh/storybook/argument-types';
-import package_ from '@mariomh/textarea/package.json';
-import Component from '@mariomh/textarea/react';
+} from '@mariomh8/storybook/argument-types';
+import package_ from '@mariomh8/textarea/package.json';
+import Component from '@mariomh8/textarea/react';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 /**

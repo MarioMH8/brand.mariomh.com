@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/round
+  @mariomh8/round
 </h1>
 
 <p align="center">
@@ -18,13 +18,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/round
+npm install --save @mariomh8/round
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/round
+bun add @mariomh8/round
 ```
 
 ## Como usarlo
@@ -32,7 +32,7 @@ bun add @mariomh/round
 Puedes acceder a los variants de las fuentes
 
 ```ts
-import variants from '@mariomh/round/variants';
+import variants from '@mariomh8/round/variants';
 
 const className = variants({
   // Opciones
@@ -43,7 +43,7 @@ const className = variants({
 **Usando `class-name`**
 
 ```ts
-import cn from '@mariomh/round/class-name';
+import cn from '@mariomh8/round/class-name';
 
 const className = cn(
   {
@@ -57,7 +57,7 @@ const className = cn(
 **Usando React**
 
 ```tsx
-import Round from '@mariomh/round/react';
+import Round from '@mariomh8/round/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {

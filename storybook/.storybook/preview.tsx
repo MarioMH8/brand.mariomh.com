@@ -1,9 +1,9 @@
-import '@mariomh/archia/100.css';
-import '@mariomh/archia/300.css';
-import '@mariomh/archia/400.css';
-import '@mariomh/archia/500.css';
-import '@mariomh/archia/600.css';
-import '@mariomh/archia/700.css';
+import '@mariomh8/archia/100.css';
+import '@mariomh8/archia/300.css';
+import '@mariomh8/archia/400.css';
+import '@mariomh8/archia/500.css';
+import '@mariomh8/archia/600.css';
+import '@mariomh8/archia/700.css';
 import '@fontsource/dm-sans/100.css';
 import '@fontsource/dm-sans/200.css';
 import '@fontsource/dm-sans/300.css';
@@ -15,7 +15,7 @@ import '@fontsource/dm-sans/800.css';
 import '@fontsource/dm-sans/900.css';
 import './preview.css';
 
-import { DocumentPage } from '@mariomh/storybook/pages';
+import { DocumentPage } from '@mariomh8/storybook/pages';
 import type { Preview } from '@storybook/react-vite';
 
 import { dark, light } from './theme';

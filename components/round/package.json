@@ -1,6 +1,6 @@
 {
-	"name": "@mariomh/round",
-	"version": "0.0.10",
+	"name": "@mariomh8/round",
+	"version": "0.1.0",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH round",
 	"keywords": [
@@ -25,6 +25,9 @@
 		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
 	},
 	"license": "PRIVATE",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
 	"type": "module",
 	"sideEffects": false,
 	"files": [
@@ -62,8 +65,7 @@
 	},
 	"scripts": {
 		"build": "tsup",
-		"lint:packages": "publint",
-		"prepublishOnly": "tsup && publint"
+		"lint:packages": "publint"
 	},
 	"peerDependencies": {
 		"radix-ui": "^1",
@@ -78,10 +80,10 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "0.0.8"
+		"@mariomh8/cva": "0.1.0"
 	},
 	"devDependencies": {
-		"@testing-library/react": "16.3.1",
+		"@testing-library/react": "16.3.3",
 		"radix-ui": "1.4.3",
 		"react": "19.2.3",
 		"tsup": "8.5.1"

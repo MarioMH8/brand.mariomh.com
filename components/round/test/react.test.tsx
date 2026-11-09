@@ -1,4 +1,4 @@
-import Component from '@mariomh/round/react';
+import Component from '@mariomh8/round/react';
 import { render } from '@testing-library/react';
 import { describe, expect, it } from 'bun:test';
 
@@ -13,7 +13,7 @@ function assetComponent(element: Element | null): void {
 	expect([...element.classList]).toMatchSnapshot();
 }
 
-describe('@mariomh/round/react', () => {
+describe('@mariomh8/round/react', () => {
 	it('should default render', () => {
 		const { container } = render(
 			<Component>

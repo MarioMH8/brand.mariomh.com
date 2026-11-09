@@ -1,6 +1,7 @@
 # build output
 dist/
 dist-astro/
+storybook/storybook-static/
 
 # generated types
 .astro/
@@ -26,3 +27,9 @@ gha-creds*
 
 # ESLint
 .eslintcache
+
+# test coverage
+coverage/
+
+# impeccable
+.impeccable/

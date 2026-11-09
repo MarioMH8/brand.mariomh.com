@@ -1,6 +1,6 @@
-import { name } from '@mariomh/logo/package.json';
-import component from '@mariomh/logo/react';
-import { asChild, dimensionLogo, isotipo, logotipo, variantLogo } from '@mariomh/storybook/argument-types';
+import { name } from '@mariomh8/logo/package.json';
+import component from '@mariomh8/logo/react';
+import { asChild, dimensionLogo, isotipo, logotipo, variantLogo } from '@mariomh8/storybook/argument-types';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {

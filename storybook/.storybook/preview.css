@@ -1,5 +1,5 @@
 @import "tailwindcss" source("../../");
-@import "@mariomh/tailwind";
+@import "@mariomh8/tailwind";
 
 #storybook-docs > .sbdocs-wrapper {
     background-color: transparent;

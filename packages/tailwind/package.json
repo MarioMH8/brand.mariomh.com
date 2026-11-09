@@ -1,6 +1,6 @@
 {
-	"name": "@mariomh/tailwind",
-	"version": "0.0.12",
+	"name": "@mariomh8/tailwind",
+	"version": "0.1.0",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH tailwind plugin",
 	"keywords": [
@@ -25,8 +25,15 @@
 		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
 	},
 	"license": "PRIVATE",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
 	"type": "module",
 	"sideEffects": false,
+	"files": [
+		"dist",
+		"index.css"
+	],
 	"main": "index.css",
 	"exports": {
 		".": {
@@ -46,8 +53,7 @@
 	},
 	"scripts": {
 		"build": "tsup",
-		"lint:packages": "publint",
-		"prepublishOnly": "tsup && publint"
+		"lint:packages": "publint"
 	},
 	"peerDependencies": {
 		"tailwindcss": ">=4.1.16"

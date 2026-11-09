@@ -1,4 +1,4 @@
-import Component from '@mariomh/input/react';
+import Component from '@mariomh8/input/react';
 import { render } from '@testing-library/react';
 import { describe, expect, it } from 'bun:test';
 
@@ -13,7 +13,7 @@ function assetComponent(element: Element | null): void {
 	expect([...element.classList]).toMatchSnapshot();
 }
 
-describe('@mariomh/input/react', () => {
+describe('@mariomh8/input/react', () => {
 	it('should default render', () => {
 		const { container } = render(<Component />);
 		const child = container.firstElementChild;

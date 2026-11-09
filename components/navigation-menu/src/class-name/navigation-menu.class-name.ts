@@ -1,5 +1,5 @@
-import variantsContainer from '@mariomh/container/variants';
-import { merge } from '@mariomh/cva';
+import variantsContainer from '@mariomh8/container/variants';
+import { merge } from '@mariomh8/cva';
 
 import type { NavigationMenuVariantsProperties } from '../variants';
 import { variantsNavigationMenu } from '../variants';

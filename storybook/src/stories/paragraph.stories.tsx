@@ -1,5 +1,5 @@
-import package_ from '@mariomh/paragraph/package.json';
-import Comp from '@mariomh/paragraph/react';
+import package_ from '@mariomh8/paragraph/package.json';
+import Comp from '@mariomh8/paragraph/react';
 import {
 	align,
 	asChild,
@@ -10,7 +10,7 @@ import {
 	variantFont,
 	weight,
 	wrap,
-} from '@mariomh/storybook/argument-types';
+} from '@mariomh8/storybook/argument-types';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 const meta = {

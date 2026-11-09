@@ -1,6 +1,6 @@
 {
-	"name": "@mariomh/navigation-menu",
-	"version": "0.0.18",
+	"name": "@mariomh8/navigation-menu",
+	"version": "0.1.0",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH navigation menu",
 	"keywords": [
@@ -25,6 +25,9 @@
 		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
 	},
 	"license": "PRIVATE",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
 	"type": "module",
 	"sideEffects": false,
 	"files": [
@@ -76,14 +79,13 @@
 	},
 	"scripts": {
 		"build": "tsup",
-		"lint:packages": "publint",
-		"prepublishOnly": "tsup && publint"
+		"lint:packages": "publint"
 	},
 	"peerDependencies": {
-		"@mariomh/button": "0.0.13",
-		"@mariomh/container": "0.0.12",
-		"@mariomh/font": "0.0.10",
-		"@mariomh/logo": "0.0.12",
+		"@mariomh8/button": ">=0.0.0 <1.0.0",
+		"@mariomh8/container": ">=0.0.0 <1.0.0",
+		"@mariomh8/font": ">=0.0.0 <1.0.0",
+		"@mariomh8/logo": ">=0.0.0 <1.0.0",
 		"astro": "^5",
 		"lucide-astro": "^0",
 		"lucide-react": "^0",
@@ -91,16 +93,16 @@
 		"react": "^19"
 	},
 	"peerDependenciesMeta": {
-		"@mariomh/button": {
+		"@mariomh8/button": {
 			"optional": true
 		},
-		"@mariomh/container": {
+		"@mariomh8/container": {
 			"optional": true
 		},
-		"@mariomh/font": {
+		"@mariomh8/font": {
 			"optional": true
 		},
-		"@mariomh/logo": {
+		"@mariomh8/logo": {
 			"optional": true
 		},
 		"astro": {
@@ -120,15 +122,15 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "0.0.8"
+		"@mariomh8/cva": "0.1.0"
 	},
 	"devDependencies": {
-		"@mariomh/button": "0.0.13",
-		"@mariomh/container": "0.0.12",
-		"@mariomh/font": "0.0.10",
-		"@mariomh/logo": "0.0.12",
-		"@testing-library/react": "16.3.1",
-		"astro": "5.16.6",
+		"@mariomh8/button": "0.1.0",
+		"@mariomh8/container": "0.1.0",
+		"@mariomh8/font": "0.1.0",
+		"@mariomh8/logo": "0.1.0",
+		"@testing-library/react": "16.3.3",
+		"astro": "5.18.2",
 		"lucide-astro": "0.556.0",
 		"lucide-react": "0.560.0",
 		"radix-ui": "1.4.3",

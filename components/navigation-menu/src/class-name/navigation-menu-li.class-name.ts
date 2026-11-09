@@ -1,4 +1,4 @@
-import { merge } from '@mariomh/cva';
+import { merge } from '@mariomh8/cva';
 
 import type { NavigationMenuLIVariantsProperties } from '../variants';
 import { variantsNavigationMenuLI } from '../variants';

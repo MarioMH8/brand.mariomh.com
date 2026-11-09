@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/button
+  @mariomh8/button
 </h1>
 
 <p align="center">
@@ -18,13 +18,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/button
+npm install --save @mariomh8/button
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/button
+bun add @mariomh8/button
 ```
 
 ## Como usarlo
@@ -32,7 +32,7 @@ bun add @mariomh/button
 Puedes acceder a los variants de las fuentes
 
 ```ts
-import variants from '@mariomh/button/variants';
+import variants from '@mariomh8/button/variants';
 
 const className = variants({
   // Opciones
@@ -43,7 +43,7 @@ const className = variants({
 **Usando `class-name`**
 
 ```ts
-import cn from '@mariomh/button/class-name';
+import cn from '@mariomh8/button/class-name';
 
 const className = cn(
   {
@@ -58,7 +58,7 @@ const className = cn(
 
 ```astro
 ---
-import Button from '@mariomh/button/astro';
+import Button from '@mariomh8/button/astro';
 ---
 
 <Button intent='primary'> cupidatat </Button>
@@ -67,7 +67,7 @@ import Button from '@mariomh/button/astro';
 **Usando React**
 
 ```tsx
-import Button from '@mariomh/button/react';
+import Button from '@mariomh8/button/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {

@@ -1,4 +1,4 @@
-import Component from '@mariomh/font/react';
+import Component from '@mariomh8/font/react';
 import { render } from '@testing-library/react';
 import { describe, expect, it } from 'bun:test';
 
@@ -13,7 +13,7 @@ function assetComponent(element: Element | null): void {
 	expect([...element.classList]).toMatchSnapshot();
 }
 
-describe('@mariomh/font/react', () => {
+describe('@mariomh8/font/react', () => {
 	it('should default render', () => {
 		const { container } = render(
 			<Component>

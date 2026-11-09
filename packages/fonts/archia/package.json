@@ -1,6 +1,6 @@
 {
-	"name": "@mariomh/archia",
-	"version": "0.0.4",
+	"name": "@mariomh8/archia",
+	"version": "0.1.0",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH Archia font",
 	"keywords": [
@@ -25,8 +25,15 @@
 		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
 	},
 	"license": "PRIVATE",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
 	"type": "module",
 	"sideEffects": false,
+	"files": [
+		"*.css",
+		"files"
+	],
 	"main": "./index.css",
 	"exports": {
 		".": {
@@ -52,7 +59,6 @@
 		}
 	},
 	"scripts": {
-		"lint:packages": "publint",
-		"prepublishOnly": "publint"
+		"lint:packages": "publint"
 	}
 }

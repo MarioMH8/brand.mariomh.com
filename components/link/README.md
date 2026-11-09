@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/link
+  @mariomh8/link
 </h1>
 
 <p align="center">
@@ -18,13 +18,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/link
+npm install --save @mariomh8/link
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/link
+bun add @mariomh8/link
 ```
 
 ## Como usarlo
@@ -32,7 +32,7 @@ bun add @mariomh/link
 Puedes acceder a los variants de las fuentes
 
 ```ts
-import variants from '@mariomh/link/variants';
+import variants from '@mariomh8/link/variants';
 
 const className = variants({
   // Opciones
@@ -43,7 +43,7 @@ const className = variants({
 **Usando `class-name`**
 
 ```ts
-import cn from '@mariomh/link/class-name';
+import cn from '@mariomh8/link/class-name';
 
 const className = cn(
   {
@@ -58,7 +58,7 @@ const className = cn(
 
 ```astro
 ---
-import Link from '@mariomh/link/astro';
+import Link from '@mariomh8/link/astro';
 ---
 
 <Link dimension='sm'> cupidatat </Link>
@@ -67,7 +67,7 @@ import Link from '@mariomh/link/astro';
 **Usando React**
 
 ```tsx
-import Link from '@mariomh/link/react';
+import Link from '@mariomh8/link/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {

@@ -1,37 +1,37 @@
 // Bun Snapshot v1, https://bun.sh/docs/test/snapshots
 
-exports[`@mariomh/shadow/react should default render 1`] = `"SPAN"`;
+exports[`@mariomh8/shadow/react should default render 1`] = `"SPAN"`;
 
-exports[`@mariomh/shadow/react should default render 2`] = `{}`;
+exports[`@mariomh8/shadow/react should default render 2`] = `{}`;
 
-exports[`@mariomh/shadow/react should default render 3`] = `"Test Message"`;
+exports[`@mariomh8/shadow/react should default render 3`] = `"Test Message"`;
 
-exports[`@mariomh/shadow/react should default render 4`] = `
+exports[`@mariomh8/shadow/react should default render 4`] = `
 [
   "shadow-md",
 ]
 `;
 
-exports[`@mariomh/shadow/react should override class 1`] = `"SPAN"`;
+exports[`@mariomh8/shadow/react should override class 1`] = `"SPAN"`;
 
-exports[`@mariomh/shadow/react should override class 2`] = `{}`;
+exports[`@mariomh8/shadow/react should override class 2`] = `{}`;
 
-exports[`@mariomh/shadow/react should override class 3`] = `"Test Message"`;
+exports[`@mariomh8/shadow/react should override class 3`] = `"Test Message"`;
 
-exports[`@mariomh/shadow/react should override class 4`] = `
+exports[`@mariomh8/shadow/react should override class 4`] = `
 [
   "shadow-md",
   "shadowed-xl",
 ]
 `;
 
-exports[`@mariomh/shadow/react should exclude variants props 1`] = `"SPAN"`;
+exports[`@mariomh8/shadow/react should exclude variants props 1`] = `"SPAN"`;
 
-exports[`@mariomh/shadow/react should exclude variants props 2`] = `{}`;
+exports[`@mariomh8/shadow/react should exclude variants props 2`] = `{}`;
 
-exports[`@mariomh/shadow/react should exclude variants props 3`] = `"Test Message"`;
+exports[`@mariomh8/shadow/react should exclude variants props 3`] = `"Test Message"`;
 
-exports[`@mariomh/shadow/react should exclude variants props 4`] = `
+exports[`@mariomh8/shadow/react should exclude variants props 4`] = `
 [
   "shadow-lg",
   "text-2xl",

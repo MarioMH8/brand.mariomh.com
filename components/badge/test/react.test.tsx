@@ -1,4 +1,4 @@
-import Component from '@mariomh/badge/react';
+import Component from '@mariomh8/badge/react';
 import { render } from '@testing-library/react';
 import { describe, expect, it } from 'bun:test';
 
@@ -13,7 +13,7 @@ function assetComponent(element: Element | null): void {
 	expect([...element.classList]).toMatchSnapshot();
 }
 
-describe('@mariomh/badge/react', () => {
+describe('@mariomh8/badge/react', () => {
 	it('should default render', () => {
 		const { container } = render(<Component>Test Message</Component>);
 		const child = container.firstElementChild;

@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/font
+  @mariomh8/font
 </h1>
 
 <p align="center">
@@ -18,13 +18,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/font
+npm install --save @mariomh8/font
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/font
+bun add @mariomh8/font
 ```
 
 ## Como usarlo
@@ -32,7 +32,7 @@ bun add @mariomh/font
 Puedes acceder a los variants de las fuentes
 
 ```ts
-import variants from '@mariomh/font/variants';
+import variants from '@mariomh8/font/variants';
 
 const className = variants({
   // Opciones
@@ -43,7 +43,7 @@ const className = variants({
 **Usando `class-name`**
 
 ```ts
-import cn from '@mariomh/font/class-name';
+import cn from '@mariomh8/font/class-name';
 
 const className = cn(
   {
@@ -57,7 +57,7 @@ const className = cn(
 **Usando React**
 
 ```tsx
-import Font from '@mariomh/font/react';
+import Font from '@mariomh8/font/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {

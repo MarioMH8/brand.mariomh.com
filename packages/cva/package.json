@@ -1,6 +1,6 @@
 {
-	"name": "@mariomh/cva",
-	"version": "0.0.8",
+	"name": "@mariomh8/cva",
+	"version": "0.1.0",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH cva",
 	"keywords": [
@@ -25,6 +25,9 @@
 		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
 	},
 	"license": "PRIVATE",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
 	"type": "module",
 	"sideEffects": false,
 	"files": [
@@ -47,8 +50,7 @@
 	},
 	"scripts": {
 		"build": "tsup",
-		"lint:packages": "publint",
-		"prepublishOnly": "tsup && publint"
+		"lint:packages": "publint"
 	},
 	"dependencies": {
 		"cva": "1.0.0-beta.4",

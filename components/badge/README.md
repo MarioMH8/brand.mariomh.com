@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/badge
+  @mariomh8/badge
 </h1>
 
 <p align="center">
@@ -18,13 +18,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/badge
+npm install --save @mariomh8/badge
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/badge
+bun add @mariomh8/badge
 ```
 
 ## Como usarlo
@@ -32,7 +32,7 @@ bun add @mariomh/badge
 Puedes acceder a los variants de las fuentes
 
 ```ts
-import variants from '@mariomh/badge/variants';
+import variants from '@mariomh8/badge/variants';
 
 const className = variants({
   // Opciones
@@ -43,7 +43,7 @@ const className = variants({
 **Usando `class-name`**
 
 ```ts
-import cn from '@mariomh/badge/class-name';
+import cn from '@mariomh8/badge/class-name';
 
 const className = cn(
   {
@@ -58,7 +58,7 @@ const className = cn(
 
 ```astro
 ---
-import Badge from '@mariomh/badge/astro';
+import Badge from '@mariomh8/badge/astro';
 ---
 
 <Badge intent='primary'> cupidatat </Badge>
@@ -67,7 +67,7 @@ import Badge from '@mariomh/badge/astro';
 **Usando React**
 
 ```tsx
-import Badge from '@mariomh/badge/react';
+import Badge from '@mariomh8/badge/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {
