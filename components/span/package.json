@@ -79,7 +79,7 @@
 	"scripts": {
 		"build": "tsup",
 		"lint:packages": "publint",
-		"prepublishOnly": "tsup && publint"
+		"prepublishOnly": "bun run lint:packages"
 	},
 	"peerDependencies": {
 		"@mariomh8/font": ">=0.0.0 <1.0.0",
