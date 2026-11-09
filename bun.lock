@@ -30,7 +30,7 @@
       "devDependencies": {
         "@mariomh/font": "0.0.10",
         "@mariomh/round": "0.0.10",
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
@@ -59,7 +59,7 @@
       },
       "devDependencies": {
         "@mariomh/round": "0.0.10",
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
@@ -88,7 +88,7 @@
         "@mariomh/focus": "0.0.10",
         "@mariomh/font": "0.0.10",
         "@mariomh/round": "0.0.10",
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
@@ -120,7 +120,7 @@
       "devDependencies": {
         "@mariomh/focus": "0.0.10",
         "@mariomh/round": "0.0.10",
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "lucide-react": "0.560.0",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
@@ -151,7 +151,7 @@
         "@mariomh/cva": "0.0.8",
       },
       "devDependencies": {
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
@@ -176,7 +176,7 @@
       },
       "devDependencies": {
         "@mariomh/font": "0.0.10",
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
@@ -202,7 +202,7 @@
         "@mariomh/cva": "0.0.8",
       },
       "devDependencies": {
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
         "tsup": "8.5.1",
@@ -223,7 +223,7 @@
         "@mariomh/cva": "0.0.8",
       },
       "devDependencies": {
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
         "tsup": "8.5.1",
@@ -245,7 +245,7 @@
       },
       "devDependencies": {
         "@mariomh/font": "0.0.10",
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
@@ -274,7 +274,7 @@
         "@mariomh/focus": "0.0.10",
         "@mariomh/font": "0.0.10",
         "@mariomh/round": "0.0.10",
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
@@ -305,7 +305,7 @@
       },
       "devDependencies": {
         "@mariomh/font": "0.0.10",
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
@@ -334,7 +334,7 @@
         "@mariomh/focus": "0.0.10",
         "@mariomh/font": "0.0.10",
         "@mariomh/round": "0.0.10",
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
@@ -365,7 +365,7 @@
       },
       "devDependencies": {
         "@mariomh/font": "0.0.10",
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
@@ -395,7 +395,7 @@
         "@mariomh/container": "0.0.12",
         "@mariomh/font": "0.0.10",
         "@mariomh/logo": "0.0.12",
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "lucide-astro": "0.556.0",
         "lucide-react": "0.560.0",
@@ -434,7 +434,7 @@
       },
       "devDependencies": {
         "@mariomh/font": "0.0.10",
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
@@ -460,7 +460,7 @@
         "@mariomh/cva": "0.0.8",
       },
       "devDependencies": {
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
         "tsup": "8.5.1",
@@ -484,7 +484,7 @@
         "@mariomh/focus": "0.0.10",
         "@mariomh/font": "0.0.10",
         "@mariomh/round": "0.0.10",
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
@@ -514,7 +514,7 @@
         "@mariomh/cva": "0.0.8",
       },
       "devDependencies": {
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
         "tsup": "8.5.1",
@@ -536,7 +536,7 @@
       },
       "devDependencies": {
         "@mariomh/font": "0.0.10",
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
@@ -565,7 +565,7 @@
         "@mariomh/focus": "0.0.10",
         "@mariomh/font": "0.0.10",
         "@mariomh/round": "0.0.10",
-        "@testing-library/react": "16.3.1",
+        "@testing-library/react": "16.3.3",
         "astro": "5.18.2",
         "radix-ui": "1.4.3",
         "react": "19.2.3",
@@ -1307,7 +1307,7 @@
 
     "@testing-library/jest-dom": ["@testing-library/jest-dom@6.9.1", "", { "dependencies": { "@adobe/css-tools": "^4.4.0", "aria-query": "^5.0.0", "css.escape": "^1.5.1", "dom-accessibility-api": "^0.6.3", "picocolors": "^1.1.1", "redent": "^3.0.0" } }, "sha512-zIcONa+hVtVSSep9UT3jZ5rizo2BsxgyDYU7WFD5eICBE7no3881HGeb/QkGfsJs6JTkY1aQhT7rIPC7e+0nnA=="],
 
-    "@testing-library/react": ["@testing-library/react@16.3.1", "", { "dependencies": { "@babel/runtime": "^7.12.5" }, "peerDependencies": { "@testing-library/dom": "^10.0.0", "@types/react": "^18.0.0 || ^19.0.0", "@types/react-dom": "^18.0.0 || ^19.0.0", "react": "^18.0.0 || ^19.0.0", "react-dom": "^18.0.0 || ^19.0.0" }, "optionalPeers": ["@types/react", "@types/react-dom"] }, "sha512-gr4KtAWqIOQoucWYD/f6ki+j5chXfcPc74Col/6poTyqTmn7zRmodWahWRCp8tYd+GMqBonw6hstNzqjbs6gjw=="],
+    "@testing-library/react": ["@testing-library/react@16.3.3", "", { "dependencies": { "@babel/runtime": "^7.12.5" }, "peerDependencies": { "@testing-library/dom": "^10.0.0", "@types/react": "^18.0.0 || ^19.0.0", "@types/react-dom": "^18.0.0 || ^19.0.0", "react": "^18.0.0 || ^19.0.0", "react-dom": "^18.0.0 || ^19.0.0" }, "optionalPeers": ["@types/react", "@types/react-dom"] }, "sha512-Uo193NgQbPMz6lrrhtRQQFcMC6Re/ELLFbbuVL30WDlZxlpZf9/lMHTAVxPRLw1q1iu9OJmR1c2BLiENRstdBg=="],
 
     "@testing-library/user-event": ["@testing-library/user-event@14.6.1", "", { "peerDependencies": { "@testing-library/dom": ">=7.21.4" } }, "sha512-vq7fv0rnt+QTXgPxr5Hjc210p6YKq2kmdziLgnsZGgLJ9e6VAShx1pACLuRjd/AS/sr7phAR58OIIpf0LlmQNw=="],
 
