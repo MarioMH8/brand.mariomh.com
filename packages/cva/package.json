@@ -54,7 +54,7 @@
 	},
 	"dependencies": {
 		"cva": "1.0.0-beta.4",
-		"tailwind-merge": "3.4.0"
+		"tailwind-merge": "3.7.0"
 	},
 	"devDependencies": {
 		"tsup": "9.0.0"
