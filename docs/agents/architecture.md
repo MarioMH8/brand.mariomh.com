@@ -36,7 +36,7 @@ The Astro entry points live in source as `.astro` files. tsdown marks `/\.astro$
 
 `@mariomh8/tailwind` copies `index.css` into `dist/` and publishes both `dist/` and `index.css`. `@mariomh8/archia` has no build step: it publishes its CSS entry points and font files directly. Storybook builds to `storybook/storybook-static`, which is ignored by Git.
 
-The release workflow builds once with `build-command: bun run build`; packages no longer run `prepublishOnly` before publication.
+The release workflow builds once with `build-command: bun run build:packages`; packages no longer run `prepublishOnly` before publication, and publication does not build Storybook. `typecheck:astro` runs `astro check` directly because the root `tsconfig.json` paths resolve the component subpath imports to source, so no build is required.
 
 ## Registry
 

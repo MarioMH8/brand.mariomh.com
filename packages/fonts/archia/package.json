@@ -32,6 +32,7 @@
 	"sideEffects": false,
 	"files": [
 		"*.css",
+		"CHANGELOG.md",
 		"files"
 	],
 	"main": "./index.css",

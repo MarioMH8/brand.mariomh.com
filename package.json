@@ -45,7 +45,7 @@
 		"prepare": "husky",
 		"test": "bun test",
 		"typecheck": "tsc --noEmit",
-		"typecheck:astro": "bun run build:packages && astro check"
+		"typecheck:astro": "astro check"
 	},
 	"devDependencies": {
 		"@astrojs/check": "0.9.12",

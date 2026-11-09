@@ -89,7 +89,7 @@ Run these from the repository root:
 
 Tests use Bun's built-in runner with happy-dom, configured in `bunfig.toml` and `bun.preload.ts`. Test files live under `components/*/test/`.
 
-`bun run typecheck:astro` builds the component and shared packages without Storybook (`bun run build:packages`) and then runs `astro check` over the `.astro` files. The build is needed because package subpath imports resolve to `dist`, which a clean checkout does not have. It runs in CI alongside `bun run typecheck`, so both must pass before opening a pull request.
+`bun run typecheck:astro` runs `astro check` over the `.astro` files without building first: the root `tsconfig.json` paths resolve the subpath imports used by the Astro components to source, so it works on a clean checkout without `dist`. It runs in CI alongside `bun run typecheck`, so both must pass before opening a pull request.
 
 ## Storybook
 

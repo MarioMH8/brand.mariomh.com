@@ -55,14 +55,14 @@ It does not contain a token, and it must stay that way. To install published `@m
 
 Export `NPM_TOKEN` with the token value in your shell. A classic token is required; fine-grained tokens are not used for this registry. Authentication is also required when a package is public, because GitHub Packages always asks for a registry token.
 
-GitHub Actions authenticates with `GITHUB_TOKEN` and the `packages: write` permission for publication. Renovate authenticates with `RENOVATE_PACKAGES_TOKEN`, declared in `renovate.json`; that secret is not an Actions secret.
+GitHub Actions authenticates with `GITHUB_TOKEN`: `check.yml` and `release-prepare.yml` request `packages: read` and export it as `NODE_AUTH_TOKEN`, while `release.yml` uses `packages: write` for publication. Renovate authenticates with `RENOVATE_PACKAGES_TOKEN`, declared in `renovate.json`; that secret is not an Actions secret.
 
 ## Type-checking
 
-`bun run typecheck` runs `tsc --noEmit` over the root project. `bun run typecheck:astro` first builds the component and shared packages without Storybook (`bun run build:packages`) and then runs `astro check` over every `.astro` file. The build is required because package subpath imports such as `@mariomh8/button/class-name` resolve to `dist`, which a clean checkout does not have. It type-checks the Astro outputs and the `Astro.props` contract of each component. Both commands run in CI and should pass before opening a pull request.
+`bun run typecheck` runs `tsc --noEmit` over the root project. `bun run typecheck:astro` runs `astro check` over every `.astro` file without building first: the root `tsconfig.json` paths resolve the subpath imports used by the Astro components (`@mariomh8/button/class-name`, `@mariomh8/logo/astro`) to source. If a component starts importing another package subpath from an `.astro` file, add a matching path alias instead of building. It type-checks the Astro outputs and the `Astro.props` contract of each component. Both commands run in CI and should pass before opening a pull request.
 
 ## Continuous integration
 
-`.github/workflows/ci.yml` calls the shared `hexadrop/github-workflows` `check.yml` workflow at `v1.9.0` on pushes and pull requests to `main` and `develop`. It runs `lint:ci`, `typecheck`, `typecheck:astro`, `test` and `check:packages`, with the ESLint cache restored for `lint:ci`. The Storybook deploy workflow also runs `lint:ci`, `test`, `typecheck` and `typecheck:astro` before deploying.
+`.github/workflows/ci.yml` calls the shared `hexadrop/github-workflows` `check.yml` workflow at `v1.13.0` on pushes and pull requests to `main` and `develop`. It passes `registry: github` and `registry-scope: '@mariomh8'`, so the workflow configures GitHub Packages and authenticates `bun install` with `GITHUB_TOKEN`. It runs `lint:ci`, `typecheck`, `typecheck:astro`, `test` and `check:packages`, with the ESLint cache restored for `lint:ci`. The Storybook deploy workflow calls the same `check.yml` with `ref` pinned to the release SHA and runs `lint:ci`, `test`, `typecheck` and `typecheck:astro` before deploying.
 
 Because the repository is private on GitHub Free, the checks run but GitHub cannot enforce them through rulesets or branch protection. Maintainers must wait for green checks manually.

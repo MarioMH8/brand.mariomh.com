@@ -3,9 +3,6 @@ import cva from '@mariomh8/cva';
 
 const variants = cva({
 	base: 'contents',
-	compoundVariants: [],
-	defaultVariants: {},
-	variants: {},
 });
 
 type NavigationMenuLIVariantsProperties = VariantProperties<typeof variants>;

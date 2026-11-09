@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh8/cva",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH cva",
 	"keywords": [
@@ -31,6 +31,7 @@
 	"type": "module",
 	"sideEffects": false,
 	"files": [
+		"CHANGELOG.md",
 		"dist"
 	],
 	"exports": {
@@ -44,7 +45,7 @@
 		"lint:packages": "publint"
 	},
 	"dependencies": {
-		"cva": "1.0.0-beta.4",
+		"cva": "1.0.0-beta.12",
 		"tailwind-merge": "3.7.0"
 	},
 	"devDependencies": {

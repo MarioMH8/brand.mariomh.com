@@ -7,11 +7,20 @@ on:
     branches: [main, develop]
     types: [opened, synchronize, reopened, edited]
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   check:
     name: Check
     if: github.event_name != 'pull_request' || github.event.action != 'edited' || github.event.changes.base != null
-    uses: hexadrop/github-workflows/.github/workflows/check.yml@v1.9.0
+    permissions:
+      contents: read
+      packages: read
+    uses: hexadrop/github-workflows/.github/workflows/check.yml@v1.13.0
     with:
       commands: '["lint:ci","typecheck","typecheck:astro","test","check:packages"]'
       cache-commands: '["lint:ci"]'
+      registry: github
+      registry-scope: '@mariomh8'
