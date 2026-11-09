@@ -652,7 +652,7 @@
         "react-dom": "19.2.3",
       },
       "devDependencies": {
-        "@storybook-community/storybook-dark-mode": "7.1.0",
+        "@storybook-community/storybook-dark-mode": "7.1.4",
         "@storybook/addon-a11y": "10.1.11",
         "@storybook/addon-docs": "10.1.11",
         "@storybook/addon-links": "10.1.11",
@@ -1249,7 +1249,7 @@
 
     "@simple-libs/stream-utils": ["@simple-libs/stream-utils@2.0.0", "", {}, "sha512-fCTuZK4QBa+39Oz9l4OGfJfz+GpwCp3AqO7Zch3to99xHPgstVsRFpeQ8LNd2o1Gv8raL2mCFwiaHh7bFSp5DQ=="],
 
-    "@storybook-community/storybook-dark-mode": ["@storybook-community/storybook-dark-mode@7.1.0", "", { "dependencies": { "@storybook/icons": "^2.0.1", "dequal": "^2.0.3" }, "peerDependencies": { "@storybook/addon-docs": "^10.0.0", "storybook": "^10.0.0" }, "optionalPeers": ["@storybook/addon-docs"] }, "sha512-9rj9yiizSrL3zNJ2UMkJ1NPTNQkrBfLGzQkaXoCPRHw3/l1B9rbsRpCQzLjQzUvHCZhv1YZPROK3A8IgCqx/5Q=="],
+    "@storybook-community/storybook-dark-mode": ["@storybook-community/storybook-dark-mode@7.1.4", "", { "dependencies": { "@storybook/icons": "^2.0.1", "dequal": "^2.0.3" }, "peerDependencies": { "@storybook/addon-docs": "^10.0.0", "storybook": "^10.0.0" }, "optionalPeers": ["@storybook/addon-docs"] }, "sha512-SQSMNpsabl66emsBCN8Ihc3aEk2T23o1pol1MpXqx6n/x8w3dd9lFXP9vjkfgrSn2HySHeqMZLSsx7mV7Bjcsg=="],
 
     "@storybook/addon-a11y": ["@storybook/addon-a11y@10.1.11", "", { "dependencies": { "@storybook/global": "^5.0.0", "axe-core": "^4.2.0" }, "peerDependencies": { "storybook": "^10.1.11" } }, "sha512-3sr6HmcDgW1+TQAV9QtWBE3HlGyfFXVZY3RECTNLNH6fRC+rYQCItisvQIVxQpyftLSQ8EAMN9JQzs495MjWNg=="],
 
