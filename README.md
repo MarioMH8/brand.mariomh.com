@@ -39,6 +39,7 @@ Comandos principales, ejecutados desde la raíz del repositorio:
 | Ejecutar Storybook en desarrollo | `bun run --filter '@mariomh8/storybook' dev` |
 | Ejecutar los tests | `bun run test` |
 | Comprobar tipos | `bun run typecheck` |
+| Comprobar tipos de Astro | `bun run typecheck:astro` |
 | Lint sin escribir cambios | `bun run lint:ci` |
 | Lint y corrección automática | `bun run lint:fix` |
 | Construir y validar los paquetes | `bun run check:packages` |

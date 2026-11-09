@@ -6,6 +6,7 @@
 
 - [ ] `bun run lint:ci`
 - [ ] `bun run typecheck`
+- [ ] `bun run typecheck:astro`
 - [ ] `bun run test`
 - [ ] `bun run check:packages`
 
