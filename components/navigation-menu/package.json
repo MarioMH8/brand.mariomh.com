@@ -83,10 +83,10 @@
 		"prepublishOnly": "tsup && publint"
 	},
 	"peerDependencies": {
-		"@mariomh8/button": "0.0.13",
-		"@mariomh8/container": "0.0.12",
-		"@mariomh8/font": "0.0.10",
-		"@mariomh8/logo": "0.0.12",
+		"@mariomh8/button": ">=0.0.0 <1.0.0",
+		"@mariomh8/container": ">=0.0.0 <1.0.0",
+		"@mariomh8/font": ">=0.0.0 <1.0.0",
+		"@mariomh8/logo": ">=0.0.0 <1.0.0",
 		"astro": "^5",
 		"lucide-astro": "^0",
 		"lucide-react": "^0",

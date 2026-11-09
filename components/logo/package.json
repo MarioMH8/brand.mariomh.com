@@ -83,7 +83,7 @@
 		"prepublishOnly": "tsup && publint"
 	},
 	"peerDependencies": {
-		"@mariomh8/font": "0.0.10",
+		"@mariomh8/font": ">=0.0.0 <1.0.0",
 		"astro": "^5",
 		"radix-ui": "^1",
 		"react": "^19"
