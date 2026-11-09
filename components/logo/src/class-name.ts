@@ -1,5 +1,5 @@
-import { merge } from '@mariomh/cva';
-import fontVariants from '@mariomh/font/variants';
+import { merge } from '@mariomh8/cva';
+import fontVariants from '@mariomh8/font/variants';
 
 import type { LogoVariantsProperties } from './variants';
 import variants, { pathVariants, svgVariants, textVariants } from './variants';

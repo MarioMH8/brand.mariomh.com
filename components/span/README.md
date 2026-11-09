@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/span
+  @mariomh8/span
 </h1>
 
 <p align="center">
@@ -18,13 +18,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/span
+npm install --save @mariomh8/span
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/span
+bun add @mariomh8/span
 ```
 
 ## Como usarlo
@@ -32,7 +32,7 @@ bun add @mariomh/span
 Puedes acceder a los variants de las fuentes
 
 ```ts
-import variants from '@mariomh/span/variants';
+import variants from '@mariomh8/span/variants';
 
 const className = variants({
   // Opciones
@@ -43,7 +43,7 @@ const className = variants({
 **Usando `class-name`**
 
 ```ts
-import cn from '@mariomh/span/class-name';
+import cn from '@mariomh8/span/class-name';
 
 const className = cn(
   {
@@ -58,7 +58,7 @@ const className = cn(
 
 ```astro
 ---
-import Span from '@mariomh/span/astro';
+import Span from '@mariomh8/span/astro';
 ---
 
 <Span variant='bright'> cupidatat </Span>
@@ -67,7 +67,7 @@ import Span from '@mariomh/span/astro';
 **Usando React**
 
 ```tsx
-import Span from '@mariomh/span/react';
+import Span from '@mariomh8/span/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {

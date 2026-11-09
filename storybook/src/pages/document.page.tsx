@@ -1,5 +1,5 @@
-import { SourceCode, Stories, Story, SubTitle, Title } from '@mariomh/storybook/blocks';
-import useIsDarkMode from '@mariomh/storybook/hooks';
+import { SourceCode, Stories, Story, SubTitle, Title } from '@mariomh8/storybook/blocks';
+import useIsDarkMode from '@mariomh8/storybook/hooks';
 import { Controls } from '@storybook/addon-docs/blocks';
 import type { JSX } from 'react';
 import { convert, ThemeProvider, themes } from 'storybook/theming';

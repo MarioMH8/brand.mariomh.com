@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/textarea
+  @mariomh8/textarea
 </h1>
 
 <p align="center">
@@ -18,13 +18,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/textarea
+npm install --save @mariomh8/textarea
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/textarea
+bun add @mariomh8/textarea
 ```
 
 ## Como usarlo
@@ -32,7 +32,7 @@ bun add @mariomh/textarea
 Puedes acceder a los variants de las fuentes
 
 ```ts
-import variants from '@mariomh/textarea/variants';
+import variants from '@mariomh8/textarea/variants';
 
 const className = variants({
   // Opciones
@@ -43,7 +43,7 @@ const className = variants({
 **Usando `class-name`**
 
 ```ts
-import cn from '@mariomh/textarea/class-name';
+import cn from '@mariomh8/textarea/class-name';
 
 const className = cn(
   {
@@ -58,7 +58,7 @@ const className = cn(
 
 ```astro
 ---
-import Textarea from '@mariomh/textarea/astro';
+import Textarea from '@mariomh8/textarea/astro';
 ---
 
 <Textarea dimension='sm'> cupidatat </Textarea>
@@ -67,7 +67,7 @@ import Textarea from '@mariomh/textarea/astro';
 **Usando React**
 
 ```tsx
-import Textarea from '@mariomh/textarea/react';
+import Textarea from '@mariomh8/textarea/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {

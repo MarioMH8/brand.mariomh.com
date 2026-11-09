@@ -1,5 +1,5 @@
 {
-	"name": "@mariomh/select",
+	"name": "@mariomh8/select",
 	"version": "0.0.13",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH select",
@@ -25,6 +25,9 @@
 		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
 	},
 	"license": "PRIVATE",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
 	"type": "module",
 	"sideEffects": false,
 	"files": [
@@ -80,21 +83,21 @@
 		"prepublishOnly": "tsup && publint"
 	},
 	"peerDependencies": {
-		"@mariomh/focus": "0.0.10",
-		"@mariomh/font": "0.0.10",
-		"@mariomh/round": "0.0.10",
+		"@mariomh8/focus": ">=0.0.0 <1.0.0",
+		"@mariomh8/font": ">=0.0.0 <1.0.0",
+		"@mariomh8/round": ">=0.0.0 <1.0.0",
 		"astro": "^5",
 		"radix-ui": "^1",
 		"react": "^19"
 	},
 	"peerDependenciesMeta": {
-		"@mariomh/focus": {
+		"@mariomh8/focus": {
 			"optional": true
 		},
-		"@mariomh/font": {
+		"@mariomh8/font": {
 			"optional": true
 		},
-		"@mariomh/round": {
+		"@mariomh8/round": {
 			"optional": true
 		},
 		"astro": {
@@ -108,12 +111,12 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "0.0.8"
+		"@mariomh8/cva": "0.0.8"
 	},
 	"devDependencies": {
-		"@mariomh/focus": "0.0.10",
-		"@mariomh/font": "0.0.10",
-		"@mariomh/round": "0.0.10",
+		"@mariomh8/focus": "0.0.10",
+		"@mariomh8/font": "0.0.10",
+		"@mariomh8/round": "0.0.10",
 		"@testing-library/react": "16.3.3",
 		"astro": "5.18.2",
 		"radix-ui": "1.4.3",

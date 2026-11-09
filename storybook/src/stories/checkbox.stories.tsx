@@ -1,8 +1,8 @@
-import package_ from '@mariomh/checkbox/package.json';
-import type { ReactCheckboxProperties } from '@mariomh/checkbox/react';
-import Component from '@mariomh/checkbox/react';
-import Label from '@mariomh/label/react';
-import { asChild, dimensionFont, disabled, id, title } from '@mariomh/storybook/argument-types';
+import package_ from '@mariomh8/checkbox/package.json';
+import type { ReactCheckboxProperties } from '@mariomh8/checkbox/react';
+import Component from '@mariomh8/checkbox/react';
+import Label from '@mariomh8/label/react';
+import { asChild, dimensionFont, disabled, id, title } from '@mariomh8/storybook/argument-types';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 /**

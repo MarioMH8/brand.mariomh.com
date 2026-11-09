@@ -1,6 +1,6 @@
-import package_ from '@mariomh/box/package.json';
-import Comp from '@mariomh/box/react';
-import { asChild, children, round } from '@mariomh/storybook/argument-types';
+import package_ from '@mariomh8/box/package.json';
+import Comp from '@mariomh8/box/react';
+import { asChild, children, round } from '@mariomh8/storybook/argument-types';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 /**

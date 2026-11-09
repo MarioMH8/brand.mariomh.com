@@ -1,4 +1,4 @@
-import Heading from '@mariomh/heading/react';
+import Heading from '@mariomh8/heading/react';
 import { DocsContext } from '@storybook/addon-docs/blocks';
 import type { JSX } from 'react';
 import { useContext } from 'react';

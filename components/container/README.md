@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/container
+  @mariomh8/container
 </h1>
 
 <p align="center">
@@ -17,13 +17,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/container
+npm install --save @mariomh8/container
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/container
+bun add @mariomh8/container
 ```
 
 ## Como usarlo
@@ -31,7 +31,7 @@ bun add @mariomh/container
 Puedes acceder a los variants de las fuentes
 
 ```ts
-import variants from '@mariomh/container/variants';
+import variants from '@mariomh8/container/variants';
 
 const className = variants({
   // Opciones
@@ -41,7 +41,7 @@ const className = variants({
 **Usando `class-name`**
 
 ```ts
-import cn from '@mariomh/container/class-name';
+import cn from '@mariomh8/container/class-name';
 
 const className = cn(
   {
@@ -55,7 +55,7 @@ const className = cn(
 
 ```astro
 ---
-import Container from '@mariomh/container/astro';
+import Container from '@mariomh8/container/astro';
 ---
 
 <Container> cupidatat </Container>
@@ -64,7 +64,7 @@ import Container from '@mariomh/container/astro';
 **Usando React**
 
 ```tsx
-import Container from '@mariomh/container/react';
+import Container from '@mariomh8/container/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {

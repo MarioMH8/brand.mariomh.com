@@ -1,6 +1,6 @@
-import package_ from '@mariomh/select/package.json';
-import Component from '@mariomh/select/react';
-import { asChild, dimensionFont, disabled, family, id, weight } from '@mariomh/storybook/argument-types';
+import package_ from '@mariomh8/select/package.json';
+import Component from '@mariomh8/select/react';
+import { asChild, dimensionFont, disabled, family, id, weight } from '@mariomh8/storybook/argument-types';
 import type { Meta, StoryObj } from '@storybook/react-vite';
 
 /**

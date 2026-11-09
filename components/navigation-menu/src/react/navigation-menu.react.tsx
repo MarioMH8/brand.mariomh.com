@@ -1,4 +1,4 @@
-import Button from '@mariomh/button/react';
+import Button from '@mariomh8/button/react';
 import { MenuIcon, XIcon } from 'lucide-react';
 import { Slot } from 'radix-ui';
 import type { ComponentPropsWithRef, FC } from 'react';

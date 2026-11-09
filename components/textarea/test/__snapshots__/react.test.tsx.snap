@@ -1,12 +1,12 @@
 // Bun Snapshot v1, https://bun.sh/docs/test/snapshots
 
-exports[`@mariomh/textarea/react should default render 1`] = `"TEXTAREA"`;
+exports[`@mariomh8/textarea/react should default render 1`] = `"TEXTAREA"`;
 
-exports[`@mariomh/textarea/react should default render 2`] = `{}`;
+exports[`@mariomh8/textarea/react should default render 2`] = `{}`;
 
-exports[`@mariomh/textarea/react should default render 3`] = `""`;
+exports[`@mariomh8/textarea/react should default render 3`] = `""`;
 
-exports[`@mariomh/textarea/react should default render 4`] = `
+exports[`@mariomh8/textarea/react should default render 4`] = `
 [
   "text-base",
   "font-secondary",
@@ -40,13 +40,13 @@ exports[`@mariomh/textarea/react should default render 4`] = `
 ]
 `;
 
-exports[`@mariomh/textarea/react should asChild works as expected render 1`] = `"P"`;
+exports[`@mariomh8/textarea/react should asChild works as expected render 1`] = `"P"`;
 
-exports[`@mariomh/textarea/react should asChild works as expected render 2`] = `{}`;
+exports[`@mariomh8/textarea/react should asChild works as expected render 2`] = `{}`;
 
-exports[`@mariomh/textarea/react should asChild works as expected render 3`] = `"Test Message"`;
+exports[`@mariomh8/textarea/react should asChild works as expected render 3`] = `"Test Message"`;
 
-exports[`@mariomh/textarea/react should asChild works as expected render 4`] = `
+exports[`@mariomh8/textarea/react should asChild works as expected render 4`] = `
 [
   "text-base",
   "font-secondary",
@@ -80,13 +80,13 @@ exports[`@mariomh/textarea/react should asChild works as expected render 4`] = `
 ]
 `;
 
-exports[`@mariomh/textarea/react should override class 1`] = `"TEXTAREA"`;
+exports[`@mariomh8/textarea/react should override class 1`] = `"TEXTAREA"`;
 
-exports[`@mariomh/textarea/react should override class 2`] = `{}`;
+exports[`@mariomh8/textarea/react should override class 2`] = `{}`;
 
-exports[`@mariomh/textarea/react should override class 3`] = `""`;
+exports[`@mariomh8/textarea/react should override class 3`] = `""`;
 
-exports[`@mariomh/textarea/react should override class 4`] = `
+exports[`@mariomh8/textarea/react should override class 4`] = `
 [
   "font-secondary",
   "selection:bg-primary-background-active",
@@ -120,13 +120,13 @@ exports[`@mariomh/textarea/react should override class 4`] = `
 ]
 `;
 
-exports[`@mariomh/textarea/react should exclude variants props 1`] = `"TEXTAREA"`;
+exports[`@mariomh8/textarea/react should exclude variants props 1`] = `"TEXTAREA"`;
 
-exports[`@mariomh/textarea/react should exclude variants props 2`] = `{}`;
+exports[`@mariomh8/textarea/react should exclude variants props 2`] = `{}`;
 
-exports[`@mariomh/textarea/react should exclude variants props 3`] = `""`;
+exports[`@mariomh8/textarea/react should exclude variants props 3`] = `""`;
 
-exports[`@mariomh/textarea/react should exclude variants props 4`] = `
+exports[`@mariomh8/textarea/react should exclude variants props 4`] = `
 [
   "text-lg",
   "font-secondary",

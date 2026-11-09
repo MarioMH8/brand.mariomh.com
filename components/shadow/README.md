@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/shadow
+  @mariomh8/shadow
 </h1>
 
 <p align="center">
@@ -18,13 +18,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/shadow
+npm install --save @mariomh8/shadow
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/shadow
+bun add @mariomh8/shadow
 ```
 
 ## Como usarlo
@@ -32,7 +32,7 @@ bun add @mariomh/shadow
 Puedes acceder a los variants de las fuentes
 
 ```ts
-import variants from '@mariomh/shadow/variants';
+import variants from '@mariomh8/shadow/variants';
 
 const className = variants({
   // Opciones
@@ -43,7 +43,7 @@ const className = variants({
 **Usando `class-name`**
 
 ```ts
-import cn from '@mariomh/shadow/class-name';
+import cn from '@mariomh8/shadow/class-name';
 
 const className = cn(
   {
@@ -57,7 +57,7 @@ const className = cn(
 **Usando React**
 
 ```tsx
-import Shadow from '@mariomh/shadow/react';
+import Shadow from '@mariomh8/shadow/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {

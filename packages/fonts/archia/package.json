@@ -1,5 +1,5 @@
 {
-	"name": "@mariomh/archia",
+	"name": "@mariomh8/archia",
 	"version": "0.0.4",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH Archia font",
@@ -25,6 +25,9 @@
 		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
 	},
 	"license": "PRIVATE",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
 	"type": "module",
 	"sideEffects": false,
 	"files": [

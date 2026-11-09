@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/heading
+  @mariomh8/heading
 </h1>
 
 <p align="center">
@@ -18,13 +18,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/heading
+npm install --save @mariomh8/heading
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/heading
+bun add @mariomh8/heading
 ```
 
 ## Como usarlo
@@ -32,7 +32,7 @@ bun add @mariomh/heading
 Puedes acceder a los variants de las fuentes
 
 ```ts
-import variants from '@mariomh/heading/variants';
+import variants from '@mariomh8/heading/variants';
 
 const className = variants({
   heading: 'h1',
@@ -44,7 +44,7 @@ const className = variants({
 **Usando `class-name`**
 
 ```ts
-import cn from '@mariomh/heading/class-name';
+import cn from '@mariomh8/heading/class-name';
 
 const className = cn(
   {
@@ -60,7 +60,7 @@ const className = cn(
 
 ```astro
 ---
-import Heading from '@mariomh/heading/astro';
+import Heading from '@mariomh8/heading/astro';
 ---
 
 <Heading heading='h1'> cupidatat </Heading>
@@ -69,7 +69,7 @@ import Heading from '@mariomh/heading/astro';
 **Usando React**
 
 ```tsx
-import Heading from '@mariomh/heading/react';
+import Heading from '@mariomh8/heading/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {

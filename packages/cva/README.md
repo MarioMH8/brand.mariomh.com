@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/cva
+  @mariomh8/cva
 </h1>
 
 <p align="center">
@@ -18,13 +18,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/cva
+npm install --save @mariomh8/cva
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/cva
+bun add @mariomh8/cva
 ```
 
 ## Como usarlo
@@ -47,5 +47,5 @@ Puedes ver la documentación completa en el siguiente [enlace](https://beta.cva.
 }
 ```
 > [!NOTE]
-> Internamente `@mariomh/cva` utiliza [tailwind-merge](https://github.com/dcastil/tailwind-merge) para mergear las clases
+> Internamente `@mariomh8/cva` utiliza [tailwind-merge](https://github.com/dcastil/tailwind-merge) para mergear las clases
 > de Tailwind CSS sin conflictos de estilos.

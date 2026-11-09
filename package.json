@@ -1,5 +1,5 @@
 {
-	"name": "@mariomh/root",
+	"name": "@mariomh8/root",
 	"version": "0.0.1",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "Sistema de diseño y guía de estilo de MarioMH",
@@ -33,14 +33,14 @@
 		"storybook"
 	],
 	"scripts": {
-		"build": "bun run --filter '@mariomh/*' build",
-		"build:storybook": "bun run --filter '@mariomh/storybook' build",
+		"build": "bun run --filter '@mariomh8/*' build",
+		"build:storybook": "bun run --filter '@mariomh8/storybook' build",
 		"check:packages": "bun run build && bun run lint:packages",
 		"commitlint": "commitlint --edit",
 		"lint": "eslint .",
 		"lint:ci": "eslint --cache --cache-strategy content .",
 		"lint:fix": "eslint --cache --fix .",
-		"lint:packages": "bun run --filter '@mariomh/*' lint:packages",
+		"lint:packages": "bun run --filter '@mariomh8/*' lint:packages",
 		"prepare": "husky",
 		"test": "bun test",
 		"typecheck": "tsc --noEmit",

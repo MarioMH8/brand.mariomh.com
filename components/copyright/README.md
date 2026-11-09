@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/copyright
+  @mariomh8/copyright
 </h1>
 
 <p align="center">
@@ -18,13 +18,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/copyright
+npm install --save @mariomh8/copyright
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/copyright
+bun add @mariomh8/copyright
 ```
 
 ## Como usarlo
@@ -32,7 +32,7 @@ bun add @mariomh/copyright
 Puedes acceder a los variants de las fuentes
 
 ```ts
-import variants from '@mariomh/copyright/variants';
+import variants from '@mariomh8/copyright/variants';
 
 const className = variants({
   // Opciones
@@ -43,7 +43,7 @@ const className = variants({
 **Usando `class-name`**
 
 ```ts
-import cn from '@mariomh/copyright/class-name';
+import cn from '@mariomh8/copyright/class-name';
 
 const className = cn(
   {
@@ -58,7 +58,7 @@ const className = cn(
 
 ```astro
 ---
-import Copyright from '@mariomh/copyright/astro';
+import Copyright from '@mariomh8/copyright/astro';
 ---
 
 <Copyright dimension='lg' />
@@ -67,7 +67,7 @@ import Copyright from '@mariomh/copyright/astro';
 **Usando React**
 
 ```tsx
-import Copyright from '@mariomh/copyright/react';
+import Copyright from '@mariomh8/copyright/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {

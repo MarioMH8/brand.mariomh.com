@@ -1,5 +1,5 @@
 <h1 align="center">
-  @mariomh/logo
+  @mariomh8/logo
 </h1>
 
 <p align="center">
@@ -18,13 +18,13 @@
 ## Instalación
 
 ```bash
-npm install --save @mariomh/logo
+npm install --save @mariomh8/logo
 ```
 
 **Usando bun**
 
 ```bash
-bun add @mariomh/logo
+bun add @mariomh8/logo
 ```
 
 ## Como usarlo
@@ -33,7 +33,7 @@ bun add @mariomh/logo
 
 ```astro
 ---
-import Logo from '@mariomh/logo/astro';
+import Logo from '@mariomh8/logo/astro';
 ---
 
 <Logo dimension='sm' />
@@ -42,7 +42,7 @@ import Logo from '@mariomh/logo/astro';
 **Usando React**
 
 ```tsx
-import Logo from '@mariomh/logo/react';
+import Logo from '@mariomh8/logo/react';
 import type { ReactNode } from 'react';
 
 export default function MyComponent(): ReactNode {

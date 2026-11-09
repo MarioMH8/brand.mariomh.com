@@ -1,5 +1,5 @@
 {
-	"name": "@mariomh/checkbox",
+	"name": "@mariomh8/checkbox",
 	"version": "0.0.15",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH checkbox",
@@ -25,6 +25,9 @@
 		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
 	},
 	"license": "PRIVATE",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
 	"type": "module",
 	"sideEffects": false,
 	"files": [
@@ -73,18 +76,18 @@
 		"prepublishOnly": "tsup && publint"
 	},
 	"peerDependencies": {
-		"@mariomh/focus": "0.0.10",
-		"@mariomh/round": "0.0.10",
+		"@mariomh8/focus": ">=0.0.0 <1.0.0",
+		"@mariomh8/round": ">=0.0.0 <1.0.0",
 		"lucide-react": "^0",
 		"radix-ui": "^1",
 		"react": "^19",
 		"react-dom": "^19"
 	},
 	"peerDependenciesMeta": {
-		"@mariomh/focus": {
+		"@mariomh8/focus": {
 			"optional": true
 		},
-		"@mariomh/round": {
+		"@mariomh8/round": {
 			"optional": true
 		},
 		"lucide-react": {
@@ -101,11 +104,11 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh/cva": "0.0.8"
+		"@mariomh8/cva": "0.0.8"
 	},
 	"devDependencies": {
-		"@mariomh/focus": "0.0.10",
-		"@mariomh/round": "0.0.10",
+		"@mariomh8/focus": "0.0.10",
+		"@mariomh8/round": "0.0.10",
 		"@testing-library/react": "16.3.3",
 		"lucide-react": "0.560.0",
 		"radix-ui": "1.4.3",

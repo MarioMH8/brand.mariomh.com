@@ -1,12 +1,12 @@
 // Bun Snapshot v1, https://bun.sh/docs/test/snapshots
 
-exports[`@mariomh/checkbox/react should default render 1`] = `"BUTTON"`;
+exports[`@mariomh8/checkbox/react should default render 1`] = `"BUTTON"`;
 
-exports[`@mariomh/checkbox/react should default render 2`] = `{}`;
+exports[`@mariomh8/checkbox/react should default render 2`] = `{}`;
 
-exports[`@mariomh/checkbox/react should default render 3`] = `""`;
+exports[`@mariomh8/checkbox/react should default render 3`] = `""`;
 
-exports[`@mariomh/checkbox/react should default render 4`] = `
+exports[`@mariomh8/checkbox/react should default render 4`] = `
 [
   "focus-visible:outline-none",
   "focus-visible:ring-2",
@@ -37,13 +37,13 @@ exports[`@mariomh/checkbox/react should default render 4`] = `
 ]
 `;
 
-exports[`@mariomh/checkbox/react should override class 1`] = `"BUTTON"`;
+exports[`@mariomh8/checkbox/react should override class 1`] = `"BUTTON"`;
 
-exports[`@mariomh/checkbox/react should override class 2`] = `{}`;
+exports[`@mariomh8/checkbox/react should override class 2`] = `{}`;
 
-exports[`@mariomh/checkbox/react should override class 3`] = `""`;
+exports[`@mariomh8/checkbox/react should override class 3`] = `""`;
 
-exports[`@mariomh/checkbox/react should override class 4`] = `
+exports[`@mariomh8/checkbox/react should override class 4`] = `
 [
   "focus-visible:outline-none",
   "focus-visible:ring-2",
@@ -75,13 +75,13 @@ exports[`@mariomh/checkbox/react should override class 4`] = `
 ]
 `;
 
-exports[`@mariomh/checkbox/react should exclude variants props 1`] = `"BUTTON"`;
+exports[`@mariomh8/checkbox/react should exclude variants props 1`] = `"BUTTON"`;
 
-exports[`@mariomh/checkbox/react should exclude variants props 2`] = `{}`;
+exports[`@mariomh8/checkbox/react should exclude variants props 2`] = `{}`;
 
-exports[`@mariomh/checkbox/react should exclude variants props 3`] = `""`;
+exports[`@mariomh8/checkbox/react should exclude variants props 3`] = `""`;
 
-exports[`@mariomh/checkbox/react should exclude variants props 4`] = `
+exports[`@mariomh8/checkbox/react should exclude variants props 4`] = `
 [
   "focus-visible:outline-none",
   "focus-visible:ring-2",

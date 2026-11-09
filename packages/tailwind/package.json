@@ -1,5 +1,5 @@
 {
-	"name": "@mariomh/tailwind",
+	"name": "@mariomh8/tailwind",
 	"version": "0.0.12",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH tailwind plugin",
@@ -25,6 +25,9 @@
 		"url": "https://github.com/MarioMH8/brand.mariomh.com/issues"
 	},
 	"license": "PRIVATE",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
 	"type": "module",
 	"sideEffects": false,
 	"files": [
