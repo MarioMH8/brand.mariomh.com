@@ -31,6 +31,7 @@
 	"type": "module",
 	"sideEffects": false,
 	"files": [
+		"CHANGELOG.md",
 		"dist"
 	],
 	"exports": {
