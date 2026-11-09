@@ -26,3 +26,9 @@ gha-creds*
 
 # ESLint
 .eslintcache
+
+# test coverage
+coverage/
+
+# impeccable
+.impeccable/
