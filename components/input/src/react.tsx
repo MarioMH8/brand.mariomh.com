@@ -6,8 +6,7 @@ import properties from './properties';
 import type { InputVariantsProperties } from './variants';
 
 interface ReactInputProperties
-	extends ComponentPropsWithRef<typeof ELEMENT_TYPE>,
-		Omit<InputVariantsProperties, 'type'> {
+	extends ComponentPropsWithRef<typeof ELEMENT_TYPE>, Omit<InputVariantsProperties, 'type'> {
 	asChild?: boolean;
 }
 

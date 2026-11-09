@@ -7,6 +7,7 @@ export default defineConfig([
 		clean: true,
 		dts: true,
 		entry: ['src/class-name.ts', 'src/element.ts', 'src/properties.ts', 'src/react.tsx', 'src/variants.ts'],
+		external: [/\.astro$/],
 		format: ['esm'],
 		onSuccess: async () => {
 			await copyFile('src/astro.astro', 'dist/astro.astro');

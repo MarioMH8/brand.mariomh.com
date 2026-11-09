@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh8/cva",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH cva",
 	"keywords": [
@@ -54,9 +54,9 @@
 	},
 	"dependencies": {
 		"cva": "1.0.0-beta.4",
-		"tailwind-merge": "3.4.0"
+		"tailwind-merge": "3.7.0"
 	},
 	"devDependencies": {
-		"tsup": "8.5.1"
+		"tsup": "9.0.0"
 	}
 }

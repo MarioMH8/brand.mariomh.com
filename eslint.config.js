@@ -1,6 +1,6 @@
 import hexadrop from '@hexadrop/eslint-config';
 
-export default hexadrop(
+export default await hexadrop(
 	{
 		ignores: ['storybook/storybook-static/**'],
 		typescript: ['./tsconfig.json', './storybook/tsconfig.json'],

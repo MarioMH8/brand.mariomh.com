@@ -1,4 +1,4 @@
-import { SourceCode, Stories, Story, SubTitle, Title } from '@mariomh8/storybook/blocks';
+import { SourceCode, Stories, Story, Subtitle, Title } from '@mariomh8/storybook/blocks';
 import useIsDarkMode from '@mariomh8/storybook/hooks';
 import { Controls } from '@storybook/addon-docs/blocks';
 import type { JSX } from 'react';
@@ -9,7 +9,7 @@ export default function DocumentPage(): JSX.Element {
 	const content = (
 		<>
 			<Title />
-			<SubTitle />
+			<Subtitle />
 			<hr className='mb-6 !border-primary-foreground/50 dark:!border-primary-dark-foreground/50' />
 			<Story />
 			<SourceCode />

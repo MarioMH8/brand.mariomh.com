@@ -1,5 +1,12 @@
 # @mariomh/focus
 
+## 0.1.1
+
+### Patch Changes
+
+- Updated dependencies [19df912]
+  - @mariomh8/cva@0.1.1
+
 ## 0.1.0
 
 ### Minor Changes

@@ -1,7 +1,7 @@
 @plugin "tailwindcss-flow-type" {
-    fontSizeMax: 1;
-    fontSizeMin: 0.875;
-    override: true
+    replace-default-text-scale: true;
+    scale-base-max: 1rem;
+    scale-base-min: 0.875rem;
 }
 
 @variant dark (&:where(.dark, .dark *));

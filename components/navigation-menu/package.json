@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh8/navigation-menu",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH navigation menu",
 	"keywords": [
@@ -88,7 +88,7 @@
 		"@mariomh8/logo": ">=0.0.0 <1.0.0",
 		"astro": "^5",
 		"lucide-astro": "^0",
-		"lucide-react": "^0",
+		"lucide-react": "^1",
 		"radix-ui": "^1",
 		"react": "^19"
 	},
@@ -122,19 +122,19 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh8/cva": "0.1.0"
+		"@mariomh8/cva": "0.1.1"
 	},
 	"devDependencies": {
-		"@mariomh8/button": "0.1.0",
-		"@mariomh8/container": "0.1.0",
-		"@mariomh8/font": "0.1.0",
-		"@mariomh8/logo": "0.1.0",
+		"@mariomh8/button": "0.1.1",
+		"@mariomh8/container": "0.1.1",
+		"@mariomh8/font": "0.1.1",
+		"@mariomh8/logo": "0.1.1",
 		"@testing-library/react": "16.3.3",
 		"astro": "5.18.2",
 		"lucide-astro": "0.556.0",
-		"lucide-react": "0.560.0",
-		"radix-ui": "1.4.3",
-		"react": "19.2.3",
-		"tsup": "8.5.1"
+		"lucide-react": "1.70.0",
+		"radix-ui": "1.8.1",
+		"react": "19.3.1",
+		"tsup": "9.0.0"
 	}
 }

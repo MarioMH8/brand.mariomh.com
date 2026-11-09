@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh8/tailwind",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH tailwind plugin",
 	"keywords": [
@@ -59,10 +59,10 @@
 		"tailwindcss": ">=4.1.16"
 	},
 	"dependencies": {
-		"tailwindcss-flow-type": "0.0.2"
+		"tailwindcss-flow-type": "1.0.0"
 	},
 	"devDependencies": {
-		"tailwindcss": "4.1.18",
-		"tsup": "8.5.1"
+		"tailwindcss": "4.3.5",
+		"tsup": "9.0.0"
 	}
 }

@@ -13,6 +13,7 @@ export default defineConfig([
 			'src/react/index.ts',
 			'src/variants/index.ts',
 		],
+		external: [/\.astro$/],
 		format: ['esm'],
 		onSuccess: async () => {
 			await cp('src/astro', 'dist/astro', { recursive: true });
