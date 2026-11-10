@@ -10,7 +10,7 @@
         "@commitlint/cli": "21.2.4",
         "@commitlint/config-conventional": "21.2.4",
         "@happy-dom/global-registrator": "21.0.4",
-        "@hexadrop/eslint-config": "1.3.1",
+        "@hexadrop/eslint-config": "1.3.3",
         "@hexadrop/tsconfig": "0.0.5",
         "@types/bun": "1.4.4",
         "@types/react": "19.3.0",
@@ -23,13 +23,13 @@
     },
     "components/badge": {
       "name": "@mariomh8/badge",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
-        "@mariomh8/font": "0.2.0",
-        "@mariomh8/round": "0.2.0",
+        "@mariomh8/font": "0.2.1",
+        "@mariomh8/round": "0.2.1",
         "@testing-library/react": "16.3.3",
         "astro": "7.4.8",
         "radix-ui": "1.8.1",
@@ -53,12 +53,12 @@
     },
     "components/box": {
       "name": "@mariomh8/box",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
-        "@mariomh8/round": "0.2.0",
+        "@mariomh8/round": "0.2.1",
         "@testing-library/react": "16.3.3",
         "astro": "7.4.8",
         "radix-ui": "1.8.1",
@@ -80,14 +80,14 @@
     },
     "components/button": {
       "name": "@mariomh8/button",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
-        "@mariomh8/focus": "0.2.0",
-        "@mariomh8/font": "0.2.0",
-        "@mariomh8/round": "0.2.0",
+        "@mariomh8/focus": "0.2.1",
+        "@mariomh8/font": "0.2.1",
+        "@mariomh8/round": "0.2.1",
         "@testing-library/react": "16.3.3",
         "astro": "7.4.8",
         "radix-ui": "1.8.1",
@@ -113,13 +113,13 @@
     },
     "components/checkbox": {
       "name": "@mariomh8/checkbox",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
-        "@mariomh8/focus": "0.2.0",
-        "@mariomh8/round": "0.2.0",
+        "@mariomh8/focus": "0.2.1",
+        "@mariomh8/round": "0.2.1",
         "@testing-library/react": "16.3.3",
         "lucide-react": "1.70.0",
         "radix-ui": "1.8.1",
@@ -146,9 +146,9 @@
     },
     "components/container": {
       "name": "@mariomh8/container",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
         "@testing-library/react": "16.3.3",
@@ -170,12 +170,12 @@
     },
     "components/copyright": {
       "name": "@mariomh8/copyright",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
-        "@mariomh8/font": "0.2.0",
+        "@mariomh8/font": "0.2.1",
         "@testing-library/react": "16.3.3",
         "astro": "7.4.8",
         "radix-ui": "1.8.1",
@@ -197,9 +197,9 @@
     },
     "components/focus": {
       "name": "@mariomh8/focus",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
         "@testing-library/react": "16.3.3",
@@ -218,9 +218,9 @@
     },
     "components/font": {
       "name": "@mariomh8/font",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
         "@testing-library/react": "16.3.3",
@@ -239,12 +239,12 @@
     },
     "components/heading": {
       "name": "@mariomh8/heading",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
-        "@mariomh8/font": "0.2.0",
+        "@mariomh8/font": "0.2.1",
         "@testing-library/react": "16.3.3",
         "astro": "7.4.8",
         "radix-ui": "1.8.1",
@@ -266,14 +266,14 @@
     },
     "components/input": {
       "name": "@mariomh8/input",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
-        "@mariomh8/focus": "0.2.0",
-        "@mariomh8/font": "0.2.0",
-        "@mariomh8/round": "0.2.0",
+        "@mariomh8/focus": "0.2.1",
+        "@mariomh8/font": "0.2.1",
+        "@mariomh8/round": "0.2.1",
         "@testing-library/react": "16.3.3",
         "astro": "7.4.8",
         "radix-ui": "1.8.1",
@@ -299,12 +299,12 @@
     },
     "components/label": {
       "name": "@mariomh8/label",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
-        "@mariomh8/font": "0.2.0",
+        "@mariomh8/font": "0.2.1",
         "@testing-library/react": "16.3.3",
         "astro": "7.4.8",
         "radix-ui": "1.8.1",
@@ -326,14 +326,14 @@
     },
     "components/link": {
       "name": "@mariomh8/link",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
-        "@mariomh8/focus": "0.2.0",
-        "@mariomh8/font": "0.2.0",
-        "@mariomh8/round": "0.2.0",
+        "@mariomh8/focus": "0.2.1",
+        "@mariomh8/font": "0.2.1",
+        "@mariomh8/round": "0.2.1",
         "@testing-library/react": "16.3.3",
         "astro": "7.4.8",
         "radix-ui": "1.8.1",
@@ -359,12 +359,12 @@
     },
     "components/logo": {
       "name": "@mariomh8/logo",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
-        "@mariomh8/font": "0.2.0",
+        "@mariomh8/font": "0.2.1",
         "@testing-library/react": "16.3.3",
         "astro": "7.4.8",
         "radix-ui": "1.8.1",
@@ -386,16 +386,16 @@
     },
     "components/navigation-menu": {
       "name": "@mariomh8/navigation-menu",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
         "@lucide/astro": "1.70.0",
-        "@mariomh8/button": "0.3.0",
-        "@mariomh8/container": "0.3.0",
-        "@mariomh8/font": "0.2.0",
-        "@mariomh8/logo": "0.3.0",
+        "@mariomh8/button": "0.3.1",
+        "@mariomh8/container": "0.3.1",
+        "@mariomh8/font": "0.2.1",
+        "@mariomh8/logo": "0.3.1",
         "@testing-library/react": "16.3.3",
         "astro": "7.4.8",
         "lucide-react": "1.70.0",
@@ -428,12 +428,12 @@
     },
     "components/paragraph": {
       "name": "@mariomh8/paragraph",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
-        "@mariomh8/font": "0.2.0",
+        "@mariomh8/font": "0.2.1",
         "@testing-library/react": "16.3.3",
         "astro": "7.4.8",
         "radix-ui": "1.8.1",
@@ -455,9 +455,9 @@
     },
     "components/round": {
       "name": "@mariomh8/round",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
         "@testing-library/react": "16.3.3",
@@ -476,14 +476,14 @@
     },
     "components/select": {
       "name": "@mariomh8/select",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
-        "@mariomh8/focus": "0.2.0",
-        "@mariomh8/font": "0.2.0",
-        "@mariomh8/round": "0.2.0",
+        "@mariomh8/focus": "0.2.1",
+        "@mariomh8/font": "0.2.1",
+        "@mariomh8/round": "0.2.1",
         "@testing-library/react": "16.3.3",
         "astro": "7.4.8",
         "radix-ui": "1.8.1",
@@ -509,9 +509,9 @@
     },
     "components/shadow": {
       "name": "@mariomh8/shadow",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
         "@testing-library/react": "16.3.3",
@@ -530,12 +530,12 @@
     },
     "components/span": {
       "name": "@mariomh8/span",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
-        "@mariomh8/font": "0.2.0",
+        "@mariomh8/font": "0.2.1",
         "@testing-library/react": "16.3.3",
         "astro": "7.4.8",
         "radix-ui": "1.8.1",
@@ -557,14 +557,14 @@
     },
     "components/textarea": {
       "name": "@mariomh8/textarea",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "dependencies": {
-        "@mariomh8/cva": "0.2.0",
+        "@mariomh8/cva": "0.3.0",
       },
       "devDependencies": {
-        "@mariomh8/focus": "0.2.0",
-        "@mariomh8/font": "0.2.0",
-        "@mariomh8/round": "0.2.0",
+        "@mariomh8/focus": "0.2.1",
+        "@mariomh8/font": "0.2.1",
+        "@mariomh8/round": "0.2.1",
         "@testing-library/react": "16.3.3",
         "astro": "7.4.8",
         "radix-ui": "1.8.1",
@@ -590,7 +590,7 @@
     },
     "packages/cva": {
       "name": "@mariomh8/cva",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "dependencies": {
         "cva": "1.0.0-beta.12",
         "tailwind-merge": "3.7.0",
@@ -619,7 +619,7 @@
     },
     "storybook": {
       "name": "@mariomh8/storybook",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "dependencies": {
         "@fontsource/dm-sans": "5.3.0",
         "@mariomh8/archia": "workspace:*",
@@ -672,8 +672,6 @@
     "@astrojs/astro2tsx": ["@astrojs/astro2tsx@0.1.4", "", { "dependencies": { "@emnapi/core": "1.11.3", "@emnapi/runtime": "1.11.3", "@napi-rs/wasm-runtime": "1.2.4" } }, "sha512-5dJqY4i1AlXxcsSFHkaegnrgdVs9J4U93y/YF0xmvmSOcNYVQnf4db3IhvqHZ5v8biLPlPlFmlYsqHj0c4/ZSA=="],
 
     "@astrojs/check": ["@astrojs/check@0.9.12", "", { "dependencies": { "@astrojs/language-server": "^2.17.3", "chokidar": "^5.0.0", "kleur": "^4.1.5", "yargs": "^18.2.0" }, "peerDependencies": { "typescript": "^5.0.0 || ^6.0.0" }, "bin": { "astro-check": "./bin/astro-check.js" } }, "sha512-hazpqxIfZWj2VhyPyR0pOEQ/IhFDM/2nIApL96zMXABdD8NrUKYDmhxTy7h+drTDl9MQG/Sd1ET/4amadVJUUA=="],
-
-    "@astrojs/compiler": ["@astrojs/compiler@2.13.1", "", {}, "sha512-f3FN83d2G/v32ipNClRKgYv30onQlMZX1vCeZMjPsMMPl1mDpmbl0+N5BYo4S/ofzqJyS5hvwacEo0CCVDn/Qg=="],
 
     "@astrojs/compiler-binding": ["@astrojs/compiler-binding@0.5.3", "", { "optionalDependencies": { "@astrojs/compiler-binding-android-arm64": "0.5.3", "@astrojs/compiler-binding-darwin-arm64": "0.5.3", "@astrojs/compiler-binding-darwin-x64": "0.5.3", "@astrojs/compiler-binding-linux-arm64-gnu": "0.5.3", "@astrojs/compiler-binding-linux-arm64-musl": "0.5.3", "@astrojs/compiler-binding-linux-x64-gnu": "0.5.3", "@astrojs/compiler-binding-linux-x64-musl": "0.5.3", "@astrojs/compiler-binding-wasm32-wasi": "0.5.3", "@astrojs/compiler-binding-win32-arm64-msvc": "0.5.3", "@astrojs/compiler-binding-win32-x64-msvc": "0.5.3" } }, "sha512-fHG6eWKvnSlV11dUMZSi4AynOGjVbNBgZZc704Hi9DW8WeKtbsS7fJQT3omz1Nba+5mccLQQGAWOQ65cnuNLtg=="],
 
@@ -955,11 +953,11 @@
 
     "@happy-dom/global-registrator": ["@happy-dom/global-registrator@21.0.4", "", { "dependencies": { "@types/node": ">=20.0.0", "happy-dom": "^21.0.4" } }, "sha512-Bbr0hW9hhDhBf3Jp0EyDlkCbFgbr0z2jd3BMKYOYW+fOkPM4Nx195GMXyCtRCGEgoNn6i09FabXrSkNFm2ONzg=="],
 
-    "@hexadrop/eslint-config": ["@hexadrop/eslint-config@1.3.1", "", { "dependencies": { "@hexadrop/eslint-config-astro": "1.1.3", "@hexadrop/eslint-config-core": "1.3.1", "@hexadrop/eslint-config-json": "1.1.0", "@hexadrop/eslint-config-markdown": "1.1.0", "@hexadrop/eslint-config-react": "1.3.0", "@hexadrop/eslint-config-stylistic": "1.1.3", "@hexadrop/eslint-config-typescript": "1.3.0", "eslint-flat-config-utils": "3.2.0", "local-pkg": "1.2.1", "yaml": "2.9.1" }, "peerDependencies": { "eslint": "^9.17.0 || ^10.0.0" } }, "sha512-tCxmfPOgp++JbzC0G1dMPw97Ehlk2okyjjF9JEVRl8AW+3onADcCaIGleDz8sk+bfK0T1CFGjsB++8VZ3D9cGA=="],
+    "@hexadrop/eslint-config": ["@hexadrop/eslint-config@1.3.3", "", { "dependencies": { "@hexadrop/eslint-config-astro": "1.1.3", "@hexadrop/eslint-config-core": "1.3.3", "@hexadrop/eslint-config-json": "1.1.0", "@hexadrop/eslint-config-markdown": "1.1.0", "@hexadrop/eslint-config-react": "1.3.0", "@hexadrop/eslint-config-stylistic": "1.1.4", "@hexadrop/eslint-config-typescript": "1.3.0", "eslint-flat-config-utils": "3.2.0", "local-pkg": "1.2.1", "yaml": "2.9.1" }, "peerDependencies": { "eslint": "^9.17.0 || ^10.0.0" } }, "sha512-av0Dj7BJBlOxUdnMmCJaPjjBJ9cL9715lh3sJHXH4WwXQ9YvaRCTXFjRzzR1la+PwqlFt1PmzXy4PCFBgoZjSQ=="],
 
     "@hexadrop/eslint-config-astro": ["@hexadrop/eslint-config-astro@1.1.3", "", { "dependencies": { "astro-eslint-parser": "3.2.0", "eslint-flat-config-utils": "3.2.0", "eslint-plugin-astro": "3.2.1", "globals": "17.13.0", "local-pkg": "1.2.1" }, "peerDependencies": { "@hexadrop/eslint-config-typescript": "^1.3.0", "@typescript-eslint/parser": "^8.69.0", "eslint": "^9.17.0 || ^10.0.0" }, "optionalPeers": ["@hexadrop/eslint-config-typescript", "@typescript-eslint/parser"] }, "sha512-whG2i5RS6PmbAyL/qhaCycz0TDiJHXvC6xNpw1Q9eMhvuv6bDteJroPIjOAPu95cwyO/0iH3UMe4VI+KjEEzsQ=="],
 
-    "@hexadrop/eslint-config-core": ["@hexadrop/eslint-config-core@1.3.1", "", { "dependencies": { "eslint-config-flat-gitignore": "2.4.0", "eslint-flat-config-utils": "3.2.0", "eslint-import-resolver-typescript": "4.4.5", "eslint-plugin-import-x": "4.17.1", "eslint-plugin-n": "18.5.0", "eslint-plugin-simple-import-sort": "14.0.0", "eslint-plugin-unused-imports": "4.4.1", "globals": "17.13.0" }, "peerDependencies": { "eslint": "^9.17.0 || ^10.0.0" } }, "sha512-wNUrAWeOE3rRsX7kq8DInv1s+TQIeLyxlF2N5JakIrfHf6VtECtiUSWm2rr/lioG2R+qV/MyZ+V1aC4FY4pvrg=="],
+    "@hexadrop/eslint-config-core": ["@hexadrop/eslint-config-core@1.3.3", "", { "dependencies": { "eslint-config-flat-gitignore": "2.4.0", "eslint-flat-config-utils": "3.2.0", "eslint-import-resolver-typescript": "4.4.5", "eslint-plugin-import-x": "4.17.1", "eslint-plugin-n": "18.5.0", "eslint-plugin-simple-import-sort": "14.0.0", "eslint-plugin-unused-imports": "4.4.1", "globals": "17.13.0" }, "peerDependencies": { "eslint": "^9.17.0 || ^10.0.0" } }, "sha512-QeuJ/HOr7mKRQVmnJvXnF40aMSxzg9JNq0D0d9GNW6J2jqOizMu10+f9XaL94CSZgi0AMKnYa6q/Q65Hkzea9w=="],
 
     "@hexadrop/eslint-config-json": ["@hexadrop/eslint-config-json@1.1.0", "", { "dependencies": { "eslint-flat-config-utils": "3.2.0", "eslint-plugin-jsonc": "3.4.2", "jsonc-eslint-parser": "3.3.0" }, "peerDependencies": { "eslint": "^9.17.0 || ^10.0.0" } }, "sha512-llMORYGSJd3/0bjpZhiMrACXWk2lQ3dIetvwLRxDnvl81jqHSvcyiAV/e3Q34RnNuvqqLXtcNvvEE/mbmj6U2Q=="],
 
@@ -967,7 +965,7 @@
 
     "@hexadrop/eslint-config-react": ["@hexadrop/eslint-config-react@1.3.0", "", { "dependencies": { "eslint-flat-config-utils": "3.2.0", "eslint-plugin-react": "7.37.5", "eslint-plugin-react-hooks": "7.1.1", "eslint-plugin-react-refresh": "0.5.7", "local-pkg": "1.2.1", "yaml": "2.9.1" }, "peerDependencies": { "@hexadrop/eslint-config-typescript": "^1.3.0", "eslint": "^9.17.0 || ^10.0.0" }, "optionalPeers": ["@hexadrop/eslint-config-typescript"] }, "sha512-zg0HyYAbPdiTcz2XldFyX1kaQrqw78Ae5bKG2J0TlSAqob+Xu3WkLt/ureMy5LtSRwp8vbeugVoyiSmX9PH39g=="],
 
-    "@hexadrop/eslint-config-stylistic": ["@hexadrop/eslint-config-stylistic@1.1.3", "", { "dependencies": { "@stylistic/eslint-plugin": "5.10.0", "eslint-flat-config-utils": "3.2.0", "eslint-plugin-format": "2.0.1", "eslint-plugin-perfectionist": "5.12.1", "eslint-plugin-unicorn": "73.0.0", "local-pkg": "1.2.1", "prettier": "3.9.10", "prettier-plugin-astro": "0.14.1" }, "peerDependencies": { "@hexadrop/eslint-config-astro": "^1.1.3", "@hexadrop/eslint-config-json": "^1.1.0", "@hexadrop/eslint-config-typescript": "^1.3.0", "@typescript-eslint/eslint-plugin": "^8.69.0", "eslint": "^9.17.0 || ^10.0.0" }, "optionalPeers": ["@hexadrop/eslint-config-astro", "@hexadrop/eslint-config-json", "@hexadrop/eslint-config-typescript", "@typescript-eslint/eslint-plugin"] }, "sha512-6iVttojoYwvMB+NfK/PMSoT8l38F/dcP6BQ49IxTRcn9/Xih4ts1BoKFSPUepE5nbyjQCNZET3RUJQwim+XJRQ=="],
+    "@hexadrop/eslint-config-stylistic": ["@hexadrop/eslint-config-stylistic@1.1.4", "", { "dependencies": { "@stylistic/eslint-plugin": "5.10.0", "eslint-flat-config-utils": "3.2.0", "eslint-plugin-format": "2.0.1", "eslint-plugin-perfectionist": "5.12.1", "eslint-plugin-unicorn": "73.0.0", "local-pkg": "1.2.1", "prettier": "3.9.10", "prettier-plugin-astro": "1.1.2" }, "peerDependencies": { "@hexadrop/eslint-config-astro": "^1.1.3", "@hexadrop/eslint-config-json": "^1.1.0", "@hexadrop/eslint-config-typescript": "^1.3.0", "@typescript-eslint/eslint-plugin": "^8.69.0", "eslint": "^9.17.0 || ^10.0.0" }, "optionalPeers": ["@hexadrop/eslint-config-astro", "@hexadrop/eslint-config-json", "@hexadrop/eslint-config-typescript", "@typescript-eslint/eslint-plugin"] }, "sha512-DyjBcfXjnTVDIBurQwG5/xoQ/VPrPlA7izIpaYBi7D5iBChOQnHoAeH93NXSLbb2I+nyDXYUKI/5pwWK/Wh4Eg=="],
 
     "@hexadrop/eslint-config-typescript": ["@hexadrop/eslint-config-typescript@1.3.0", "", { "dependencies": { "@typescript-eslint/eslint-plugin": "8.69.0", "@typescript-eslint/parser": "8.69.0", "eslint-flat-config-utils": "3.2.0" }, "peerDependencies": { "eslint": "^9.17.0 || ^10.0.0" } }, "sha512-uPSl6b1keHHN1383nH7VaB4lgQ6rIcPt8/0l4xYvPdBtoQjH+0noTFq3vytt3PKS9p9FqC66cXxP+TugWbsNIA=="],
 
@@ -1238,6 +1236,8 @@
     "@pkgr/core": ["@pkgr/core@0.3.6", "", {}, "sha512-SEeaJLb3qBNF/OaXnaR1NmmBbFYk1zC0ZH/52fATcRPLFg/p791YrcyFFy44Bo9sLaGuSuLp5Q6axbb/O+v/RA=="],
 
     "@pnpm/deps.graph-sequencer": ["@pnpm/deps.graph-sequencer@1100.0.1", "", {}, "sha512-pOr5+q1fLYKwFN3LAJuGZEnfXDcQ73zqgDHMtGy+K+uIoUqyY+6MeDCWFwfu+4EFuq76I5EPFofoNAI+Bmmq4A=="],
+
+    "@prettier/parse-srcset": ["@prettier/parse-srcset@3.1.0", "", {}, "sha512-FIRv2rZotO9NP/r66taYqD1zICpPiBbrECqjKV/xqNotqDxF7fLzzUeK+1RSRx9Tenk0DajR/GcRmTJ2qtHaKQ=="],
 
     "@publint/pack": ["@publint/pack@0.1.7", "", { "dependencies": { "tinyexec": "^1.3.0" } }, "sha512-4EDEmvxWtgsCnnVeBvtFIFZtUhPPt1+bA9JrSwU4Sa//6oKtzCSlGGXYJr44OD9aGISymbieJ4mCKHUygUDU+g=="],
 
@@ -2515,7 +2515,7 @@
 
     "prettier-linter-helpers": ["prettier-linter-helpers@1.0.1", "", { "dependencies": { "fast-diff": "^1.1.2" } }, "sha512-SxToR7P8Y2lWmv/kTzVLC1t/GDI2WGjMwNhLLE9qtH8Q13C+aEmuRlzDst4Up4s0Wc8sF2M+J57iB3cMLqftfg=="],
 
-    "prettier-plugin-astro": ["prettier-plugin-astro@0.14.1", "", { "dependencies": { "@astrojs/compiler": "^2.9.1", "prettier": "^3.0.0", "sass-formatter": "^0.7.6" } }, "sha512-RiBETaaP9veVstE4vUwSIcdATj6dKmXljouXc/DDNwBSPTp8FRkLGDSGFClKsAFeeg+13SB0Z1JZvbD76bigJw=="],
+    "prettier-plugin-astro": ["prettier-plugin-astro@1.1.2", "", { "dependencies": { "@astrojs/compiler-rs": "^0.5.2", "@prettier/parse-srcset": "^3.1.0", "sass-formatter": "^0.8.0" }, "peerDependencies": { "prettier": "^3.5.3" } }, "sha512-vKyJW7Bb/QcIPUebEehbG+Tn+3yTIhoJ8ecm6NyJgcOj5T2xP+eF1IxY4zv809YyA69nV4ZFj+H9mdpC5cTaQA=="],
 
     "pretty-format": ["pretty-format@27.5.1", "", { "dependencies": { "ansi-regex": "^5.0.1", "ansi-styles": "^5.0.0", "react-is": "^17.0.1" } }, "sha512-Qb1gy5OrP5+zDf2Bvnzdl3jsTf1qXVMazbvCoKhtKqVs4/YK4ozX4gKQJJVyNe+cajNPn0KoC0MC3FUmaHWEmQ=="],
 
@@ -2605,7 +2605,7 @@
 
     "safe-regex-test": ["safe-regex-test@1.1.0", "", { "dependencies": { "call-bound": "^1.0.2", "es-errors": "^1.3.0", "is-regex": "^1.2.1" } }, "sha512-x/+Cz4YrimQxQccJf5mKEbIa1NzeCRNI5Ecl/ekmlYaampdNLPalVyIcCZNNH3MvmqBugV5TMYZXv0ljslUlaw=="],
 
-    "sass-formatter": ["sass-formatter@0.7.9", "", { "dependencies": { "suf-log": "^2.5.3" } }, "sha512-CWZ8XiSim+fJVG0cFLStwDvft1VI7uvXdCNJYXhDvowiv+DsbD1nXLiQ4zrE5UBvj5DWZJ93cwN0NX5PMsr1Pw=="],
+    "sass-formatter": ["sass-formatter@0.8.0", "", { "dependencies": { "suf-log": "^2.5.3" }, "bin": { "sass-formatter": "dist/cli.js" } }, "sha512-Nf4eMGE2O5vnJG7KPCRyksWS9gVKSYoUWtPeMXRRxwZSPVQhSGtL602xVYS65LvMkHmkvKa7xpauF0+/5pPwrg=="],
 
     "satteri": ["satteri@0.11.7", "", { "dependencies": { "@types/estree-jsx": "^1.0.5", "@types/hast": "^3.0.5", "@types/mdast": "^4.0.4", "@types/unist": "^3.0.3" }, "optionalDependencies": { "@bruits/satteri-android-arm64": "0.11.7", "@bruits/satteri-darwin-arm64": "0.11.7", "@bruits/satteri-darwin-x64": "0.11.7", "@bruits/satteri-freebsd-x64": "0.11.7", "@bruits/satteri-linux-arm64-gnu": "0.11.7", "@bruits/satteri-linux-arm64-musl": "0.11.7", "@bruits/satteri-linux-x64-gnu": "0.11.7", "@bruits/satteri-linux-x64-musl": "0.11.7", "@bruits/satteri-wasm32-wasi": "0.11.7", "@bruits/satteri-win32-arm64-msvc": "0.11.7", "@bruits/satteri-win32-x64-msvc": "0.11.7" } }, "sha512-xDOSxkc1ew3z3IovIjmsqJaVHRXTGYJkPvx0LL/U6o90km8kSU+pmrZVvnWd5creJeE0UnvMEienlkPuYQdJaA=="],
 
