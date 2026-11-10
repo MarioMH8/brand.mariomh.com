@@ -154,10 +154,4 @@ New versions are published only to GitHub Packages. Google Artifact Registry is 
 
 ## Code of conduct
 
-Be respectful. We are building something together.
-
-- Critique code, not people.
-- Be constructive in reviews.
-- Welcome newcomers.
-
-Violations may result in removal from the project.
+This project follows the [Contributor Covenant](CODE_OF_CONDUCT.md). Be respectful: critique code, not people, be constructive in reviews and welcome newcomers. Report unacceptable behavior privately to the maintainer through GitHub.
