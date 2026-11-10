@@ -1,6 +1,6 @@
 {
 	"name": "@mariomh8/shadow",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"author": "MarioMH <dev@mariomh.com>",
 	"description": "MarioMH shadow",
 	"keywords": [
@@ -68,7 +68,7 @@
 		}
 	},
 	"dependencies": {
-		"@mariomh8/cva": "0.2.0"
+		"@mariomh8/cva": "0.3.0"
 	},
 	"devDependencies": {
 		"@testing-library/react": "16.3.3",

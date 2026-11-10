@@ -1,5 +1,12 @@
 # @mariomh/container
 
+## 0.3.1
+
+### Patch Changes
+
+- Updated dependencies [96378d2]
+  - @mariomh8/cva@0.3.0
+
 ## 0.3.0
 
 ### Minor Changes
