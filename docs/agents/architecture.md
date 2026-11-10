@@ -1,6 +1,6 @@
 # Architecture
 
-`brand.mariomh.com` is the MarioMH design system: a private Bun workspaces monorepo that publishes twenty component packages, shared styling packages and the Archia font to GitHub Packages, and deploys a private Storybook site to Cloudflare Pages.
+`brand.mariomh.com` is the MarioMH design system: a Bun workspaces monorepo that publishes twenty component packages, shared styling packages and the Archia font to GitHub Packages, and deploys the Storybook site to Cloudflare Pages.
 
 ## Surfaces
 
@@ -9,7 +9,7 @@
 | Components | `components/*` | Twenty publishable `@mariomh8/<component>` packages. Each ships React and, where relevant, Astro entry points plus `class-name`, `properties` and `variants` exports built by tsdown. |
 | Shared packages | `packages/cva`, `packages/tailwind` | `@mariomh8/cva` wraps `cva` and `tailwind-merge`; `@mariomh8/tailwind` ships the Tailwind theme CSS and the palette export. |
 | Fonts | `packages/fonts/archia` | `@mariomh8/archia` ships the Archia CSS entry points and font files. |
-| Storybook | `storybook/` | Private `@mariomh8/storybook` workspace: documentation site, stories, blocks, hooks and pages. |
+| Storybook | `storybook/` | Private `@mariomh8/storybook` workspace: the documentation site, stories, blocks, hooks and pages. |
 | Release tooling | `.changeset/`, `.github/workflows/` | Changesets, release preparation, publication, Storybook deploy, branch sync and pull request validation. |
 | Repository guides | `docs/` | Agent guides and decision records. |
 

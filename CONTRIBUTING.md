@@ -1,6 +1,6 @@
 # Contributing to brand.mariomh.com
 
-Thanks for taking a look. This repository is the MarioMH design system: twenty components, the shared `@mariomh8/cva`, `@mariomh8/tailwind` and `@mariomh8/archia` packages, and a private Storybook site. The repository is private, `develop` is the default branch and `main` holds stable releases.
+Thanks for taking a look. This repository is the MarioMH design system: twenty components, the shared `@mariomh8/cva`, `@mariomh8/tailwind` and `@mariomh8/archia` packages, and the Storybook site. The source is public and the packages stay private in GitHub Packages. `develop` is the default branch and `main` holds stable releases.
 
 This guide covers the local setup and the rules the repository follows. For a quick orientation, read [AGENTS.md](AGENTS.md); for the detailed guides, see [docs/agents/](docs/agents/).
 
@@ -132,7 +132,7 @@ See [Branches and commits](docs/agents/branches-and-commits.md) for the full bra
 
 `.github/workflows/pr-validate.yml` uses `hexadrop/validate-pr-action@v1.0.1` to check the issue, labels and changeset. `.github/workflows/ci.yml` runs the shared check workflow with `lint:ci`, `typecheck`, `test` and `check:packages`.
 
-The repository is private on GitHub Free, so there are no rulesets or branch protection. The checks run, but GitHub does not block a merge when they fail. Maintainers must wait for green checks and verify the policy manually.
+The `Protected branches` ruleset on `develop` and `main` requires a pull request, blocks force pushes and deletions, and requires the `Pull Request: Validate` and `Check` workflows to pass. It allows zero approving reviews; administrators and the Hexadrop app can bypass it.
 
 Use a **squash merge** for work branches into `develop` and for hotfixes into `main`. Use a **merge commit** for `changeset-release/main` into `main` and for `internal/sync-from-main-to-develop` into `develop`. See [Pull requests](docs/agents/pull-requests.md) for the label and merge matrices.
 

@@ -65,4 +65,4 @@ GitHub Actions authenticates with `GITHUB_TOKEN`: `check.yml` and `release-prepa
 
 `.github/workflows/ci.yml` calls the shared `hexadrop/github-workflows` `check.yml` workflow at `v1.13.0` on pushes and pull requests to `main` and `develop`. It passes `registry: github` and `registry-scope: '@mariomh8'`, so the workflow configures GitHub Packages and authenticates `bun install` with `GITHUB_TOKEN`. It runs `lint:ci`, `typecheck`, `typecheck:astro`, `test` and `check:packages`, with the ESLint cache restored for `lint:ci`. The Storybook deploy workflow calls the same `check.yml` with `ref` pinned to the release SHA and runs `lint:ci`, `test`, `typecheck` and `typecheck:astro` before deploying.
 
-Because the repository is private on GitHub Free, the checks run but GitHub cannot enforce them through rulesets or branch protection. Maintainers must wait for green checks manually.
+The `Protected branches` ruleset makes these checks required on `develop` and `main`, together with the `Pull Request: Validate` workflow. It allows zero approving reviews; administrators and the Hexadrop app can bypass it.

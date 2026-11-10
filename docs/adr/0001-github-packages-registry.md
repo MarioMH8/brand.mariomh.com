@@ -5,7 +5,7 @@
 
 ## Context
 
-The design system publishes twenty components plus `@mariomh8/cva`, `@mariomh8/tailwind` and `@mariomh8/archia`. The repository is private and all packages are private by default, so the registry must authenticate every install and keep the packages tied to the repository owner.
+The design system publishes twenty components plus `@mariomh8/cva`, `@mariomh8/tailwind` and `@mariomh8/archia`. The repository is public and all packages are private by default, so the registry must authenticate every install and keep the packages tied to the repository owner.
 
 Versions were previously published to Google Artifact Registry at `europe-npm.pkg.dev`. That registry remains available for existing versions, but it no longer receives new publications.
 
