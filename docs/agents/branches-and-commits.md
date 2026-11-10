@@ -32,7 +32,7 @@ Rules:
 
 Examples: `feat/button-loading-state`, `fix/select-focus-ring`, `docs/agents-and-contributing`, `release/0.2.0`, `hotfix/publish-token`.
 
-The repository has no branch protection, so this naming is a convention rather than an enforced rule.
+The `Protected branches` ruleset enforces the pull request flow on `develop` and `main`, so this naming is a convention rather than an enforced rule.
 
 ## Commit convention
 

@@ -26,7 +26,7 @@
 
 ## Introduction
 
-This repository holds the design system of MarioMH: a private Bun workspaces monorepo with twenty component packages, the shared `@mariomh8/cva`, `@mariomh8/tailwind` and `@mariomh8/archia` packages, and the Storybook site that documents them.
+This repository holds the design system of MarioMH: a Bun workspaces monorepo with twenty component packages, the shared `@mariomh8/cva`, `@mariomh8/tailwind` and `@mariomh8/archia` packages, and the Storybook site that documents them.
 
 The visual identity connects with the early days of computing. The logo is built from pixels and hides the **M** and the **H** in its counter, and the rest of the system extends that idea with an energetic, distinctive and accessible language.
 

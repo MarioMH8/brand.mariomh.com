@@ -1,6 +1,6 @@
 # Agent guide for brand.mariomh.com
 
-MarioMH's design system: a private Bun workspaces monorepo with twenty publishable component packages, the shared `@mariomh8/cva`, `@mariomh8/tailwind` and `@mariomh8/archia` packages, and a private Storybook site. `develop` is the default branch; `main` holds stable releases.
+MarioMH's design system: a public Bun workspaces monorepo with twenty component packages published privately to GitHub Packages, the shared `@mariomh8/cva`, `@mariomh8/tailwind` and `@mariomh8/archia` packages, and the Storybook site. `develop` is the default branch; `main` holds stable releases.
 
 See the [repository README](README.md) for the product and [Architecture](docs/agents/architecture.md) for surfaces, build output, registry and deployment.
 
